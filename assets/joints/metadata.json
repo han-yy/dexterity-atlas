@@ -1,0 +1,512 @@
+[
+  {
+    "id": "J01",
+    "exercise": "A",
+    "movement": 1,
+    "reference": "A1",
+    "label": "Index flexion",
+    "path": "/tmp/nina-joints/J01.png",
+    "crop": [
+      3,
+      36,
+      301,
+      146
+    ],
+    "source_image": "https://ninapro.hevs.ch/figures/SData_Movements.png",
+    "source_page": "https://ninapro.hevs.ch/instructions/DB1.html",
+    "note": "Literal row crop including original label and photograph; no generated content."
+  },
+  {
+    "id": "J02",
+    "exercise": "A",
+    "movement": 2,
+    "reference": "A2",
+    "label": "Index extension",
+    "path": "/tmp/nina-joints/J02.png",
+    "crop": [
+      3,
+      145,
+      301,
+      254
+    ],
+    "source_image": "https://ninapro.hevs.ch/figures/SData_Movements.png",
+    "source_page": "https://ninapro.hevs.ch/instructions/DB1.html",
+    "note": "Literal row crop including original label and photograph; no generated content."
+  },
+  {
+    "id": "J03",
+    "exercise": "A",
+    "movement": 3,
+    "reference": "A3",
+    "label": "Middle flexion",
+    "path": "/tmp/nina-joints/J03.png",
+    "crop": [
+      3,
+      253,
+      301,
+      362
+    ],
+    "source_image": "https://ninapro.hevs.ch/figures/SData_Movements.png",
+    "source_page": "https://ninapro.hevs.ch/instructions/DB1.html",
+    "note": "Literal row crop including original label and photograph; no generated content."
+  },
+  {
+    "id": "J04",
+    "exercise": "A",
+    "movement": 4,
+    "reference": "A4",
+    "label": "Middle extension",
+    "path": "/tmp/nina-joints/J04.png",
+    "crop": [
+      3,
+      361,
+      301,
+      470
+    ],
+    "source_image": "https://ninapro.hevs.ch/figures/SData_Movements.png",
+    "source_page": "https://ninapro.hevs.ch/instructions/DB1.html",
+    "note": "Literal row crop including original label and photograph; no generated content."
+  },
+  {
+    "id": "J05",
+    "exercise": "A",
+    "movement": 5,
+    "reference": "A5",
+    "label": "Ring flexion",
+    "path": "/tmp/nina-joints/J05.png",
+    "crop": [
+      3,
+      469,
+      301,
+      578
+    ],
+    "source_image": "https://ninapro.hevs.ch/figures/SData_Movements.png",
+    "source_page": "https://ninapro.hevs.ch/instructions/DB1.html",
+    "note": "Literal row crop including original label and photograph; no generated content."
+  },
+  {
+    "id": "J06",
+    "exercise": "A",
+    "movement": 6,
+    "reference": "A6",
+    "label": "Ring extension",
+    "path": "/tmp/nina-joints/J06.png",
+    "crop": [
+      3,
+      577,
+      301,
+      686
+    ],
+    "source_image": "https://ninapro.hevs.ch/figures/SData_Movements.png",
+    "source_page": "https://ninapro.hevs.ch/instructions/DB1.html",
+    "note": "Literal row crop including original label and photograph; no generated content."
+  },
+  {
+    "id": "J07",
+    "exercise": "A",
+    "movement": 7,
+    "reference": "A7",
+    "label": "Little finger flexion",
+    "path": "/tmp/nina-joints/J07.png",
+    "crop": [
+      3,
+      685,
+      301,
+      794
+    ],
+    "source_image": "https://ninapro.hevs.ch/figures/SData_Movements.png",
+    "source_page": "https://ninapro.hevs.ch/instructions/DB1.html",
+    "note": "Literal row crop including original label and photograph; no generated content."
+  },
+  {
+    "id": "J08",
+    "exercise": "A",
+    "movement": 8,
+    "reference": "A8",
+    "label": "Little finger extension",
+    "path": "/tmp/nina-joints/J08.png",
+    "crop": [
+      3,
+      793,
+      301,
+      902
+    ],
+    "source_image": "https://ninapro.hevs.ch/figures/SData_Movements.png",
+    "source_page": "https://ninapro.hevs.ch/instructions/DB1.html",
+    "note": "Literal row crop including original label and photograph; no generated content."
+  },
+  {
+    "id": "J09",
+    "exercise": "A",
+    "movement": 9,
+    "reference": "A9",
+    "label": "Thumb adduction",
+    "path": "/tmp/nina-joints/J09.png",
+    "crop": [
+      3,
+      901,
+      301,
+      1010
+    ],
+    "source_image": "https://ninapro.hevs.ch/figures/SData_Movements.png",
+    "source_page": "https://ninapro.hevs.ch/instructions/DB1.html",
+    "note": "Literal row crop including original label and photograph; no generated content."
+  },
+  {
+    "id": "J10",
+    "exercise": "A",
+    "movement": 10,
+    "reference": "A10",
+    "label": "Thumb abduction",
+    "path": "/tmp/nina-joints/J10.png",
+    "crop": [
+      3,
+      1009,
+      301,
+      1118
+    ],
+    "source_image": "https://ninapro.hevs.ch/figures/SData_Movements.png",
+    "source_page": "https://ninapro.hevs.ch/instructions/DB1.html",
+    "note": "Literal row crop including original label and photograph; no generated content."
+  },
+  {
+    "id": "J11",
+    "exercise": "A",
+    "movement": 11,
+    "reference": "A11",
+    "label": "Thumb flexion",
+    "path": "/tmp/nina-joints/J11.png",
+    "crop": [
+      3,
+      1117,
+      301,
+      1226
+    ],
+    "source_image": "https://ninapro.hevs.ch/figures/SData_Movements.png",
+    "source_page": "https://ninapro.hevs.ch/instructions/DB1.html",
+    "note": "Literal row crop including original label and photograph; no generated content."
+  },
+  {
+    "id": "J12",
+    "exercise": "A",
+    "movement": 12,
+    "reference": "A12",
+    "label": "Thumb extension",
+    "path": "/tmp/nina-joints/J12.png",
+    "crop": [
+      3,
+      1225,
+      301,
+      1335
+    ],
+    "source_image": "https://ninapro.hevs.ch/figures/SData_Movements.png",
+    "source_page": "https://ninapro.hevs.ch/instructions/DB1.html",
+    "note": "Literal row crop including original label and photograph; no generated content."
+  },
+  {
+    "id": "J13",
+    "exercise": "B",
+    "movement": 1,
+    "reference": "B1",
+    "label": "Thumb up",
+    "path": "/tmp/nina-joints/J13.png",
+    "crop": [
+      307,
+      36,
+      606,
+      174
+    ],
+    "source_image": "https://ninapro.hevs.ch/figures/SData_Movements.png",
+    "source_page": "https://ninapro.hevs.ch/instructions/DB1.html",
+    "note": "Literal row crop including original label and photograph; no generated content."
+  },
+  {
+    "id": "J14",
+    "exercise": "B",
+    "movement": 2,
+    "reference": "B2",
+    "label": "Extension of index and middle, flexion of the others",
+    "path": "/tmp/nina-joints/J14.png",
+    "crop": [
+      307,
+      173,
+      606,
+      328
+    ],
+    "source_image": "https://ninapro.hevs.ch/figures/SData_Movements.png",
+    "source_page": "https://ninapro.hevs.ch/instructions/DB1.html",
+    "note": "Literal row crop including original label and photograph; no generated content."
+  },
+  {
+    "id": "J15",
+    "exercise": "B",
+    "movement": 3,
+    "reference": "B3",
+    "label": "Flexion of ring and little finger, extension of the others",
+    "path": "/tmp/nina-joints/J15.png",
+    "crop": [
+      307,
+      327,
+      606,
+      483
+    ],
+    "source_image": "https://ninapro.hevs.ch/figures/SData_Movements.png",
+    "source_page": "https://ninapro.hevs.ch/instructions/DB1.html",
+    "note": "Literal row crop including original label and photograph; no generated content."
+  },
+  {
+    "id": "J16",
+    "exercise": "B",
+    "movement": 4,
+    "reference": "B4",
+    "label": "Thumb opposing base of little finger",
+    "path": "/tmp/nina-joints/J16.png",
+    "crop": [
+      307,
+      482,
+      606,
+      607
+    ],
+    "source_image": "https://ninapro.hevs.ch/figures/SData_Movements.png",
+    "source_page": "https://ninapro.hevs.ch/instructions/DB1.html",
+    "note": "Literal row crop including original label and photograph; no generated content."
+  },
+  {
+    "id": "J17",
+    "exercise": "B",
+    "movement": 5,
+    "reference": "B5",
+    "label": "Abduction of all fingers",
+    "path": "/tmp/nina-joints/J17.png",
+    "crop": [
+      307,
+      606,
+      606,
+      710
+    ],
+    "source_image": "https://ninapro.hevs.ch/figures/SData_Movements.png",
+    "source_page": "https://ninapro.hevs.ch/instructions/DB1.html",
+    "note": "Literal row crop including original label and photograph; no generated content."
+  },
+  {
+    "id": "J18",
+    "exercise": "B",
+    "movement": 6,
+    "reference": "B6",
+    "label": "Fingers flexed together in fist",
+    "path": "/tmp/nina-joints/J18.png",
+    "crop": [
+      307,
+      709,
+      606,
+      834
+    ],
+    "source_image": "https://ninapro.hevs.ch/figures/SData_Movements.png",
+    "source_page": "https://ninapro.hevs.ch/instructions/DB1.html",
+    "note": "Literal row crop including original label and photograph; no generated content."
+  },
+  {
+    "id": "J19",
+    "exercise": "B",
+    "movement": 7,
+    "reference": "B7",
+    "label": "Pointing index",
+    "path": "/tmp/nina-joints/J19.png",
+    "crop": [
+      307,
+      833,
+      606,
+      936
+    ],
+    "source_image": "https://ninapro.hevs.ch/figures/SData_Movements.png",
+    "source_page": "https://ninapro.hevs.ch/instructions/DB1.html",
+    "note": "Literal row crop including original label and photograph; no generated content."
+  },
+  {
+    "id": "J20",
+    "exercise": "B",
+    "movement": 8,
+    "reference": "B8",
+    "label": "Adduction of extended fingers",
+    "path": "/tmp/nina-joints/J20.png",
+    "crop": [
+      307,
+      935,
+      606,
+      1039
+    ],
+    "source_image": "https://ninapro.hevs.ch/figures/SData_Movements.png",
+    "source_page": "https://ninapro.hevs.ch/instructions/DB1.html",
+    "note": "Literal row crop including original label and photograph; no generated content."
+  },
+  {
+    "id": "J21",
+    "exercise": "B",
+    "movement": 9,
+    "reference": "B9",
+    "label": "Wrist supination (axis: middle finger)",
+    "path": "/tmp/nina-joints/J21.png",
+    "crop": [
+      307,
+      1038,
+      606,
+      1164
+    ],
+    "source_image": "https://ninapro.hevs.ch/figures/SData_Movements.png",
+    "source_page": "https://ninapro.hevs.ch/instructions/DB1.html",
+    "note": "Literal row crop including original label and photograph; no generated content."
+  },
+  {
+    "id": "J22",
+    "exercise": "B",
+    "movement": 10,
+    "reference": "B10",
+    "label": "Wrist pronation (axis: middle finger)",
+    "path": "/tmp/nina-joints/J22.png",
+    "crop": [
+      307,
+      1163,
+      606,
+      1288
+    ],
+    "source_image": "https://ninapro.hevs.ch/figures/SData_Movements.png",
+    "source_page": "https://ninapro.hevs.ch/instructions/DB1.html",
+    "note": "Literal row crop including original label and photograph; no generated content."
+  },
+  {
+    "id": "J23",
+    "exercise": "B",
+    "movement": 11,
+    "reference": "B11",
+    "label": "Wrist supination (axis: little finger)",
+    "path": "/tmp/nina-joints/J23.png",
+    "crop": [
+      307,
+      1287,
+      606,
+      1412
+    ],
+    "source_image": "https://ninapro.hevs.ch/figures/SData_Movements.png",
+    "source_page": "https://ninapro.hevs.ch/instructions/DB1.html",
+    "note": "Literal row crop including original label and photograph; no generated content."
+  },
+  {
+    "id": "J24",
+    "exercise": "B",
+    "movement": 12,
+    "reference": "B12",
+    "label": "Wrist pronation (axis: little finger)",
+    "path": "/tmp/nina-joints/J24.png",
+    "crop": [
+      307,
+      1411,
+      606,
+      1537
+    ],
+    "source_image": "https://ninapro.hevs.ch/figures/SData_Movements.png",
+    "source_page": "https://ninapro.hevs.ch/instructions/DB1.html",
+    "note": "Literal row crop including original label and photograph; no generated content."
+  },
+  {
+    "id": "J25",
+    "exercise": "B",
+    "movement": 13,
+    "reference": "B13",
+    "label": "Wrist flexion",
+    "path": "/tmp/nina-joints/J25.png",
+    "crop": [
+      307,
+      1536,
+      606,
+      1640
+    ],
+    "source_image": "https://ninapro.hevs.ch/figures/SData_Movements.png",
+    "source_page": "https://ninapro.hevs.ch/instructions/DB1.html",
+    "note": "Literal row crop including original label and photograph; no generated content."
+  },
+  {
+    "id": "J26",
+    "exercise": "B",
+    "movement": 14,
+    "reference": "B14",
+    "label": "Wrist extension",
+    "path": "/tmp/nina-joints/J26.png",
+    "crop": [
+      307,
+      1639,
+      606,
+      1743
+    ],
+    "source_image": "https://ninapro.hevs.ch/figures/SData_Movements.png",
+    "source_page": "https://ninapro.hevs.ch/instructions/DB1.html",
+    "note": "Literal row crop including original label and photograph; no generated content."
+  },
+  {
+    "id": "J27",
+    "exercise": "B",
+    "movement": 15,
+    "reference": "B15",
+    "label": "Wrist radial deviation",
+    "path": "/tmp/nina-joints/J27.png",
+    "crop": [
+      307,
+      1742,
+      606,
+      1847
+    ],
+    "source_image": "https://ninapro.hevs.ch/figures/SData_Movements.png",
+    "source_page": "https://ninapro.hevs.ch/instructions/DB1.html",
+    "note": "Literal row crop including original label and photograph; no generated content."
+  },
+  {
+    "id": "J28",
+    "exercise": "B",
+    "movement": 16,
+    "reference": "B16",
+    "label": "Wrist ulnar deviation",
+    "path": "/tmp/nina-joints/J28.png",
+    "crop": [
+      307,
+      1846,
+      606,
+      1950
+    ],
+    "source_image": "https://ninapro.hevs.ch/figures/SData_Movements.png",
+    "source_page": "https://ninapro.hevs.ch/instructions/DB1.html",
+    "note": "Literal row crop including original label and photograph; no generated content."
+  },
+  {
+    "id": "J29",
+    "exercise": "B",
+    "movement": 17,
+    "reference": "B17",
+    "label": "Wrist extension with closed hand",
+    "path": "/tmp/nina-joints/J29.png",
+    "crop": [
+      307,
+      1949,
+      606,
+      2075
+    ],
+    "source_image": "https://ninapro.hevs.ch/figures/SData_Movements.png",
+    "source_page": "https://ninapro.hevs.ch/instructions/DB1.html",
+    "note": "Literal row crop including original label and photograph; no generated content."
+  },
+  {
+    "id": "J30",
+    "exercise": "Rest",
+    "movement": null,
+    "reference": "Rest",
+    "label": "Rest",
+    "path": "/tmp/nina-joints/J30.png",
+    "crop": [
+      1233,
+      1195,
+      1504,
+      1300
+    ],
+    "source_image": "https://ninapro.hevs.ch/figures/SData_Movements.png",
+    "source_page": "https://ninapro.hevs.ch/instructions/DB1.html",
+    "note": "Literal source reference crop including original label and photograph; no generated content."
+  }
+]

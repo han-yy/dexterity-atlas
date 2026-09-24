@@ -1,0 +1,51 @@
+{
+  "checked_at": "2026-09-24T08:03:06.339Z",
+  "catalogue": {
+    "actions": 198,
+    "primitives": 32,
+    "props": 43,
+    "sources": 13,
+    "by_origin": {
+      "direct": 76,
+      "adapted": 10,
+      "extension": 112
+    }
+  },
+  "numeric_template_checks": {
+    "templates": 18,
+    "sampled_frames": 1818,
+    "max_finger_angle_step_deg": 0.7400000000000091,
+    "status": "pass"
+  },
+  "failures": [],
+  "scope": {
+    "reference_integrity": "IDs, source mappings and local assets checked; human source reading documented separately",
+    "visual_review": "Representative joint templates and cited source figures inspected. Not all action variants individually visually reviewed.",
+    "physics": "NOT VALIDATED: no collision/force/friction simulator or calibrated human model",
+    "template_limits": "Illustrative display bounds, not clinical ROM or a robot URDF"
+  },
+  "browser_checks": {
+    "desktop": "pass",
+    "mobile_390px": "no horizontal overflow; all visible images loaded",
+    "search": "pass: tweezers query",
+    "filters": "3D filter and categories verified",
+    "official_video": "DexUMI tea readyState 4, 1280px, 14.53s duration",
+    "collection_export": "CSV export invoked with one selected sourced action; add/remove verified",
+    "prop_inventory": "43 entries rendered",
+    "reference_view": "13 source entries rendered",
+    "calculator": "75 min baseline; zero repetitions rejected",
+    "renderer": "software projection verified; WebGL context unavailable on test browser",
+    "disabled_templates": [
+      "J09",
+      "J10",
+      "J11",
+      "J12",
+      "J13",
+      "J14",
+      "J18",
+      "J19",
+      "J29"
+    ],
+    "reason": "Thumb coordination not visually faithful enough; replaced with official source illustrations"
+  }
+}

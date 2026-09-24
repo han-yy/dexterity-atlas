@@ -1,0 +1,170 @@
+[
+  {
+    "id": "tea_tool_xhand",
+    "action": "Grasp tweezers and transfer tea leaves from teapot to cup",
+    "source": "https://dex-umi.github.io/",
+    "video": "https://dex-umi.github.io/static/videos/xhand_tea.mp4",
+    "kind": "real robot, XHand",
+    "video_http": {
+      "url": "https://dex-umi.github.io/static/videos/xhand_tea.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "length": "22071792",
+      "ranges": "bytes"
+    }
+  },
+  {
+    "id": "tea_tool_inspire",
+    "action": "Grasp tweezers and transfer tea leaves from teapot to cup",
+    "source": "https://dex-umi.github.io/",
+    "video": "https://dex-umi.github.io/static/videos/inspire_tea.mp4",
+    "kind": "real robot, Inspire Hand",
+    "video_http": {
+      "url": "https://dex-umi.github.io/static/videos/inspire_tea.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "length": "31714390",
+      "ranges": "bytes"
+    }
+  },
+  {
+    "id": "cube_pick_place",
+    "action": "Pick up 2.5 cm cube from table and place in cup",
+    "source": "https://dex-umi.github.io/",
+    "video": "https://dex-umi.github.io/static/videos/inspire/pickNplace/pickNplace_demo.mp4",
+    "kind": "real robot, Inspire Hand",
+    "video_http": {
+      "url": "https://dex-umi.github.io/static/videos/inspire/pickNplace/pickNplace_demo.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "length": "19012486",
+      "ranges": "bytes"
+    }
+  },
+  {
+    "id": "kitchen_four_steps",
+    "action": "Turn stove knob off; move pan to counter; pinch salt; sprinkle over food",
+    "source": "https://dex-umi.github.io/",
+    "video": "https://dex-umi.github.io/static/videos/xhand/kitchen/kitchen_demo.mp4",
+    "kind": "real robot, XHand",
+    "note": "All four actions occur in this single continuous official demonstration; no separate single-step clips were listed.",
+    "video_http": {
+      "url": "https://dex-umi.github.io/static/videos/xhand/kitchen/kitchen_demo.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "length": "45808992",
+      "ranges": "bytes"
+    }
+  },
+  {
+    "id": "egg_carton",
+    "action": "Open carton: thumb lifts latch while other four fingers apply downward pressure",
+    "source": "https://dex-umi.github.io/",
+    "video": "https://dex-umi.github.io/static/videos/inspire/egg/egg_demo.mp4",
+    "kind": "real robot, Inspire Hand",
+    "video_http": {
+      "url": "https://dex-umi.github.io/static/videos/inspire/egg/egg_demo.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "length": "7786683",
+      "ranges": "bytes"
+    }
+  },
+  {
+    "id": "continuous_rotation",
+    "action": "Fingertip in-hand rotation across many objects about z-axis",
+    "source": "https://haozhi.io/hora/",
+    "video": "https://haozhi.io/hora/results/teaser.mp4",
+    "image": "https://haozhi.io/hora/figs/method.png",
+    "kind": "real robot; method.png is method diagram, not a grasp-specific photo",
+    "image_http": {
+      "url": "https://haozhi.io/hora/figs/method.png",
+      "status": 200,
+      "type": "image/png",
+      "length": "2208696",
+      "ranges": "bytes"
+    },
+    "video_http": {
+      "url": "https://haozhi.io/hora/results/teaser.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "length": "3281975",
+      "ranges": "bytes"
+    }
+  },
+  {
+    "id": "goal_reorientation",
+    "action": "Goal-conditioned monocular RGB in-hand object reorientation",
+    "source": "https://rffr.leggedrobotics.com/works/viserdex/",
+    "video": "https://rffr.leggedrobotics.com/works/viserdex/videos/teaser_reorientation.mp4",
+    "image": "https://rffr.leggedrobotics.com/works/viserdex/images/ViserDexPipeline-4.jpg",
+    "kind": "real robot, Allegro Hand",
+    "video_http": {
+      "url": "https://rffr.leggedrobotics.com/works/viserdex/videos/teaser_reorientation.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "length": "55546016",
+      "ranges": "bytes"
+    }
+  },
+  {
+    "id": "articulated_human",
+    "action": "Dexterous bimanual manipulation of articulated objects",
+    "source": "https://arctic.is.tue.mpg.de/",
+    "video": "https://download.is.tue.mpg.de/arctic/static/videos/dexterous.mp4",
+    "image": "https://arctic.is.tue.mpg.de/media/upload/teaser_small.jpg",
+    "kind": "human dataset with dynamic contact/3D annotations",
+    "note": "Source explicitly mentions scissors and laptops. Montage clip is not individually object-labeled in HTML; avoid claiming it is solely scissors or solely laptop.",
+    "image_http": {
+      "url": "https://arctic.is.tue.mpg.de/media/upload/teaser_small.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "length": "112177",
+      "ranges": "bytes"
+    },
+    "video_http": {
+      "url": "https://download.is.tue.mpg.de/arctic/static/videos/dexterous.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "length": "7460716",
+      "ranges": "bytes"
+    }
+  },
+  {
+    "id": "articulated_robot_retargeting",
+    "action": "Bimanual articulated-object functional retargeting across robot hands",
+    "source": "https://project-dexmachina.github.io/",
+    "video": "https://project-dexmachina.github.io/compressed-dexmachina-deanon-teaser.mp4",
+    "image": "https://project-dexmachina.github.io/dexmachina-teaser-website.png",
+    "kind": "simulated robot policies learned from ARCTIC",
+    "note": "Source names Notebook closure and Mixer lid closure, with different hand strategies. Teaser covers multiple tasks, not one individually identified action.",
+    "image_http": {
+      "url": "https://project-dexmachina.github.io/dexmachina-teaser-website.png",
+      "status": 200,
+      "type": "image/png",
+      "length": "15193616",
+      "ranges": "bytes"
+    },
+    "video_http": {
+      "url": "https://project-dexmachina.github.io/compressed-dexmachina-deanon-teaser.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "length": "6105653",
+      "ranges": "bytes"
+    }
+  },
+  {
+    "id": "ninapro_52_movements",
+    "action": "52 hand movements: finger movements, hand/wrist configurations, grasping/functional movements",
+    "source": "https://ninapro.hevs.ch/instructions/DB1.html",
+    "image": "https://ninapro.hevs.ch/figures/SData_Movements.png",
+    "kind": "official human movement sheet",
+    "image_http": {
+      "url": "https://ninapro.hevs.ch/figures/SData_Movements.png",
+      "status": 200,
+      "type": "image/png",
+      "length": "2270669",
+      "ranges": "bytes"
+    }
+  }
+]

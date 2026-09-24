@@ -1,0 +1,497 @@
+[
+  {
+    "id": 1,
+    "name": "Large Diameter",
+    "path": "/tmp/feix-crops/grasp-01.png",
+    "source": "https://www.eng.yale.edu/grablab/pubs/Feix_THMS2016.pdf",
+    "figure": 4,
+    "pdf_page": 5,
+    "printed_page": 70,
+    "crop": [
+      234,
+      155,
+      373,
+      315
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Small Diameter",
+    "path": "/tmp/feix-crops/grasp-02.png",
+    "source": "https://www.eng.yale.edu/grablab/pubs/Feix_THMS2016.pdf",
+    "figure": 4,
+    "pdf_page": 5,
+    "printed_page": 70,
+    "crop": [
+      234,
+      316,
+      373,
+      480
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Medium Wrap",
+    "path": "/tmp/feix-crops/grasp-03.png",
+    "source": "https://www.eng.yale.edu/grablab/pubs/Feix_THMS2016.pdf",
+    "figure": 4,
+    "pdf_page": 5,
+    "printed_page": 70,
+    "crop": [
+      234,
+      479,
+      373,
+      669
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Adducted Thumb",
+    "path": "/tmp/feix-crops/grasp-04.png",
+    "source": "https://www.eng.yale.edu/grablab/pubs/Feix_THMS2016.pdf",
+    "figure": 4,
+    "pdf_page": 5,
+    "printed_page": 70,
+    "crop": [
+      234,
+      987,
+      373,
+      1174
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Light Tool",
+    "path": "/tmp/feix-crops/grasp-05.png",
+    "source": "https://www.eng.yale.edu/grablab/pubs/Feix_THMS2016.pdf",
+    "figure": 4,
+    "pdf_page": 5,
+    "printed_page": 70,
+    "crop": [
+      234,
+      1174,
+      373,
+      1334
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Prismatic 4 Finger",
+    "path": "/tmp/feix-crops/grasp-06.png",
+    "source": "https://www.eng.yale.edu/grablab/pubs/Feix_THMS2016.pdf",
+    "figure": 4,
+    "pdf_page": 5,
+    "printed_page": 70,
+    "crop": [
+      1793,
+      155,
+      1932,
+      343
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Prismatic 3 Finger",
+    "path": "/tmp/feix-crops/grasp-07.png",
+    "source": "https://www.eng.yale.edu/grablab/pubs/Feix_THMS2016.pdf",
+    "figure": 4,
+    "pdf_page": 5,
+    "printed_page": 70,
+    "crop": [
+      1651,
+      155,
+      1788,
+      343
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Prismatic 2 Finger",
+    "path": "/tmp/feix-crops/grasp-08.png",
+    "source": "https://www.eng.yale.edu/grablab/pubs/Feix_THMS2016.pdf",
+    "figure": 4,
+    "pdf_page": 5,
+    "printed_page": 70,
+    "crop": [
+      1510,
+      155,
+      1647,
+      343
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Palmar Pinch",
+    "path": "/tmp/feix-crops/grasp-09.png",
+    "source": "https://www.eng.yale.edu/grablab/pubs/Feix_THMS2016.pdf",
+    "figure": 4,
+    "pdf_page": 5,
+    "printed_page": 70,
+    "crop": [
+      1369,
+      155,
+      1506,
+      296
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Power Disk",
+    "path": "/tmp/feix-crops/grasp-10.png",
+    "source": "https://www.eng.yale.edu/grablab/pubs/Feix_THMS2016.pdf",
+    "figure": 4,
+    "pdf_page": 5,
+    "printed_page": 70,
+    "crop": [
+      234,
+      669,
+      373,
+      803
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Power Sphere",
+    "path": "/tmp/feix-crops/grasp-11.png",
+    "source": "https://www.eng.yale.edu/grablab/pubs/Feix_THMS2016.pdf",
+    "figure": 4,
+    "pdf_page": 5,
+    "printed_page": 70,
+    "crop": [
+      234,
+      803,
+      373,
+      987
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Precision Disk",
+    "path": "/tmp/feix-crops/grasp-12.png",
+    "source": "https://www.eng.yale.edu/grablab/pubs/Feix_THMS2016.pdf",
+    "figure": 4,
+    "pdf_page": 5,
+    "printed_page": 70,
+    "crop": [
+      1793,
+      351,
+      1932,
+      465
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Precision Sphere",
+    "path": "/tmp/feix-crops/grasp-13.png",
+    "source": "https://www.eng.yale.edu/grablab/pubs/Feix_THMS2016.pdf",
+    "figure": 4,
+    "pdf_page": 5,
+    "printed_page": 70,
+    "crop": [
+      1793,
+      472,
+      1932,
+      656
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Tripod",
+    "path": "/tmp/feix-crops/grasp-14.png",
+    "source": "https://www.eng.yale.edu/grablab/pubs/Feix_THMS2016.pdf",
+    "figure": 4,
+    "pdf_page": 5,
+    "printed_page": 70,
+    "crop": [
+      1510,
+      351,
+      1647,
+      520
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Fixed Hook",
+    "path": "/tmp/feix-crops/grasp-15.png",
+    "source": "https://www.eng.yale.edu/grablab/pubs/Feix_THMS2016.pdf",
+    "figure": 4,
+    "pdf_page": 5,
+    "printed_page": 70,
+    "crop": [
+      234,
+      1344,
+      373,
+      1521
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Lateral",
+    "path": "/tmp/feix-crops/grasp-16.png",
+    "source": "https://www.eng.yale.edu/grablab/pubs/Feix_THMS2016.pdf",
+    "figure": 4,
+    "pdf_page": 5,
+    "printed_page": 70,
+    "crop": [
+      943,
+      987,
+      1081,
+      1148
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Index Finger Extension",
+    "path": "/tmp/feix-crops/grasp-17.png",
+    "source": "https://www.eng.yale.edu/grablab/pubs/Feix_THMS2016.pdf",
+    "figure": 4,
+    "pdf_page": 5,
+    "printed_page": 70,
+    "crop": [
+      92,
+      987,
+      233,
+      1173
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Extension Type",
+    "path": "/tmp/feix-crops/grasp-18.png",
+    "source": "https://www.eng.yale.edu/grablab/pubs/Feix_THMS2016.pdf",
+    "figure": 4,
+    "pdf_page": 5,
+    "printed_page": 70,
+    "crop": [
+      659,
+      155,
+      799,
+      260
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Distal Type",
+    "path": "/tmp/feix-crops/grasp-19.png",
+    "source": "https://www.eng.yale.edu/grablab/pubs/Feix_THMS2016.pdf",
+    "figure": 4,
+    "pdf_page": 5,
+    "printed_page": 70,
+    "crop": [
+      801,
+      155,
+      940,
+      339
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Writing Tripod",
+    "path": "/tmp/feix-crops/grasp-20.png",
+    "source": "https://www.eng.yale.edu/grablab/pubs/Feix_THMS2016.pdf",
+    "figure": 4,
+    "pdf_page": 5,
+    "printed_page": 70,
+    "crop": [
+      1935,
+      155,
+      2073,
+      361
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Tripod Variation",
+    "path": "/tmp/feix-crops/grasp-21.png",
+    "source": "https://www.eng.yale.edu/grablab/pubs/Feix_THMS2016.pdf",
+    "figure": 4,
+    "pdf_page": 5,
+    "printed_page": 70,
+    "crop": [
+      1225,
+      155,
+      1364,
+      319
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Parallel Extension",
+    "path": "/tmp/feix-crops/grasp-22.png",
+    "source": "https://www.eng.yale.edu/grablab/pubs/Feix_THMS2016.pdf",
+    "figure": 4,
+    "pdf_page": 5,
+    "printed_page": 70,
+    "crop": [
+      1793,
+      987,
+      1932,
+      1179
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Adduction Grip",
+    "path": "/tmp/feix-crops/grasp-23.png",
+    "source": "https://www.eng.yale.edu/grablab/pubs/Feix_THMS2016.pdf",
+    "figure": 4,
+    "pdf_page": 5,
+    "printed_page": 70,
+    "crop": [
+      942,
+      155,
+      1081,
+      351
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Tip Pinch",
+    "path": "/tmp/feix-crops/grasp-24.png",
+    "source": "https://www.eng.yale.edu/grablab/pubs/Feix_THMS2016.pdf",
+    "figure": 4,
+    "pdf_page": 5,
+    "printed_page": 70,
+    "crop": [
+      1369,
+      296,
+      1506,
+      457
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Lateral Tripod",
+    "path": "/tmp/feix-crops/grasp-25.png",
+    "source": "https://www.eng.yale.edu/grablab/pubs/Feix_THMS2016.pdf",
+    "figure": 4,
+    "pdf_page": 5,
+    "printed_page": 70,
+    "crop": [
+      1083,
+      987,
+      1221,
+      1187
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Sphere 4-Finger",
+    "path": "/tmp/feix-crops/grasp-26.png",
+    "source": "https://www.eng.yale.edu/grablab/pubs/Feix_THMS2016.pdf",
+    "figure": 4,
+    "pdf_page": 5,
+    "printed_page": 70,
+    "crop": [
+      659,
+      260,
+      799,
+      445
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Quadpod",
+    "path": "/tmp/feix-crops/grasp-27.png",
+    "source": "https://www.eng.yale.edu/grablab/pubs/Feix_THMS2016.pdf",
+    "figure": 4,
+    "pdf_page": 5,
+    "printed_page": 70,
+    "crop": [
+      1651,
+      351,
+      1788,
+      520
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Sphere 3 Finger",
+    "path": "/tmp/feix-crops/grasp-28.png",
+    "source": "https://www.eng.yale.edu/grablab/pubs/Feix_THMS2016.pdf",
+    "figure": 4,
+    "pdf_page": 5,
+    "printed_page": 70,
+    "crop": [
+      516,
+      155,
+      655,
+      351
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Stick",
+    "path": "/tmp/feix-crops/grasp-29.png",
+    "source": "https://www.eng.yale.edu/grablab/pubs/Feix_THMS2016.pdf",
+    "figure": 4,
+    "pdf_page": 5,
+    "printed_page": 70,
+    "crop": [
+      943,
+      1156,
+      1081,
+      1306
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Palmar",
+    "path": "/tmp/feix-crops/grasp-30.png",
+    "source": "https://www.eng.yale.edu/grablab/pubs/Feix_THMS2016.pdf",
+    "figure": 4,
+    "pdf_page": 5,
+    "printed_page": 70,
+    "crop": [
+      234,
+      1521,
+      373,
+      1602
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Ring",
+    "path": "/tmp/feix-crops/grasp-31.png",
+    "source": "https://www.eng.yale.edu/grablab/pubs/Feix_THMS2016.pdf",
+    "figure": 4,
+    "pdf_page": 5,
+    "printed_page": 70,
+    "crop": [
+      375,
+      155,
+      514,
+      318
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Ventral",
+    "path": "/tmp/feix-crops/grasp-32.png",
+    "source": "https://www.eng.yale.edu/grablab/pubs/Feix_THMS2016.pdf",
+    "figure": 4,
+    "pdf_page": 5,
+    "printed_page": 70,
+    "crop": [
+      943,
+      1317,
+      1081,
+      1434
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Inferior Pincer",
+    "path": "/tmp/feix-crops/grasp-33.png",
+    "source": "https://www.eng.yale.edu/grablab/pubs/Feix_THMS2016.pdf",
+    "figure": 4,
+    "pdf_page": 5,
+    "printed_page": 70,
+    "crop": [
+      1369,
+      464,
+      1506,
+      610
+    ]
+  }
+]
