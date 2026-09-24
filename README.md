@@ -1,10 +1,5 @@
 # Dexterity Atlas · 灵巧手动作图谱
 
-Open `index.html` directly, or serve this directory with `python3 -m http.server 8765` and open `http://localhost:8765`.
-
-GitHub Pages deployment for `han-yy`: see [中文部署步骤](DEPLOY_GITHUB_PAGES.md). The upload-ready ZIP has `index.html` at its root and requires no build. Deployment has not been performed on GitHub.
-
-The action catalogue, illustrations and 3D joint template are local. Official experiment videos, original source links and optional web fonts require internet access. The website falls back to system fonts and source links when external resources are unavailable. Personal collection lists are stored in the current browser, not synced to a server.
 
 ## Contents
 
