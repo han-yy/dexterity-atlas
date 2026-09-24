@@ -1,0 +1,80 @@
+﻿道具ID,名称,类别,规格与建议,用途,变体,来源及定位,关联动作
+knife,训练刀 / 钝片,工具,钝头训练工具；固定软材料,食指伸展抓与切割模拟,,,G17 食指伸展抓；U08 食指伸展抓切割
+none,无道具,基础,前臂支撑垫、同步提示屏可选,关节校准与无物体动作,,,J01 食指屈曲；J02 食指伸展；J03 中指屈曲；J04 中指伸展；J05 无名指屈曲；J06 无名指伸展；J07 小指屈曲；J08 小指伸展；J09 拇指内收；J10 拇指外展；J11 拇指屈曲；J12 拇指伸展；J13 竖拇指；J14 食中指伸展，其余屈曲；J15 无名指与小指屈曲；J16 拇指对向小指根部；J17 五指张开；J18 握拳；J19 食指指向；J20 伸直手指并拢；J21 前臂旋后：中指轴提示；J22 前臂旋前：中指轴提示；J23 前臂旋后：小指轴提示；J24 前臂旋前：小指轴提示；J25 腕掌屈；J26 腕背伸；J27 腕桡偏；J28 腕尺偏；J29 握拳位腕背伸；J30 自然静息
+cylinder,圆柱组,几何体,建议直径 20 / 40 / 60 mm；轻质、圆边,直径变化、绕轴旋转,常规圆柱；拐角圆柱（Y 轴仿真）,WM-Craftnet / Z-Axis / Cylinder；Y-Axis / Corner Cylinder / 真实机器人 + 仿真 / https://wmcraftnet.github.io/,G01 大直径包络抓；G02 小直径包络抓；G04 拇指内收抓；G31 环形抓；I01 指尖持续绕轴旋转；I02 旋转到指定朝向；I16 顺转—停住—逆转；I22 交替换食指与中指；I30 不同质量下持续旋转；T07 圆柱拾取并放置；T20 预成形开度适配；B15 双手改变长杆方向；B17 双手拉开套筒；C06 不同摩擦表面持握；C11 短时滑移后重新夹紧；I36 物体滑入掌区后送回并续转；I37 改变手掌朝向时保持手内旋转；I38 手与物体联合目标下的抓型转换
+sphere,球体组,几何体,建议直径 30 / 50 / 70 mm,球抓、重定向,原始球体直径 100 mm、50 mm；尺度随机化另记,ADEPT / Pre-training diet / primitives 07–08 / 仿真 / https://adept-dexterity.github.io/,G11 力量球抓；G13 精密球抓；G14 三脚架抓；G26 四指球抓；G27 四脚架抓；G28 三指球抓；I19 指尖滚球；I24 掌握转为指尖抓；I28 小扰动后的位姿恢复；T06 球体拾取并放置；T20 预成形开度适配；C01 恒定姿态轻握—较紧握；C05 静态握持抗小扰动；C10 指腹滚动接触追踪；I31 按指令切换旋转轴；T22 机械臂与手协同调整物体目标位姿
+cube,方块 / 长方体组,几何体,建议边长 25 / 40 / 60 mm；表面加朝向标记,角点接触与 goal pose,长方体 mm：50×100×100、50×50×100、25×100×100、25×50×100、25×25×100、10×100×100,ADEPT / Pre-training diet / primitives 01–06 / 仿真 / https://adept-dexterity.github.io/,I01 指尖持续绕轴旋转；I02 旋转到指定朝向；I03 掌系完整 6D 位姿到达；I10 掌系 X 方向平移；I11 掌系 Y 方向平移；I12 掌系 Z 方向平移；I13 绕掌系 X 轴定向旋转；I14 绕掌系 Y 轴定向旋转；I15 绕掌系 Z 轴定向旋转；I17 连续目标朝向序列；I29 可见纹理改变下重定向；T01 方块拾取并放入杯中；T11 物体垂直堆叠；T12 受限空间拾取；T13 有遮挡目标拾取；T15 物体移到标记区域；T19 放置后脱离接触；B04 左手向右手转交；B05 右手向左手转交；B18 双手贴合两块物体；B20 双手拆开插接块；B21 双手组合插接块；I34 利用重力辅助重定向；I38 手与物体联合目标下的抓型转换；T22 机械臂与手协同调整物体目标位姿
+prism,棱柱,几何体,六棱或八棱，注明尺寸,非圆截面重定向,,,G06 四指棱柱抓；G07 三指棱柱抓；G08 二指棱柱抓；I18 连续位置与朝向目标；I21 支点旋转；T18 抓取后精准回放
+disk,圆盘,几何体,不同厚度、直径，边缘圆滑,盘抓与翻转,,,G10 力量圆盘抓；G12 精密圆盘抓；G18 伸展型抓；G30 掌面抓
+coin,代币 / 硬币,小物件,建议直径 25–35 mm 的代币,精细捏取、掌指转移,,,G09 掌侧指腹捏；G24 指尖捏；G33 下位钳捏；I04 指尖到掌心转移；I05 掌心到指尖转移；I08 指间简单旋转；I23 三指抓转为二指捏；I25 硬币翻面 180°；I27 掌内暂存后逐枚取出；T05 硬币从桌面捏起
+peg,插销与孔板,装配,配合间隙分两级，记录毫米值,对准与插入,紧配插入件与孔座，记录配合几何,Play2Perfect / Tight Insertion / 真实机器人 + 仿真 / https://play2perfect.github.io/,U17 插销对孔并插入；U18 插销拔出；B10 一手扶物一手插销；D06 绳索穿孔；U43 装配失败后重新对准并重试
+pen,笔与笔帽,工具,粗细两级，钝端；有盖与无盖,笔姿调整、书写、拔帽,,TeleDexter / Pen spinning / long take / recovery / 真实机器人 / https://bigai-dex.github.io/blog/teledexter/,G05 轻工具抓；G20 书写三脚架抓；G21 三脚架变式；G25 侧向三脚架抓；G32 腹侧抓；I06 笔沿指腹小幅移位；I07 多指配合复杂移位；I09 指间复杂旋转；I20 指腹滑移调整；I26 笔调至书写姿态；T14 横放笔拾取；T17 细长物水平搬运；U24 书写短线；U25 笔帽拔开；U26 笔帽扣合；B19 一手持笔一手拔帽；I32 指间连续转笔；U38 手指与手腕协同跟踪笔尖轨迹
+card,卡片,平薄物,塑料卡、硬纸卡，记录厚度,侧捏、翻面、插卡,,,G16 侧向抓；G22 平行伸展抓；G23 指间内收夹；T04 平薄卡片从桌面捏起；T10 薄片边缘夹取；U19 卡片插槽；U20 卡片抽出
+key,钥匙与练习锁,机关,独立练习锁，注明旋转行程,插入、转动、拔出,,,U14 钥匙插入练习锁；U15 钥匙转动；U16 钥匙拔出
+bottle,瓶与螺纹盖,机关,空塑料瓶；盖子直径及螺距记录,包络抓、拧盖,瓶体重心与柄口结构,WM-Craftnet / Y-Axis / Bottle；Challenging Initialization Pose / 仿真 / https://wmcraftnet.github.io/,G03 中等包络抓；I01 指尖持续绕轴旋转；T02 桌面物体拾取并举起；U06 三脚架抓开瓶盖；T13 有遮挡目标拾取；T16 持物改变腕方向；U12 拇指按压顶部泵头；U22 旋紧瓶盖；U23 旋松瓶盖；B07 一手扶瓶一手拧盖；C07 低质量与高质量持握；U37 单手稳瓶并拧开瓶盖；I36 物体滑入掌区后送回并续转
+cup,杯,日用品,有柄与无柄；先用空杯,搬运、放杯、倒出,,,T01 方块拾取并放入杯中；U01 镊子夹取茶叶；T08 杯柄钩取；T09 杯沿精密夹取；U32 空杯倾倒到目标角；B14 双手扶杯与倒入
+bowl,碗与托盘,日用品,轻质防碎；记录边缘形状,边缘抓、双手搬运,,,B06 双手共同搬运托盘
+tweezers,镊子 / 茶夹,工具,钝头、弹性夹臂,持握同时驱动夹口,,,U01 镊子夹取茶叶；U27 夹子夹持纸张
+tea,茶叶 / 仿真颗粒,耗材,先用大尺寸仿真颗粒,工具夹取与撒落,,,U01 镊子夹取茶叶
+knob,旋钮板,机关,刻度盘；可调阻尼,目标角与保持,,,U02 旋转炉具旋钮；U13 旋钮转到刻度
+pan,轻质锅具,日用品,冷态、空载、侧把手,非指尖接触与转移,,,T03 锅具从台面转移；U04 控制颗粒撒落
+salt,颗粒与小容器,耗材,粗粒和细粒分开，记录粒径,捏取、撒落,,,U03 捏取颗粒；U04 控制颗粒撒落；C08 先接触后闭合
+carton,鸡蛋盒,机关,空纸盒；卡扣完整,按压与抬扣协同,,,U05 鸡蛋盒按压与抬扣
+scissors,安全剪刀,工具,钝头；空剪及薄纸分阶段,开合与切割,,,G19 远端型抓；B01 双手剪刀开合；U33 剪刀空载开合
+paper,纸张,柔性,纸型、克重、初始折痕记录,翻页、折叠、撕开,,,U08 食指伸展抓切割；U24 书写短线；U27 夹子夹持纸张；B09 一手扶纸一手翻页；D13 纸张折痕按压；D14 纸张受控撕开；U38 手指与手腕协同跟踪笔尖轨迹
+screw,螺丝刀与螺母板,装配,低阻力练习板,驱动工具、拧紧与松开,,TeleDexter / Screwdriver Use / 5 stages / 真实机器人 / https://bigai-dex.github.io/blog/teledexter/；WM-Craftnet / Tool Use translation / axial rotation；real Y-axis / 仿真平移 / 长轴；实机 Y 轴 / https://wmcraftnet.github.io/,G29 杆状抓；I01 指尖持续绕轴旋转；U07 杆状抓使用螺丝刀；U34 旋转螺母；I39 螺丝刀在手内移到目标位置；U49 螺丝刀拾取、换抓、拧紧并放回
+book,书 / 铰链板,机关,开合角可观测,双手稳定与翻页,,,B03 双手书本合盖；B09 一手扶纸一手翻页
+laptop,笔记本模型,机关,优先无电子功能的铰链模型,上盖开合,,,B02 双手笔记本开合
+box,盒与盖,机关,翻盖、滑盖、分离盖,拉、推、开盖,,,T12 受限空间拾取；U19 卡片插槽；U20 卡片抽出；B08 一手扶盒一手开盖；B16 稳定手与操作手换角色
+button,按钮 / 开关板,机关,不同键程与触感，低电压或无电,按压、切换,,,U09 按下按钮；U10 拨动开关；U11 食指驱动扳机；C09 只用活动指按压
+zip,拉链板,柔性,大拉环；分离式底布,双手稳定与拉动,,,B12 一手固定一手拉链
+cloth,布片 / 毛巾,柔性,固定尺寸、材质与标记角点,展平、折叠、拧转,,,D01 布片对角拉平；D02 布片对折；D03 毛巾卷起；D04 布片角点拾取
+rope,粗绳 / 鞋带,柔性,长度与粗细分级,牵引、穿孔、结绳,,,D05 绳索牵引；D06 绳索穿孔；D07 粗绳简单打结；D08 粗绳解结
+sponge,海绵 / 软球,柔性,不同压缩硬度,挤压与回弹,,,D09 海绵挤压释放；D10 软球局部按压
+bag,软袋,柔性,空袋；密封条与提手分别记录,开口、捏封、搬运,,,B13 双手拉开袋口；D15 密封袋逐段捏封；D18 薄膜边缘分离
+elastic,低张力弹性圈,柔性,低阻力、限定形变,拉伸与套环,,,D11 弹性圈小幅拉伸；D12 弹性圈套杆
+clay,软黏土,柔性,质量和初始形状固定,揉、搓、压扁,,,D16 黏土搓条；D17 黏土压扁
+plug,无电插头模型,装配,完全断电的插接件,拔插与线缆稳定,刚性 iPhone 充电器与插座配合；区别于带线双手插接,Play2Perfect / Interactive / iPhone Charger into Socket / 仿真 / https://play2perfect.github.io/,B11 一手扶线一手插接；U41 单手调整充电器并插入插座模型
+drawer,抽屉模型,机关,有止挡，低负载,钩拉、推回,,,U28 抽屉钩拉；U29 抽屉推回
+handle,门把手模型,机关,桌面夹具、有限转角,压柄与旋转,,,G15 固定钩抓；U30 门柄压下
+ring,环与短杆,装配,不同间隙的圆环,套环与环形抓,,,U21 圆环套杆；D12 弹性圈套杆
+phone,手机模型,日用品,轻质模型，屏幕可贴标记,持握与拇指操作,,,U31 持手机模型并拇指滑动
+weight,轻质配重,控制变量,先做低负荷预试；记录克数,同姿态不同负载,,,I30 不同质量下持续旋转；C07 低质量与高质量持握
+surface,纹理与摩擦板,控制变量,光滑、粗糙、软面，记录材质,滑扫、摩擦对比,,,C03 保持接触的切向滑动；C04 指腹扫描粗糙表面；C06 不同摩擦表面持握
+sensor,力 / 触觉传感器,记录设备,记录标定、单位、量程与同步,力控制动作的有效验证,,,C01 恒定姿态轻握—较紧握；C02 法向力缓慢增加；C03 保持接触的切向滑动；C04 指腹扫描粗糙表面；C05 静态握持抗小扰动；C07 低质量与高质量持握；C08 先接触后闭合；C09 只用活动指按压；C10 指腹滚动接触追踪；C11 短时滑移后重新夹紧；C12 受控缓慢卸载
+baoding,双球 / 保定球组,多物体,两枚可区分颜色的轻质球，记录各自尺寸与质量,掌内轮转、多物体跟踪,,,I33 掌内双球协调轮转
+rubik,三阶魔方 / 单层转动模型,机关,记录面转阻力；整体姿态和各层转角分别标记,整体翻转与面转组合,,,U35 持稳魔方并转动顶层 90°；U36 魔方整体翻转与面转序列
+keyboard,电子琴键盘 / 带事件记录的琴键板,时序工具,记录键距、键程及 MIDI 或开关时间戳,多指时序、和弦及双手协作,,,B25 双手多指按节奏弹奏
+ellipsoid,轻质椭球模型与接落垫,动态任务,对应仿真 egg 形状；真实采集从软质轻量模型开始,双手抛接与双物体抛接,,,B22 双手下手抛接物体；B23 双手上手抛接物体；B24 双手双物体抛接
+threaded_leg,螺纹桌腿与配合底座,装配,记录螺距、牙型、啮合长度和桌腿几何,整个构件旋入,,Play2Perfect / Screwing / interactive preview / 真实机器人 + 仿真 / https://play2perfect.github.io/,U39 手持螺纹桌腿对准并旋入底座；U43 装配失败后重新对准并重试
+multipart_kit,多部件精密装配套件,装配,记录各部件编号、接口和阶段顺序,两阶段装配与重试,,Play2Perfect / Multi-Part Assembly / Step 1 / Step 2 / 真实机器人 + 仿真 / https://play2perfect.github.io/,U40 分阶段多部件精密装配；U43 装配失败后重新对准并重试
+fmb_double,方形与圆形双叉 FMB 插销及孔座,装配,记录双叉间距、截面、孔位与间隙,多约束对准插入,,ADEPT / Capabilities / FMB peg insertion / 真实机器人 + 仿真 / https://adept-dexterity.github.io/,U17 插销对孔并插入
+fmb_star,星形 FMB 插销与孔座,装配,记录齿数、对称性和配合角度,异形插销定向插入,,ADEPT / Capabilities / FMB star-peg insertion / 真实机器人 / https://adept-dexterity.github.io/,U17 插销对孔并插入
+plate,盘子,日用品,记录厚度、直径、边缘形状与质量,翻转、重抓、入架,,ADEPT / Dish-rack placement；teal / red plate / 真实机器人 + 仿真 / https://adept-dexterity.github.io/,T21 翻转并重抓盘子后放入碗碟架
+dish_rack,碗碟架,装配,记录槽宽、间距、倾角与容差,盘子受限放置,,ADEPT / Dish-rack placement / 真实机器人 + 仿真 / https://adept-dexterity.github.io/,T21 翻转并重抓盘子后放入碗碟架
+fork,YCB 餐叉,餐具,记录叉头、柄长和接触几何；实物数采规格另行确认,细长餐具重定向,,Play2Perfect / Interactive / YCB Fork in Rack / 仿真 / https://play2perfect.github.io/,U42 餐叉重定向后插入收纳架
+fork_rack,餐叉收纳架,装配,记录槽口与叉具配合特征,餐叉定向插入,,Play2Perfect / Interactive / YCB Fork in Rack / 仿真 / https://play2perfect.github.io/,U42 餐叉重定向后插入收纳架
+hammer,羊角锤,工具,同时记录锤面、羊角与握柄的几何关系,敲击与拔钉功能切换,,TeleDexter / Hammer Use / 7 stages / 真实机器人 / https://bigai-dex.github.io/blog/teledexter/,U44 锤子换面：敲入、拔钉并放回；U45 持锤敲入钉子；U46 转为羊角抓型并拔钉
+nail_board,钉子与敲拔练习板,任务对象,记录钉径、露出长度、板材与固定方式,锤击推进及羊角拔取,,TeleDexter / Hammer Use / drive nails / pull nails / 真实机器人 / https://bigai-dex.github.io/blog/teledexter/,U44 锤子换面：敲入、拔钉并放回；U45 持锤敲入钉子；U46 转为羊角抓型并拔钉
+brush,长柄刷与刷扫表面,工具,记录刷毛长度、柔顺性及表面材料,朝向切换与接触刷扫,,TeleDexter / Brush Sweep / 7 stages / 真实机器人 / https://bigai-dex.github.io/blog/teledexter/,U47 刷子重定向并向不同方向刷扫；U48 保持刷毛接触并刷扫
+bulb,灯泡 / 灯泡形模型,日用品,旋转试件与螺纹装配件区分；记录重心、柄径和螺纹,灯泡旋转、扶正、安装与拆卸,灯泡形旋转试件；不推定具备可装配螺纹,TeleDexter / Bulb Replace / 6 stages / 真实机器人 / https://bigai-dex.github.io/blog/teledexter/；WM-Craftnet / Bulb / Z-axis / initialization / 真实机器人 + 仿真 / https://wmcraftnet.github.io/,I01 指尖持续绕轴旋转；I35 侧倒初态恢复后持续旋转；U50 灯泡重定向、旋入、旋出并放回；U51 对准灯座并旋入灯泡；U52 旋出并取下灯泡
+bulb_socket,螺口灯座模型,装配,无电装配模型；记录螺纹和底座固定方式,灯泡旋入和旋出,,TeleDexter / Bulb Replace / installation policy / 真实机器人 / https://bigai-dex.github.io/blog/teledexter/,U50 灯泡重定向、旋入、旋出并放回；U51 对准灯座并旋入灯泡；U52 旋出并取下灯泡
+capsule,胶囊体 / 圆端长杆组,几何体,ADEPT 原规格，单位 mm：80×80×105、80×80×90、80×80×180、50×50×150、50×50×250、20×20×220；训练另有尺度随机化,重抓与目标位姿调整,,ADEPT / Pre-training diet / primitives 09–14 / 仿真 / https://adept-dexterity.github.io/,T22 机械臂与手协同调整物体目标位姿
+cone,圆锥体组,几何体,ADEPT 原规格，单位 mm：100×100×100、50×50×100,非均匀截面的位姿调整,,ADEPT / Pre-training diet / primitives 15–16 / 仿真 / https://adept-dexterity.github.io/,T22 机械臂与手协同调整物体目标位姿
+duck,鸭子模型,不规则形体,记录突出部位、重心与材质,旋转与扰动恢复,,WM-Craftnet / Real-World Z-Axis Rotation / Duck / 真实机器人 + 仿真 / https://wmcraftnet.github.io/,I01 指尖持续绕轴旋转；I28 小扰动后的位姿恢复
+piggy,小猪储蓄罐模型,不规则形体,记录非轴对称外形、质量与填充情况,连续旋转与初态调整,,WM-Craftnet / Z-Axis Rotation / Piggy Bank / 真实机器人 + 仿真 / https://wmcraftnet.github.io/,I01 指尖持续绕轴旋转；I35 侧倒初态恢复后持续旋转
+apple,苹果模型,不规则形体,记录曲率、凹部与朝向标记,Z 轴旋转,,WM-Craftnet / Tests in Simulation / Z-Axis / Apple / 仿真 / https://wmcraftnet.github.io/,I01 指尖持续绕轴旋转
+strawberry,草莓模型,不规则形体,记录锥状外形与表面纹理,连续旋转与接触变化,,WM-Craftnet / Real-World Z-Axis Rotation / Strawberry / 真实机器人 + 仿真 / https://wmcraftnet.github.io/,I01 指尖持续绕轴旋转
+bun,馒头状模型,不规则形体,按原项目形体记录；不能因名称推定为柔性食物,跨物体连续旋转,,WM-Craftnet / Continuous real-world rollout / 50–73 s / 真实机器人 / https://wmcraftnet.github.io/,I01 指尖持续绕轴旋转
+fire_hydrant,消防栓模型,不规则形体,记录侧向突出结构,突出部件旋转避碰,,WM-Craftnet / Real-World Z-Axis Rotation / Fire hydrant / 真实机器人 / https://wmcraftnet.github.io/,I01 指尖持续绕轴旋转
+cross_block,十字块,几何体,记录各臂长度、粗细与交汇形状,持续旋转、掌指转移,,WM-Craftnet / Cross block / palm-to-finger transfer / 真实机器人 + 仿真 / https://wmcraftnet.github.io/,I01 指尖持续绕轴旋转；I05 掌心到指尖转移
+corner_block,拐角块,几何体,记录拐角尺寸和凸棱,连续旋转、扰动恢复,,WM-Craftnet / Corner block / perturbation recovery / 真实机器人 + 仿真 / https://wmcraftnet.github.io/,I01 指尖持续绕轴旋转；I28 小扰动后的位姿恢复；I36 物体滑入掌区后送回并续转
+notched_block,缺口块 / 缺口圆柱组,几何体,记录单 / 双缺口、窄体版本；块状与柱状不混用几何模型,未见几何旋转,,"WM-Craftnet / Zero-Shot Transfer / notched, narrow, double-notched；Z-axis double-notched cylinder / 真实机器人 + 仿真 / https://wmcraftnet.github.io/",I01 指尖持续绕轴旋转
+stepped_block,阶梯块,几何体,记录台阶高差与截面,X 轴连续旋转,,WM-Craftnet / Tests in Simulation / X-Axis / Stepped block / 仿真 / https://wmcraftnet.github.io/,I01 指尖持续绕轴旋转
+lego_brick,凸点积木,几何体,记录凸点、凹槽、长宽高,X 轴连续旋转,,WM-Craftnet / Tests in Simulation / X-Axis / Lego Brick / 仿真 / https://wmcraftnet.github.io/,I01 指尖持续绕轴旋转
+can,易拉罐模型,日用品,记录半径、长度、质量与是否为空罐,初态扶正和轴向旋转,,"WM-Craftnet / Coca Can / Z, Y axes / initialization / 仿真 / https://wmcraftnet.github.io/",I01 指尖持续绕轴旋转；I35 侧倒初态恢复后持续旋转
+toothpaste,牙膏管状物,日用品,记录扁平尾部、盖端及是否可变形,短轴连续旋转,,WM-Craftnet / Real Y-Axis Rotation / Toothpaste / 真实机器人 + 仿真 / https://wmcraftnet.github.io/,I01 指尖持续绕轴旋转
+flashlight,手电筒模型,日用品,记录头部与柄部直径、重心,Y 轴连续旋转,,WM-Craftnet / Tests in Simulation / Y-Axis / Flashlight / 仿真 / https://wmcraftnet.github.io/,I01 指尖持续绕轴旋转
+toy_bucket,玩具桶 / 垃圾桶形模型,日用品,保留桶形结构，标记开口、凸缘与底部,掌区失稳恢复及旋转,,WM-Craftnet / Bucket palm-region recovery / Toy Trashcan / 真实机器人 + 仿真 / https://wmcraftnet.github.io/,I01 指尖持续绕轴旋转；I36 物体滑入掌区后送回并续转
+switch_object,开关形旋转试件,不规则形体,独立试件，不等同于固定按钮板；记录侧倒初态,初态恢复后续转,,WM-Craftnet / Challenging-start recovery / switch / 真实机器人 / https://wmcraftnet.github.io/,I35 侧倒初态恢复后持续旋转
+bunny,兔子模型,不规则形体,记录耳部突出几何和物体身份,BunnyReorient 物体朝向调整,,TeleDexter / Seven-task evaluation / BunnyReorient；无单独直链 / 真实机器人 / https://bigai-dex.github.io/blog/teledexter/,I02 旋转到指定朝向

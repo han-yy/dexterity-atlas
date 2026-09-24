@@ -1,0 +1,129 @@
+{
+  "version": "1.2",
+  "date": "2026-09-24",
+  "projects": [
+    {
+      "source": "PLAY2PERFECT",
+      "new_actions": [
+        "U39",
+        "U40",
+        "U41",
+        "U42",
+        "U43"
+      ],
+      "enriched_actions": [
+        "U17"
+      ],
+      "new_props": [
+        "threaded_leg",
+        "multipart_kit",
+        "fork",
+        "fork_rack"
+      ],
+      "existing_props": [
+        "peg",
+        "plug"
+      ],
+      "note": "紧配插入并入 U17；新增螺纹桌腿、多部件装配、刚性充电器插接、餐叉入架和重试。仿真菜单确认 charger / fork，未把叉子误记为叉形插销。"
+    },
+    {
+      "source": "ADEPT",
+      "new_actions": [
+        "T21",
+        "T22"
+      ],
+      "enriched_actions": [
+        "U17"
+      ],
+      "new_props": [
+        "fmb_double",
+        "fmb_star",
+        "plate",
+        "dish_rack",
+        "capsule",
+        "cone"
+      ],
+      "existing_props": [
+        "sphere",
+        "cube"
+      ],
+      "note": "FMB 方圆双叉、星形插销和视触觉版本并入 U17；盘子入架、臂手协同 reposing 新建。16 个几何规格归入已有方块 / 球及新增胶囊 / 圆锥道具。"
+    },
+    {
+      "source": "WMCRAFT",
+      "new_actions": [
+        "I35",
+        "I36",
+        "I37",
+        "I39"
+      ],
+      "enriched_actions": [
+        "I01",
+        "I05",
+        "I28"
+      ],
+      "new_props": [
+        "bulb",
+        "duck",
+        "piggy",
+        "apple",
+        "strawberry",
+        "bun",
+        "fire_hydrant",
+        "cross_block",
+        "corner_block",
+        "notched_block",
+        "stepped_block",
+        "lego_brick",
+        "can",
+        "toothpaste",
+        "flashlight",
+        "toy_bucket",
+        "switch_object"
+      ],
+      "existing_props": [
+        "cylinder",
+        "bottle",
+        "screw"
+      ],
+      "note": "轴向、形状、控制策略不重复计为动作。新建恢复、重力条件入口与工具平移；未见物体测试归为条件，失败案例不冒充成功演示。"
+    },
+    {
+      "source": "TELEDEXTER",
+      "new_actions": [
+        "I38",
+        "U44",
+        "U45",
+        "U46",
+        "U47",
+        "U48",
+        "U49",
+        "U50",
+        "U51",
+        "U52"
+      ],
+      "enriched_actions": [
+        "I02",
+        "U07",
+        "I32"
+      ],
+      "new_props": [
+        "hammer",
+        "nail_board",
+        "brush",
+        "bulb",
+        "bulb_socket",
+        "bunny"
+      ],
+      "existing_props": [
+        "pen",
+        "screw"
+      ],
+      "note": "连续转笔并入 I32、重定向并入 I02；新建联合抓型转换和完整工具链。工具链与可独立采集子步骤有父子关联，不能把条目数当独立能力数。"
+    }
+  ],
+  "new_action_count": 21,
+  "new_prop_count": 32,
+  "enriched_action_count": 7,
+  "granularity_note": "条目包含完整任务、工具子任务、恢复子任务与条件协议；父子任务与条件不应相加解释为独立技能数量。"
+}

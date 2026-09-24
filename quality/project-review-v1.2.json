@@ -1,0 +1,36 @@
+{
+  "sources": [
+    "https://play2perfect.github.io/",
+    "https://adept-dexterity.github.io/",
+    "https://wmcraftnet.github.io/",
+    "https://bigai-dex.github.io/blog/teledexter/"
+  ],
+  "scope": "Four project pages read; action/condition/object mapping reviewed. Representative displayed frames only, not an exhaustive temporal review.",
+  "source_action_correspondence": {
+    "status": "pass",
+    "basis": "Exact section / task names; real vs simulation and teleop vs autonomous labels; duplicate actions merged. Related substeps visibly scoped."
+  },
+  "geometry_kinematics": {
+    "status": "unknown",
+    "reason": "No new 3D templates or recorded kinematics supplied."
+  },
+  "temporal_fidelity": {
+    "status": "unknown",
+    "reason": "Full transitions and four phases per periodic clip were not reviewed across the library."
+  },
+  "contact_plausibility": {
+    "status": "unknown",
+    "reason": "Source clips contain occlusion; no contact measurements reviewed."
+  },
+  "physical_feasibility": {
+    "status": "unknown",
+    "reason": "No collision, force or friction validation was run."
+  },
+  "representative_visual_observations": [
+    "Play2Perfect Slow Speed three displayed real robot assembly scenes, including threaded part and multipart kit",
+    "WM-Craftnet Application Tool Use: both visible renderings show simulated hand/tool, labeled simulation in catalogue",
+    "ADEPT star insertion initial frame shown in local modal with correct object / mating fixture",
+    "TeleDexter hammer video load and teleoperation caption checked; not full sequence validation"
+  ],
+  "dedup_record": "research/project-import-audit.json"
+}

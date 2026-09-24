@@ -1,0 +1,419 @@
+{
+  "checked_at": "2026-09-24T09:57:57.862415+00:00",
+  "scope": "HEAD availability only; not frame-by-frame playback or physical validation",
+  "results": [
+    {
+      "id": "p2_tight",
+      "url": "https://play2perfect.github.io/static/videos/slowmo_tight_insertion.mp4?v=2",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "p2_screw",
+      "url": "https://play2perfect.github.io/static/videos/slowmo_screwing.mp4?v=2",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "p2_multi",
+      "url": "https://play2perfect.github.io/static/videos/slowmo_multi_part.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "p2_retry",
+      "url": "https://play2perfect.github.io/static/videos/recovery_1.mp4?v=2",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "p2_retry2",
+      "url": "https://play2perfect.github.io/static/videos/recovery_2.mp4?v=2",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "p2_interactive",
+      "url": "https://play2perfect.github.io/interactive/",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "id": "ad_fmb",
+      "url": "https://adept-dexterity.github.io/assets/gallery/realfmb__kuka_1160.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "ad_star",
+      "url": "https://adept-dexterity.github.io/assets/gallery/realfmb__kuka_star.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "ad_touch",
+      "url": "https://adept-dexterity.github.io/assets/gallery/realfmb__rizon_5824.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "ad_dish",
+      "url": "https://adept-dexterity.github.io/assets/capabilities/dish-placement.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "ad_repose",
+      "url": "https://adept-dexterity.github.io/assets/method/method-01-pretrain.mp4?v=8741b17",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "wm_z",
+      "url": "https://wmcraftnet.github.io/static/videos/real_z/consecutive.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "wm_y",
+      "url": "https://wmcraftnet.github.io/static/videos/real_y/screwdriver_y_h264.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "wm_x",
+      "url": "https://wmcraftnet.github.io/static/videos/x/3.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "wm_perturb",
+      "url": "https://wmcraftnet.github.io/static/videos/real/corner_cube_robust_h264.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "wm_ood",
+      "url": "https://wmcraftnet.github.io/static/videos/real_z/duck_recovery.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "wm_start",
+      "url": "https://wmcraftnet.github.io/static/videos/real/recovery/5_recovery.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "wm_palm",
+      "url": "https://wmcraftnet.github.io/static/videos/real/recovery/1_recovery.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "wm_cylinder",
+      "url": "https://wmcraftnet.github.io/static/videos/real/recovery/18_recovery.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "wm_gravity",
+      "url": "https://wmcraftnet.github.io/static/images/north1.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "wm_cross",
+      "url": "https://wmcraftnet.github.io/static/videos/adjustment/crosscube_adjustment_z_h264.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "wm_bulb",
+      "url": "https://wmcraftnet.github.io/static/videos/adjustment/bulb_adjustment_z_h264.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "wm_move",
+      "url": "https://wmcraftnet.github.io/static/videos/tooluse/screwdriver_h264.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "wm_axial",
+      "url": "https://wmcraftnet.github.io/static/videos/tooluse/screwdriverrot.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "td_hammer",
+      "url": "https://bigai-dex.github.io/assets/videos/teledexter/teleop_demo/tele_hammer-1.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "td_brush",
+      "url": "https://bigai-dex.github.io/assets/videos/teledexter/teleop_demo/tele_brush-1.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "td_screwdriver",
+      "url": "https://bigai-dex.github.io/assets/videos/teledexter/teleop_demo/tele_screwdriver-1.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "td_bulb",
+      "url": "https://bigai-dex.github.io/assets/videos/teledexter/teleop_demo/tele_bulb-1.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "td_pen",
+      "url": "https://bigai-dex.github.io/assets/videos/teledexter/any2any/penspin_long-1.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "td_penrecover",
+      "url": "https://bigai-dex.github.io/assets/videos/teledexter/any2any/penspin_recover-1.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "td_cuboid",
+      "url": "https://bigai-dex.github.io/assets/videos/teledexter/any2any/a2a-leaphand_cuboid.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "td_cylinder",
+      "url": "https://bigai-dex.github.io/assets/videos/teledexter/any2any/a2a-leaphand_cylinder.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "td_policy_hammer",
+      "url": "https://bigai-dex.github.io/assets/videos/teledexter/policy/policy-hammer-1.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "td_policy_brush",
+      "url": "https://bigai-dex.github.io/assets/videos/teledexter/policy/policy-brush-1.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "td_policy_bulb",
+      "url": "https://bigai-dex.github.io/assets/videos/teledexter/policy/policy-bulb-1.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "wm_object_duck_57",
+      "url": "https://wmcraftnet.github.io/static/videos/color/duck.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "wm_object_corner_block_58",
+      "url": "https://wmcraftnet.github.io/static/videos/real/comparison/ours.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "wm_object_cross_block_59",
+      "url": "https://wmcraftnet.github.io/static/videos/real_z/crosscube.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "wm_object_cylinder_60",
+      "url": "https://wmcraftnet.github.io/static/videos/color/cylinder1.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "wm_object_piggy_61",
+      "url": "https://wmcraftnet.github.io/static/videos/color/piggybank2.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "wm_object_strawberry_62",
+      "url": "https://wmcraftnet.github.io/static/videos/color/strawberry.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "wm_object_fire_hydrant_63",
+      "url": "https://wmcraftnet.github.io/static/videos/color/firehydrant_red2.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "wm_object_cube_64",
+      "url": "https://wmcraftnet.github.io/static/videos/color/block_blue.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "wm_object_bulb_65",
+      "url": "https://wmcraftnet.github.io/static/videos/color/bulb_yellow.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "wm_object_apple_66",
+      "url": "https://wmcraftnet.github.io/static/videos/z/2.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "wm_object_notched_block_67",
+      "url": "https://wmcraftnet.github.io/static/videos/z/8.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "wm_object_notched_block_68",
+      "url": "https://wmcraftnet.github.io/static/videos/unseen/unseen_h264.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "wm_object_toothpaste_69",
+      "url": "https://wmcraftnet.github.io/static/videos/real_y/toothpaste_y_h264.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "wm_object_corner_block_70",
+      "url": "https://wmcraftnet.github.io/static/videos/real_y/cornerblock_y_h264.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "wm_object_toy_bucket_71",
+      "url": "https://wmcraftnet.github.io/static/videos/y/0.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "wm_object_cylinder_72",
+      "url": "https://wmcraftnet.github.io/static/videos/y/3.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "wm_object_can_73",
+      "url": "https://wmcraftnet.github.io/static/videos/y/5.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "wm_object_flashlight_74",
+      "url": "https://wmcraftnet.github.io/static/videos/y/7.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "wm_object_bottle_75",
+      "url": "https://wmcraftnet.github.io/static/videos/y/8.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "wm_object_lego_brick_76",
+      "url": "https://wmcraftnet.github.io/static/videos/x/4.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "wm_init_bottle",
+      "url": "https://wmcraftnet.github.io/static/videos/adjustment/bottle_adjustment_y_h264.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "wm_init_can",
+      "url": "https://wmcraftnet.github.io/static/videos/adjustment/cokecan_adjustment_z_h264.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "wm_init_corner_block",
+      "url": "https://wmcraftnet.github.io/static/videos/adjustment/cornercube_adjustment_z_h264.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    },
+    {
+      "id": "wm_init_piggy",
+      "url": "https://wmcraftnet.github.io/static/videos/adjustment/piggy_bank_adjust_z_h264.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "ok": true
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "https://adept-dexterity.github.io/assets/method/method-01-pretrain.mp4?v=8741b17": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/method/method-01-pretrain-poster.jpg?v=8741b17"
+  },
+  "https://adept-dexterity.github.io/assets/method/method-02-posttrain.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/method/method-02-posttrain-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/method/method-03-distill.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/method/method-03-distill-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/method/method-04-real.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/method/method-04-real-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/method/method-05-kuka-dexterity.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/method/method-05-kuka-dexterity-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/method/method-05-sharpa-dexterity.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/method/method-05-sharpa-dexterity-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/capabilities/fmb-insertion.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/capabilities/fmb-insertion-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/capabilities/dish-placement.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/capabilities/dish-placement-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/capabilities/star-insertion.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/capabilities/star-insertion-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/capabilities/tactile-combined.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/capabilities/tactile-combined-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/gallery/reposing__kuka_cuboid_large.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/gallery/reposing__kuka_cuboid_large-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/gallery/reposing__kuka_sphere_small.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/gallery/reposing__kuka_sphere_small-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/gallery/reposing__rizon_sphere_large.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/gallery/reposing__rizon_sphere_large-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/gallery/reposing__rizon_rod_thin.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/gallery/reposing__rizon_rod_thin-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/gallery/zeroshot__kuka_seed123.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/gallery/zeroshot__kuka_seed123-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/gallery/zeroshot__rizon_seed999.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/gallery/zeroshot__rizon_seed999-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/gallery/ptfmb__kuka_seed1001.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/gallery/ptfmb__kuka_seed1001-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/gallery/ptfmb__kuka_seed222.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/gallery/ptfmb__kuka_seed222-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/gallery/ptfmb__rizon_seed222.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/gallery/ptfmb__rizon_seed222-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/gallery/ptfmb__rizon_seed777.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/gallery/ptfmb__rizon_seed777-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/gallery/ptdish__kuka_seed1000.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/gallery/ptdish__kuka_seed1000-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/gallery/ptdish__kuka_seed1002.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/gallery/ptdish__kuka_seed1002-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/gallery/visfmb__kuka_seed1002.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/gallery/visfmb__kuka_seed1002-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/gallery/visfmb__kuka_seed777.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/gallery/visfmb__kuka_seed777-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/gallery/visfmb__rizon_seed222.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/gallery/visfmb__rizon_seed222-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/gallery/visfmb__rizon_seed999.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/gallery/visfmb__rizon_seed999-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/gallery/visdish__kuka_seed222.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/gallery/visdish__kuka_seed222-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/gallery/visdish__kuka_seed999.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/gallery/visdish__kuka_seed999-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/gallery/tactile__rizon_seed1002.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/gallery/tactile__rizon_seed1002-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/gallery/tactile__rizon_seed999.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/gallery/tactile__rizon_seed999-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/gallery/realfmb__kuka_1160.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/gallery/realfmb__kuka_1160-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/gallery/realfmb__kuka_star.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/gallery/realfmb__kuka_star-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/gallery/realfmb__rizon_5824.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/gallery/realfmb__rizon_5824-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/gallery/realdish__kuka_5764.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/gallery/realdish__kuka_5764-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/gallery/realdish__kuka_red.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/gallery/realdish__kuka_red-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/gallery/realdish__kuka_5780_2.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/gallery/realdish__kuka_5780_2-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/results/fmb-pipeline-70s.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/results/fmb-pipeline-70s-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/results/adept-kuka-fmb.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/results/adept-kuka-fmb-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/results/fmb-pipeline-20s.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/results/fmb-pipeline-20s-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/results/adept-flexiv-fmb.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/results/adept-flexiv-fmb-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/analysis/posttrain-777.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/analysis/posttrain-777-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/analysis/scratch-env15.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/analysis/scratch-env15-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/analysis/posttrain-888.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/analysis/posttrain-888-poster.jpg"
+  },
+  "https://adept-dexterity.github.io/assets/analysis/scratch-env191.mp4": {
+    "source": "https://adept-dexterity.github.io/",
+    "poster": "https://adept-dexterity.github.io/assets/analysis/scratch-env191-poster.jpg"
+  }
+}

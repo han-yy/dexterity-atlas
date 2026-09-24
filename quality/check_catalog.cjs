@@ -9,6 +9,15 @@ for(const f of data.families||[]){check(f.actions.length>0,'empty task family '+
 check(data.actions.find(a=>a.id==='I01').aliases.includes('持续旋转'),'continuous rotation search alias');
 for(const id of ['catch_under','catch_over','catch_two','piano'])check(data.media[id].domain==='仿真','simulation disclosure '+id);
 check(data.featured[0]==='I01','featured video task must be first');
+// Imported tasks, object conditions, and evidence must survive exports / regeneration.
+const propIds=new Set();for(const p of data.props){check(!propIds.has(p.id),'duplicate prop '+p.id);propIds.add(p.id);for(const e of p.evidence||[])check(!!data.sources[e.source]&&!!e.locator&&!!e.domain,'prop provenance '+p.id);if(p.added_in==='1.2')check(data.actions.some(a=>a.props.includes(p.id)),'orphan imported prop '+p.id)}
+for(const a of data.actions){if(a.parent)check(ids.has(a.parent),'unknown parent '+a.id);for(const e of a.evidence||[]){check(!!data.media[e.media],'missing evidence media '+a.id);check(a.sources.includes(e.source),'evidence source not indexed '+a.id);check(data.media[e.media]?.source===e.source,'evidence source mismatch '+a.id);check(!!e.scope&&!!e.locator,'missing evidence scope '+a.id);for(const p of e.props||[])check(a.props.includes(p),'evidence object not indexed '+a.id)}}
+check(data.project_audit.new_action_count===data.actions.filter(a=>a.added_in==='1.2').length,'new action count');
+check(data.project_audit.new_prop_count===data.props.filter(p=>p.added_in==='1.2').length,'new prop count');
+check(data.media.p2_interactive.domain==='仿真','browser demo must be simulation');
+check(data.media.wm_move.domain==='仿真','tool translation is simulation');
+check(data.media.td_hammer.control==='遥操作'&&data.media.td_policy_hammer.control==='自主策略','control mode separation');
+check(data.actions.find(a=>a.id==='U17').sources.includes('ADEPT'),'merge insertion into existing ID');
 const model=window.HandModel;let sampled=0,maxStep=0;
 for(const a of data.actions.filter(a=>a.pose)){
  let prev=null;for(let i=0;i<=100;i++){

@@ -15,11 +15,11 @@
 
 ## 发布后检查
 
-- 打开“动作库”，应显示 210 个动作；可筛选、搜索并打开动作详情。
+- 打开“动作库”，应显示 231 个动作；可筛选、搜索并打开动作详情。
 - 在详情查看来源链接、原始图示或官方视频；“3D 关节示意”筛选应返回 18 个动作。
-- 查看“元动作”的 35 项与“道具清单”的 47 项。
+- 查看“元动作”的 37 项与“道具清单”的 79 项。
 - 向采集清单添加动作，尝试导出 CSV 或 JSON。
-- “参考来源”有 20 项；直接来源、改编任务和自行扩展都有独立标记。
+- “参考来源”有 24 项；直接来源、改编任务和自行扩展都有独立标记。
 
 ## 后续更新
 
@@ -38,4 +38,4 @@
 - [配置发布来源](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 - [创建 GitHub Pages 网站](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
 
-GitHub Free 支持公共仓库的 Pages。站点保留原始图示和视频的来源署名；原素材版权仍归各权利人。112 个自行扩展动作是数采设计建议，不应当作已被论文逐项验证的实验任务。
+GitHub Free 支持公共仓库的 Pages。站点保留原始图示和视频的来源署名；原素材版权仍归各权利人。111 个自行扩展动作是数采设计建议，不应当作已被论文逐项验证的实验任务。

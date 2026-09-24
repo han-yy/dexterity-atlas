@@ -364,5 +364,572 @@
     "scope": "Simple pieces / Twinkle Twinkle Little Star。",
     "domain": "仿真",
     "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "p2_tight",
+    "type": "video",
+    "url": "https://play2perfect.github.io/static/videos/slowmo_tight_insertion.mp4?v=2",
+    "source": "https://play2perfect.github.io/",
+    "scope": "Watch Play2Perfect in Slow Speed / Tight Insertion；网站播放器可调速。",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "p2_screw",
+    "type": "video",
+    "url": "https://play2perfect.github.io/static/videos/slowmo_screwing.mp4?v=2",
+    "source": "https://play2perfect.github.io/",
+    "scope": "Watch Play2Perfect in Slow Speed / Screwing。",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "p2_multi",
+    "type": "video",
+    "url": "https://play2perfect.github.io/static/videos/slowmo_multi_part.mp4",
+    "source": "https://play2perfect.github.io/",
+    "scope": "Watch Play2Perfect in Slow Speed / Multi-Part Assembly。",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "p2_retry",
+    "type": "video",
+    "url": "https://play2perfect.github.io/static/videos/recovery_1.mp4?v=2",
+    "source": "https://play2perfect.github.io/",
+    "scope": "Recovery Behavior / 第一段；包含失败和后续重试。",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "p2_retry2",
+    "type": "video",
+    "url": "https://play2perfect.github.io/static/videos/recovery_2.mp4?v=2",
+    "source": "https://play2perfect.github.io/",
+    "scope": "Recovery Behavior / 第二段。",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "p2_interactive",
+    "type": "link",
+    "url": "https://play2perfect.github.io/interactive/",
+    "source": "https://play2perfect.github.io/",
+    "scope": "Select Assembly Task：iPhone Charger into Socket / YCB Fork in Rack；选择任务后播放。",
+    "domain": "仿真",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "ad_fmb",
+    "type": "video",
+    "url": "https://adept-dexterity.github.io/assets/gallery/realfmb__kuka_1160.mp4",
+    "source": "https://adept-dexterity.github.io/",
+    "scope": "Rollout gallery / Real / FMB insertion / KUKA–Allegro / Vision-based insert。",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "ad_star",
+    "type": "video",
+    "url": "https://adept-dexterity.github.io/assets/gallery/realfmb__kuka_star.mp4",
+    "source": "https://adept-dexterity.github.io/",
+    "scope": "Rollout gallery / Real / KUKA–Allegro / Star peg。",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "ad_touch",
+    "type": "video",
+    "url": "https://adept-dexterity.github.io/assets/gallery/realfmb__rizon_5824.mp4",
+    "source": "https://adept-dexterity.github.io/",
+    "scope": "Rollout gallery / Real / Flexiv–Sharpa / Visuo-tactile insert。",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "ad_dish",
+    "type": "video",
+    "url": "https://adept-dexterity.github.io/assets/capabilities/dish-placement.mp4",
+    "source": "https://adept-dexterity.github.io/",
+    "scope": "Capabilities / Dish-rack placement：Flip · regrasp · transport。",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "ad_repose",
+    "type": "video",
+    "url": "https://adept-dexterity.github.io/assets/method/method-01-pretrain.mp4?v=8741b17",
+    "source": "https://adept-dexterity.github.io/",
+    "scope": "The ADEPT recipe / Reposing pre-training；并行仿真教师，多种几何体。",
+    "domain": "仿真",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "wm_z",
+    "type": "video",
+    "url": "https://wmcraftnet.github.io/static/videos/real_z/consecutive.mp4",
+    "source": "https://wmcraftnet.github.io/",
+    "scope": "Real-world rollout：0–24 s 鸭子，24–35 s 圆柱，35–50 s 十字块，50–73 s 馒头，73–94 s 双缺口块。",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "wm_y",
+    "type": "video",
+    "url": "https://wmcraftnet.github.io/static/videos/real_y/screwdriver_y_h264.mp4",
+    "source": "https://wmcraftnet.github.io/",
+    "scope": "Diverse Axis / Sim-to-Real / Screwdriver；绕较短方向，不是工具长轴快转。",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "wm_x",
+    "type": "video",
+    "url": "https://wmcraftnet.github.io/static/videos/x/3.mp4",
+    "source": "https://wmcraftnet.github.io/",
+    "scope": "Diverse Axis / Tests in Simulation / X-Axis Rotation / Stepped block。",
+    "domain": "仿真",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "wm_perturb",
+    "type": "video",
+    "url": "https://wmcraftnet.github.io/static/videos/real/corner_cube_robust_h264.mp4",
+    "source": "https://wmcraftnet.github.io/",
+    "scope": "Real-world perturbation recovery：3–5 s、22–25 s 人为扰动。",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "wm_ood",
+    "type": "video",
+    "url": "https://wmcraftnet.github.io/static/videos/real_z/duck_recovery.mp4",
+    "source": "https://wmcraftnet.github.io/",
+    "scope": "OOD-to-duck recovery：换入鸭子后恢复；不意味着原 OOD 物体也已成功。",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "wm_start",
+    "type": "video",
+    "url": "https://wmcraftnet.github.io/static/videos/real/recovery/5_recovery.mp4",
+    "source": "https://wmcraftnet.github.io/",
+    "scope": "Challenging-start recovery：0 s switch 侧倒，调整为可旋转状态。",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "wm_palm",
+    "type": "video",
+    "url": "https://wmcraftnet.github.io/static/videos/real/recovery/1_recovery.mp4",
+    "source": "https://wmcraftnet.github.io/",
+    "scope": "Bucket palm-region recovery：约 6 s 滑入掌区后重新调整并续转。",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "wm_cylinder",
+    "type": "video",
+    "url": "https://wmcraftnet.github.io/static/videos/real/recovery/18_recovery.mp4",
+    "source": "https://wmcraftnet.github.io/",
+    "scope": "Cylinder unexpected-contact recovery：约 6 s、15 s。",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "wm_gravity",
+    "type": "video",
+    "url": "https://wmcraftnet.github.io/static/images/north1.mp4",
+    "source": "https://wmcraftnet.github.io/",
+    "scope": "Gravity-Invariant Rotation / Successful sim-to-real transfer。",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "wm_cross",
+    "type": "video",
+    "url": "https://wmcraftnet.github.io/static/videos/adjustment/crosscube_adjustment_z_h264.mp4",
+    "source": "https://wmcraftnet.github.io/",
+    "scope": "Challenging Initialization Pose / Cross block：0–7 s 掌到指，随后 Z 轴旋转。",
+    "domain": "仿真",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "wm_bulb",
+    "type": "video",
+    "url": "https://wmcraftnet.github.io/static/videos/adjustment/bulb_adjustment_z_h264.mp4",
+    "source": "https://wmcraftnet.github.io/",
+    "scope": "Challenging Initialization Pose / Bulb：0–5 s 拇指、食指、中指扶正。",
+    "domain": "仿真",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "wm_move",
+    "type": "video",
+    "url": "https://wmcraftnet.github.io/static/videos/tooluse/screwdriver_h264.mp4",
+    "source": "https://wmcraftnet.github.io/",
+    "scope": "Application: Tool Use / Goal-conditioned translation；定性仿真，不演示拧螺丝。",
+    "domain": "仿真",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "wm_axial",
+    "type": "video",
+    "url": "https://wmcraftnet.github.io/static/videos/tooluse/screwdriverrot.mp4",
+    "source": "https://wmcraftnet.github.io/",
+    "scope": "Application: Tool Use / Fast screwdriver rotation；定性仿真，不演示紧固。",
+    "domain": "仿真",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "td_hammer",
+    "type": "video",
+    "url": "https://bigai-dex.github.io/assets/videos/teledexter/teleop_demo/tele_hammer-1.mp4",
+    "source": "https://bigai-dex.github.io/blog/teledexter/",
+    "scope": "Full Task Teleoperation / 锤子完整使用链 / 第 1 次演示。",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "td_brush",
+    "type": "video",
+    "url": "https://bigai-dex.github.io/assets/videos/teledexter/teleop_demo/tele_brush-1.mp4",
+    "source": "https://bigai-dex.github.io/blog/teledexter/",
+    "scope": "Full Task Teleoperation / 刷子完整使用链 / 第 1 次演示。",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "td_screwdriver",
+    "type": "video",
+    "url": "https://bigai-dex.github.io/assets/videos/teledexter/teleop_demo/tele_screwdriver-1.mp4",
+    "source": "https://bigai-dex.github.io/blog/teledexter/",
+    "scope": "Full Task Teleoperation / 螺丝刀完整使用链 / 第 1 次演示。",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "td_bulb",
+    "type": "video",
+    "url": "https://bigai-dex.github.io/assets/videos/teledexter/teleop_demo/tele_bulb-1.mp4",
+    "source": "https://bigai-dex.github.io/blog/teledexter/",
+    "scope": "Full Task Teleoperation / 灯泡更换完整链 / 第 1 次演示。",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "td_pen",
+    "type": "video",
+    "url": "https://bigai-dex.github.io/assets/videos/teledexter/any2any/penspin_long-1.mp4",
+    "source": "https://bigai-dex.github.io/blog/teledexter/",
+    "scope": "In-Hand Manipulation / long-horizon pen spinning。",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "td_penrecover",
+    "type": "video",
+    "url": "https://bigai-dex.github.io/assets/videos/teledexter/any2any/penspin_recover-1.mp4",
+    "source": "https://bigai-dex.github.io/blog/teledexter/",
+    "scope": "In-Hand Manipulation / mid-spin recovery。",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "td_cuboid",
+    "type": "video",
+    "url": "https://bigai-dex.github.io/assets/videos/teledexter/any2any/a2a-leaphand_cuboid.mp4",
+    "source": "https://bigai-dex.github.io/blog/teledexter/",
+    "scope": "Any-grasp-to-any-grasp / Leap Hand / cuboid；物体与手的目标同时变化。",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "td_cylinder",
+    "type": "video",
+    "url": "https://bigai-dex.github.io/assets/videos/teledexter/any2any/a2a-leaphand_cylinder.mp4",
+    "source": "https://bigai-dex.github.io/blog/teledexter/",
+    "scope": "Any-grasp-to-any-grasp / Leap Hand / cylinder；物体与手的目标同时变化。",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "td_policy_hammer",
+    "type": "video",
+    "url": "https://bigai-dex.github.io/assets/videos/teledexter/policy/policy-hammer-1.mp4",
+    "source": "https://bigai-dex.github.io/blog/teledexter/",
+    "scope": "Autonomous Policy Learning / 锤击；这是单项策略，不是完整遥操作链。",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "td_policy_brush",
+    "type": "video",
+    "url": "https://bigai-dex.github.io/assets/videos/teledexter/policy/policy-brush-1.mp4",
+    "source": "https://bigai-dex.github.io/blog/teledexter/",
+    "scope": "Autonomous Policy Learning / 刷扫；这是单项策略，不是完整遥操作链。",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "td_policy_bulb",
+    "type": "video",
+    "url": "https://bigai-dex.github.io/assets/videos/teledexter/policy/policy-bulb-1.mp4",
+    "source": "https://bigai-dex.github.io/blog/teledexter/",
+    "scope": "Autonomous Policy Learning / 安装灯泡；这是单项策略，不是完整遥操作链。",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "wm_object_duck_57",
+    "type": "video",
+    "url": "https://wmcraftnet.github.io/static/videos/color/duck.mp4",
+    "source": "https://wmcraftnet.github.io/",
+    "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 鸭子 · Z 轴",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "wm_object_corner_block_58",
+    "type": "video",
+    "url": "https://wmcraftnet.github.io/static/videos/real/comparison/ours.mp4",
+    "source": "https://wmcraftnet.github.io/",
+    "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 拐角块 · Z 轴",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "wm_object_cross_block_59",
+    "type": "video",
+    "url": "https://wmcraftnet.github.io/static/videos/real_z/crosscube.mp4",
+    "source": "https://wmcraftnet.github.io/",
+    "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 十字块 · Z 轴",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "wm_object_cylinder_60",
+    "type": "video",
+    "url": "https://wmcraftnet.github.io/static/videos/color/cylinder1.mp4",
+    "source": "https://wmcraftnet.github.io/",
+    "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 圆柱 · Z 轴",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "wm_object_piggy_61",
+    "type": "video",
+    "url": "https://wmcraftnet.github.io/static/videos/color/piggybank2.mp4",
+    "source": "https://wmcraftnet.github.io/",
+    "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 储蓄罐 · Z 轴",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "wm_object_strawberry_62",
+    "type": "video",
+    "url": "https://wmcraftnet.github.io/static/videos/color/strawberry.mp4",
+    "source": "https://wmcraftnet.github.io/",
+    "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 草莓 · Z 轴",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "wm_object_fire_hydrant_63",
+    "type": "video",
+    "url": "https://wmcraftnet.github.io/static/videos/color/firehydrant_red2.mp4",
+    "source": "https://wmcraftnet.github.io/",
+    "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 消防栓 · Z 轴",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "wm_object_cube_64",
+    "type": "video",
+    "url": "https://wmcraftnet.github.io/static/videos/color/block_blue.mp4",
+    "source": "https://wmcraftnet.github.io/",
+    "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 蓝色方块 · Z 轴",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "wm_object_bulb_65",
+    "type": "video",
+    "url": "https://wmcraftnet.github.io/static/videos/color/bulb_yellow.mp4",
+    "source": "https://wmcraftnet.github.io/",
+    "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 灯泡 · Z 轴",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "wm_object_apple_66",
+    "type": "video",
+    "url": "https://wmcraftnet.github.io/static/videos/z/2.mp4",
+    "source": "https://wmcraftnet.github.io/",
+    "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 苹果 · Z 轴",
+    "domain": "仿真",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "wm_object_notched_block_67",
+    "type": "video",
+    "url": "https://wmcraftnet.github.io/static/videos/z/8.mp4",
+    "source": "https://wmcraftnet.github.io/",
+    "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 双缺口圆柱 · Z 轴",
+    "domain": "仿真",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "wm_object_notched_block_68",
+    "type": "video",
+    "url": "https://wmcraftnet.github.io/static/videos/unseen/unseen_h264.mp4",
+    "source": "https://wmcraftnet.github.io/",
+    "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 单缺口 / 窄体 / 双缺口块 · 未见物体",
+    "domain": "仿真",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "wm_object_toothpaste_69",
+    "type": "video",
+    "url": "https://wmcraftnet.github.io/static/videos/real_y/toothpaste_y_h264.mp4",
+    "source": "https://wmcraftnet.github.io/",
+    "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 牙膏管 · Y 轴短轴",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "wm_object_corner_block_70",
+    "type": "video",
+    "url": "https://wmcraftnet.github.io/static/videos/real_y/cornerblock_y_h264.mp4",
+    "source": "https://wmcraftnet.github.io/",
+    "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 拐角块 · Y 轴",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "wm_object_toy_bucket_71",
+    "type": "video",
+    "url": "https://wmcraftnet.github.io/static/videos/y/0.mp4",
+    "source": "https://wmcraftnet.github.io/",
+    "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 玩具垃圾桶 · Y 轴",
+    "domain": "仿真",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "wm_object_cylinder_72",
+    "type": "video",
+    "url": "https://wmcraftnet.github.io/static/videos/y/3.mp4",
+    "source": "https://wmcraftnet.github.io/",
+    "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 拐角圆柱 · Y 轴",
+    "domain": "仿真",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "wm_object_can_73",
+    "type": "video",
+    "url": "https://wmcraftnet.github.io/static/videos/y/5.mp4",
+    "source": "https://wmcraftnet.github.io/",
+    "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 易拉罐 · Y 轴",
+    "domain": "仿真",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "wm_object_flashlight_74",
+    "type": "video",
+    "url": "https://wmcraftnet.github.io/static/videos/y/7.mp4",
+    "source": "https://wmcraftnet.github.io/",
+    "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 手电筒 · Y 轴",
+    "domain": "仿真",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "wm_object_bottle_75",
+    "type": "video",
+    "url": "https://wmcraftnet.github.io/static/videos/y/8.mp4",
+    "source": "https://wmcraftnet.github.io/",
+    "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 瓶子 · Y 轴",
+    "domain": "仿真",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "wm_object_lego_brick_76",
+    "type": "video",
+    "url": "https://wmcraftnet.github.io/static/videos/x/4.mp4",
+    "source": "https://wmcraftnet.github.io/",
+    "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 凸点积木 · X 轴",
+    "domain": "仿真",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "wm_init_bottle",
+    "type": "video",
+    "url": "https://wmcraftnet.github.io/static/videos/adjustment/bottle_adjustment_y_h264.mp4",
+    "source": "https://wmcraftnet.github.io/",
+    "scope": "Challenging Initialization Pose / 0–10 s 拇指调整瓶子靠近手指，随后 Y 轴旋转",
+    "domain": "仿真",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "wm_init_can",
+    "type": "video",
+    "url": "https://wmcraftnet.github.io/static/videos/adjustment/cokecan_adjustment_z_h264.mp4",
+    "source": "https://wmcraftnet.github.io/",
+    "scope": "Challenging Initialization Pose / 0–5 s 五指扶正，随后 Z 轴旋转",
+    "domain": "仿真",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "wm_init_corner_block",
+    "type": "video",
+    "url": "https://wmcraftnet.github.io/static/videos/adjustment/cornercube_adjustment_z_h264.mp4",
+    "source": "https://wmcraftnet.github.io/",
+    "scope": "Challenging Initialization Pose / 0–4 s 引导至掌指交界，随后 Z 轴旋转",
+    "domain": "仿真",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "wm_init_piggy",
+    "type": "video",
+    "url": "https://wmcraftnet.github.io/static/videos/adjustment/piggy_bank_adjust_z_h264.mp4",
+    "source": "https://wmcraftnet.github.io/",
+    "scope": "Challenging Initialization Pose / 0–5 s 五指调整至可控区域，随后 Z 轴旋转",
+    "domain": "仿真",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_prop_image_id": "sphere",
+    "type": "image",
+    "url": "https://adept-dexterity.github.io/assets/primitives/07.png",
+    "source": "https://adept-dexterity.github.io/",
+    "scope": "ADEPT 几何示意 · 原规格之一",
+    "domain": "几何示意",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_prop_image_id": "cube",
+    "type": "image",
+    "url": "https://adept-dexterity.github.io/assets/primitives/01.png",
+    "source": "https://adept-dexterity.github.io/",
+    "scope": "ADEPT 几何示意 · 原规格之一",
+    "domain": "几何示意",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_prop_image_id": "capsule",
+    "type": "image",
+    "url": "https://adept-dexterity.github.io/assets/primitives/09.png",
+    "source": "https://adept-dexterity.github.io/",
+    "scope": "ADEPT 几何示意 · 原规格之一",
+    "domain": "几何示意",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_prop_image_id": "cone",
+    "type": "image",
+    "url": "https://adept-dexterity.github.io/assets/primitives/15.png",
+    "source": "https://adept-dexterity.github.io/",
+    "scope": "ADEPT 几何示意 · 原规格之一",
+    "domain": "几何示意",
+    "verified": "2026-09-24"
   }
 ]

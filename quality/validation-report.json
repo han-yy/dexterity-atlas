@@ -1,14 +1,14 @@
 {
-  "checked_at": "2026-09-24T08:32:37.309Z",
+  "checked_at": "2026-09-24T10:01:58.440Z",
   "catalogue": {
-    "actions": 210,
-    "primitives": 35,
-    "props": 47,
-    "sources": 20,
+    "actions": 231,
+    "primitives": 37,
+    "props": 79,
+    "sources": 24,
     "by_origin": {
-      "direct": 87,
-      "adapted": 11,
-      "extension": 112
+      "direct": 107,
+      "adapted": 13,
+      "extension": 111
     }
   },
   "numeric_template_checks": {
@@ -24,26 +24,19 @@
     "physics": "NOT VALIDATED: no collision/force/friction simulator or calibrated human model",
     "template_limits": "Illustrative display bounds, not clinical ROM or a robot URDF"
   },
-  "browser_checks_v1_1": {
-    "hero_button": "pass: opens I01 and uses same HORA video",
-    "search_continuous_rotation": "pass: 持续旋转 returns I01 and I30",
-    "coverage": "14 families, 50 unique linked entries; pen-spin family filter returns I32",
-    "deep_link": "pass: #action/B22 opens matching detail",
-    "penspin_video": "readyState 4; 1920px video; HEAD transient SSL error did not reproduce in browser",
-    "catch_video": "readyState 4; video/webm; simulation label visible",
-    "baoding_gif": "loaded; naturalWidth 193",
-    "mobile_390px": "coverage page documentWidth 375, no horizontal page overflow; navigation scrolls",
-    "csv": "210 unique IDs match catalogue"
-  },
-  "review_v1_1": {
-    "source_action_correspondence": "Primary author pages and specific media locators reviewed; no completeness claim",
-    "frames_visually_inspected": [
-      "PenSpin I32 opening frame",
-      "EggCatchUnderarm B22 opening frame",
-      "PDDM I33 loaded official animation"
+  "browser_checks_v1_2": {
+    "status": "representative checks passed",
+    "checked": [
+      "Coverage import summary: 21 new actions, 7 enriched actions, 32 new props",
+      "U17 media selector changes video source, caption and source URL; ADEPT star video readyState 4, duration 7.75 s",
+      "I01 selection of X-axis simulation updates domain badge and caption",
+      "New props filter returns 32/79; ADEPT + new returns 6; bulb search returns bulb and socket",
+      "Source shortcut TeleDexter returns 13 linked actions",
+      "TeleDexter hammer clip loaded with readyState 4 and teleoperation label",
+      "375 px viewport: page and dialog widths do not horizontally overflow after header / grid fix",
+      "Static CSV files parsed: 231 action rows, 79 prop rows; imported props retain citations and action links"
     ],
-    "temporal_fidelity": "unknown: no frame-by-frame review of every added video",
-    "geometry_and_contact": "unknown: third-party media, no new hand model generated",
-    "physical_feasibility": "unknown: source real/simulation domains are disclosed, no independent physics validation"
+    "download_limit": "Browser download-event observation timed out for filtered CSV button; no JS error seen. Filtered download completion is unverified. Complete static props.csv is supplied as a direct-link fallback.",
+    "media_limits": "59 remote entries returned HTTP 200 in HEAD checks. Availability does not prove every clip is playable or individually reviewed."
   }
 }
