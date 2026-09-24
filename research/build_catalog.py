@@ -1,5 +1,6 @@
 """Build the authored action catalogue. Dimensions/repetitions are proposed protocols, not paper claims."""
-import json
+import json,csv
+from dexterity_expansion import expand
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sources={
@@ -225,7 +226,19 @@ for a in actions:
  if a['id'] in {'J09','J10','J11','J12','J13','J14','J18','J19','J29'}:
   a['pose']=None
   a['template_status']='unsupported: thumb coordination requires further geometry/contact review; use official illustration'
-data=dict(version='1.0',verified='2026-09-24',sources=sources,media=media,categories=[dict(id=x,label=z,index=y) for x,y,z in categories],primitives=primitives,props=props,actions=actions)
+families,featured,coverage_gaps=expand(sources,media,primitives,props,actions,add)
+data=dict(version='1.1',verified='2026-09-24',sources=sources,media=media,categories=[dict(id=x,label=z,index=y) for x,y,z in categories],primitives=primitives,props=props,actions=actions,families=families,featured=featured,coverage_gaps=coverage_gaps)
 ROOT.joinpath('data.js').write_text('window.ATLAS = '+json.dumps(data,ensure_ascii=False,separators=(',',':'))+';\n')
 ROOT.joinpath('research/catalog.json').write_text(json.dumps(data,ensure_ascii=False,indent=2))
+with ROOT.joinpath('research/actions.csv').open('w',encoding='utf-8-sig',newline='') as f:
+ writer=csv.writer(f)
+ writer.writerow(['ID','中文动作','英文动作','类别','来源关系','元动作ID','道具ID','定位','来源','链接','演示范围','说明','成功判据建议'])
+ for a in actions:
+  writer.writerow([a['id'],a['name'],a['en'],a['category'],a['origin'],';'.join(a['primitives']),';'.join(a['props']),a['locator'],';'.join(sources[s]['title'] for s in a['sources']),';'.join(sources[s]['url'] for s in a['sources']),a['mediaScope'],a['description'],a['success']])
+ROOT.joinpath('research/coverage-audit.json').write_text(json.dumps(dict(version=data['version'],families=families,gaps=coverage_gaps,counts={k:sum(a['origin']==k for a in actions) for k in ['direct','adapted','extension']}),ensure_ascii=False,indent=2))
+provenance_path=ROOT/'research/media-provenance.json'
+provenance=json.loads(provenance_path.read_text())
+provenance=[p for p in provenance if not p.get('catalog_media_id')]
+provenance.extend(dict(catalog_media_id=k,type=m['type'],url=m['url'],source=sources[m['source']]['url'],scope=m['match'],domain=m.get('domain','参考素材'),verified='2026-09-24') for k,m in media.items())
+provenance_path.write_text(json.dumps(provenance,ensure_ascii=False,indent=2))
 print(f'{len(actions)} actions, {len(primitives)} primitives, {len(props)} props, {len(sources)} sources')

@@ -166,5 +166,203 @@
       "length": "2270669",
       "ranges": "bytes"
     }
+  },
+  {
+    "catalog_media_id": "hora",
+    "type": "video",
+    "url": "https://haozhi.io/hora/results/teaser.mp4",
+    "source": "https://haozhi.io/hora/",
+    "scope": "原项目同类演示；不承诺覆盖每个扩展条件",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "viser",
+    "type": "video",
+    "url": "https://rffr.leggedrobotics.com/works/viserdex/videos/teaser_reorientation.mp4",
+    "source": "https://rffr.leggedrobotics.com/works/viserdex/",
+    "scope": "任务族演示；具体物体以视频实际内容为准",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "tea",
+    "type": "video",
+    "url": "https://dex-umi.github.io/static/videos/xhand_tea.mp4",
+    "source": "https://dex-umi.github.io/",
+    "scope": "对应 Tea Picking with Tool",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "cube",
+    "type": "video",
+    "url": "https://dex-umi.github.io/static/videos/inspire/pickNplace/pickNplace_demo.mp4",
+    "source": "https://dex-umi.github.io/",
+    "scope": "对应 Cube Picking",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "kitchen",
+    "type": "video",
+    "url": "https://dex-umi.github.io/static/videos/xhand/kitchen/kitchen_demo.mp4",
+    "source": "https://dex-umi.github.io/",
+    "scope": "完整四步视频，未裁切为各子动作",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "egg",
+    "type": "video",
+    "url": "https://dex-umi.github.io/static/videos/inspire/egg/egg_demo.mp4",
+    "source": "https://dex-umi.github.io/",
+    "scope": "对应 Egg Carton",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "nina",
+    "type": "image",
+    "url": "assets/ninapro-movements.png",
+    "source": "https://ninapro.hevs.ch/instructions/DB1.html",
+    "scope": "原图含 A/B/C/D；本库明确指出对应分组与编号",
+    "domain": "参考素材",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "feix",
+    "type": "image",
+    "url": "assets/feix-taxonomy.png",
+    "source": "https://www.eng.yale.edu/grablab/pubs/Feix_THMS2016.pdf",
+    "scope": "按 GRASP # 编号定位；静态姿态参考，不是视频",
+    "domain": "参考素材",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "grab",
+    "type": "youtube",
+    "url": "https://www.youtube.com/embed/s5syYMxmNHA",
+    "source": "https://grab.is.tue.mpg.de/",
+    "scope": "仅为相关任务与接触记录参考，未逐动作定位",
+    "domain": "参考素材",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "arctic",
+    "type": "video",
+    "url": "https://download.is.tue.mpg.de/arctic/static/videos/dexterous.mp4",
+    "source": "https://arctic.is.tue.mpg.de/",
+    "scope": "多任务合集，未逐项定位剪刀或笔记本片段",
+    "domain": "人手数据集",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "dexmachina",
+    "type": "video",
+    "url": "https://project-dexmachina.github.io/compressed-dexmachina-deanon-teaser.mp4",
+    "source": "https://project-dexmachina.github.io/",
+    "scope": "仿真任务合集；不是每个动作的独立录像",
+    "domain": "仿真",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "hora_multi",
+    "type": "video",
+    "url": "https://haozhi.io/hora/results/multi_tennis.mp4",
+    "source": "https://haozhi.io/hora/",
+    "scope": "Multi-Axis Rotation Policy 小节；轴向切换，不等同于任意终点朝向。",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "penspin",
+    "type": "video",
+    "url": "https://penspin.github.io/videos/teaser_web.mp4",
+    "source": "https://penspin.github.io/",
+    "scope": "官方 teaser；细长物体和换指过程。",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "dactyl",
+    "type": "youtube",
+    "url": "https://www.youtube.com/embed/jwSbzNHGflM",
+    "source": "https://arxiv.org/abs/1808.00177",
+    "scope": "论文摘要链接的总览；未逐帧定位重力辅助片段。",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "rubik",
+    "type": "link",
+    "url": "https://openai.com/index/solving-rubiks-cube/",
+    "source": "https://openai.com/index/solving-rubiks-cube/",
+    "scope": "原站包含完整求解及扰动演示；请在原站播放，未取得稳定直链。",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "onehand_lid",
+    "type": "video",
+    "url": "https://dex-manip.github.io/videos/policy_demo.mp4",
+    "source": "https://dex-manip.github.io/",
+    "scope": "Experiments / Best policy evaluation。",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "baoding",
+    "type": "gif",
+    "url": "https://bair.berkeley.edu/static/blog/deep-dynamics/image12.gif",
+    "source": "https://bair.berkeley.edu/blog/2019/09/30/deep-dynamics/",
+    "scope": "Figure 4 最右：约 2 小时训练后的实机展示。",
+    "domain": "真实机器人",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "pencil_path",
+    "type": "gif",
+    "url": "https://bair.berkeley.edu/static/blog/deep-dynamics/image14.gif",
+    "source": "https://bair.berkeley.edu/blog/2019/09/30/deep-dynamics/",
+    "scope": "Figure 7 仿真手写展示；允许手指和手腕共同运动。",
+    "domain": "仿真",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "catch_under",
+    "type": "video",
+    "url": "https://dexterous-manipulation.github.io/videos/eggcatchunderarm_topdm.webm",
+    "source": "https://dexterous-manipulation.github.io/",
+    "scope": "Results / EggCatchUnderarm / TOPDM。",
+    "domain": "仿真",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "catch_over",
+    "type": "video",
+    "url": "https://dexterous-manipulation.github.io/videos/eggcatchoverarm_topdm.webm",
+    "source": "https://dexterous-manipulation.github.io/",
+    "scope": "Results / EggCatchOverarm / TOPDM。",
+    "domain": "仿真",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "catch_two",
+    "type": "video",
+    "url": "https://dexterous-manipulation.github.io/videos/twoeggcatch_topdm.webm",
+    "source": "https://dexterous-manipulation.github.io/",
+    "scope": "Results / TwoEggCatchUnderarm / TOPDM。",
+    "domain": "仿真",
+    "verified": "2026-09-24"
+  },
+  {
+    "catalog_media_id": "piano",
+    "type": "video",
+    "url": "https://kzakka.com/robopianist/assets/videos/simple/twinkle_twinkle.mp4",
+    "source": "https://kzakka.com/robopianist/",
+    "scope": "Simple pieces / Twinkle Twinkle Little Star。",
+    "domain": "仿真",
+    "verified": "2026-09-24"
   }
 ]

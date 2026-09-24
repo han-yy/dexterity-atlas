@@ -5,6 +5,10 @@ const data=JSON.parse(fs.readFileSync(path.join(root,'research/catalog.json'),'u
 const failures=[];function check(ok,message){if(!ok)failures.push(message)}
 const ids=new Set();for(const a of data.actions){check(!ids.has(a.id),'duplicate '+a.id);ids.add(a.id);check(a.sources.length>0,'missing source '+a.id);for(const s of a.sources)check(!!data.sources[s],'unknown source '+s);for(const p of a.primitives)check(data.primitives.some(x=>x.id===p),'unknown primitive '+p);for(const p of a.props)check(data.props.some(x=>x.id===p),'unknown prop '+p);check(!!data.media[a.media],'missing media '+a.id);check(!!a.locator&&!!a.mediaScope,'missing provenance '+a.id);if(a.id.startsWith('J'))check(fs.existsSync(path.join(root,'assets/joints',a.id+'.png')),'missing joint asset '+a.id);if(a.id.startsWith('G'))check(fs.existsSync(path.join(root,'assets/feix','grasp-'+a.id.slice(1)+'.png')),'missing grasp asset '+a.id)}
 check(data.actions.filter(a=>a.category==='grasp').length===33,'GRASP coverage');
+for(const f of data.families||[]){check(f.actions.length>0,'empty task family '+f.id);for(const id of f.actions)check(ids.has(id),'unknown family action '+id);check(!!f.gap,'missing coverage limit '+f.id)}
+check(data.actions.find(a=>a.id==='I01').aliases.includes('持续旋转'),'continuous rotation search alias');
+for(const id of ['catch_under','catch_over','catch_two','piano'])check(data.media[id].domain==='仿真','simulation disclosure '+id);
+check(data.featured[0]==='I01','featured video task must be first');
 const model=window.HandModel;let sampled=0,maxStep=0;
 for(const a of data.actions.filter(a=>a.pose)){
  let prev=null;for(let i=0;i<=100;i++){

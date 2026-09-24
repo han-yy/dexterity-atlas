@@ -1,13 +1,13 @@
 {
-  "checked_at": "2026-09-24T08:03:06.339Z",
+  "checked_at": "2026-09-24T08:32:37.309Z",
   "catalogue": {
-    "actions": 198,
-    "primitives": 32,
-    "props": 43,
-    "sources": 13,
+    "actions": 210,
+    "primitives": 35,
+    "props": 47,
+    "sources": 20,
     "by_origin": {
-      "direct": 76,
-      "adapted": 10,
+      "direct": 87,
+      "adapted": 11,
       "extension": 112
     }
   },
@@ -24,28 +24,26 @@
     "physics": "NOT VALIDATED: no collision/force/friction simulator or calibrated human model",
     "template_limits": "Illustrative display bounds, not clinical ROM or a robot URDF"
   },
-  "browser_checks": {
-    "desktop": "pass",
-    "mobile_390px": "no horizontal overflow; all visible images loaded",
-    "search": "pass: tweezers query",
-    "filters": "3D filter and categories verified",
-    "official_video": "DexUMI tea readyState 4, 1280px, 14.53s duration",
-    "collection_export": "CSV export invoked with one selected sourced action; add/remove verified",
-    "prop_inventory": "43 entries rendered",
-    "reference_view": "13 source entries rendered",
-    "calculator": "75 min baseline; zero repetitions rejected",
-    "renderer": "software projection verified; WebGL context unavailable on test browser",
-    "disabled_templates": [
-      "J09",
-      "J10",
-      "J11",
-      "J12",
-      "J13",
-      "J14",
-      "J18",
-      "J19",
-      "J29"
+  "browser_checks_v1_1": {
+    "hero_button": "pass: opens I01 and uses same HORA video",
+    "search_continuous_rotation": "pass: 持续旋转 returns I01 and I30",
+    "coverage": "14 families, 50 unique linked entries; pen-spin family filter returns I32",
+    "deep_link": "pass: #action/B22 opens matching detail",
+    "penspin_video": "readyState 4; 1920px video; HEAD transient SSL error did not reproduce in browser",
+    "catch_video": "readyState 4; video/webm; simulation label visible",
+    "baoding_gif": "loaded; naturalWidth 193",
+    "mobile_390px": "coverage page documentWidth 375, no horizontal page overflow; navigation scrolls",
+    "csv": "210 unique IDs match catalogue"
+  },
+  "review_v1_1": {
+    "source_action_correspondence": "Primary author pages and specific media locators reviewed; no completeness claim",
+    "frames_visually_inspected": [
+      "PenSpin I32 opening frame",
+      "EggCatchUnderarm B22 opening frame",
+      "PDDM I33 loaded official animation"
     ],
-    "reason": "Thumb coordination not visually faithful enough; replaced with official source illustrations"
+    "temporal_fidelity": "unknown: no frame-by-frame review of every added video",
+    "geometry_and_contact": "unknown: third-party media, no new hand model generated",
+    "physical_feasibility": "unknown: source real/simulation domains are disclosed, no independent physics validation"
   }
 }

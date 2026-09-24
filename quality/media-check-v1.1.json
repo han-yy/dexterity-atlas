@@ -1,0 +1,59 @@
+[
+  {
+    "id": "hora_multi",
+    "url": "https://haozhi.io/hora/results/multi_tennis.mp4",
+    "status": 200,
+    "type": "video/mp4"
+  },
+  {
+    "id": "penspin",
+    "url": "https://penspin.github.io/videos/teaser_web.mp4",
+    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>",
+    "browser_check": {
+      "readyState": 4,
+      "videoWidth": 1920
+    }
+  },
+  {
+    "id": "onehand_lid",
+    "url": "https://dex-manip.github.io/videos/policy_demo.mp4",
+    "status": 200,
+    "type": "video/mp4"
+  },
+  {
+    "id": "baoding",
+    "url": "https://bair.berkeley.edu/static/blog/deep-dynamics/image12.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "id": "pencil_path",
+    "url": "https://bair.berkeley.edu/static/blog/deep-dynamics/image14.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "id": "catch_under",
+    "url": "https://dexterous-manipulation.github.io/videos/eggcatchunderarm_topdm.webm",
+    "status": 200,
+    "type": "video/webm"
+  },
+  {
+    "id": "catch_over",
+    "url": "https://dexterous-manipulation.github.io/videos/eggcatchoverarm_topdm.webm",
+    "status": 200,
+    "type": "video/webm"
+  },
+  {
+    "id": "catch_two",
+    "url": "https://dexterous-manipulation.github.io/videos/twoeggcatch_topdm.webm",
+    "status": 200,
+    "type": "video/webm"
+  },
+  {
+    "id": "piano",
+    "url": "https://kzakka.com/robopianist/assets/videos/simple/twinkle_twinkle.mp4",
+    "status": 200,
+    "type": "video/mp4"
+  }
+]
