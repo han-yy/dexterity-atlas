@@ -2,6 +2,7 @@
 import json,csv
 from dexterity_expansion import expand
 from project_expansion import expand_projects
+from actionsense_expansion import expand_actionsense
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sources={
@@ -229,25 +230,36 @@ for a in actions:
   a['template_status']='unsupported: thumb coordination requires further geometry/contact review; use official illustration'
 families,featured,coverage_gaps=expand(sources,media,primitives,props,actions,add)
 project_audit=expand_projects(sources,media,primitives,props,actions,add,families,featured,coverage_gaps)
-ROOT.joinpath('research/project-import-audit.json').write_text(json.dumps(project_audit,ensure_ascii=False,indent=2))
-data=dict(version='1.2',project_audit=project_audit,verified='2026-09-24',sources=sources,media=media,categories=[dict(id=x,label=z,index=y) for x,y,z in categories],primitives=primitives,props=props,actions=actions,families=families,featured=featured,coverage_gaps=coverage_gaps)
+import_history=[project_audit]
+project_audit,actionsense=expand_actionsense(sources,media,primitives,props,actions,add,families)
+ROOT.joinpath('research/project-import-audit.json').write_text(json.dumps(dict(latest=project_audit,history=import_history),ensure_ascii=False,indent=2))
+ROOT.joinpath('research/actionsense-mapping.json').write_text(json.dumps(actionsense,ensure_ascii=False,indent=2))
+with ROOT.joinpath('research/actionsense-labels.csv').open('w',encoding='utf-8-sig',newline='') as f:
+ writer=csv.writer(f)
+ writer.writerow(['本库标签索引','原始活动标签','中文工作译名','完整任务ID','保留条件','道具ID','道具名','本库子动作ID','原标签出处','流程依据','署名与许可'])
+ for r in actionsense['activities']:
+  writer.writerow([r['id'],r['label'],r['name'],r['action'],r['condition'],';'.join(r['props']),';'.join(next(p['name'] for p in props if p['id']==pid) for pid in r['props']),';'.join(r['subactions']),r['url'],r['protocol_url'],actionsense['attribution']+' '+actionsense['license_url']])
+from illustration_expansion import attach_illustrations
+illustration_audit=attach_illustrations(ROOT,actions)
+data=dict(version='1.4',illustration_audit=illustration_audit,project_audit=project_audit,import_history=import_history,actionsense=actionsense,verified='2026-09-28',sources=sources,media=media,categories=[dict(id=x,label=z,index=y) for x,y,z in categories],primitives=primitives,props=props,actions=actions,families=families,featured=featured,coverage_gaps=coverage_gaps)
 ROOT.joinpath('data.js').write_text('window.ATLAS = '+json.dumps(data,ensure_ascii=False,separators=(',',':'))+';\n')
 ROOT.joinpath('research/catalog.json').write_text(json.dumps(data,ensure_ascii=False,indent=2))
 with ROOT.joinpath('research/actions.csv').open('w',encoding='utf-8-sig',newline='') as f:
  writer=csv.writer(f)
- writer.writerow(['ID','中文动作','英文动作','类别','来源关系','元动作ID','道具ID','定位','来源','链接','演示范围','说明','成功判据建议','新增演示与定位'])
+ writer.writerow(['ID','中文动作','英文动作','类别','来源关系','元动作ID','道具ID','定位','来源','链接','演示范围','说明','成功判据建议','新增演示与定位','官方活动条件','本库建议分段','记录设备ID','AI教学图','生成图说明','手部形态检查报告'])
  for a in actions:
-  writer.writerow([a['id'],a['name'],a['en'],a['category'],a['origin'],';'.join(a['primitives']),';'.join(a['props']),a['locator'],';'.join(sources[s]['title'] for s in a['sources']),';'.join(sources[s]['url'] for s in a['sources']),a['mediaScope'],a['description'],a['success'],json.dumps(a.get('evidence',[]),ensure_ascii=False)])
+  writer.writerow([a['id'],a['name'],a['en'],a['category'],a['origin'],';'.join(a['primitives']),';'.join(a['props']),a['locator'],';'.join(sources[s]['title'] for s in a['sources']),';'.join(sources[s]['url'] for s in a['sources']),a['mediaScope'],a['description'],a['success'],json.dumps(a.get('evidence',[]),ensure_ascii=False),json.dumps(a.get('conditions',[]),ensure_ascii=False),json.dumps(a.get('phases',[]),ensure_ascii=False),';'.join(a.get('equipment',[])),a.get('illustration',{}).get('path',''),a.get('illustration',{}).get('caption',''),a.get('illustration',{}).get('anatomy_report','')])
 with ROOT.joinpath('research/props.csv').open('w',encoding='utf-8-sig',newline='') as f:
  writer=csv.writer(f)
  writer.writerow(['道具ID','名称','类别','规格与建议','用途','变体','来源及定位','关联动作'])
  for p in props:
-  writer.writerow([p['id'],p['name'],p['group'],p['spec'],p['use'],'；'.join(p.get('variants',[])),'；'.join(sources[e['source']]['short']+' / '+e['locator']+' / '+e['domain']+' / '+sources[e['source']]['url'] for e in p.get('evidence',[])),'；'.join(a['id']+' '+a['name'] for a in actions if p['id'] in a['props'])])
+  writer.writerow([p['id'],p['name'],p['group'],p['spec'],p['use'],'；'.join(p.get('variants',[])),'；'.join(sources[e['source']]['short']+' / '+e['locator']+' / '+e['domain']+' / '+sources[e['source']]['url'] for e in p.get('evidence',[])),'；'.join(a['id']+' '+a['name']+(' [记录设备]' if p['id'] not in a['props'] else '') for a in actions if p['id'] in a['props']+a.get('equipment',[]))])
 ROOT.joinpath('research/coverage-audit.json').write_text(json.dumps(dict(version=data['version'],families=families,gaps=coverage_gaps,counts={k:sum(a['origin']==k for a in actions) for k in ['direct','adapted','extension']}),ensure_ascii=False,indent=2))
 provenance_path=ROOT/'research/media-provenance.json'
 provenance=json.loads(provenance_path.read_text())
-provenance=[p for p in provenance if not p.get('catalog_media_id') and not p.get('catalog_prop_image_id')]
-provenance.extend(dict(catalog_media_id=k,type=m['type'],url=m['url'],source=sources[m['source']]['url'],scope=m['match'],domain=m.get('domain','参考素材'),verified='2026-09-24') for k,m in media.items())
+provenance=[p for p in provenance if not p.get('catalog_media_id') and not p.get('catalog_prop_image_id') and not p.get('generated_illustration_id')]
+provenance.extend(dict(catalog_media_id=k,type=m['type'],url=m['url'],source=sources[m['source']]['url'],scope=m['match'],domain=m.get('domain','参考素材'),verified=m.get('verified','2026-09-24'),license=m.get('license'),license_url=m.get('license_url')) for k,m in media.items())
 provenance.extend(dict(catalog_prop_image_id=p['id'],type='image',url=p['image'],source=sources['ADEPT']['url'],scope=p['imageLabel'],domain='几何示意',verified='2026-09-24') for p in props if p.get('image'))
+provenance.extend(dict(generated_illustration_id=a['id'],type='ai_image',url=a['illustration']['path'],domain='AI 教学示意',scope=a['illustration']['caption'],source_basis=[sources[s]['url'] for s in a['sources']],generator='built-in image_gen',review=a['illustration']['anatomy_report'],physics='unknown') for a in actions if a.get('illustration'))
 provenance_path.write_text(json.dumps(provenance,ensure_ascii=False,indent=2))
 print(f'{len(actions)} actions, {len(primitives)} primitives, {len(props)} props, {len(sources)} sources')

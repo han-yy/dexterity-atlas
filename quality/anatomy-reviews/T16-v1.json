@@ -1,0 +1,80 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/T16-v1.png",
+  "sha256": "9616839313377a663c5fb27f2395cdf1f54dd74588e0cb0b5a4e1859d0157d0b",
+  "action_id": "T16",
+  "reviewer": "hand-anatomy-reviewer / independent visual model review (motion_media)",
+  "expected_panels": 1,
+  "expected_hands_per_panel": [
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "掌侧径侧斜视，持瓶颈",
+          "bbox": [
+            0.26,
+            0.01,
+            1,
+            1
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "由右侧鱼际隆起向上左弯折，带甲指尖压在蓝色瓶盖顶侧，指间关节与根部连续。"
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "最上方长指从掌指部绕瓶盖上缘至左侧，经明显屈曲后指甲朝向观看者。"
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "第二根长指从瓶颈后方的独立左侧指根弧形接出，绕到瓶颈前侧，指尖与指甲在瓶盖下方。"
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "中指下方另一独立弯曲指链沿瓶肩前侧展开，末端指甲向右，与中指间分界清晰。"
+            },
+            "little": {
+              "visibility": "traceable",
+              "trace": "最下外侧短指从尺侧卷至瓶肩左侧，独立小指甲、圆端及向掌部回接的短弧可辨。"
+            }
+          },
+          "count_observation": "拇指及四根不同高度的卷指可独立追踪；瓶颈侧面有局部遮挡，但四条弯曲轮廓与四个末端一一对应。",
+          "length_observation": "持瓶造成各指屈曲和透视缩短；小指的可见弯曲链较短，中指和无名指节段相近，未见过长中节、短桩指或拉伸拇指。",
+          "joint_observation": "上方食指的完整弯曲链及下方三根分开的卷指连接到同一掌部；拇指鱼际与腕连续，未见额外分支或明显穿入瓶体。",
+          "checks": {
+            "five_digits": "pass",
+            "connectivity": "pass",
+            "proportions": "pass",
+            "joint_structure": "pass",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "pass",
+    "observation": "仅一个静态画面，实际看到 1 只手，与动作要求的手数相符；没有跨帧材料，未据此评估左右互换、指长随时间变化或运动连续性。"
+  },
+  "decision": "approve",
+  "limitations": "已打开原始分辨率 PNG；有歧义处另做局部放大。单视角视觉检查，遮挡几何和精确长度不作补全或测量；不是物理、临床或完整运动验证。",
+  "action_fidelity": {
+    "status": "pass",
+    "observation": "图示单手稳握带盖瓶的瓶颈，瓶身离开任何可见支撑，腕与前臂连续。符合持瓶运输可用的关键握持姿态；单帧不显示腕方向改变，不能作为旋转幅度或轨迹证据。"
+  },
+  "action_fidelity_scope": "Only the single key pose and expected prop are reviewed; no temporal completion claim."
+}

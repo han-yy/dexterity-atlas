@@ -1,0 +1,106 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/U09-v1.png",
+  "sha256": "32bd7ca2648fafebc7235c16a2ad318a4f298e988504ec78a9ad9ec1301f30fe",
+  "action_id": "U09",
+  "reviewer": "hand-anatomy-reviewer / independent visual model review (motion_media)",
+  "expected_panels": 1,
+  "expected_hands_per_panel": [
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "背侧径侧斜视，食指按按钮",
+          "bbox": [
+            0.267,
+            0,
+            1,
+            0.669
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "从径侧掌根向左下伸出，经过指间折纹到完整带甲指端，悬在按钮右侧。"
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "由最前方掌指关节斜向左下延伸，近中远节方向连续，带甲末端指腹压红色按钮。"
+            },
+            "middle": {
+              "visibility": "unresolvable",
+              "trace": "食指下可见一条折回掌内的卷指段，但其根部和末端被邻指与食指遮挡，无法确认完整中指链。"
+            },
+            "ring": {
+              "visibility": "unresolvable",
+              "trace": "虎口内可见朝右上的圆形指腹，不能从独立无名指根部追踪至该末端；不把皮肤折纹当分指。"
+            },
+            "little": {
+              "visibility": "unresolvable",
+              "trace": "掌内最下方卷曲肤色轮廓未显示独立的小指全链及末端，无法在重叠中分出。"
+            }
+          },
+          "count_observation": "仅拇指和按压食指可完整追踪；其余三根卷指互相遮挡，不能凭掌内几条折痕计数为三指。",
+          "length_observation": "食指伸展与拇指屈曲的可见长度可相容，未见明显拉长；掌内三根卷指的实际链长和小指相对长度不能判断。",
+          "joint_observation": "按压食指、拇指与掌腕连接连续；掌内重叠区无法把三根屈指的根部、关节和末端逐一匹配。",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "仅拇指和按压食指可完整追踪；其余三根卷指互相遮挡，不能凭掌内几条折痕计数为三指。",
+              "correction": "补充同一姿态的无遮挡视角，或轻微分开并露出受遮挡手指的独立根部、指节与指尖；保留正确道具和接触。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "按压食指、拇指与掌腕连接连续；掌内重叠区无法把三根屈指的根部、关节和末端逐一匹配。",
+              "correction": "补充同一姿态的无遮挡视角，或轻微分开并露出受遮挡手指的独立根部、指节与指尖；保留正确道具和接触。"
+            },
+            {
+              "code": "length_ratio",
+              "check": "proportions",
+              "evidence": "食指伸展与拇指屈曲的可见长度可相容，未见明显拉长；掌内三根卷指的实际链长和小指相对长度不能判断。",
+              "correction": "补充同一姿态的无遮挡视角，或轻微分开并露出受遮挡手指的独立根部、指节与指尖；保留正确道具和接触。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "按压食指、拇指与掌腕连接连续；掌内重叠区无法把三根屈指的根部、关节和末端逐一匹配。",
+              "correction": "补充同一姿态的无遮挡视角，或轻微分开并露出受遮挡手指的独立根部、指节与指尖；保留正确道具和接触。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "pass",
+    "observation": "仅一个静态画面，实际看到 1 只手，与动作要求的手数相符；没有跨帧材料，未据此评估左右互换、指长随时间变化或运动连续性。"
+  },
+  "decision": "needs_review",
+  "limitations": "已打开原始分辨率 PNG；有歧义处另做局部放大。单视角视觉检查，遮挡几何和精确长度不作补全或测量；不是物理、临床或完整运动验证。",
+  "action_fidelity": {
+    "status": "pass",
+    "observation": "食指指腹实际接触红色按钮顶面，其他可见手指未接触按钮；按钮道具和食指按压姿态匹配。单帧不能证明按钮已触发或位移量。"
+  },
+  "action_fidelity_scope": "Only the single key pose and expected prop are reviewed; no temporal completion claim.",
+  "inspection_note": "原图及 /tmp/U09-anatomy-zoom.png 局部放大均已实际查看。"
+}

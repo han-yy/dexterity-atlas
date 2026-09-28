@@ -1,0 +1,363 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/I18-v1.png",
+  "sha256": "9086906dab7537c59527ae459690c8b73a223068a23b0607da79c2455df1a019",
+  "action_id": "I18",
+  "reviewer": "hand-anatomy-reviewer / anatomy_review_batch2 / visual model review",
+  "intended_action": {
+    "name": "连续位置与朝向目标",
+    "hands": "单手"
+  },
+  "expected_panels": 4,
+  "expected_hands_per_panel": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0,
+        0,
+        0.5,
+        0.49
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "palm up, forearm horizontal to image-right",
+          "bbox": [
+            0.041,
+            0.014,
+            0.485,
+            0.405
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "Panel 1: radial thenar mass is on the upper side of this horizontal palm; the thumb bends leftward and ends in the broad nail-bearing pad on the cube top."
+            },
+            "index": {
+              "visibility": "unresolvable",
+              "trace": "Panel 1: an isolated upper-left terminal pad is visible beyond the cube, but its proximal and middle path to the palm lies largely behind the object; index assignment is provisional and cannot supply a complete independent trace."
+            },
+            "middle": {
+              "visibility": "visible",
+              "trace": "Panel 1: the first foreground curled finger under the isolated upper pad follows the left-lower cube edge into a distinct base beneath the cube and ends in its own nail-bearing tip."
+            },
+            "ring": {
+              "visibility": "visible",
+              "trace": "Panel 1: the next foreground ray curves from the distal palm below the cube to the separate central lower nail-bearing tip, with a visible bent chain."
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "Panel 1: outermost lower ray starts at the ulnar palm edge, curls left/up and ends in the smallest rightmost foreground fingertip below the cube."
+            }
+          },
+          "count_observation": "Five terminal candidates are visible, but only four have adequately resolved base-to-tip paths. The isolated upper pad is not counted as a proven fifth ray solely because it has a nail/rounded silhouette.",
+          "length_observation": "The thumb has two visibly continuous sections and the three foreground curled fingers decrease toward the little finger in a plausible flexed arrangement. Their projected heights differ with curl. The cube hides most of the index centerline, so its total and segment lengths cannot be compared with the middle finger.",
+          "joint_observation": "The visible thumb and three foreground fingers have continuous curved outlines into the palm. The cube hides the index connection and most of its joints. Palm-side creases and upper radial thumb origin identify a right hand; all visible fingertips, wrist and a short forearm fit.",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "Panel 1: the uppermost left-side finger pad lies beyond the cube, but most of the index chain and its unique connection to the distal palm are behind the cube. The exposed pad alone is insufficient for a complete trace.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "Panel 1: the uppermost left-side finger pad lies beyond the cube, but most of the index chain and its unique connection to the distal palm are behind the cube. The exposed pad alone is insufficient for a complete trace. The hidden ray cannot be connected to a unique base through its full visible chain.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "The thumb has two visibly continuous sections and the three foreground curled fingers decrease toward the little finger in a plausible flexed arrangement. Their projected heights differ with curl. The cube hides most of the index centerline, so its total and segment lengths cannot be compared with the middle finger.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "Panel 1: the uppermost left-side finger pad lies beyond the cube, but most of the index chain and its unique connection to the distal palm are behind the cube. The exposed pad alone is insufficient for a complete trace. Hidden flexion and segment topology cannot be verified.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "panel": 2,
+      "bbox": [
+        0.5,
+        0,
+        1,
+        0.49
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "palm up, forearm horizontal to image-right",
+          "bbox": [
+            0.548,
+            0.016,
+            0.994,
+            0.41
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "Panel 2: radial thenar mass is on the upper side of this horizontal palm; the thumb bends leftward and ends in the broad nail-bearing pad on the cube top."
+            },
+            "index": {
+              "visibility": "unresolvable",
+              "trace": "Panel 2: an isolated upper-left terminal pad is visible beyond the cube, but its proximal and middle path to the palm lies largely behind the object; index assignment is provisional and cannot supply a complete independent trace."
+            },
+            "middle": {
+              "visibility": "visible",
+              "trace": "Panel 2: the first foreground curled finger under the isolated upper pad follows the left-lower cube edge into a distinct base beneath the cube and ends in its own nail-bearing tip."
+            },
+            "ring": {
+              "visibility": "visible",
+              "trace": "Panel 2: the next foreground ray curves from the distal palm below the cube to the separate central lower nail-bearing tip, with a visible bent chain."
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "Panel 2: outermost lower ray starts at the ulnar palm edge, curls left/up and ends in the smallest rightmost foreground fingertip below the cube."
+            }
+          },
+          "count_observation": "Five terminal candidates are visible, but only four have adequately resolved base-to-tip paths. The isolated upper pad is not counted as a proven fifth ray solely because it has a nail/rounded silhouette.",
+          "length_observation": "The thumb has two visibly continuous sections and the three foreground curled fingers decrease toward the little finger in a plausible flexed arrangement. Their projected heights differ with curl. The cube hides most of the index centerline, so its total and segment lengths cannot be compared with the middle finger.",
+          "joint_observation": "The visible thumb and three foreground fingers have continuous curved outlines into the palm. The cube hides the index connection and most of its joints. Palm-side creases and upper radial thumb origin identify a right hand; all visible fingertips, wrist and a short forearm fit.",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "Panel 2: the uppermost left-side finger pad lies beyond the cube, but most of the index chain and its unique connection to the distal palm are behind the cube. The exposed pad alone is insufficient for a complete trace.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "Panel 2: the uppermost left-side finger pad lies beyond the cube, but most of the index chain and its unique connection to the distal palm are behind the cube. The exposed pad alone is insufficient for a complete trace. The hidden ray cannot be connected to a unique base through its full visible chain.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "The thumb has two visibly continuous sections and the three foreground curled fingers decrease toward the little finger in a plausible flexed arrangement. Their projected heights differ with curl. The cube hides most of the index centerline, so its total and segment lengths cannot be compared with the middle finger.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "Panel 2: the uppermost left-side finger pad lies beyond the cube, but most of the index chain and its unique connection to the distal palm are behind the cube. The exposed pad alone is insufficient for a complete trace. Hidden flexion and segment topology cannot be verified.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "panel": 3,
+      "bbox": [
+        0,
+        0.5,
+        0.5,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "palm up, forearm horizontal to image-right",
+          "bbox": [
+            0.041,
+            0.518,
+            0.485,
+            0.917
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "Panel 3: radial thenar mass is on the upper side of this horizontal palm; the thumb bends leftward and ends in the broad nail-bearing pad on the cube top."
+            },
+            "index": {
+              "visibility": "unresolvable",
+              "trace": "Panel 3: an isolated upper-left terminal pad is visible beyond the cube, but its proximal and middle path to the palm lies largely behind the object; index assignment is provisional and cannot supply a complete independent trace."
+            },
+            "middle": {
+              "visibility": "visible",
+              "trace": "Panel 3: the first foreground curled finger under the isolated upper pad follows the left-lower cube edge into a distinct base beneath the cube and ends in its own nail-bearing tip."
+            },
+            "ring": {
+              "visibility": "visible",
+              "trace": "Panel 3: the next foreground ray curves from the distal palm below the cube to the separate central lower nail-bearing tip, with a visible bent chain."
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "Panel 3: outermost lower ray starts at the ulnar palm edge, curls left/up and ends in the smallest rightmost foreground fingertip below the cube."
+            }
+          },
+          "count_observation": "Five terminal candidates are visible, but only four have adequately resolved base-to-tip paths. The isolated upper pad is not counted as a proven fifth ray solely because it has a nail/rounded silhouette.",
+          "length_observation": "The thumb has two visibly continuous sections and the three foreground curled fingers decrease toward the little finger in a plausible flexed arrangement. Their projected heights differ with curl. The cube hides most of the index centerline, so its total and segment lengths cannot be compared with the middle finger.",
+          "joint_observation": "The visible thumb and three foreground fingers have continuous curved outlines into the palm. The cube hides the index connection and most of its joints. Palm-side creases and upper radial thumb origin identify a right hand; all visible fingertips, wrist and a short forearm fit.",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "Panel 3: the uppermost left-side finger pad lies beyond the cube, but most of the index chain and its unique connection to the distal palm are behind the cube. The exposed pad alone is insufficient for a complete trace.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "Panel 3: the uppermost left-side finger pad lies beyond the cube, but most of the index chain and its unique connection to the distal palm are behind the cube. The exposed pad alone is insufficient for a complete trace. The hidden ray cannot be connected to a unique base through its full visible chain.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "The thumb has two visibly continuous sections and the three foreground curled fingers decrease toward the little finger in a plausible flexed arrangement. Their projected heights differ with curl. The cube hides most of the index centerline, so its total and segment lengths cannot be compared with the middle finger.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "Panel 3: the uppermost left-side finger pad lies beyond the cube, but most of the index chain and its unique connection to the distal palm are behind the cube. The exposed pad alone is insufficient for a complete trace. Hidden flexion and segment topology cannot be verified.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "panel": 4,
+      "bbox": [
+        0.5,
+        0.5,
+        1,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "palm up, forearm horizontal to image-right",
+          "bbox": [
+            0.556,
+            0.532,
+            0.994,
+            0.925
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "Panel 4: radial thenar mass is on the upper side of this horizontal palm; the thumb bends leftward and ends in the broad nail-bearing pad on the cube top."
+            },
+            "index": {
+              "visibility": "unresolvable",
+              "trace": "Panel 4: an isolated upper-left terminal pad is visible beyond the cube, but its proximal and middle path to the palm lies largely behind the object; index assignment is provisional and cannot supply a complete independent trace."
+            },
+            "middle": {
+              "visibility": "visible",
+              "trace": "Panel 4: the first foreground curled finger under the isolated upper pad follows the left-lower cube edge into a distinct base beneath the cube and ends in its own nail-bearing tip."
+            },
+            "ring": {
+              "visibility": "visible",
+              "trace": "Panel 4: the next foreground ray curves from the distal palm below the cube to the separate central lower nail-bearing tip, with a visible bent chain."
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "Panel 4: outermost lower ray starts at the ulnar palm edge, curls left/up and ends in the smallest rightmost foreground fingertip below the cube."
+            }
+          },
+          "count_observation": "Five terminal candidates are visible, but only four have adequately resolved base-to-tip paths. The isolated upper pad is not counted as a proven fifth ray solely because it has a nail/rounded silhouette.",
+          "length_observation": "The thumb has two visibly continuous sections and the three foreground curled fingers decrease toward the little finger in a plausible flexed arrangement. Their projected heights differ with curl. The cube hides most of the index centerline, so its total and segment lengths cannot be compared with the middle finger.",
+          "joint_observation": "The visible thumb and three foreground fingers have continuous curved outlines into the palm. The cube hides the index connection and most of its joints. Palm-side creases and upper radial thumb origin identify a right hand; all visible fingertips, wrist and a short forearm fit.",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "Panel 4: the uppermost left-side finger pad lies beyond the cube, but most of the index chain and its unique connection to the distal palm are behind the cube. The exposed pad alone is insufficient for a complete trace.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "Panel 4: the uppermost left-side finger pad lies beyond the cube, but most of the index chain and its unique connection to the distal palm are behind the cube. The exposed pad alone is insufficient for a complete trace. The hidden ray cannot be connected to a unique base through its full visible chain.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "The thumb has two visibly continuous sections and the three foreground curled fingers decrease toward the little finger in a plausible flexed arrangement. Their projected heights differ with curl. The cube hides most of the index centerline, so its total and segment lengths cannot be compared with the middle finger.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "Panel 4: the uppermost left-side finger pad lies beyond the cube, but most of the index chain and its unique connection to the distal palm are behind the cube. The exposed pad alone is insufficient for a complete trace. Hidden flexion and segment topology cannot be verified.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "unknown",
+    "observation": "All four panels maintain one horizontal right palm with stable visible thumb and three foreground curled rays. The cube conceals the index chain throughout, so five-digit and full length continuity cannot be approved even though five terminal candidates appear.",
+    "issues": [
+      {
+        "code": "ambiguous_occlusion",
+        "panels": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "evidence": "The upper-left candidate index pad cannot be followed to its independent base through the broad cube occlusion.",
+        "correction": "Expose the unresolved rays consistently across these panels so digit identity and lengths can be compared."
+      }
+    ]
+  },
+  "decision": "needs_review",
+  "limitations": "Actual original image and, where necessary, enlarged detail inspected. Single-view visual anatomy assessment only: hidden bone geometry, exact centerline lengths and physical feasibility are not measured. This report does not approve action fidelity or motion between the illustrated panels."
+}

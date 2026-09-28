@@ -1,0 +1,39 @@
+{
+  "date": "2026-09-28",
+  "reviewed_image_versions": 51,
+  "anatomy_decisions": {
+    "needs_review": 33,
+    "approve": 16,
+    "reject": 2
+  },
+  "published_actions": 14,
+  "candidate_actions": 142,
+  "generated_actions": 49,
+  "remaining_actions": 128,
+  "visual_regression_examples": [
+    {
+      "report": "quality/anatomy-reviews/I05-v1.json",
+      "expected": "reject",
+      "issue": "four-finger panel and inconsistent handedness"
+    },
+    {
+      "report": "quality/anatomy-reviews/I05-v3.json",
+      "expected": "approve",
+      "issue": "regenerated clearly traceable five-digit pose"
+    },
+    {
+      "report": "quality/anatomy-fixtures/proportion-test-v1-review.json",
+      "expected": "reject",
+      "issue": "deliberately elongated little finger with repeated joint-like sections; development fixture only"
+    }
+  ],
+  "report_gate_regression_tests": 8,
+  "browser_checks": [
+    "AI teaching-image filter",
+    "full-hand image at 390px viewport",
+    "exact image version and anatomy report links",
+    "original media selector preserved",
+    "anatomy rules and Chinese usage linked from protocol page"
+  ],
+  "scope": "Actual images were visually inspected; programmatic tests check report integrity and publication rules only. This small fixture set is not a measured anatomical defect detection benchmark. Image campaign remains incomplete."
+}

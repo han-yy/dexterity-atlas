@@ -1,0 +1,280 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/I13-v1.png",
+  "sha256": "a9b2bf45d6e8a747a3c2094fe41cab570bbc5ee00caa2d03f85ad8b2e86d2016",
+  "action_id": "I13",
+  "reviewer": "hand-anatomy-reviewer / anatomy_review_batch2 / visual model review",
+  "intended_action": {
+    "name": "绕掌系 X 轴定向旋转",
+    "hands": "单手"
+  },
+  "expected_panels": 3,
+  "expected_hands_per_panel": [
+    1,
+    1,
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0.0,
+        0,
+        0.3333,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "left",
+          "view": "palm up, fingers strongly foreshortened toward viewer",
+          "bbox": [
+            0.02,
+            0.2,
+            0.338,
+            0.981
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "Panel 1: image-left thumb leaves the radial palm, opens diagonally upward-left and ends in a rounded pad with a lateral nail, across one main thumb bend."
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "Panel 1: first visible central ray beside the thumb rises toward the viewer from the distal palm to the leftmost front-facing nail; provisionally index from base order."
+            },
+            "middle": {
+              "visibility": "visible",
+              "trace": "Panel 1: middle visible central ray has its own knuckle/folded chain and the central nail-bearing tip in front of the cube."
+            },
+            "ring": {
+              "visibility": "visible",
+              "trace": "Panel 1: third central ray to image-right has a separate shorter foreshortened chain and rightmost front-facing nail, provisionally ring from base order."
+            },
+            "little": {
+              "visibility": "unresolvable",
+              "trace": "Panel 1: folds on the outer right palm rim could conceal a tightly folded ulnar ray, but no independent base-to-tip little-finger path can be distinguished."
+            }
+          },
+          "count_observation": "Thumb and three front-facing finger chains are individually resolved. A fifth ray is neither confirmed nor asserted absent solely from the ulnar rim folds.",
+          "length_observation": "The three front-facing curled fingers are strongly foreshortened and their visible centerlines are broadly comparable, with the rightmost smaller. The thumb has plausible two-section length. Little-finger length and the full ordering of all four finger lengths remain unknown; palm creases do not supply the missing measurement.",
+          "joint_observation": "The three visible central fingers join the distal palm continuously and their nails face the viewer in the curled pose. Ulnar-side folds do not resolve a fourth phalangeal chain. Wrist and short forearm are complete.",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "Panel 1: only three central non-thumb rays have individually visible tips; the outer ulnar rim has folds but no independently traceable little-finger tip or joint chain.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "Panel 1: only three central non-thumb rays have individually visible tips; the outer ulnar rim has folds but no independently traceable little-finger tip or joint chain. The hidden ray cannot be connected to a unique base through its full visible chain.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "The three front-facing curled fingers are strongly foreshortened and their visible centerlines are broadly comparable, with the rightmost smaller. The thumb has plausible two-section length. Little-finger length and the full ordering of all four finger lengths remain unknown; palm creases do not supply the missing measurement.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "Panel 1: only three central non-thumb rays have individually visible tips; the outer ulnar rim has folds but no independently traceable little-finger tip or joint chain. Hidden flexion and segment topology cannot be verified.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "panel": 2,
+      "bbox": [
+        0.3333,
+        0,
+        0.6667,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "left",
+          "view": "palm up, fingers strongly foreshortened toward viewer",
+          "bbox": [
+            0.369,
+            0.238,
+            0.683,
+            0.981
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "Panel 2: image-left thumb leaves the radial palm, opens diagonally upward-left and ends in a rounded pad with a lateral nail, across one main thumb bend."
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "Panel 2: first visible central ray beside the thumb rises toward the viewer from the distal palm to the leftmost front-facing nail; provisionally index from base order."
+            },
+            "middle": {
+              "visibility": "visible",
+              "trace": "Panel 2: middle visible central ray has its own knuckle/folded chain and the central nail-bearing tip in front of the cube."
+            },
+            "ring": {
+              "visibility": "visible",
+              "trace": "Panel 2: third central ray to image-right has a separate shorter foreshortened chain and rightmost front-facing nail, provisionally ring from base order."
+            },
+            "little": {
+              "visibility": "unresolvable",
+              "trace": "Panel 2: folds on the outer right palm rim could conceal a tightly folded ulnar ray, but no independent base-to-tip little-finger path can be distinguished."
+            }
+          },
+          "count_observation": "Thumb and three front-facing finger chains are individually resolved. A fifth ray is neither confirmed nor asserted absent solely from the ulnar rim folds.",
+          "length_observation": "The three front-facing curled fingers are strongly foreshortened and their visible centerlines are broadly comparable, with the rightmost smaller. The thumb has plausible two-section length. Little-finger length and the full ordering of all four finger lengths remain unknown; palm creases do not supply the missing measurement.",
+          "joint_observation": "The three visible central fingers join the distal palm continuously and their nails face the viewer in the curled pose. Ulnar-side folds do not resolve a fourth phalangeal chain. Wrist and short forearm are complete.",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "Panel 2: only three central non-thumb rays have individually visible tips; the outer ulnar rim has folds but no independently traceable little-finger tip or joint chain.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "Panel 2: only three central non-thumb rays have individually visible tips; the outer ulnar rim has folds but no independently traceable little-finger tip or joint chain. The hidden ray cannot be connected to a unique base through its full visible chain.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "The three front-facing curled fingers are strongly foreshortened and their visible centerlines are broadly comparable, with the rightmost smaller. The thumb has plausible two-section length. Little-finger length and the full ordering of all four finger lengths remain unknown; palm creases do not supply the missing measurement.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "Panel 2: only three central non-thumb rays have individually visible tips; the outer ulnar rim has folds but no independently traceable little-finger tip or joint chain. Hidden flexion and segment topology cannot be verified.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "panel": 3,
+      "bbox": [
+        0.6667,
+        0,
+        1.0,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "left",
+          "view": "palm up, fingers strongly foreshortened toward viewer",
+          "bbox": [
+            0.704,
+            0.223,
+            1,
+            0.985
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "Panel 3: image-left thumb leaves the radial palm, opens diagonally upward-left and ends in a rounded pad with a lateral nail, across one main thumb bend."
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "Panel 3: first visible central ray beside the thumb rises toward the viewer from the distal palm to the leftmost front-facing nail; provisionally index from base order."
+            },
+            "middle": {
+              "visibility": "visible",
+              "trace": "Panel 3: middle visible central ray has its own knuckle/folded chain and the central nail-bearing tip in front of the cube."
+            },
+            "ring": {
+              "visibility": "visible",
+              "trace": "Panel 3: third central ray to image-right has a separate shorter foreshortened chain and rightmost front-facing nail, provisionally ring from base order."
+            },
+            "little": {
+              "visibility": "unresolvable",
+              "trace": "Panel 3: folds on the outer right palm rim could conceal a tightly folded ulnar ray, but no independent base-to-tip little-finger path can be distinguished."
+            }
+          },
+          "count_observation": "Thumb and three front-facing finger chains are individually resolved. A fifth ray is neither confirmed nor asserted absent solely from the ulnar rim folds.",
+          "length_observation": "The three front-facing curled fingers are strongly foreshortened and their visible centerlines are broadly comparable, with the rightmost smaller. The thumb has plausible two-section length. Little-finger length and the full ordering of all four finger lengths remain unknown; palm creases do not supply the missing measurement.",
+          "joint_observation": "The three visible central fingers join the distal palm continuously and their nails face the viewer in the curled pose. Ulnar-side folds do not resolve a fourth phalangeal chain. Wrist and short forearm are complete.",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "Panel 3: only three central non-thumb rays have individually visible tips; the outer ulnar rim has folds but no independently traceable little-finger tip or joint chain.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "Panel 3: only three central non-thumb rays have individually visible tips; the outer ulnar rim has folds but no independently traceable little-finger tip or joint chain. The hidden ray cannot be connected to a unique base through its full visible chain.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "The three front-facing curled fingers are strongly foreshortened and their visible centerlines are broadly comparable, with the rightmost smaller. The thumb has plausible two-section length. Little-finger length and the full ordering of all four finger lengths remain unknown; palm creases do not supply the missing measurement.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "Panel 3: only three central non-thumb rays have individually visible tips; the outer ulnar rim has folds but no independently traceable little-finger tip or joint chain. Hidden flexion and segment topology cannot be verified.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "unknown",
+    "observation": "All three panels keep the same left-palm/thumb orientation and three visible central fingers. The unresolved ulnar ray prevents certifying five stable digit identities or its length across the cube rotation.",
+    "issues": [
+      {
+        "code": "ambiguous_occlusion",
+        "panels": [
+          1,
+          2,
+          3
+        ],
+        "evidence": "The little-finger candidate remains indistinguishable from ulnar palm folds throughout.",
+        "correction": "Expose the unresolved rays consistently across these panels so digit identity and lengths can be compared."
+      }
+    ]
+  },
+  "decision": "needs_review",
+  "limitations": "Actual original image and, where necessary, enlarged detail inspected. Single-view visual anatomy assessment only: hidden bone geometry, exact centerline lengths and physical feasibility are not measured. This report does not approve action fidelity or motion between the illustrated panels."
+}

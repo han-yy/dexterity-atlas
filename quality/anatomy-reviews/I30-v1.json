@@ -1,0 +1,311 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/I30-v1.png",
+  "sha256": "af27cd44a9262e741992c62a8c5024a7a50c6874d894b86d125bd563079bac71",
+  "action_id": "I30",
+  "reviewer": "hand-anatomy-reviewer / anatomy_review_batch2 / visual model review",
+  "intended_action": {
+    "name": "不同质量下持续旋转",
+    "hands": "单手"
+  },
+  "expected_panels": 4,
+  "expected_hands_per_panel": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0,
+        0,
+        0.35,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "near-frontal palm",
+          "bbox": [
+            0.005,
+            0.23,
+            0.348,
+            0.919
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "Panel 1, A initial upright cylinder: image-right thumb emerges from the thenar mound, rises through one main bend and ends in a nail-edged pad against the right cylinder side."
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "Panel 1, A initial upright cylinder: the adjacent long ray rises from the distal palm behind the curled row and ends in the separate rounded pad against the cylinder left side; its bent lower path is visible."
+            },
+            "middle": {
+              "visibility": "visible",
+              "trace": "Panel 1, A initial upright cylinder: uppermost free curled ray has a distinct base below the index, bends leftward then inward and ends in the upper free nail-bearing tip."
+            },
+            "ring": {
+              "visibility": "visible",
+              "trace": "Panel 1, A initial upright cylinder: middle free curled ray has its own lower base, leftward knuckle curve and returning nail-bearing tip beneath the middle finger."
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "Panel 1, A initial upright cylinder: lowest outer ulnar ray rises from the palm edge, forms a shorter curled path and ends in the lowest free nail-bearing tip."
+            }
+          },
+          "count_observation": "Five independent rays are traceable: opposing thumb/index and three separated curled ulnar fingers. No extra tip or shared distal branch is visible.",
+          "length_observation": "Index and thumb are raised while the other three are more flexed. Following their curved paths, the little remains qualitatively smaller than the adjacent rays; the middle/ring difference is not judged from vertical tip height. No clearly elongated intermediate phalanx or stretched thumb appears.",
+          "joint_observation": "Four fingers originate in order at the distal palm and the thumb from the radial thenar side. Visible bends remain continuous with proper terminal nails. Every fingertip, palm, wrist and short forearm fits in the image.",
+          "checks": {
+            "five_digits": "pass",
+            "connectivity": "pass",
+            "proportions": "pass",
+            "joint_structure": "pass",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": []
+        }
+      ]
+    },
+    {
+      "panel": 2,
+      "bbox": [
+        0.27,
+        0,
+        0.5,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "radial oblique with partial palm",
+          "bbox": [
+            0.274,
+            0.229,
+            0.499,
+            0.919
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "Panel 2, A final horizontal cylinder: the near thumb runs upward-left from the radial thenar mass, through one visible bend, to the broad nail pad at the cylinder left end."
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "Panel 2, A final horizontal cylinder: the upper-right ray arches from the distal palm and bends left, ending in the pad contacting the right end of the cylinder."
+            },
+            "middle": {
+              "visibility": "unresolvable",
+              "trace": "Panel 2, A final horizontal cylinder: the central curled ray bends into the palm behind the thumb; its visible rounded bend is not a terminal pad, and its actual tip remains concealed."
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "Panel 2, A final horizontal cylinder: the upper of the two small nail-bearing pads left of the thumb belongs to a curled lower ray returning to the palm across the local thumb overlap."
+            },
+            "little": {
+              "visibility": "traceable",
+              "trace": "Panel 2, A final horizontal cylinder: the lowest nail-bearing pad left of the thumb follows a separate small outer ulnar curled ray; its visible lower contour is distinct from the ring."
+            }
+          },
+          "count_observation": "Thumb, index and two lower ulnar terminal rays are resolved. The central curled middle ray has no independently visible tip, so all five cannot be certified.",
+          "length_observation": "The near thumb and upper arched index have plausible visible lengths for the radial view. The two small lower rays are foreshortened by curl and the foreground thumb. The central middle ray lacks a visible terminal section, so its full centerline and segment lengths cannot be checked.",
+          "joint_observation": "The visible thumb/index and two ulnar rays have plausible joins and bends; middle distal topology is hidden. The palm/thenar origin identifies the same right hand despite the radial turn. Wrist and short forearm are complete.",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "Panel 2 (A final horizontal cylinder): the central curled middle ray forms a loop behind the foreground thumb, but its distal tip is hidden. A knuckle silhouette inside that loop cannot be counted as its fingertip.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "Panel 2 (A final horizontal cylinder): the central curled middle ray forms a loop behind the foreground thumb, but its distal tip is hidden. A knuckle silhouette inside that loop cannot be counted as its fingertip. The hidden ray cannot be connected to a unique base through its full visible chain.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "The near thumb and upper arched index have plausible visible lengths for the radial view. The two small lower rays are foreshortened by curl and the foreground thumb. The central middle ray lacks a visible terminal section, so its full centerline and segment lengths cannot be checked.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "Panel 2 (A final horizontal cylinder): the central curled middle ray forms a loop behind the foreground thumb, but its distal tip is hidden. A knuckle silhouette inside that loop cannot be counted as its fingertip. Hidden flexion and segment topology cannot be verified.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "panel": 3,
+      "bbox": [
+        0.5,
+        0,
+        0.85,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "near-frontal palm",
+          "bbox": [
+            0.504,
+            0.23,
+            0.848,
+            0.919
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "Panel 3, B initial upright cylinder: image-right thumb emerges from the thenar mound, rises through one main bend and ends in a nail-edged pad against the right cylinder side."
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "Panel 3, B initial upright cylinder: the adjacent long ray rises from the distal palm behind the curled row and ends in the separate rounded pad against the cylinder left side; its bent lower path is visible."
+            },
+            "middle": {
+              "visibility": "visible",
+              "trace": "Panel 3, B initial upright cylinder: uppermost free curled ray has a distinct base below the index, bends leftward then inward and ends in the upper free nail-bearing tip."
+            },
+            "ring": {
+              "visibility": "visible",
+              "trace": "Panel 3, B initial upright cylinder: middle free curled ray has its own lower base, leftward knuckle curve and returning nail-bearing tip beneath the middle finger."
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "Panel 3, B initial upright cylinder: lowest outer ulnar ray rises from the palm edge, forms a shorter curled path and ends in the lowest free nail-bearing tip."
+            }
+          },
+          "count_observation": "Five independent rays are traceable: opposing thumb/index and three separated curled ulnar fingers. No extra tip or shared distal branch is visible.",
+          "length_observation": "Index and thumb are raised while the other three are more flexed. Following their curved paths, the little remains qualitatively smaller than the adjacent rays; the middle/ring difference is not judged from vertical tip height. No clearly elongated intermediate phalanx or stretched thumb appears.",
+          "joint_observation": "Four fingers originate in order at the distal palm and the thumb from the radial thenar side. Visible bends remain continuous with proper terminal nails. Every fingertip, palm, wrist and short forearm fits in the image.",
+          "checks": {
+            "five_digits": "pass",
+            "connectivity": "pass",
+            "proportions": "pass",
+            "joint_structure": "pass",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": []
+        }
+      ]
+    },
+    {
+      "panel": 4,
+      "bbox": [
+        0.77,
+        0,
+        1,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "radial oblique with partial palm",
+          "bbox": [
+            0.775,
+            0.229,
+            1,
+            0.919
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "Panel 4, B final horizontal cylinder: the near thumb runs upward-left from the radial thenar mass, through one visible bend, to the broad nail pad at the cylinder left end."
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "Panel 4, B final horizontal cylinder: the upper-right ray arches from the distal palm and bends left, ending in the pad contacting the right end of the cylinder."
+            },
+            "middle": {
+              "visibility": "unresolvable",
+              "trace": "Panel 4, B final horizontal cylinder: the central curled ray bends into the palm behind the thumb; its visible rounded bend is not a terminal pad, and its actual tip remains concealed."
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "Panel 4, B final horizontal cylinder: the upper of the two small nail-bearing pads left of the thumb belongs to a curled lower ray returning to the palm across the local thumb overlap."
+            },
+            "little": {
+              "visibility": "traceable",
+              "trace": "Panel 4, B final horizontal cylinder: the lowest nail-bearing pad left of the thumb follows a separate small outer ulnar curled ray; its visible lower contour is distinct from the ring."
+            }
+          },
+          "count_observation": "Thumb, index and two lower ulnar terminal rays are resolved. The central curled middle ray has no independently visible tip, so all five cannot be certified.",
+          "length_observation": "The near thumb and upper arched index have plausible visible lengths for the radial view. The two small lower rays are foreshortened by curl and the foreground thumb. The central middle ray lacks a visible terminal section, so its full centerline and segment lengths cannot be checked.",
+          "joint_observation": "The visible thumb/index and two ulnar rays have plausible joins and bends; middle distal topology is hidden. The palm/thenar origin identifies the same right hand despite the radial turn. Wrist and short forearm are complete.",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "Panel 4 (B final horizontal cylinder): the central curled middle ray forms a loop behind the foreground thumb, but its distal tip is hidden. A knuckle silhouette inside that loop cannot be counted as its fingertip.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "Panel 4 (B final horizontal cylinder): the central curled middle ray forms a loop behind the foreground thumb, but its distal tip is hidden. A knuckle silhouette inside that loop cannot be counted as its fingertip. The hidden ray cannot be connected to a unique base through its full visible chain.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "The near thumb and upper arched index have plausible visible lengths for the radial view. The two small lower rays are foreshortened by curl and the foreground thumb. The central middle ray lacks a visible terminal section, so its full centerline and segment lengths cannot be checked.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "Panel 4 (B final horizontal cylinder): the central curled middle ray forms a loop behind the foreground thumb, but its distal tip is hidden. A knuckle silhouette inside that loop cannot be counted as its fingertip. Hidden flexion and segment topology cannot be verified.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "unknown",
+    "observation": "Four actual pose frames are reviewed, two in condition A and two in condition B. Each initial palm pose has five resolved rays. Each final radial pose hides the middle tip. The thumb moving from image-right to the foreground is compatible with turning the same right hand, not a demonstrated handedness swap. Full middle-length continuity remains unknown.",
+    "issues": [
+      {
+        "code": "ambiguous_occlusion",
+        "panels": [
+          2,
+          4
+        ],
+        "evidence": "The middle terminal chain is hidden in each final pose, preventing comparison against the corresponding clear initial pose.",
+        "correction": "Expose the unresolved rays consistently across these panels so digit identity and lengths can be compared."
+      }
+    ]
+  },
+  "decision": "needs_review",
+  "limitations": "Actual original image and, where necessary, enlarged detail inspected. Single-view visual anatomy assessment only: hidden bone geometry, exact centerline lengths and physical feasibility are not measured. This report does not approve action fidelity or motion between the illustrated panels."
+}

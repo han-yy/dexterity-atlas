@@ -1,0 +1,363 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/I16-v1.png",
+  "sha256": "5edbca0d3d47d9232498e0a8d8bcf7137e73beb96c5eb1051d8907f2a720332d",
+  "action_id": "I16",
+  "reviewer": "hand-anatomy-reviewer / anatomy_review_batch2 / visual model review",
+  "intended_action": {
+    "name": "顺转—停住—逆转",
+    "hands": "单手"
+  },
+  "expected_panels": 4,
+  "expected_hands_per_panel": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0,
+        0,
+        0.275,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "radial oblique, partial palm",
+          "bbox": [
+            0.028,
+            0.153,
+            0.27,
+            0.983
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "Panel 1: foreground thumb arises from the radial thenar mass at lower center, runs diagonally up-left through one interphalangeal bend and ends in a broad nail-bearing pad on the cylinder."
+            },
+            "index": {
+              "visibility": "traceable",
+              "trace": "Panel 1: upper finger ray arches from the upper-right distal palm toward the cylinder; its terminal pad reappears just left of the narrow cylinder, allowing tracing around that local contact occlusion."
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "Panel 1: next curled ray can be followed from the palm beneath the index across the local foreground-thumb overlap to the higher nail-bearing free tip on image-left."
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "Panel 1: the next lower ray curves behind the foreground thumb and terminates in the separate lower left nail-bearing pad below the middle finger."
+            },
+            "little": {
+              "visibility": "unresolvable",
+              "trace": "Panel 1: a small lowest skin fold is visible beside the thumb base, but it cannot be traced to a distinct terminal pad or separated fully from thenar/palmar folds."
+            }
+          },
+          "count_observation": "Thumb, arched index and two curled fingers can be followed; the remaining lowest ulnar digit is not independently resolved. Four visible tip chains do not prove that a hidden fifth is anatomically complete.",
+          "length_observation": "Foreground thumb is enlarged by the radial view, while index, middle and ring are flexed around the cylinder and into the palm; comparing straight tip heights would be misleading. Their exposed segments are plausible, but the hidden little-finger centerline and relative length cannot be assessed.",
+          "joint_observation": "The exposed thumb and upper three fingers show plausible flexion and continuity across limited overlaps. The lowest ulnar joint chain is hidden. Radial thumb origin and visible palm side identify a right hand; wrist and a short forearm remain in frame.",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "Panel 1: the lowest ulnar folds disappear behind the foreground thumb/thenar mass. A separate little-finger tip and complete joint chain cannot be traced.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "Panel 1: the lowest ulnar folds disappear behind the foreground thumb/thenar mass. A separate little-finger tip and complete joint chain cannot be traced. The hidden ray cannot be connected to a unique base through its full visible chain.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "Foreground thumb is enlarged by the radial view, while index, middle and ring are flexed around the cylinder and into the palm; comparing straight tip heights would be misleading. Their exposed segments are plausible, but the hidden little-finger centerline and relative length cannot be assessed.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "Panel 1: the lowest ulnar folds disappear behind the foreground thumb/thenar mass. A separate little-finger tip and complete joint chain cannot be traced. Hidden flexion and segment topology cannot be verified.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "panel": 2,
+      "bbox": [
+        0.278,
+        0,
+        0.529,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "radial oblique, partial palm",
+          "bbox": [
+            0.281,
+            0.154,
+            0.525,
+            0.983
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "Panel 2: foreground thumb arises from the radial thenar mass at lower center, runs diagonally up-left through one interphalangeal bend and ends in a broad nail-bearing pad on the cylinder."
+            },
+            "index": {
+              "visibility": "traceable",
+              "trace": "Panel 2: upper finger ray arches from the upper-right distal palm toward the cylinder; its terminal pad reappears just left of the narrow cylinder, allowing tracing around that local contact occlusion."
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "Panel 2: next curled ray can be followed from the palm beneath the index across the local foreground-thumb overlap to the higher nail-bearing free tip on image-left."
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "Panel 2: the next lower ray curves behind the foreground thumb and terminates in the separate lower left nail-bearing pad below the middle finger."
+            },
+            "little": {
+              "visibility": "unresolvable",
+              "trace": "Panel 2: a small lowest skin fold is visible beside the thumb base, but it cannot be traced to a distinct terminal pad or separated fully from thenar/palmar folds."
+            }
+          },
+          "count_observation": "Thumb, arched index and two curled fingers can be followed; the remaining lowest ulnar digit is not independently resolved. Four visible tip chains do not prove that a hidden fifth is anatomically complete.",
+          "length_observation": "Foreground thumb is enlarged by the radial view, while index, middle and ring are flexed around the cylinder and into the palm; comparing straight tip heights would be misleading. Their exposed segments are plausible, but the hidden little-finger centerline and relative length cannot be assessed.",
+          "joint_observation": "The exposed thumb and upper three fingers show plausible flexion and continuity across limited overlaps. The lowest ulnar joint chain is hidden. Radial thumb origin and visible palm side identify a right hand; wrist and a short forearm remain in frame.",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "Panel 2: the lowest ulnar folds disappear behind the foreground thumb/thenar mass. A separate little-finger tip and complete joint chain cannot be traced.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "Panel 2: the lowest ulnar folds disappear behind the foreground thumb/thenar mass. A separate little-finger tip and complete joint chain cannot be traced. The hidden ray cannot be connected to a unique base through its full visible chain.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "Foreground thumb is enlarged by the radial view, while index, middle and ring are flexed around the cylinder and into the palm; comparing straight tip heights would be misleading. Their exposed segments are plausible, but the hidden little-finger centerline and relative length cannot be assessed.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "Panel 2: the lowest ulnar folds disappear behind the foreground thumb/thenar mass. A separate little-finger tip and complete joint chain cannot be traced. Hidden flexion and segment topology cannot be verified.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "panel": 3,
+      "bbox": [
+        0.53,
+        0,
+        0.78,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "radial oblique, partial palm",
+          "bbox": [
+            0.533,
+            0.153,
+            0.776,
+            0.984
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "Panel 3: foreground thumb arises from the radial thenar mass at lower center, runs diagonally up-left through one interphalangeal bend and ends in a broad nail-bearing pad on the cylinder."
+            },
+            "index": {
+              "visibility": "traceable",
+              "trace": "Panel 3: upper finger ray arches from the upper-right distal palm toward the cylinder; its terminal pad reappears just left of the narrow cylinder, allowing tracing around that local contact occlusion."
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "Panel 3: next curled ray can be followed from the palm beneath the index across the local foreground-thumb overlap to the higher nail-bearing free tip on image-left."
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "Panel 3: the next lower ray curves behind the foreground thumb and terminates in the separate lower left nail-bearing pad below the middle finger."
+            },
+            "little": {
+              "visibility": "unresolvable",
+              "trace": "Panel 3: a small lowest skin fold is visible beside the thumb base, but it cannot be traced to a distinct terminal pad or separated fully from thenar/palmar folds."
+            }
+          },
+          "count_observation": "Thumb, arched index and two curled fingers can be followed; the remaining lowest ulnar digit is not independently resolved. Four visible tip chains do not prove that a hidden fifth is anatomically complete.",
+          "length_observation": "Foreground thumb is enlarged by the radial view, while index, middle and ring are flexed around the cylinder and into the palm; comparing straight tip heights would be misleading. Their exposed segments are plausible, but the hidden little-finger centerline and relative length cannot be assessed.",
+          "joint_observation": "The exposed thumb and upper three fingers show plausible flexion and continuity across limited overlaps. The lowest ulnar joint chain is hidden. Radial thumb origin and visible palm side identify a right hand; wrist and a short forearm remain in frame.",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "Panel 3: the lowest ulnar folds disappear behind the foreground thumb/thenar mass. A separate little-finger tip and complete joint chain cannot be traced.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "Panel 3: the lowest ulnar folds disappear behind the foreground thumb/thenar mass. A separate little-finger tip and complete joint chain cannot be traced. The hidden ray cannot be connected to a unique base through its full visible chain.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "Foreground thumb is enlarged by the radial view, while index, middle and ring are flexed around the cylinder and into the palm; comparing straight tip heights would be misleading. Their exposed segments are plausible, but the hidden little-finger centerline and relative length cannot be assessed.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "Panel 3: the lowest ulnar folds disappear behind the foreground thumb/thenar mass. A separate little-finger tip and complete joint chain cannot be traced. Hidden flexion and segment topology cannot be verified.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "panel": 4,
+      "bbox": [
+        0.783,
+        0,
+        1,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "radial oblique, partial palm",
+          "bbox": [
+            0.785,
+            0.156,
+            1,
+            0.984
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "Panel 4: foreground thumb arises from the radial thenar mass at lower center, runs diagonally up-left through one interphalangeal bend and ends in a broad nail-bearing pad on the cylinder."
+            },
+            "index": {
+              "visibility": "traceable",
+              "trace": "Panel 4: upper finger ray arches from the upper-right distal palm toward the cylinder; its terminal pad reappears just left of the narrow cylinder, allowing tracing around that local contact occlusion."
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "Panel 4: next curled ray can be followed from the palm beneath the index across the local foreground-thumb overlap to the higher nail-bearing free tip on image-left."
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "Panel 4: the next lower ray curves behind the foreground thumb and terminates in the separate lower left nail-bearing pad below the middle finger."
+            },
+            "little": {
+              "visibility": "unresolvable",
+              "trace": "Panel 4: a small lowest skin fold is visible beside the thumb base, but it cannot be traced to a distinct terminal pad or separated fully from thenar/palmar folds."
+            }
+          },
+          "count_observation": "Thumb, arched index and two curled fingers can be followed; the remaining lowest ulnar digit is not independently resolved. Four visible tip chains do not prove that a hidden fifth is anatomically complete.",
+          "length_observation": "Foreground thumb is enlarged by the radial view, while index, middle and ring are flexed around the cylinder and into the palm; comparing straight tip heights would be misleading. Their exposed segments are plausible, but the hidden little-finger centerline and relative length cannot be assessed.",
+          "joint_observation": "The exposed thumb and upper three fingers show plausible flexion and continuity across limited overlaps. The lowest ulnar joint chain is hidden. Radial thumb origin and visible palm side identify a right hand; wrist and a short forearm remain in frame.",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "Panel 4: the lowest ulnar folds disappear behind the foreground thumb/thenar mass. A separate little-finger tip and complete joint chain cannot be traced.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "Panel 4: the lowest ulnar folds disappear behind the foreground thumb/thenar mass. A separate little-finger tip and complete joint chain cannot be traced. The hidden ray cannot be connected to a unique base through its full visible chain.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "Foreground thumb is enlarged by the radial view, while index, middle and ring are flexed around the cylinder and into the palm; comparing straight tip heights would be misleading. Their exposed segments are plausible, but the hidden little-finger centerline and relative length cannot be assessed.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "Panel 4: the lowest ulnar folds disappear behind the foreground thumb/thenar mass. A separate little-finger tip and complete joint chain cannot be traced. Hidden flexion and segment topology cannot be verified.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "unknown",
+    "observation": "Four inspected panels retain the right radial-view hand and consistent visible finger proportions while the cylinder orientation changes. The lowest ulnar ray stays hidden, so its identity and length cannot be certified across the stop/reverse sequence.",
+    "issues": [
+      {
+        "code": "ambiguous_occlusion",
+        "panels": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "evidence": "A separate little-finger terminal chain remains concealed behind the foreground thumb/thenar mass.",
+        "correction": "Expose the unresolved rays consistently across these panels so digit identity and lengths can be compared."
+      }
+    ]
+  },
+  "decision": "needs_review",
+  "limitations": "Actual original image and, where necessary, enlarged detail inspected. Single-view visual anatomy assessment only: hidden bone geometry, exact centerline lengths and physical feasibility are not measured. This report does not approve action fidelity or motion between the illustrated panels."
+}

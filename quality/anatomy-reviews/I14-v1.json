@@ -1,0 +1,280 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/I14-v1.png",
+  "sha256": "f7f02defd0da7e7848a147a12ed8e85570a573a91492733da9a4c4040dea5372",
+  "action_id": "I14",
+  "reviewer": "hand-anatomy-reviewer / anatomy_review_batch2 / visual model review",
+  "intended_action": {
+    "name": "绕掌系 Y 轴定向旋转",
+    "hands": "单手"
+  },
+  "expected_panels": 3,
+  "expected_hands_per_panel": [
+    1,
+    1,
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0.0,
+        0,
+        0.3333,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "palm oblique",
+          "bbox": [
+            0.061,
+            0.255,
+            0.323,
+            0.998
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "Panel 1: broad image-right thenar mass rises to a bent thumb along the right face of the die, ending in a separate nail-edged terminal pad."
+            },
+            "index": {
+              "visibility": "unresolvable",
+              "trace": "Panel 1: the expected radial long-finger region is behind the die; neither a separate distal pad nor a full connection to its base is visible."
+            },
+            "middle": {
+              "visibility": "unresolvable",
+              "trace": "Panel 1: central folds beneath the die do not identify a separate middle-finger chain or terminal tip; the occlusion is much larger than a narrow contact gap."
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "Panel 1: the back of the two visible image-left rays rises from beneath the die, passes briefly behind the front curled ray and ends in a distinct rounded pad at the left upper edge; provisionally ring by ulnar base order."
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "Panel 1: outermost ulnar ray rises along the image-left palm edge, bends toward the die and terminates in a nail-bearing pad in front of the back ray."
+            }
+          },
+          "count_observation": "Three identifiable terminal rays are visible: radial thumb and two ulnar fingers. The other two fingers cannot be counted from the die silhouette or skin folds beneath it.",
+          "length_observation": "The visible thumb has two plausible segments; the front ulnar curled ray is shorter than the back ulnar ray, consistent with flexed little/ring fingers. Index and middle lengths are hidden by the die, so the required five-digit length relationship is unresolved.",
+          "joint_observation": "Visible thumb and the two ulnar fingers have continuous outlines and plausible flexion. The die hides the joint chains and exact base order of the central pair. The visible hand, wrist and a short forearm fit in the panel.",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "Panel 1: the large die occludes the radial/central finger bases and distal chains. No individual index or middle tip can be paired with a visible unique base.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "Panel 1: the large die occludes the radial/central finger bases and distal chains. No individual index or middle tip can be paired with a visible unique base. The hidden ray cannot be connected to a unique base through its full visible chain.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "The visible thumb has two plausible segments; the front ulnar curled ray is shorter than the back ulnar ray, consistent with flexed little/ring fingers. Index and middle lengths are hidden by the die, so the required five-digit length relationship is unresolved.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "Panel 1: the large die occludes the radial/central finger bases and distal chains. No individual index or middle tip can be paired with a visible unique base. Hidden flexion and segment topology cannot be verified.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "panel": 2,
+      "bbox": [
+        0.3333,
+        0,
+        0.6667,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "palm oblique",
+          "bbox": [
+            0.394,
+            0.264,
+            0.657,
+            0.998
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "Panel 2: broad image-right thenar mass rises to a bent thumb along the right face of the die, ending in a separate nail-edged terminal pad."
+            },
+            "index": {
+              "visibility": "unresolvable",
+              "trace": "Panel 2: the expected radial long-finger region is behind the die; neither a separate distal pad nor a full connection to its base is visible."
+            },
+            "middle": {
+              "visibility": "unresolvable",
+              "trace": "Panel 2: central folds beneath the die do not identify a separate middle-finger chain or terminal tip; the occlusion is much larger than a narrow contact gap."
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "Panel 2: the back of the two visible image-left rays rises from beneath the die, passes briefly behind the front curled ray and ends in a distinct rounded pad at the left upper edge; provisionally ring by ulnar base order."
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "Panel 2: outermost ulnar ray rises along the image-left palm edge, bends toward the die and terminates in a nail-bearing pad in front of the back ray."
+            }
+          },
+          "count_observation": "Three identifiable terminal rays are visible: radial thumb and two ulnar fingers. The other two fingers cannot be counted from the die silhouette or skin folds beneath it.",
+          "length_observation": "The visible thumb has two plausible segments; the front ulnar curled ray is shorter than the back ulnar ray, consistent with flexed little/ring fingers. Index and middle lengths are hidden by the die, so the required five-digit length relationship is unresolved.",
+          "joint_observation": "Visible thumb and the two ulnar fingers have continuous outlines and plausible flexion. The die hides the joint chains and exact base order of the central pair. The visible hand, wrist and a short forearm fit in the panel.",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "Panel 2: the large die occludes the radial/central finger bases and distal chains. No individual index or middle tip can be paired with a visible unique base.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "Panel 2: the large die occludes the radial/central finger bases and distal chains. No individual index or middle tip can be paired with a visible unique base. The hidden ray cannot be connected to a unique base through its full visible chain.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "The visible thumb has two plausible segments; the front ulnar curled ray is shorter than the back ulnar ray, consistent with flexed little/ring fingers. Index and middle lengths are hidden by the die, so the required five-digit length relationship is unresolved.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "Panel 2: the large die occludes the radial/central finger bases and distal chains. No individual index or middle tip can be paired with a visible unique base. Hidden flexion and segment topology cannot be verified.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "panel": 3,
+      "bbox": [
+        0.6667,
+        0,
+        1.0,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "palm oblique",
+          "bbox": [
+            0.725,
+            0.25,
+            0.992,
+            0.997
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "Panel 3: broad image-right thenar mass rises to a bent thumb along the right face of the die, ending in a separate nail-edged terminal pad."
+            },
+            "index": {
+              "visibility": "unresolvable",
+              "trace": "Panel 3: the expected radial long-finger region is behind the die; neither a separate distal pad nor a full connection to its base is visible."
+            },
+            "middle": {
+              "visibility": "unresolvable",
+              "trace": "Panel 3: central folds beneath the die do not identify a separate middle-finger chain or terminal tip; the occlusion is much larger than a narrow contact gap."
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "Panel 3: the back of the two visible image-left rays rises from beneath the die, passes briefly behind the front curled ray and ends in a distinct rounded pad at the left upper edge; provisionally ring by ulnar base order."
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "Panel 3: outermost ulnar ray rises along the image-left palm edge, bends toward the die and terminates in a nail-bearing pad in front of the back ray."
+            }
+          },
+          "count_observation": "Three identifiable terminal rays are visible: radial thumb and two ulnar fingers. The other two fingers cannot be counted from the die silhouette or skin folds beneath it.",
+          "length_observation": "The visible thumb has two plausible segments; the front ulnar curled ray is shorter than the back ulnar ray, consistent with flexed little/ring fingers. Index and middle lengths are hidden by the die, so the required five-digit length relationship is unresolved.",
+          "joint_observation": "Visible thumb and the two ulnar fingers have continuous outlines and plausible flexion. The die hides the joint chains and exact base order of the central pair. The visible hand, wrist and a short forearm fit in the panel.",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "Panel 3: the large die occludes the radial/central finger bases and distal chains. No individual index or middle tip can be paired with a visible unique base.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "Panel 3: the large die occludes the radial/central finger bases and distal chains. No individual index or middle tip can be paired with a visible unique base. The hidden ray cannot be connected to a unique base through its full visible chain.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "The visible thumb has two plausible segments; the front ulnar curled ray is shorter than the back ulnar ray, consistent with flexed little/ring fingers. Index and middle lengths are hidden by the die, so the required five-digit length relationship is unresolved.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "Panel 3: the large die occludes the radial/central finger bases and distal chains. No individual index or middle tip can be paired with a visible unique base. Hidden flexion and segment topology cannot be verified.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "unknown",
+    "observation": "All three panels preserve one right palm and the same exposed thumb/ulnar rays. The index and middle remain broadly occluded, so five-digit and length continuity cannot be approved for the sequence.",
+    "issues": [
+      {
+        "code": "ambiguous_occlusion",
+        "panels": [
+          1,
+          2,
+          3
+        ],
+        "evidence": "The die hides the index and middle rays in every panel.",
+        "correction": "Expose the unresolved rays consistently across these panels so digit identity and lengths can be compared."
+      }
+    ]
+  },
+  "decision": "needs_review",
+  "limitations": "Actual original image and, where necessary, enlarged detail inspected. Single-view visual anatomy assessment only: hidden bone geometry, exact centerline lengths and physical feasibility are not measured. This report does not approve action fidelity or motion between the illustrated panels."
+}

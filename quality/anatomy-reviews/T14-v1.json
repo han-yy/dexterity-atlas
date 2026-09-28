@@ -1,0 +1,108 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/T14-v1.png",
+  "sha256": "011d4dad028a9550114d05de356659e8bafa57aafb12084bbebc8a361e17b3a8",
+  "action_id": "T14",
+  "reviewer": "hand-anatomy-reviewer / anatomy_review_batch2 / visual model review",
+  "intended_action": {
+    "name": "横放笔拾取",
+    "hands": "单手"
+  },
+  "expected_panels": 1,
+  "expected_hands_per_panel": [
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0.0,
+        0,
+        1.0,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "dorsal oblique pinch approaching a horizontal pen",
+          "bbox": [
+            0.166,
+            0,
+            1,
+            0.8
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "The foreground radial thumb descends diagonally from the right hand margin through one interphalangeal bend to the broad nail pad touching the pen grip on its near side."
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "The nearest long-finger ray beside the thumb web bends down from the dorsal distal hand through two visible joint regions and ends in a separate nail-bearing tip at the black pen grip."
+            },
+            "middle": {
+              "visibility": "visible",
+              "trace": "The next ray to image-left has its own proximal knuckle, a bent middle section and a separate lower nail-bearing tip hovering above the pen near the grip/cap boundary."
+            },
+            "ring": {
+              "visibility": "visible",
+              "trace": "The outer visible ray on image-left follows a separate distal-hand base and two bent sections to a smaller raised nail-bearing tip above the cap; provisionally ring by the visible row order."
+            },
+            "little": {
+              "visibility": "unresolvable",
+              "trace": "The far/back ulnar side supplies no separately identifiable little-finger tip or full bent chain. It may be hidden behind the visible row, but that cannot be certified from the silhouette."
+            }
+          },
+          "count_observation": "Thumb plus three visible long-finger chains are resolved. The concealed ulnar ray is not supplied by assumption to reach five digits.",
+          "length_observation": "The near index reaches farther downward because it is flexed toward the pen, while the adjacent middle and outer visible ray are raised with different PIP/DIP angles. Their visible curved segments are plausible, without an obvious stretched or stub segment. The hidden little-finger centerline and its length relative to the others remain unknown; vertical tip height is not used as length.",
+          "joint_observation": "Visible thumb and three long-finger rays have continuous bases and plausible bends with individual terminal nails. The unseen ulnar chain cannot be checked for joint count, attachment or complete proportions. The dorsal hand, wrist and short forearm are present; no visible finger is cropped.",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "The image shows the radial thumb and three independently visible long-finger tips. No fourth long-finger tip or complete little-finger chain is exposed behind the far-left/back finger row.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "The image shows the radial thumb and three independently visible long-finger tips. No fourth long-finger tip or complete little-finger chain is exposed behind the far-left/back finger row. The hidden ray cannot be connected to a unique base through its full visible chain.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "The near index reaches farther downward because it is flexed toward the pen, while the adjacent middle and outer visible ray are raised with different PIP/DIP angles. Their visible curved segments are plausible, without an obvious stretched or stub segment. The hidden little-finger centerline and its length relative to the others remain unknown; vertical tip height is not used as length.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "The image shows the radial thumb and three independently visible long-finger tips. No fourth long-finger tip or complete little-finger chain is exposed behind the far-left/back finger row. Hidden flexion and segment topology cannot be verified.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "pass",
+    "observation": "One actual panel and one hand were inspected. No temporal sequence is supplied, so there is no observed inter-panel side swap or length change; this does not certify an unshown movement. Within-frame uncertainties, if present, are recorded in the hand checks."
+  },
+  "decision": "needs_review",
+  "limitations": "Actual full-resolution image and enlarged digit/contact details inspected. Qualitative visual anatomy only: hidden bones, exact finger lengths and physical feasibility are not measured. Action fidelity is assessed separately against the catalog props and the visible key pose; a static pose does not validate full motion, contact timing or task success.",
+  "action_fidelity": {
+    "status": "pass",
+    "observation": "目录目标为横放笔拾取，道具为笔。原图笔水平放在桌面，单手拇指与相邻食指在笔杆握持区形成夹持接触，其余可见手指抬起；符合从桌面拾取横笔的接触阶段关键姿态。图中笔仍在桌面，不能据此声称已经提起或验证接触时序。"
+  }
+}

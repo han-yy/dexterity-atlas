@@ -1,0 +1,276 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/I06-v1.png",
+  "sha256": "d6f26053e75e9cacad79efb40bd88ce452a193326ccb8260a589c69e35d122ec",
+  "action_id": "I06",
+  "reviewer": "hand-anatomy-reviewer / independent visual model review",
+  "expected_panels": 3,
+  "expected_hands_per_panel": [
+    1,
+    1,
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0,
+        0,
+        0.3333,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "radial oblique; palmar folds and dorsal digit nails visible",
+          "bbox": [
+            0.056,
+            0.258,
+            0.342,
+            0.85
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "前景横向拇指从右侧鱼际根部向左伸，IP 皱褶后连接大指甲，末端夹在笔杆旁。"
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "上方食指从远端桡侧起向左弯，再向下，末端接笔杆；近、中、末节连续。"
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "拇指下方靠笔尖的一条蜷曲指，近端从笔/拇指后短遮挡处出现，向下回弯至最左的下方指甲。"
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "中指右下方较大的蜷曲指由掌远端弯到最低大指甲，侧缘可与中指分开；近端有拇指短遮挡。"
+            },
+            "little": {
+              "visibility": "unresolvable",
+              "trace": "第1格无名指右后方仅可见一块掌侧屈曲表面，没有独立小指末端。 不能将这块边缘假定为完整第五指。"
+            }
+          },
+          "count_observation": "四条指链可较清楚追踪；小指独立根部和末端不能确认，不用皮肤薄片补足五指。",
+          "length_observation": "食指与拇指可见节段比例稳定；中指和无名指蜷曲所以投影短，沿曲线未见明确拉伸。小指链不可辨，无法比较其长度、末节大小或与相邻指的比例，整手比例不能通过。",
+          "joint_observation": "拇食指连接连续，两个下方带甲指端各自可对应一个弯曲指列；小指与尺侧掌褶重叠，缺少独立关节链证据。",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "第1格无名指右后方仅可见一块掌侧屈曲表面，没有独立小指末端。 放大后仍不能配对小指根部、关节与指端。",
+              "correction": "重绘第1格或轻微改变观察角度，分开无名指与小指，并让小指的连续指链和长度可观察，保留原握笔方式。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "第1格无名指右后方仅可见一块掌侧屈曲表面，没有独立小指末端。 放大后仍不能配对小指根部、关节与指端。",
+              "correction": "重绘第1格或轻微改变观察角度，分开无名指与小指，并让小指的连续指链和长度可观察，保留原握笔方式。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "第1格无名指右后方仅可见一块掌侧屈曲表面，没有独立小指末端。 放大后仍不能配对小指根部、关节与指端。",
+              "correction": "重绘第1格或轻微改变观察角度，分开无名指与小指，并让小指的连续指链和长度可观察，保留原握笔方式。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "第1格无名指右后方仅可见一块掌侧屈曲表面，没有独立小指末端。 放大后仍不能配对小指根部、关节与指端。",
+              "correction": "重绘第1格或轻微改变观察角度，分开无名指与小指，并让小指的连续指链和长度可观察，保留原握笔方式。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "panel": 2,
+      "bbox": [
+        0.3333,
+        0,
+        0.6667,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "radial oblique; palmar folds and dorsal digit nails visible",
+          "bbox": [
+            0.383,
+            0.273,
+            0.675,
+            0.853
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "前景横向拇指从右侧鱼际根部向左伸，IP 皱褶后连接大指甲，末端夹在笔杆旁。"
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "上方食指从远端桡侧起向左弯，再向下，末端接笔杆；近、中、末节连续。"
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "拇指下方靠笔尖的一条蜷曲指，近端从笔/拇指后短遮挡处出现，向下回弯至最左的下方指甲。"
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "中指右下方较大的蜷曲指由掌远端弯到最低大指甲，侧缘可与中指分开；近端有拇指短遮挡。"
+            },
+            "little": {
+              "visibility": "unresolvable",
+              "trace": "第2格无名指右缘出现一条很窄的皮肤末端样薄片，但它与无名指及掌侧褶皱不能独立回溯。 不能将这块边缘假定为完整第五指。"
+            }
+          },
+          "count_observation": "四条指链可较清楚追踪；小指独立根部和末端不能确认，不用皮肤薄片补足五指。",
+          "length_observation": "食指与拇指可见节段比例稳定；中指和无名指蜷曲所以投影短，沿曲线未见明确拉伸。小指链不可辨，无法比较其长度、末节大小或与相邻指的比例，整手比例不能通过。",
+          "joint_observation": "拇食指连接连续，两个下方带甲指端各自可对应一个弯曲指列；小指与尺侧掌褶重叠，缺少独立关节链证据。",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "第2格无名指右缘出现一条很窄的皮肤末端样薄片，但它与无名指及掌侧褶皱不能独立回溯。 放大后仍不能配对小指根部、关节与指端。",
+              "correction": "重绘第2格或轻微改变观察角度，分开无名指与小指，并让小指的连续指链和长度可观察，保留原握笔方式。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "第2格无名指右缘出现一条很窄的皮肤末端样薄片，但它与无名指及掌侧褶皱不能独立回溯。 放大后仍不能配对小指根部、关节与指端。",
+              "correction": "重绘第2格或轻微改变观察角度，分开无名指与小指，并让小指的连续指链和长度可观察，保留原握笔方式。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "第2格无名指右缘出现一条很窄的皮肤末端样薄片，但它与无名指及掌侧褶皱不能独立回溯。 放大后仍不能配对小指根部、关节与指端。",
+              "correction": "重绘第2格或轻微改变观察角度，分开无名指与小指，并让小指的连续指链和长度可观察，保留原握笔方式。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "第2格无名指右缘出现一条很窄的皮肤末端样薄片，但它与无名指及掌侧褶皱不能独立回溯。 放大后仍不能配对小指根部、关节与指端。",
+              "correction": "重绘第2格或轻微改变观察角度，分开无名指与小指，并让小指的连续指链和长度可观察，保留原握笔方式。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "panel": 3,
+      "bbox": [
+        0.6667,
+        0,
+        1,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "radial oblique; palmar folds and dorsal digit nails visible",
+          "bbox": [
+            0.721,
+            0.3,
+            1,
+            0.842
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "前景横向拇指从右侧鱼际根部向左伸，IP 皱褶后连接大指甲，末端夹在笔杆旁。"
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "上方食指从远端桡侧起向左弯，再向下，末端接笔杆；近、中、末节连续。"
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "拇指下方靠笔尖的一条蜷曲指，近端从笔/拇指后短遮挡处出现，向下回弯至最左的下方指甲。"
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "中指右下方较大的蜷曲指由掌远端弯到最低大指甲，侧缘可与中指分开；近端有拇指短遮挡。"
+            },
+            "little": {
+              "visibility": "unresolvable",
+              "trace": "第3格无名指右后再次出现薄的圆边皮肤片，不能确认其是完整小指末节还是重叠边缘。 不能将这块边缘假定为完整第五指。"
+            }
+          },
+          "count_observation": "四条指链可较清楚追踪；小指独立根部和末端不能确认，不用皮肤薄片补足五指。",
+          "length_observation": "食指与拇指可见节段比例稳定；中指和无名指蜷曲所以投影短，沿曲线未见明确拉伸。小指链不可辨，无法比较其长度、末节大小或与相邻指的比例，整手比例不能通过。",
+          "joint_observation": "拇食指连接连续，两个下方带甲指端各自可对应一个弯曲指列；小指与尺侧掌褶重叠，缺少独立关节链证据。",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "第3格无名指右后再次出现薄的圆边皮肤片，不能确认其是完整小指末节还是重叠边缘。 放大后仍不能配对小指根部、关节与指端。",
+              "correction": "重绘第3格或轻微改变观察角度，分开无名指与小指，并让小指的连续指链和长度可观察，保留原握笔方式。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "第3格无名指右后再次出现薄的圆边皮肤片，不能确认其是完整小指末节还是重叠边缘。 放大后仍不能配对小指根部、关节与指端。",
+              "correction": "重绘第3格或轻微改变观察角度，分开无名指与小指，并让小指的连续指链和长度可观察，保留原握笔方式。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "第3格无名指右后再次出现薄的圆边皮肤片，不能确认其是完整小指末节还是重叠边缘。 放大后仍不能配对小指根部、关节与指端。",
+              "correction": "重绘第3格或轻微改变观察角度，分开无名指与小指，并让小指的连续指链和长度可观察，保留原握笔方式。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "第3格无名指右后再次出现薄的圆边皮肤片，不能确认其是完整小指末节还是重叠边缘。 放大后仍不能配对小指根部、关节与指端。",
+              "correction": "重绘第3格或轻微改变观察角度，分开无名指与小指，并让小指的连续指链和长度可观察，保留原握笔方式。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "unknown",
+    "observation": "三格保持右手桡侧握笔视角、拇指根部和食指身份，已见部分无明显长度突变；小指从无独立端点变为薄片样边缘，不能核验第五指身份及长度连续性。",
+    "issues": [
+      {
+        "code": "ambiguous_occlusion",
+        "panels": [
+          1,
+          2,
+          3
+        ],
+        "evidence": "每格小指的独立链均不可解析，不能用后两格薄片样边缘替第1格证明五指。",
+        "correction": "将三格尺侧蜷曲手指适当展开或换视角，完整显示无名指/小指的不同指端与连接，再逐帧复审。"
+      }
+    ]
+  },
+  "decision": "needs_review",
+  "limitations": "实际查看原始全分辨率三格图，并放大相关指列和接触区；这是单视角视觉检查，不能测量隐藏骨骼、真实指长或证明物理可行性。已查 research/catalog.json 动作定义；本报告仅审手部形态，不代替动作语义与接触审核。"
+}

@@ -1,0 +1,106 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/T05-v1.png",
+  "sha256": "3eee27e231392e0beb5228af0671c59e89fb0f8bb87d3c05e3014c377d06539e",
+  "action_id": "T05",
+  "reviewer": "hand-anatomy-reviewer / independent visual model review (motion_media)",
+  "expected_panels": 1,
+  "expected_hands_per_panel": [
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "背侧径侧斜视，拇食指捏硬币",
+          "bbox": [
+            0.05,
+            0,
+            1,
+            0.8
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "从画面右侧径侧根部斜向左下，经过指间横纹到带甲末端，按硬币近侧面。"
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "最靠拇指的一根长指从上方掌指关节弯向下，末端窄指甲在硬币左上缘。"
+            },
+            "middle": {
+              "visibility": "visible",
+              "trace": "食指左侧相邻指有独立近节隆起，屈曲两处后下垂，末端指甲在桌面附近。"
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "画面最左可完整看到的一根长指由远侧掌缘下行，经弯曲节段到左侧带甲末端。"
+            },
+            "little": {
+              "visibility": "unresolvable",
+              "trace": "最左长指后方有细窄肤色边缘，但无法由独立小指根部追踪到独立指尖；不以该轮廓补数。"
+            }
+          },
+          "count_observation": "拇指、食指、中指及外侧一根长指有明确末端；小指只能见到疑似遮挡边，五指不能确认。",
+          "length_observation": "已见的相邻屈曲长指没有明显离群节段；小指的长度完全不能独立比较，故整手比例未知。",
+          "joint_observation": "可见四指链与掌腕连续、弯曲方向一致；外侧重叠区的小指根部和关节连接不能分辨。",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "拇指、食指、中指及外侧一根长指有明确末端；小指只能见到疑似遮挡边，五指不能确认。",
+              "correction": "补充同一姿态的无遮挡视角，或轻微分开并露出受遮挡手指的独立根部、指节与指尖；保留正确道具和接触。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "可见四指链与掌腕连续、弯曲方向一致；外侧重叠区的小指根部和关节连接不能分辨。",
+              "correction": "补充同一姿态的无遮挡视角，或轻微分开并露出受遮挡手指的独立根部、指节与指尖；保留正确道具和接触。"
+            },
+            {
+              "code": "length_ratio",
+              "check": "proportions",
+              "evidence": "已见的相邻屈曲长指没有明显离群节段；小指的长度完全不能独立比较，故整手比例未知。",
+              "correction": "补充同一姿态的无遮挡视角，或轻微分开并露出受遮挡手指的独立根部、指节与指尖；保留正确道具和接触。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "可见四指链与掌腕连续、弯曲方向一致；外侧重叠区的小指根部和关节连接不能分辨。",
+              "correction": "补充同一姿态的无遮挡视角，或轻微分开并露出受遮挡手指的独立根部、指节与指尖；保留正确道具和接触。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "pass",
+    "observation": "仅一个静态画面，实际看到 1 只手，与动作要求的手数相符；没有跨帧材料，未据此评估左右互换、指长随时间变化或运动连续性。"
+  },
+  "decision": "needs_review",
+  "limitations": "已打开原始分辨率 PNG；有歧义处另做局部放大。单视角视觉检查，遮挡几何和精确长度不作补全或测量；不是物理、临床或完整运动验证。",
+  "action_fidelity": {
+    "status": "pass",
+    "observation": "拇食指夹住桌面边立的硬币，硬币底缘接近或接触桌面，符合从桌面拾取的接触关键姿态；不能由此认定已完成离桌或完整拾取时序。"
+  },
+  "action_fidelity_scope": "Only the single key pose and expected prop are reviewed; no temporal completion claim.",
+  "inspection_note": "原图及 /tmp/T05-anatomy-zoom.png 局部放大均已实际查看。"
+}

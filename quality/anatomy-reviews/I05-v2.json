@@ -1,0 +1,269 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/I05-v2.png",
+  "sha256": "ed1eec45fc0dcd2c26cea190dc51ea1d0d4c81fc9899641c7dc1ad2c3bca1109",
+  "action_id": "I05",
+  "reviewer": "hand-anatomy-reviewer / anatomy_review_batch2 / visual model review",
+  "intended_action": {
+    "name": "掌心到指尖转移",
+    "hands": "单手"
+  },
+  "expected_panels": 3,
+  "expected_hands_per_panel": [
+    1,
+    1,
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0.0,
+        0,
+        0.3333,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "near-frontal palm, fingers curled",
+          "bbox": [
+            0.024,
+            0.184,
+            0.274,
+            0.929
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "The thumb arises on the image-right thenar side, extends upward through two sections and ends in a nail-edged rounded tip to the right of the curled finger row."
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "The finger nearest the thumb forms the highest right knuckle of the curled row and bends down to its separate nail near the thumb web."
+            },
+            "middle": {
+              "visibility": "visible",
+              "trace": "The next curled ray has a separate upper knuckle left of the index and ends in a nail below and left of the index tip."
+            },
+            "ring": {
+              "visibility": "visible",
+              "trace": "The next ray arises farther left across the distal palm, bends through its own chain and terminates in the nail touching the coin edge."
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "The outer image-left small ray starts at the ulnar palm edge and curls down-right to the lowest short nail-bearing tip beside the coin."
+            }
+          },
+          "count_observation": "All five separate rays are visible: radial thumb and four orderly curled fingers, with no extra distal tip.",
+          "length_observation": "The curled fingers progressively shorten toward the little finger when their curved chains are followed; differing nail heights are explained by flexion. Middle and index are both substantial without a forced index/ring ratio. Thumb sections are plausible for the opened pose.",
+          "joint_observation": "All four flexed rays attach in order to the distal palm; thumb joins the radial thenar side. Nails and visible joint creases follow continuous chains. Coin hides palm surface rather than any digit identity; hand/wrist/forearm are fully framed.",
+          "checks": {
+            "five_digits": "pass",
+            "connectivity": "pass",
+            "proportions": "pass",
+            "joint_structure": "pass",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": []
+        }
+      ]
+    },
+    {
+      "panel": 2,
+      "bbox": [
+        0.3333,
+        0,
+        0.6667,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "unknown",
+          "view": "palm view with ambiguous radial side",
+          "bbox": [
+            0.29,
+            0.075,
+            0.61,
+            0.929
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "unresolvable",
+              "trace": "There are two candidates: the bent nail-bearing ray entering from image-left to the coin, and the extended short ray on image-right arising from a broad side mound. A unique thumb base cannot be assigned."
+            },
+            "index": {
+              "visibility": "unresolvable",
+              "trace": "The left of the two upright long rays reaches the highest tip behind the coin; without a unique radial thumb side its identity as index rather than another finger is unresolved."
+            },
+            "middle": {
+              "visibility": "unresolvable",
+              "trace": "The right upright long ray has two visible joint regions and a rounded tip, but it cannot be assigned uniquely as middle within a four-finger ordered row."
+            },
+            "ring": {
+              "visibility": "unresolvable",
+              "trace": "No separate ring-finger base-to-tip chain can be mapped in addition to the two upright rays and the two ambiguous lateral rays; hidden portions are not invented."
+            },
+            "little": {
+              "visibility": "unresolvable",
+              "trace": "A distinct fifth little-finger chain or tip cannot be isolated. The outer side rays have ambiguous identities rather than a resolved shorter ulnar finger."
+            }
+          },
+          "count_observation": "Panel 2 has four conspicuous distal projections: a bent coin-contacting ray on image-left, two upright central rays, and a thumb-like ray on image-right. The two side origins prevent a unique thumb identification and ordered mapping of four non-thumb fingers.",
+          "length_observation": "Both upright rays have visible segments, but their identities cannot be assigned reliably from the ambiguous side rays. The rightmost thumb-like ray has a short two-section profile while the left bent ray reaches the coin; without a unique thumb/finger map, full five-digit length relationships cannot be checked.",
+          "joint_observation": "Visible palm and wrist are continuous, but the four projections cannot be assembled into an unambiguous one-thumb/four-finger topology. Exact side, hidden joint chains and five-digit continuity remain unknown. No crop explains the uncertainty.",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "unknown",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "Panel 2 has four conspicuous distal projections: a bent coin-contacting ray on image-left, two upright central rays, and a thumb-like ray on image-right. The two side origins prevent a unique thumb identification and ordered mapping of four non-thumb fingers.",
+              "correction": "Redraw panel 2 with one unambiguous radial thumb and four separately traceable finger rays, retaining the same right hand as panel 1 and the coin-transfer action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "Panel 2 has four conspicuous distal projections: a bent coin-contacting ray on image-left, two upright central rays, and a thumb-like ray on image-right. The two side origins prevent a unique thumb identification and ordered mapping of four non-thumb fingers. The hidden ray cannot be connected to a unique base through its full visible chain.",
+              "correction": "Redraw panel 2 with one unambiguous radial thumb and four separately traceable finger rays, retaining the same right hand as panel 1 and the coin-transfer action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "Both upright rays have visible segments, but their identities cannot be assigned reliably from the ambiguous side rays. The rightmost thumb-like ray has a short two-section profile while the left bent ray reaches the coin; without a unique thumb/finger map, full five-digit length relationships cannot be checked.",
+              "correction": "Redraw panel 2 with one unambiguous radial thumb and four separately traceable finger rays, retaining the same right hand as panel 1 and the coin-transfer action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "Panel 2 has four conspicuous distal projections: a bent coin-contacting ray on image-left, two upright central rays, and a thumb-like ray on image-right. The two side origins prevent a unique thumb identification and ordered mapping of four non-thumb fingers. Hidden flexion and segment topology cannot be verified.",
+              "correction": "Redraw panel 2 with one unambiguous radial thumb and four separately traceable finger rays, retaining the same right hand as panel 1 and the coin-transfer action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "handedness",
+              "evidence": "The palm is visible, but both lateral rays have thumb-like profiles/origins; a unique radial thumb origin cannot be established. Do not select left/right merely from the contacting nail.",
+              "correction": "Redraw panel 2 with one unambiguous radial thumb and four separately traceable finger rays, retaining the same right hand as panel 1 and the coin-transfer action."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "panel": 3,
+      "bbox": [
+        0.6667,
+        0,
+        1.0,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "left",
+          "view": "palm oblique",
+          "bbox": [
+            0.587,
+            0.092,
+            0.874,
+            0.929
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "The radial thenar mass is now image-left; a two-section thumb rises toward the coin and ends in the broad nail-bearing pad at its lower-left edge."
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "The upper-right long ray starts at the distal palm beside the thumb web, arches upward and bends left to the tip opposing the thumb at the upper-right coin edge."
+            },
+            "middle": {
+              "visibility": "visible",
+              "trace": "The first curled ray below the index rises from a separate right-side base, curves left/down and ends in the upper curled nail near the palm center."
+            },
+            "ring": {
+              "visibility": "visible",
+              "trace": "The next lower curled ray bends inward from the ulnar side and ends in a separate smaller nail below the middle fingertip."
+            },
+            "little": {
+              "visibility": "unresolvable",
+              "trace": "The lowest right-side folded contour merges into the palm beneath the ring finger; an independent little-finger tip and full chain cannot be distinguished even in the enlarged view."
+            }
+          },
+          "count_observation": "Thumb, pinching index and two curled fingers are individually traced; the lowest ulnar ray remains unresolved behind the folded-palm contour.",
+          "length_observation": "The thumb and arched index have plausible two- versus three-section lengths; curled middle and ring are shorter in projection because of flexion. The little-finger centerline is hidden, so its relative length cannot be checked.",
+          "joint_observation": "Four visible rays attach continuously to a left palm. The lower ulnar folds conceal a fifth joint chain. Finger tips, palm, wrist and short forearm fit in the panel.",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "Panel 3: the lower ulnar fold does not reveal a unique little-finger base-to-tip chain.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "Panel 3: the lower ulnar fold does not reveal a unique little-finger base-to-tip chain. The hidden ray cannot be connected to a unique base through its full visible chain.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "Panel 3: little-finger length is unresolved beneath the ring/palmar fold; visible shorter projection is not an anatomical length measurement.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "Panel 3: the lower ulnar fold does not reveal a unique little-finger base-to-tip chain. Hidden flexion and segment topology cannot be verified.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "fail",
+    "observation": "Panel 1 has an unambiguous right palm (thenar thumb origin on image-right); panel 3 has an unambiguous left palm (thenar origin on image-left). This is a side/identity swap in a single-hand palm-to-finger transfer sequence. Panel 2 additionally has an ambiguous radial side and unresolved digit mapping, while panel 3 hides the little ray.",
+    "issues": [
+      {
+        "code": "handedness_swap",
+        "panels": [
+          1,
+          3
+        ],
+        "evidence": "The actual palm and thenar thumb origin change from right hand in panel 1 to left hand in panel 3; this cannot be explained by simply turning the same palm while both panels show the palm toward the viewer.",
+        "correction": "Redraw panels 2 and 3 using the same right-hand identity and explicit one-thumb/four-finger topology as panel 1; expose the curled little finger enough to trace it."
+      },
+      {
+        "code": "ambiguous_occlusion",
+        "panels": [
+          2,
+          3
+        ],
+        "evidence": "Panel 2 does not provide a unique thumb and five-finger map; panel 3 lacks a separate visible little-finger chain.",
+        "correction": "Show each affected digit base, bent chain and terminal tip while preserving the coin-transfer sequence."
+      }
+    ]
+  },
+  "decision": "reject",
+  "limitations": "Actual original image and, where necessary, enlarged detail inspected. Single-view visual anatomy assessment only: hidden bone geometry, exact centerline lengths and physical feasibility are not measured. This report does not approve action fidelity or motion between the illustrated panels."
+}

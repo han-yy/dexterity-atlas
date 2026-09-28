@@ -1,0 +1,79 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/I25-v1.png",
+  "sha256": "a245cb836e97d3419deee7de743577cb3d1b511ee0652e5a897462aacb66d703",
+  "action_id": "I25",
+  "reviewer": "hand-anatomy-reviewer / anatomy_review_batch2 / visual model review",
+  "intended_action": {
+    "name": "硬币翻面 180°",
+    "hands": "单手"
+  },
+  "expected_panels": 1,
+  "expected_hands_per_panel": [
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0.0,
+        0,
+        1.0,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "radial oblique with palm visible",
+          "bbox": [
+            0.19,
+            0.036,
+            1,
+            1
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "The broad foreground thumb originates in the radial thenar mass on image-right, travels diagonally left through one main interphalangeal bend, and ends in the broad nail pad against the coin lower-right edge."
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "The upper long ray arches from the upper distal palm through two bend regions and ends in the pad resting on the coin top; its nail is visible only along the upper edge."
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "The next ray leaves the distal palm behind the thumb/index web, crosses left behind the small coin, and reappears as the separate nail-edged pad below the coin on image-left. Exposed upper and lower contours identify its continuation across the local coin contact."
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "The next lower ray starts at the distal palm behind the foreground thumb, forms the large downward-left curl and ends in the separate oblique nail below the thumb. Its proximal thumb overlap is local."
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "The outer ulnar ray starts low on the palm, bends left then back right beneath the ring finger, and ends in the smallest low nail-bearing fingertip."
+            }
+          },
+          "count_observation": "One radial thumb plus four ordered finger rays can be followed. The pad below the coin is the middle finger, separate from the arched index, while the two lower curled tips are ring and little.",
+          "length_observation": "The arched index and less-flexed middle expose longer spans than the curled ring/little; their projected heights therefore are not used as raw lengths. Curved ring sections remain substantial and the lowest little is shorter/thinner. The broad foreground thumb is magnified by its near view but its two sections are plausible without an obvious stretched phalanx.",
+          "joint_observation": "The thumb joins the thenar side and four non-thumb rays attach in an ordered row. The index has two plausible interphalangeal bends; lower fingers curl without branches, shared tips or visible skin/coin penetration. All tips, palm and wrist are visible with a short forearm before the image-edge continuation.",
+          "checks": {
+            "five_digits": "pass",
+            "connectivity": "pass",
+            "proportions": "pass",
+            "joint_structure": "pass",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "pass",
+    "observation": "One actual panel and one right hand were inspected. No inter-panel motion or 180-degree flip is shown in this asset, so this anatomy approval concerns the static pose only; all five visible ray identities are internally consistent."
+  },
+  "decision": "approve",
+  "limitations": "Actual original image and, where necessary, enlarged detail inspected. Single-view visual anatomy assessment only: hidden bone geometry, exact centerline lengths and physical feasibility are not measured. This report does not approve action fidelity or motion between the illustrated panels."
+}

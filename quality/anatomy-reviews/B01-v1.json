@@ -1,0 +1,151 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/B01-v1.png",
+  "sha256": "2319479e13b311111f0b08989869180dafc8fa371a08686154676f0a130aab00",
+  "action_id": "B01",
+  "reviewer": "hand-anatomy-reviewer / independent visual model review (motion_media)",
+  "expected_panels": 1,
+  "expected_hands_per_panel": [
+    2
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "left",
+          "view": "左手径侧及背侧斜视，支撑纸片",
+          "bbox": [
+            0,
+            0.252,
+            0.376,
+            0.995
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "由掌部径侧斜向右上延伸，指间横纹后接带指甲的指尖，按在纸片正面。"
+            },
+            "index": {
+              "visibility": "unresolvable",
+              "trace": "纸片左上缘后有一条弯曲近节轮廓，但远节和指尖被纸完全遮挡，不能完成独立根部到指尖追踪。"
+            },
+            "middle": {
+              "visibility": "unresolvable",
+              "trace": "上方弯曲轮廓下可见另一段横向指腹，进入纸片背面后中断；不能确认其完整链和末端。"
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "纸片下缘右侧较高的一根指腹露出，向左延续至掌缘；其根部有短段被纸和拇指重叠。"
+            },
+            "little": {
+              "visibility": "traceable",
+              "trace": "最下方露出的较短指腹向左下回接掌部尺侧，末端圆钝，与上方指腹有分界。"
+            }
+          },
+          "count_observation": "清楚见到拇指与纸片下缘两根指端，上方两根仅有局部近节；不能把纸后的不可见末端补足为已验证五指。",
+          "length_observation": "拇指弯曲链连续，下方两根指腹的可见长度有递减；被纸遮住的食、中指全长与节段不可比较，不能对整手比例给出通过。",
+          "joint_observation": "可见拇指、下缘两指与手腕连续，无明显穿透；纸片后的两条指链及其关节连接无法确认。",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "清楚见到拇指与纸片下缘两根指端，上方两根仅有局部近节；不能把纸后的不可见末端补足为已验证五指。",
+              "correction": "补充同一姿态的无遮挡视角，或轻微分开并露出受遮挡手指的独立根部、指节与指尖；保留正确道具和接触。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "可见拇指、下缘两指与手腕连续，无明显穿透；纸片后的两条指链及其关节连接无法确认。",
+              "correction": "补充同一姿态的无遮挡视角，或轻微分开并露出受遮挡手指的独立根部、指节与指尖；保留正确道具和接触。"
+            },
+            {
+              "code": "length_ratio",
+              "check": "proportions",
+              "evidence": "拇指弯曲链连续，下方两根指腹的可见长度有递减；被纸遮住的食、中指全长与节段不可比较，不能对整手比例给出通过。",
+              "correction": "补充同一姿态的无遮挡视角，或轻微分开并露出受遮挡手指的独立根部、指节与指尖；保留正确道具和接触。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "可见拇指、下缘两指与手腕连续，无明显穿透；纸片后的两条指链及其关节连接无法确认。",
+              "correction": "补充同一姿态的无遮挡视角，或轻微分开并露出受遮挡手指的独立根部、指节与指尖；保留正确道具和接触。"
+            }
+          ]
+        },
+        {
+          "hand_id": "H2",
+          "side": "right",
+          "view": "右手掌侧斜视，持剪刀",
+          "bbox": [
+            0.531,
+            0.393,
+            1,
+            1
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "从掌部右上鱼际隆起进入上方小柄环，弯曲后指腹向左，指甲位于左上端。"
+            },
+            "index": {
+              "visibility": "traceable",
+              "trace": "小柄环下方可见独立近节，沿大柄环上缘向左下弯至上方第一枚指甲；柄缘遮住短段。"
+            },
+            "middle": {
+              "visibility": "visible",
+              "trace": "在食指下方单独绕过大柄环，向右弯回掌面，末端指甲居中，边界与上下指分开。"
+            },
+            "ring": {
+              "visibility": "visible",
+              "trace": "第三根弯曲手指在中指下方，指尖和指甲略靠右，指腹向掌面回接。"
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "最下方小指从尺侧掌缘卷向左再回向右上，短小指甲在无名指下侧。"
+            }
+          },
+          "count_observation": "拇指一根与大柄环周围四根独立弯曲指链可追踪；未见额外末端或分叉。",
+          "length_observation": "各指均屈曲，不能用腕至指尖直线比较；中、无名指可见节段相近，小指更短，拇指两节轮廓未见明显拉长。",
+          "joint_observation": "掌面、拇指根部、四根卷指与腕部连续；柄环仅局部挡住食指，未见分叉、反折或明显穿透。",
+          "checks": {
+            "five_digits": "pass",
+            "connectivity": "pass",
+            "proportions": "pass",
+            "joint_structure": "pass",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "pass",
+    "observation": "仅一个静态画面，实际看到 2 只手，与动作要求的手数相符；没有跨帧材料，未据此评估左右互换、指长随时间变化或运动连续性。"
+  },
+  "decision": "needs_review",
+  "limitations": "已打开原始分辨率 PNG；有歧义处另做局部放大。单视角视觉检查，遮挡几何和精确长度不作补全或测量；不是物理、临床或完整运动验证。",
+  "action_fidelity": {
+    "status": "pass",
+    "observation": "画面确有两手、剪刀和纸片：一手捏住纸片，另一手通过柄环握剪刀，刀刃张开位于纸边。符合双手协同剪刀操作的关键姿态；单帧不证明开合过程或接触同步。"
+  },
+  "action_fidelity_scope": "Only the single key pose and expected prop are reviewed; no temporal completion claim.",
+  "inspection_note": "原图及 /tmp/B01-anatomy-zoom.png 局部放大均已实际查看。"
+}

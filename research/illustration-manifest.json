@@ -1,0 +1,488 @@
+{
+  "version": "1.0",
+  "generator": "built-in image_gen",
+  "records": [
+    {
+      "action_id": "T04",
+      "path": "assets/generated/T04-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-0a1f9f1b-e88d-4c16-9a94-c125b1a2b83e.png",
+      "status": "approved",
+      "prompt": "Use case: scientific-educational. Asset: one publication-quality instructional plate for a dexterous-hand action catalogue, action T04 \"Pinch and lift a flat card from a tabletop\". Create an original landscape image, ideally 1536x1024. Formal occupational-motor-skills textbook illustration, anatomically accurate natural adult hands, precise graphite-like contours and restrained soft realistic color shading, warm neutral skin, blue-grey blank rigid plastic card, plain white background, no decorative graphics, no branding. Three equal spacious panels arranged horizontally, separated only by wide white gutters. Show the SAME RIGHT HAND, same viewing angle and same card in all panels. Camera is oblique from the thumb side, enough palm and dorsal contours visible to understand every digit. In EACH panel include entire hand from fingertips through wrist and short distal forearm, with generous margins; never crop fingers or wrist. Exactly five anatomically connected digits per hand, thumb has two phalanges, other digits three, sensible joints, no duplicated fingers. Panel 1: right hand approaching a horizontal blank credit-card-sized card lying on a flat pale grey tabletop, thumb and index open close to an exposed short edge, middle/ring/little relaxed. Panel 2: thumb pad below the card's short edge and index pad above it, a true opposed pinch of that edge; edge is slightly raised, the far edge can still rest on the table; card remains one flat rigid rectangle, no penetration through fingers. Panel 3: the same opposed thumb-index pinch now holds the entire card 4 cm above the surface, nonparticipating fingers softly curved and clearly distinct; show a narrow air gap beneath the card. Small thin blue motion arrows outside hand contours may show approach and upward lift. Only text allowed is the tiny panel numerals \"1\", \"2\", \"3\" in top-left corners. Do not include any other text, anatomical labels, captions, gauges or invented instruments. Pose readability and action correctness matter more than photorealism. This is a conceptual teaching illustration, not a source photograph or medical treatment instruction.",
+      "review": "三帧逐张检查；完整五指与手腕，接近—夹边—举起可辨。被遮挡部分的精确接触面未知。",
+      "geometry": "visually_plausible",
+      "temporal": "keyframes_only",
+      "physics": "unknown",
+      "handedness": "right"
+    },
+    {
+      "action_id": "I03",
+      "path": "assets/generated/I03-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-2d3bc4b4-be54-40dd-a93d-b285ed8bc3b2.png",
+      "status": "approved",
+      "prompt": "Use case: scientific-educational. Create ONE original formal teaching plate for a hand-motor-skills publication, landscape 1536x1024, or larger landscape if needed. A clean professional textbook illustration, white background, precise restrained graphite contours and soft realistic color shading, natural adult skin, blue-grey props, no decorative art, no logos. Generous whitespace between sequential panels. Every panel must show COMPLETE hand anatomy from all fingertips through the wrist to a short forearm, NEVER crop a finger or wrist. Exactly five correctly connected digits per hand, thumb on anatomically correct side, natural joint flexion and realistic phalanx lengths. If two hands are required show one LEFT and one RIGHT, neither hidden behind the other; do not add extra hands. Oblique view selected for contact readability, same hand/object identities and consistent viewpoint through a sequence. Objects rigid unless explicitly flexible. Fingers touch object surfaces without penetrating. Hands and props occupy most of each panel, not distant small figures. Only tiny numerals 1, 2, 3 (4 if specified) above panels, plus A/B or X/Y/Z only if the scene specifies these. No Chinese text, no English captions, no invented numbers, no labels on skin. Discrete key poses, not multiple ghost hands. Small unobtrusive blue motion arrows only when they clarify the specified motion. Realistic anatomy is more important than artistic flourish. This is an AI authored conceptual illustration, NOT a source recording or physics verification. Task fidelity: \nACTION I03: Palm-relative 6D pose reaching / 掌系完整 6D 位姿到达\nSCENE (follow exactly): 同一右手掌系内的方块同时改变位置和朝向。三帧手腕位置与手掌朝向保持不变：指腹稳定托住朝上方块；拇指与食中指移动方块并换接触；方块在掌内更靠指尖且相对掌旋转约四分之一圈。方块画一条蓝色面标记。不要以移动整只手或相机旋转冒充手内变化。",
+      "handedness": "left",
+      "review": "三帧均检查：方块由掌心移至指端并改变朝向，完整手腕与五指轮廓可辨；物体后方接触有遮挡。仅示意位置和朝向改变，不能证明完整 6D 轨迹。",
+      "geometry": "visually_plausible",
+      "temporal": "keyframes_only",
+      "physics": "unknown"
+    },
+    {
+      "action_id": "I04",
+      "path": "assets/generated/I04-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-38b3cc0d-7ac0-49fd-acff-c0f5df716c9e.png",
+      "status": "approved",
+      "prompt": "Use case: scientific-educational. Create ONE original formal teaching plate for a hand-motor-skills publication, landscape 1536x1024, or larger landscape if needed. A clean professional textbook illustration, white background, precise restrained graphite contours and soft realistic color shading, natural adult skin, blue-grey props, no decorative art, no logos. Generous whitespace between sequential panels. Every panel must show COMPLETE hand anatomy from all fingertips through the wrist to a short forearm, NEVER crop a finger or wrist. Exactly five correctly connected digits per hand, thumb on anatomically correct side, natural joint flexion and realistic phalanx lengths. If two hands are required show one LEFT and one RIGHT, neither hidden behind the other; do not add extra hands. Oblique view selected for contact readability, same hand/object identities and consistent viewpoint through a sequence. Objects rigid unless explicitly flexible. Fingers touch object surfaces without penetrating. Hands and props occupy most of each panel, not distant small figures. Only tiny numerals 1, 2, 3 (4 if specified) above panels, plus A/B or X/Y/Z only if the scene specifies these. No Chinese text, no English captions, no invented numbers, no labels on skin. Discrete key poses, not multiple ghost hands. Small unobtrusive blue motion arrows only when they clarify the specified motion. Realistic anatomy is more important than artistic flourish. This is an AI authored conceptual illustration, NOT a source recording or physics verification. Task fidelity: \nACTION I04: Finger-to-palm translation / 指尖到掌心转移\nSCENE (follow exactly): 右手掌斜向上，只有一枚硬币。三帧：拇指和食指指腹在指端夹硬币；食中指向掌内屈曲让硬币逐步进入掌心；硬币留在掌心，由环小指轻屈稳定，拇食指已经松开。手掌位置不变，不能借助另一手。硬币不能穿过皮肤。",
+      "handedness": "right",
+      "review": "三帧逐张检查：同一手将硬币从指端收至掌心。形态检查通过，连续接触与精确位移未测量。",
+      "geometry": "visually_plausible",
+      "temporal": "keyframes_only",
+      "physics": "unknown"
+    },
+    {
+      "action_id": "I05",
+      "path": "assets/generated/I05-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-2df912db-e951-434b-bac7-c4a1f212642c.png",
+      "status": "rejected",
+      "prompt": "Use case: scientific-educational. Create ONE original formal teaching plate for a hand-motor-skills publication, landscape 1536x1024, or larger landscape if needed. A clean professional textbook illustration, white background, precise restrained graphite contours and soft realistic color shading, natural adult skin, blue-grey props, no decorative art, no logos. Generous whitespace between sequential panels. Every panel must show COMPLETE hand anatomy from all fingertips through the wrist to a short forearm, NEVER crop a finger or wrist. Exactly five correctly connected digits per hand, thumb on anatomically correct side, natural joint flexion and realistic phalanx lengths. If two hands are required show one LEFT and one RIGHT, neither hidden behind the other; do not add extra hands. Oblique view selected for contact readability, same hand/object identities and consistent viewpoint through a sequence. Objects rigid unless explicitly flexible. Fingers touch object surfaces without penetrating. Hands and props occupy most of each panel, not distant small figures. Only tiny numerals 1, 2, 3 (4 if specified) above panels, plus A/B or X/Y/Z only if the scene specifies these. No Chinese text, no English captions, no invented numbers, no labels on skin. Discrete key poses, not multiple ghost hands. Small unobtrusive blue motion arrows only when they clarify the specified motion. Realistic anatomy is more important than artistic flourish. This is an AI authored conceptual illustration, NOT a source recording or physics verification. Task fidelity: \nACTION I05: Palm-to-finger translation / 掌心到指尖转移\nSCENE (follow exactly): 右手掌斜向上，只有一枚硬币。三帧：硬币由屈曲手指稳定在掌心；拇指将硬币推向伸展的食中指；拇指与食指在指端捏住硬币。稳定手掌不动，不能借助另一手。",
+      "review": "第 1 帧右手，第 2–3 帧左手，手侧不一致；不得发布。",
+      "handedness": "mixed_or_uncertain"
+    },
+    {
+      "action_id": "I06",
+      "path": "assets/generated/I06-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-90aecd87-5e88-4107-af66-76b24c7f07e0.png",
+      "status": "approved",
+      "prompt": "Use case: scientific-educational. Create ONE original formal teaching plate for a hand-motor-skills publication, landscape 1536x1024, or larger landscape if needed. A clean professional textbook illustration, white background, precise restrained graphite contours and soft realistic color shading, natural adult skin, blue-grey props, no decorative art, no logos. Generous whitespace between sequential panels. Every panel must show COMPLETE hand anatomy from all fingertips through the wrist to a short forearm, NEVER crop a finger or wrist. Exactly five correctly connected digits per hand, thumb on anatomically correct side, natural joint flexion and realistic phalanx lengths. If two hands are required show one LEFT and one RIGHT, neither hidden behind the other; do not add extra hands. Oblique view selected for contact readability, same hand/object identities and consistent viewpoint through a sequence. Objects rigid unless explicitly flexible. Fingers touch object surfaces without penetrating. Hands and props occupy most of each panel, not distant small figures. Only tiny numerals 1, 2, 3 (4 if specified) above panels, plus A/B or X/Y/Z only if the scene specifies these. No Chinese text, no English captions, no invented numbers, no labels on skin. Discrete key poses, not multiple ghost hands. Small unobtrusive blue motion arrows only when they clarify the specified motion. Realistic anatomy is more important than artistic flourish. This is an AI authored conceptual illustration, NOT a source recording or physics verification. Task fidelity: \nACTION I06: Simple shift / 笔沿指腹小幅移位\nSCENE (follow exactly): 三帧右手以书写三指抓持同一支笔。拇指食指中指在笔杆上交替微小调整，使握持位置沿笔杆靠近笔尖；笔的指向保持相同，腕和掌基本不动。每帧笔尖与指腹的距离不同，其他两指自然屈曲。",
+      "handedness": "right",
+      "review": "三帧均检查：完整书写握姿，指腹沿笔杆微调可辨；小幅变化和接触先后无法从静态图量化。",
+      "geometry": "visually_plausible",
+      "temporal": "keyframes_only",
+      "physics": "unknown"
+    },
+    {
+      "action_id": "I07",
+      "path": "assets/generated/I07-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-1c351c1d-0f14-4b82-adc0-ad12a3975b64.png",
+      "status": "approved",
+      "prompt": "Use case: scientific-educational. Create ONE original formal teaching plate for a hand-motor-skills publication, landscape 1536x1024, or larger landscape if needed. A clean professional textbook illustration, white background, precise restrained graphite contours and soft realistic color shading, natural adult skin, blue-grey props, no decorative art, no logos. Generous whitespace between sequential panels. Every panel must show COMPLETE hand anatomy from all fingertips through the wrist to a short forearm, NEVER crop a finger or wrist. Exactly five correctly connected digits per hand, thumb on anatomically correct side, natural joint flexion and realistic phalanx lengths. If two hands are required show one LEFT and one RIGHT, neither hidden behind the other; do not add extra hands. Oblique view selected for contact readability, same hand/object identities and consistent viewpoint through a sequence. Objects rigid unless explicitly flexible. Fingers touch object surfaces without penetrating. Hands and props occupy most of each panel, not distant small figures. Only tiny numerals 1, 2, 3 (4 if specified) above panels, plus A/B or X/Y/Z only if the scene specifies these. No Chinese text, no English captions, no invented numbers, no labels on skin. Discrete key poses, not multiple ghost hands. Small unobtrusive blue motion arrows only when they clarify the specified motion. Realistic anatomy is more important than artistic flourish. This is an AI authored conceptual illustration, NOT a source recording or physics verification. Task fidelity: \nACTION I07: Complex shift / 多指配合复杂移位\nSCENE (follow exactly): 右手在掌内将一支细笔沿长度移动，三帧依次食指推移、拇中指接力、重建三指抓；笔杆轴向平移而非整体手臂搬运。全程至少两处接触支撑，完整可见五指。",
+      "handedness": "right",
+      "review": "三帧逐张检查：多指接替接触笔杆可辨；轴向位移幅度与连续接触未测量。",
+      "geometry": "visually_plausible",
+      "temporal": "keyframes_only",
+      "physics": "unknown"
+    },
+    {
+      "action_id": "I08",
+      "path": "assets/generated/I08-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-7ee19c27-42a9-40e2-828b-2245e93993ab.png",
+      "status": "approved",
+      "prompt": "Use case: scientific-educational. Create ONE original formal teaching plate for a hand-motor-skills publication, landscape 1536x1024, or larger landscape if needed. A clean professional textbook illustration, white background, precise restrained graphite contours and soft realistic color shading, natural adult skin, blue-grey props, no decorative art, no logos. Generous whitespace between sequential panels. Every panel must show COMPLETE hand anatomy from all fingertips through the wrist to a short forearm, NEVER crop a finger or wrist. Exactly five correctly connected digits per hand, thumb on anatomically correct side, natural joint flexion and realistic phalanx lengths. If two hands are required show one LEFT and one RIGHT, neither hidden behind the other; do not add extra hands. Oblique view selected for contact readability, same hand/object identities and consistent viewpoint through a sequence. Objects rigid unless explicitly flexible. Fingers touch object surfaces without penetrating. Hands and props occupy most of each panel, not distant small figures. Only tiny numerals 1, 2, 3 (4 if specified) above panels, plus A/B or X/Y/Z only if the scene specifies these. No Chinese text, no English captions, no invented numbers, no labels on skin. Discrete key poses, not multiple ghost hands. Small unobtrusive blue motion arrows only when they clarify the specified motion. Realistic anatomy is more important than artistic flourish. This is an AI authored conceptual illustration, NOT a source recording or physics verification. Task fidelity: \nACTION I08: Simple rotation / 指间简单旋转\nSCENE (follow exactly): 右手拇指食指中指持一枚扁代币，三帧小幅指间旋转约45度；在代币上仅画一个蓝点显示角度改变，手腕保持原位。不是把硬币抛起或交给另一只手。",
+      "handedness": "right",
+      "review": "三帧逐张检查：代币在同一手的指间由正面转向侧面；旋转角度未量化。",
+      "geometry": "visually_plausible",
+      "temporal": "keyframes_only",
+      "physics": "unknown"
+    },
+    {
+      "action_id": "I09",
+      "path": "assets/generated/I09-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-d794e422-3c21-4006-b1fe-9f1797f02e5a.png",
+      "status": "approved",
+      "prompt": "Use case: scientific-educational. Create ONE original formal teaching plate for a hand-motor-skills publication, landscape 1536x1024, or larger landscape if needed. A clean professional textbook illustration, white background, precise restrained graphite contours and soft realistic color shading, natural adult skin, blue-grey props, no decorative art, no logos. Generous whitespace between sequential panels. Every panel must show COMPLETE hand anatomy from all fingertips through the wrist to a short forearm, NEVER crop a finger or wrist. Exactly five correctly connected digits per hand, thumb on anatomically correct side, natural joint flexion and realistic phalanx lengths. If two hands are required show one LEFT and one RIGHT, neither hidden behind the other; do not add extra hands. Oblique view selected for contact readability, same hand/object identities and consistent viewpoint through a sequence. Objects rigid unless explicitly flexible. Fingers touch object surfaces without penetrating. Hands and props occupy most of each panel, not distant small figures. Only tiny numerals 1, 2, 3 (4 if specified) above panels, plus A/B or X/Y/Z only if the scene specifies these. No Chinese text, no English captions, no invented numbers, no labels on skin. Discrete key poses, not multiple ghost hands. Small unobtrusive blue motion arrows only when they clarify the specified motion. Realistic anatomy is more important than artistic flourish. This is an AI authored conceptual illustration, NOT a source recording or physics verification. Task fidelity: \nACTION I09: Complex rotation / 指间复杂旋转\nSCENE (follow exactly): 右手用拇食中指将同一支笔端对端翻转，三帧呈起点、接触转换中间、笔尖方向相反的终点。需用全手特写和清楚的指间空隙，不能让笔穿过手指；其余指可以提供中间支撑。",
+      "review": "三帧可见持笔接触改变，起点与终点笔尖方向相反。笔夹细节存在生成差异，不用于物体姿态定量标定。",
+      "geometry": "visually_plausible",
+      "temporal": "keyframes_only",
+      "physics": "unknown",
+      "caption": "指间翻转的关键握姿示意；不用于连续轨迹或物体几何标定。",
+      "handedness": "right"
+    },
+    {
+      "action_id": "I10",
+      "path": "assets/generated/I10-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-0437f096-8d1f-4e34-ba51-241f4a7a19ae.png",
+      "status": "approved",
+      "prompt": "Use case: scientific-educational. Create ONE original formal teaching plate for a hand-motor-skills publication, landscape 1536x1024, or larger landscape if needed. A clean professional textbook illustration, white background, precise restrained graphite contours and soft realistic color shading, natural adult skin, blue-grey props, no decorative art, no logos. Generous whitespace between sequential panels. Every panel must show COMPLETE hand anatomy from all fingertips through the wrist to a short forearm, NEVER crop a finger or wrist. Exactly five correctly connected digits per hand, thumb on anatomically correct side, natural joint flexion and realistic phalanx lengths. If two hands are required show one LEFT and one RIGHT, neither hidden behind the other; do not add extra hands. Oblique view selected for contact readability, same hand/object identities and consistent viewpoint through a sequence. Objects rigid unless explicitly flexible. Fingers touch object surfaces without penetrating. Hands and props occupy most of each panel, not distant small figures. Only tiny numerals 1, 2, 3 (4 if specified) above panels, plus A/B or X/Y/Z only if the scene specifies these. No Chinese text, no English captions, no invented numbers, no labels on skin. Discrete key poses, not multiple ghost hands. Small unobtrusive blue motion arrows only when they clarify the specified motion. Realistic anatomy is more important than artistic flourish. This is an AI authored conceptual illustration, NOT a source recording or physics verification. Task fidelity: \nACTION I10: Translation X / 掌系 X 方向平移\nSCENE (follow exactly): 掌心向上右手支撑一个小方块，三帧方块从手掌径向侧移向尺侧，保持朝向不变，掌位置固定。图外小坐标箭头仅标 X，定义X从拇指根部横向指向小指侧。不是整手搬运。",
+      "review": "三帧完整手形检查通过；方块位置沿掌面横向改变，未呈现驱动它移动的手指过程。",
+      "geometry": "visually_plausible",
+      "temporal": "keyframes_only",
+      "physics": "unknown",
+      "caption": "目标位置示意：X 从拇指根部横向指向小指侧。只显示掌系目标位置，不示范手指如何驱动物体。",
+      "handedness": "left"
+    },
+    {
+      "action_id": "I11",
+      "path": "assets/generated/I11-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-5976b90b-39bb-4034-a71d-7496d2fc4d62.png",
+      "status": "approved",
+      "prompt": "Use case: scientific-educational. Create ONE original formal teaching plate for a hand-motor-skills publication, landscape 1536x1024, or larger landscape if needed. A clean professional textbook illustration, white background, precise restrained graphite contours and soft realistic color shading, natural adult skin, blue-grey props, no decorative art, no logos. Generous whitespace between sequential panels. Every panel must show COMPLETE hand anatomy from all fingertips through the wrist to a short forearm, NEVER crop a finger or wrist. Exactly five correctly connected digits per hand, thumb on anatomically correct side, natural joint flexion and realistic phalanx lengths. If two hands are required show one LEFT and one RIGHT, neither hidden behind the other; do not add extra hands. Oblique view selected for contact readability, same hand/object identities and consistent viewpoint through a sequence. Objects rigid unless explicitly flexible. Fingers touch object surfaces without penetrating. Hands and props occupy most of each panel, not distant small figures. Only tiny numerals 1, 2, 3 (4 if specified) above panels, plus A/B or X/Y/Z only if the scene specifies these. No Chinese text, no English captions, no invented numbers, no labels on skin. Discrete key poses, not multiple ghost hands. Small unobtrusive blue motion arrows only when they clarify the specified motion. Realistic anatomy is more important than artistic flourish. This is an AI authored conceptual illustration, NOT a source recording or physics verification. Task fidelity: \nACTION I11: Translation Y / 掌系 Y 方向平移\nSCENE (follow exactly): 掌心向上右手支撑小方块，三帧方块从掌根方向移动到指尖方向，朝向不变，掌位置固定。图外坐标箭头仅标 Y，定义Y沿中指方向。",
+      "review": "三帧完整手形检查通过；方块由掌根移向指端，未呈现驱动它移动的手指过程。",
+      "geometry": "visually_plausible",
+      "temporal": "keyframes_only",
+      "physics": "unknown",
+      "caption": "目标位置示意：Y 沿中指方向。只显示掌系目标位置，不示范手指如何驱动物体。",
+      "handedness": "left"
+    },
+    {
+      "action_id": "I12",
+      "path": "assets/generated/I12-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-b0d8d1d9-41bc-4802-9dba-a86688ec7a84.png",
+      "status": "pending_review",
+      "prompt": "Use case: scientific-educational. Create ONE original formal teaching plate for a hand-motor-skills publication, landscape 1536x1024, or larger landscape if needed. A clean professional textbook illustration, white background, precise restrained graphite contours and soft realistic color shading, natural adult skin, blue-grey props, no decorative art, no logos. Generous whitespace between sequential panels. Every panel must show COMPLETE hand anatomy from all fingertips through the wrist to a short forearm, NEVER crop a finger or wrist. Exactly five correctly connected digits per hand, thumb on anatomically correct side, natural joint flexion and realistic phalanx lengths. If two hands are required show one LEFT and one RIGHT, neither hidden behind the other; do not add extra hands. Oblique view selected for contact readability, same hand/object identities and consistent viewpoint through a sequence. Objects rigid unless explicitly flexible. Fingers touch object surfaces without penetrating. Hands and props occupy most of each panel, not distant small figures. Only tiny numerals 1, 2, 3 (4 if specified) above panels, plus A/B or X/Y/Z only if the scene specifies these. No Chinese text, no English captions, no invented numbers, no labels on skin. Discrete key poses, not multiple ghost hands. Small unobtrusive blue motion arrows only when they clarify the specified motion. Realistic anatomy is more important than artistic flourish. This is an AI authored conceptual illustration, NOT a source recording or physics verification. Task fidelity: \nACTION I12: Translation Z / 掌系 Z 方向平移\nSCENE (follow exactly): 掌心向上右手，三帧五指协调使小球远离掌面几厘米，仍由拇指与食中指接触支撑，手掌平面保持固定。坐标箭头仅标 Z，垂直离开掌面向上；没有悬浮。",
+      "handedness": "left"
+    },
+    {
+      "action_id": "I13",
+      "path": "assets/generated/I13-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-7553da3b-f4fb-4ae5-8e44-b8fc6967402a.png",
+      "status": "pending_review",
+      "prompt": "Use case: scientific-educational. Create ONE original formal teaching plate for a hand-motor-skills publication, landscape 1536x1024, or larger landscape if needed. A clean professional textbook illustration, white background, precise restrained graphite contours and soft realistic color shading, natural adult skin, blue-grey props, no decorative art, no logos. Generous whitespace between sequential panels. Every panel must show COMPLETE hand anatomy from all fingertips through the wrist to a short forearm, NEVER crop a finger or wrist. Exactly five correctly connected digits per hand, thumb on anatomically correct side, natural joint flexion and realistic phalanx lengths. If two hands are required show one LEFT and one RIGHT, neither hidden behind the other; do not add extra hands. Oblique view selected for contact readability, same hand/object identities and consistent viewpoint through a sequence. Objects rigid unless explicitly flexible. Fingers touch object surfaces without penetrating. Hands and props occupy most of each panel, not distant small figures. Only tiny numerals 1, 2, 3 (4 if specified) above panels, plus A/B or X/Y/Z only if the scene specifies these. No Chinese text, no English captions, no invented numbers, no labels on skin. Discrete key poses, not multiple ghost hands. Small unobtrusive blue motion arrows only when they clarify the specified motion. Realistic anatomy is more important than artistic flourish. This is an AI authored conceptual illustration, NOT a source recording or physics verification. Task fidelity: \nACTION I13: Rotation X / 绕掌系 X 轴定向旋转\nSCENE (follow exactly): 掌心向上固定右手以指腹支撑带蓝色面标记的小方块。三帧绕掌面内横向的X轴旋转，方块相对手掌前后翻转；手腕不变。画极简X轴小箭头，X为拇指侧至小指侧。",
+      "handedness": "left"
+    },
+    {
+      "action_id": "I14",
+      "path": "assets/generated/I14-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-71799eff-5a82-44ac-9ddf-b7eb4c06afb5.png",
+      "status": "pending_review",
+      "prompt": "Use case: scientific-educational. Create ONE original formal teaching plate for a hand-motor-skills publication, landscape 1536x1024, or larger landscape if needed. A clean professional textbook illustration, white background, precise restrained graphite contours and soft realistic color shading, natural adult skin, blue-grey props, no decorative art, no logos. Generous whitespace between sequential panels. Every panel must show COMPLETE hand anatomy from all fingertips through the wrist to a short forearm, NEVER crop a finger or wrist. Exactly five correctly connected digits per hand, thumb on anatomically correct side, natural joint flexion and realistic phalanx lengths. If two hands are required show one LEFT and one RIGHT, neither hidden behind the other; do not add extra hands. Oblique view selected for contact readability, same hand/object identities and consistent viewpoint through a sequence. Objects rigid unless explicitly flexible. Fingers touch object surfaces without penetrating. Hands and props occupy most of each panel, not distant small figures. Only tiny numerals 1, 2, 3 (4 if specified) above panels, plus A/B or X/Y/Z only if the scene specifies these. No Chinese text, no English captions, no invented numbers, no labels on skin. Discrete key poses, not multiple ghost hands. Small unobtrusive blue motion arrows only when they clarify the specified motion. Realistic anatomy is more important than artistic flourish. This is an AI authored conceptual illustration, NOT a source recording or physics verification. Task fidelity: \nACTION I14: Rotation Y / 绕掌系 Y 轴定向旋转\nSCENE (follow exactly): 掌心向上固定右手支撑带蓝点方块。三帧绕沿中指方向的掌系Y轴翻滚到指定朝向，掌与腕保持原位，手指重建支撑，不允许方块穿指。图外小Y轴。",
+      "handedness": "right"
+    },
+    {
+      "action_id": "I15",
+      "path": "assets/generated/I15-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-9131ab4d-8f18-4be9-aa84-10c604f35c21.png",
+      "status": "pending_review",
+      "prompt": "Use case: scientific-educational. Create ONE original formal teaching plate for a hand-motor-skills publication, landscape 1536x1024, or larger landscape if needed. A clean professional textbook illustration, white background, precise restrained graphite contours and soft realistic color shading, natural adult skin, blue-grey props, no decorative art, no logos. Generous whitespace between sequential panels. Every panel must show COMPLETE hand anatomy from all fingertips through the wrist to a short forearm, NEVER crop a finger or wrist. Exactly five correctly connected digits per hand, thumb on anatomically correct side, natural joint flexion and realistic phalanx lengths. If two hands are required show one LEFT and one RIGHT, neither hidden behind the other; do not add extra hands. Oblique view selected for contact readability, same hand/object identities and consistent viewpoint through a sequence. Objects rigid unless explicitly flexible. Fingers touch object surfaces without penetrating. Hands and props occupy most of each panel, not distant small figures. Only tiny numerals 1, 2, 3 (4 if specified) above panels, plus A/B or X/Y/Z only if the scene specifies these. No Chinese text, no English captions, no invented numbers, no labels on skin. Discrete key poses, not multiple ghost hands. Small unobtrusive blue motion arrows only when they clarify the specified motion. Realistic anatomy is more important than artistic flourish. This is an AI authored conceptual illustration, NOT a source recording or physics verification. Task fidelity: \nACTION I15: Rotation Z / 绕掌系 Z 轴定向旋转\nSCENE (follow exactly): 掌心向上固定右手用拇食中指支撑带蓝色面的小方块。三帧方块绕垂直掌面的Z轴转动四分之一圈后持稳，手指协同而腕不动。图外小Z轴标记。",
+      "handedness": "left"
+    },
+    {
+      "action_id": "I16",
+      "path": "assets/generated/I16-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-f65246aa-7cbf-4c25-8abb-1fea28d966a9.png",
+      "status": "pending_review",
+      "prompt": "Use case: scientific-educational. Create ONE original formal teaching plate for a hand-motor-skills publication, landscape 1536x1024, or larger landscape if needed. A clean professional textbook illustration, white background, precise restrained graphite contours and soft realistic color shading, natural adult skin, blue-grey props, no decorative art, no logos. Generous whitespace between sequential panels. Every panel must show COMPLETE hand anatomy from all fingertips through the wrist to a short forearm, NEVER crop a finger or wrist. Exactly five correctly connected digits per hand, thumb on anatomically correct side, natural joint flexion and realistic phalanx lengths. If two hands are required show one LEFT and one RIGHT, neither hidden behind the other; do not add extra hands. Oblique view selected for contact readability, same hand/object identities and consistent viewpoint through a sequence. Objects rigid unless explicitly flexible. Fingers touch object surfaces without penetrating. Hands and props occupy most of each panel, not distant small figures. Only tiny numerals 1, 2, 3 (4 if specified) above panels, plus A/B or X/Y/Z only if the scene specifies these. No Chinese text, no English captions, no invented numbers, no labels on skin. Discrete key poses, not multiple ghost hands. Small unobtrusive blue motion arrows only when they clarify the specified motion. Realistic anatomy is more important than artistic flourish. This is an AI authored conceptual illustration, NOT a source recording or physics verification. Task fidelity: \nACTION I16: Rotate-stop-reverse / 顺转—停住—逆转\nSCENE (follow exactly): 四帧同一右手持带蓝色条纹的小圆柱：指间顺向旋转、到某角度稳定停住、随后指间反向旋转、回到较早朝向。用小弧箭头区分顺转逆转，停住帧无箭头，掌和腕位置相同。",
+      "handedness": "right"
+    },
+    {
+      "action_id": "I17",
+      "path": "assets/generated/I17-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-a6484b07-0cb8-4e57-a634-74447b3e3629.png",
+      "status": "pending_review",
+      "prompt": "Use case: scientific-educational. Create ONE original formal teaching plate for a hand-motor-skills publication, landscape 1536x1024, or larger landscape if needed. A clean professional textbook illustration, white background, precise restrained graphite contours and soft realistic color shading, natural adult skin, blue-grey props, no decorative art, no logos. Generous whitespace between sequential panels. Every panel must show COMPLETE hand anatomy from all fingertips through the wrist to a short forearm, NEVER crop a finger or wrist. Exactly five correctly connected digits per hand, thumb on anatomically correct side, natural joint flexion and realistic phalanx lengths. If two hands are required show one LEFT and one RIGHT, neither hidden behind the other; do not add extra hands. Oblique view selected for contact readability, same hand/object identities and consistent viewpoint through a sequence. Objects rigid unless explicitly flexible. Fingers touch object surfaces without penetrating. Hands and props occupy most of each panel, not distant small figures. Only tiny numerals 1, 2, 3 (4 if specified) above panels, plus A/B or X/Y/Z only if the scene specifies these. No Chinese text, no English captions, no invented numbers, no labels on skin. Discrete key poses, not multiple ghost hands. Small unobtrusive blue motion arrows only when they clarify the specified motion. Realistic anatomy is more important than artistic flourish. This is an AI authored conceptual illustration, NOT a source recording or physics verification. Task fidelity: \nACTION I17: Sequential orientation targets / 连续目标朝向序列\nSCENE (follow exactly): 四帧固定掌向右手持带一块蓝色面的小立方体，手指连续调整使方块依次到四个不同目标朝向；每帧拇指与至少两指接触。无抛出、不靠腕翻转。",
+      "handedness": "left"
+    },
+    {
+      "action_id": "I18",
+      "path": "assets/generated/I18-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-80711f63-d770-49a1-af53-3cb218278999.png",
+      "status": "pending_review",
+      "prompt": "Use case: scientific-educational. Create ONE original formal teaching plate for a hand-motor-skills publication, landscape 1536x1024, or larger landscape if needed. A clean professional textbook illustration, white background, precise restrained graphite contours and soft realistic color shading, natural adult skin, blue-grey props, no decorative art, no logos. Generous whitespace between sequential panels. Every panel must show COMPLETE hand anatomy from all fingertips through the wrist to a short forearm, NEVER crop a finger or wrist. Exactly five correctly connected digits per hand, thumb on anatomically correct side, natural joint flexion and realistic phalanx lengths. If two hands are required show one LEFT and one RIGHT, neither hidden behind the other; do not add extra hands. Oblique view selected for contact readability, same hand/object identities and consistent viewpoint through a sequence. Objects rigid unless explicitly flexible. Fingers touch object surfaces without penetrating. Hands and props occupy most of each panel, not distant small figures. Only tiny numerals 1, 2, 3 (4 if specified) above panels, plus A/B or X/Y/Z only if the scene specifies these. No Chinese text, no English captions, no invented numbers, no labels on skin. Discrete key poses, not multiple ghost hands. Small unobtrusive blue motion arrows only when they clarify the specified motion. Realistic anatomy is more important than artistic flourish. This is an AI authored conceptual illustration, NOT a source recording or physics verification. Task fidelity: \nACTION I18: Sequential 6D targets / 连续位置与朝向目标\nSCENE (follow exactly): 四帧固定右手掌内持蓝色角标方块，依次改变掌内位置及朝向到多个目标。完整手掌保持同位同朝向，目标物不离手，图中不能漂浮。",
+      "handedness": "right"
+    },
+    {
+      "action_id": "I05",
+      "path": "assets/generated/I05-v2.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-9a2b8339-2327-4645-8fee-9b821de53762.png",
+      "status": "pending_review",
+      "prompt": "Edit the attached teaching plate. Correct ONLY its handedness consistency: all three panels must show the same LEFT hand, palm facing the viewer, thumb on viewer RIGHT. Panel 1 must be mirrored anatomically so its thumb is on the viewer RIGHT, matching panels 2 and 3. Preserve all three sequential coin positions: 1 coin held within curled fingers against palm; 2 thumb slides coin toward index finger; 3 thumb and index pinch coin at fingertips. Exactly five digits per hand, complete fingertips wrist and short forearm visible. Keep the formal white-background textbook style, coin design, panel numbers 1 2 3. No other changes.",
+      "handedness": "mixed_or_uncertain"
+    },
+    {
+      "action_id": "I05",
+      "path": "assets/generated/I05-v3.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-60479776-f1ed-4b35-b1b1-111689478580.png",
+      "prompt": "Use case: scientific-educational. Make ONE single-panel formal hand-motor-skills textbook illustration on a white background, landscape composition. Show ONE LEFT human hand, seen from palm side, fingers pointing upward, anatomically thumb on viewer LEFT. The task is palm-to-fingertip coin translation: depict ONLY the final key pose, a small silver coin securely pinched between thumb and index fingertips above the palm. Thumb and index form an open round pinch. The remaining middle, ring and little fingers are relaxed and slightly extended with distinct gaps so every finger can be traced from the palm to its own fingertip. EXACTLY FIVE digits: thumb, index, middle, ring, little. Normal finger length relationships, middle naturally longest, little shortest of four fingers. No finger hidden behind coin or another finger; keep coin small and use an oblique angle that reveals all digit chains. Show entire hand, every fingertip, whole wrist, short forearm, generous margins. Natural adult skin, restrained fine contours, realistic soft shading, medical sports instruction publication style. No panels, no text, no arrows, no extra hands or digits. This is a static final-pose concept illustration, not a depiction of the whole motion.",
+      "status": "approved",
+      "caption": "掌心到指尖转移的终点握姿；不是完整运动过程。",
+      "review": "拇指与食指在指端捏持硬币，其他三指完整可辨。仅表示掌到指转移的终点握姿。",
+      "geometry": "visually_plausible",
+      "temporal": "keyframes_only",
+      "physics": "unknown",
+      "handedness": "left"
+    },
+    {
+      "action_id": "I19",
+      "path": "assets/generated/I19-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-e657beaf-50ee-4d8e-aa4b-3ec21d91022c.png",
+      "status": "approved",
+      "prompt": "Use case: scientific-educational. ONE single-panel formal sports/hand-motor instruction textbook illustration, landscape, clean white background, natural adult skin with fine restrained outlines and realistic shading. Full fingertips, palm, entire wrist and short forearm in frame; no cropping. Exactly five anatomically connected digits per human hand: one thumb, index, middle, ring and little; show all five visibly separated enough to trace their entire length. Realistic proportions, middle usually longest, little shortest of non-thumb fingers, normal thumb length, natural joints. Do not obscure fingers behind props; choose a revealing oblique view with a small enough prop and relaxed unused fingers. If two hands are needed, show left and right hands with ALL TEN fingers identifiable. Objects touch at real surfaces, never penetrate. No text, no arrows, no multiple panels, no duplicate ghost hands. Depict ONE representative active key posture from the TASK CONTEXT below. Any sequence / 三帧 / 四帧 mentioned below describes the ACTION, not the image layout: select its most informative middle/active posture only. This is a static conceptual key pose, not a claim to demonstrate a motion trajectory. TASK CONTEXT: I19: Fingertip rolling / 指尖滚球\nSCENE (follow exactly): 三帧掌向上右手，拇食中指指尖接触一颗小球，球在指腹接触点滚动；蓝点显示球转动，手掌保持固定。球始终与指腹相切，不嵌入皮肤。",
+      "caption": "拇、食、中三指接触球体的关键姿态；箭头表示目标滚动方向，静帧不展示实际滚动过程。",
+      "review": "完整五指与比例经独立审阅；球体、三指接触和固定掌部的教学姿态与动作描述相容。",
+      "physics": "unknown",
+      "geometry": "visually_plausible",
+      "temporal": "key_pose_only"
+    },
+    {
+      "action_id": "I20",
+      "path": "assets/generated/I20-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-453ab20d-3e51-430c-989a-f246df7b2622.png",
+      "status": "rejected",
+      "prompt": "Use case: scientific-educational. ONE single-panel formal sports/hand-motor instruction textbook illustration, landscape, clean white background, natural adult skin with fine restrained outlines and realistic shading. Full fingertips, palm, entire wrist and short forearm in frame; no cropping. Exactly five anatomically connected digits per human hand: one thumb, index, middle, ring and little; show all five visibly separated enough to trace their entire length. Realistic proportions, middle usually longest, little shortest of non-thumb fingers, normal thumb length, natural joints. Do not obscure fingers behind props; choose a revealing oblique view with a small enough prop and relaxed unused fingers. If two hands are needed, show left and right hands with ALL TEN fingers identifiable. Objects touch at real surfaces, never penetrate. No text, no arrows, no multiple panels, no duplicate ghost hands. Depict ONE representative active key posture from the TASK CONTEXT below. Any sequence / 三帧 / 四帧 mentioned below describes the ACTION, not the image layout: select its most informative middle/active posture only. This is a static conceptual key pose, not a claim to demonstrate a motion trajectory. TASK CONTEXT: I20: Sliding regrasp / 指腹滑移调整\nSCENE (follow exactly): 三帧右手稳定持细圆柱，拇指指腹沿其侧表面滑动改变位置，食中指持续支撑，圆柱小幅掌内调整。用短小蓝色切向箭头表示滑移接触。",
+      "caption": "单张关键姿态示意；动作顺序、目标和条件见右侧说明。",
+      "review": "原动作使用笔，此版本画成杆，需按目录道具重绘。"
+    },
+    {
+      "action_id": "I21",
+      "path": "assets/generated/I21-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-996a7739-4032-4223-8b5e-71a84164f9a4.png",
+      "status": "rejected",
+      "prompt": "Use case: scientific-educational. ONE single-panel formal sports/hand-motor instruction textbook illustration, landscape, clean white background, natural adult skin with fine restrained outlines and realistic shading. Full fingertips, palm, entire wrist and short forearm in frame; no cropping. Exactly five anatomically connected digits per human hand: one thumb, index, middle, ring and little; show all five visibly separated enough to trace their entire length. Realistic proportions, middle usually longest, little shortest of non-thumb fingers, normal thumb length, natural joints. Do not obscure fingers behind props; choose a revealing oblique view with a small enough prop and relaxed unused fingers. If two hands are needed, show left and right hands with ALL TEN fingers identifiable. Objects touch at real surfaces, never penetrate. No text, no arrows, no multiple panels, no duplicate ghost hands. Depict ONE representative active key posture from the TASK CONTEXT below. Any sequence / 三帧 / 四帧 mentioned below describes the ACTION, not the image layout: select its most informative middle/active posture only. This is a static conceptual key pose, not a claim to demonstrate a motion trajectory. TASK CONTEXT: I21: Pivot around contact / 支点旋转\nSCENE (follow exactly): 三帧右手用拇指与中指支撑小扁块，以食指指腹接触点为支点旋转块；食指支点持续接触且位置近似固定，块绕接触点改变朝向。完整五指，物体不穿入支点。",
+      "caption": "单张关键姿态示意；动作顺序、目标和条件见右侧说明。",
+      "review": "原动作为棱柱在掌内滚动，此版本使用圆盘。"
+    },
+    {
+      "action_id": "I22",
+      "path": "assets/generated/I22-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-cd15aeeb-c821-40b3-b474-e8942580b6fd.png",
+      "status": "pending_review",
+      "prompt": "Use case: scientific-educational. ONE single-panel formal sports/hand-motor instruction textbook illustration, landscape, clean white background, natural adult skin with fine restrained outlines and realistic shading. Full fingertips, palm, entire wrist and short forearm in frame; no cropping. Exactly five anatomically connected digits per human hand: one thumb, index, middle, ring and little; show all five visibly separated enough to trace their entire length. Realistic proportions, middle usually longest, little shortest of non-thumb fingers, normal thumb length, natural joints. Do not obscure fingers behind props; choose a revealing oblique view with a small enough prop and relaxed unused fingers. If two hands are needed, show left and right hands with ALL TEN fingers identifiable. Objects touch at real surfaces, never penetrate. No text, no arrows, no multiple panels, no duplicate ghost hands. Depict ONE representative active key posture from the TASK CONTEXT below. Any sequence / 三帧 / 四帧 mentioned below describes the ACTION, not the image layout: select its most informative middle/active posture only. This is a static conceptual key pose, not a claim to demonstrate a motion trajectory. TASK CONTEXT: I22: Alternating finger gait / 交替换食指与中指\nSCENE (follow exactly): 四帧右手持小圆柱，拇指保持一侧支撑；食指脱开移到新位置，中指仍支撑；食指接触；中指脱开换位再接触。区分换指，不能两指同时全松导致悬空。",
+      "caption": "单张关键姿态示意；动作顺序、目标和条件见右侧说明。"
+    },
+    {
+      "action_id": "I23",
+      "path": "assets/generated/I23-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-1fc0578f-8b39-4129-9a6d-90bb84a5387c.png",
+      "status": "rejected",
+      "prompt": "Use case: scientific-educational. ONE single-panel formal sports/hand-motor instruction textbook illustration, landscape, clean white background, natural adult skin with fine restrained outlines and realistic shading. Full fingertips, palm, entire wrist and short forearm in frame; no cropping. Exactly five anatomically connected digits per human hand: one thumb, index, middle, ring and little; show all five visibly separated enough to trace their entire length. Realistic proportions, middle usually longest, little shortest of non-thumb fingers, normal thumb length, natural joints. Do not obscure fingers behind props; choose a revealing oblique view with a small enough prop and relaxed unused fingers. If two hands are needed, show left and right hands with ALL TEN fingers identifiable. Objects touch at real surfaces, never penetrate. No text, no arrows, no multiple panels, no duplicate ghost hands. Depict ONE representative active key posture from the TASK CONTEXT below. Any sequence / 三帧 / 四帧 mentioned below describes the ACTION, not the image layout: select its most informative middle/active posture only. This is a static conceptual key pose, not a claim to demonstrate a motion trajectory. TASK CONTEXT: I23: Tripod-to-pinch transition / 三指抓转为二指捏\nSCENE (follow exactly): 三帧右手拇食中三指捏住轻小立方体，拇食保持对向接触，中指逐渐离开，终态只有拇食二指稳定捏住；无关两指自然屈曲并清楚可见。",
+      "caption": "单张关键姿态示意；动作顺序、目标和条件见右侧说明。",
+      "review": "原动作使用硬币，此版本使用方块。"
+    },
+    {
+      "action_id": "I24",
+      "path": "assets/generated/I24-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-50542ae9-ddb3-419d-9ff2-844bbe9b2359.png",
+      "status": "rejected",
+      "prompt": "Use case: scientific-educational. ONE single-panel formal sports/hand-motor instruction textbook illustration, landscape, clean white background, natural adult skin with fine restrained outlines and realistic shading. Full fingertips, palm, entire wrist and short forearm in frame; no cropping. Exactly five anatomically connected digits per human hand: one thumb, index, middle, ring and little; show all five visibly separated enough to trace their entire length. Realistic proportions, middle usually longest, little shortest of non-thumb fingers, normal thumb length, natural joints. Do not obscure fingers behind props; choose a revealing oblique view with a small enough prop and relaxed unused fingers. If two hands are needed, show left and right hands with ALL TEN fingers identifiable. Objects touch at real surfaces, never penetrate. No text, no arrows, no multiple panels, no duplicate ghost hands. Depict ONE representative active key posture from the TASK CONTEXT below. Any sequence / 三帧 / 四帧 mentioned below describes the ACTION, not the image layout: select its most informative middle/active posture only. This is a static conceptual key pose, not a claim to demonstrate a motion trajectory. TASK CONTEXT: I24: Power-to-precision transition / 掌握转为指尖抓\nSCENE (follow exactly): 三帧右手在掌内包络抓握短圆柱，拇指与手指协调将圆柱送出掌心，终态拇食中指在指端持住圆柱。手掌固定，整个过程没有第二只手。",
+      "caption": "单张关键姿态示意；动作顺序、目标和条件见右侧说明。",
+      "review": "原动作使用球体，此版本使用柱体。"
+    },
+    {
+      "action_id": "I25",
+      "path": "assets/generated/I25-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-1a52b891-82e5-48d7-9193-475288724d2c.png",
+      "status": "approved",
+      "prompt": "Use case: scientific-educational. ONE single-panel formal sports/hand-motor instruction textbook illustration, landscape, clean white background, natural adult skin with fine restrained outlines and realistic shading. Full fingertips, palm, entire wrist and short forearm in frame; no cropping. Exactly five anatomically connected digits per human hand: one thumb, index, middle, ring and little; show all five visibly separated enough to trace their entire length. Realistic proportions, middle usually longest, little shortest of non-thumb fingers, normal thumb length, natural joints. Do not obscure fingers behind props; choose a revealing oblique view with a small enough prop and relaxed unused fingers. If two hands are needed, show left and right hands with ALL TEN fingers identifiable. Objects touch at real surfaces, never penetrate. No text, no arrows, no multiple panels, no duplicate ghost hands. Depict ONE representative active key posture from the TASK CONTEXT below. Any sequence / 三帧 / 四帧 mentioned below describes the ACTION, not the image layout: select its most informative middle/active posture only. This is a static conceptual key pose, not a claim to demonstrate a motion trajectory. TASK CONTEXT: I25: Coin flip in hand / 硬币翻面 180°\nSCENE (follow exactly): 三帧右手拇食中指夹硬币，硬币从蓝色正面朝观察者，经边缘朝观察者，到无蓝点反面朝观察者，完成180度翻面。全程合理指腹接触，腕不翻转。",
+      "caption": "硬币翻面动作中的夹持姿态；单张图不表示已经完成 180° 翻转。",
+      "review": "完整五指与比例经独立审阅；硬币位于拇、食、中指之间，保留翻面动作的关键夹持关系。",
+      "physics": "unknown",
+      "geometry": "visually_plausible",
+      "temporal": "key_pose_only"
+    },
+    {
+      "action_id": "I26",
+      "path": "assets/generated/I26-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-fa5010f0-b2a9-41f3-9936-b791fa1958e4.png",
+      "status": "approved",
+      "prompt": "Use case: scientific-educational. ONE single-panel formal sports/hand-motor instruction textbook illustration, landscape, clean white background, natural adult skin with fine restrained outlines and realistic shading. Full fingertips, palm, entire wrist and short forearm in frame; no cropping. Exactly five anatomically connected digits per human hand: one thumb, index, middle, ring and little; show all five visibly separated enough to trace their entire length. Realistic proportions, middle usually longest, little shortest of non-thumb fingers, normal thumb length, natural joints. Do not obscure fingers behind props; choose a revealing oblique view with a small enough prop and relaxed unused fingers. If two hands are needed, show left and right hands with ALL TEN fingers identifiable. Objects touch at real surfaces, never penetrate. No text, no arrows, no multiple panels, no duplicate ghost hands. Depict ONE representative active key posture from the TASK CONTEXT below. Any sequence / 三帧 / 四帧 mentioned below describes the ACTION, not the image layout: select its most informative middle/active posture only. This is a static conceptual key pose, not a claim to demonstrate a motion trajectory. TASK CONTEXT: I26: Pen reorientation / 笔调至书写姿态\nSCENE (follow exactly): 三帧右手从非书写的横持笔开始，用拇食中指换接触，把笔调到笔尖朝下的三指书写抓；最后笔尖接近白纸但尚不画线。笔不能穿掌或穿指。",
+      "caption": "调至书写抓握后的目标姿态；未展示换接触和转笔的完整过程。",
+      "review": "完整五指与比例经独立审阅；笔尖朝向纸面，拇食中指形成书写握姿，环小指自然弯曲。",
+      "physics": "unknown",
+      "geometry": "visually_plausible",
+      "temporal": "key_pose_only"
+    },
+    {
+      "action_id": "I27",
+      "path": "assets/generated/I27-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-36328549-dbf5-443b-944e-c367a8b74c3d.png",
+      "status": "pending_review",
+      "prompt": "Use case: scientific-educational. ONE single-panel formal sports/hand-motor instruction textbook illustration, landscape, clean white background, natural adult skin with fine restrained outlines and realistic shading. Full fingertips, palm, entire wrist and short forearm in frame; no cropping. Exactly five anatomically connected digits per human hand: one thumb, index, middle, ring and little; show all five visibly separated enough to trace their entire length. Realistic proportions, middle usually longest, little shortest of non-thumb fingers, normal thumb length, natural joints. Do not obscure fingers behind props; choose a revealing oblique view with a small enough prop and relaxed unused fingers. If two hands are needed, show left and right hands with ALL TEN fingers identifiable. Objects touch at real surfaces, never penetrate. No text, no arrows, no multiple panels, no duplicate ghost hands. Depict ONE representative active key posture from the TASK CONTEXT below. Any sequence / 三帧 / 四帧 mentioned below describes the ACTION, not the image layout: select its most informative middle/active posture only. This is a static conceptual key pose, not a claim to demonstrate a motion trajectory. TASK CONTEXT: I27: Sequential coin storage / 掌内暂存后逐枚取出\nSCENE (follow exactly): 四帧右手掌内保留三枚硬币，由环小指屈曲稳定。拇指将其中一枚移到食指端，拇食捏出；掌内剩余两枚始终可辨。只用一只右手。",
+      "caption": "单张关键姿态示意；动作顺序、目标和条件见右侧说明。"
+    },
+    {
+      "action_id": "T02",
+      "path": "assets/generated/T02-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-8325be4c-62c3-4e4c-99d3-5c3a0a1510db.png",
+      "status": "rejected",
+      "prompt": "Use case: scientific-educational. ONE single-panel formal sports/hand-motor instruction textbook illustration, landscape, clean white background, natural adult skin with fine restrained outlines and realistic shading. Full fingertips, palm, entire wrist and short forearm in frame; no cropping. Exactly five anatomically connected digits per human hand: one thumb, index, middle, ring and little; show all five visibly separated enough to trace their entire length. Realistic proportions, middle usually longest, little shortest of non-thumb fingers, normal thumb length, natural joints. Do not obscure fingers behind props; choose a revealing oblique view with a small enough prop and relaxed unused fingers. If two hands are needed, show left and right hands with ALL TEN fingers identifiable. Objects touch at real surfaces, never penetrate. No text, no arrows, no multiple panels, no duplicate ghost hands. Depict ONE representative active key posture from the TASK CONTEXT below. Any sequence / 三帧 / 四帧 mentioned below describes the ACTION, not the image layout: select its most informative middle/active posture only. This is a static conceptual key pose, not a claim to demonstrate a motion trajectory. TASK CONTEXT: T02: Tabletop pick-up / 桌面物体拾取并举起\nSCENE (follow exactly): 三帧右手从放松开始接近桌面小立方体，拇指与其他手指包覆相对两面，垂直举起数厘米。完整五指与手腕，抓紧后才举起。",
+      "caption": "单张关键姿态示意；动作顺序、目标和条件见右侧说明。",
+      "review": "原动作使用瓶，此版本使用方块。"
+    },
+    {
+      "action_id": "I29",
+      "path": "assets/generated/I29-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-f1cf150d-29e5-41cc-bc5e-445d1230f9f3.png",
+      "status": "pending_review",
+      "prompt": "Use case: scientific-educational. ONE single-panel formal sports/hand-motor instruction textbook illustration, landscape, clean white background, natural adult skin with fine restrained outlines and realistic shading. Full fingertips, palm, entire wrist and short forearm in frame; no cropping. Exactly five anatomically connected digits per human hand: one thumb, index, middle, ring and little; show all five visibly separated enough to trace their entire length. Realistic proportions, middle usually longest, little shortest of non-thumb fingers, normal thumb length, natural joints. Do not obscure fingers behind props; choose a revealing oblique view with a small enough prop and relaxed unused fingers. If two hands are needed, show left and right hands with ALL TEN fingers identifiable. Objects touch at real surfaces, never penetrate. No text, no arrows, no multiple panels, no duplicate ghost hands. Depict ONE representative active key posture from the TASK CONTEXT below. Any sequence / 三帧 / 四帧 mentioned below describes the ACTION, not the image layout: select its most informative middle/active posture only. This is a static conceptual key pose, not a claim to demonstrate a motion trajectory. TASK CONTEXT: I29: Reorientation with appearance variation / 可见纹理改变下重定向\nSCENE (follow exactly): 三帧同一右手对小方块重定向，示出同尺寸不同表面外观的两个条件：纯色方块与棋盘纹方块；不是一块在动作中自行换纹理。图中用A和B作条件标签，各有起终姿态，两条件手形与终目标朝向相同。",
+      "caption": "单张关键姿态示意；动作顺序、目标和条件见右侧说明。"
+    },
+    {
+      "action_id": "I30",
+      "path": "assets/generated/I30-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-2adcdcaa-37b0-4c7a-8521-edf09024f239.png",
+      "status": "pending_review",
+      "prompt": "Use case: scientific-educational. ONE single-panel formal sports/hand-motor instruction textbook illustration, landscape, clean white background, natural adult skin with fine restrained outlines and realistic shading. Full fingertips, palm, entire wrist and short forearm in frame; no cropping. Exactly five anatomically connected digits per human hand: one thumb, index, middle, ring and little; show all five visibly separated enough to trace their entire length. Realistic proportions, middle usually longest, little shortest of non-thumb fingers, normal thumb length, natural joints. Do not obscure fingers behind props; choose a revealing oblique view with a small enough prop and relaxed unused fingers. If two hands are needed, show left and right hands with ALL TEN fingers identifiable. Objects touch at real surfaces, never penetrate. No text, no arrows, no multiple panels, no duplicate ghost hands. Depict ONE representative active key posture from the TASK CONTEXT below. Any sequence / 三帧 / 四帧 mentioned below describes the ACTION, not the image layout: select its most informative middle/active posture only. This is a static conceptual key pose, not a claim to demonstrate a motion trajectory. TASK CONTEXT: I30: Rotation across masses / 不同质量下持续旋转\nSCENE (follow exactly): 两组条件A/B，右手以相同指尖抓旋转外形完全相同的标记小圆柱。A/B为不同质量试件，图不通过夸张肌肉或手指变形表现受力，也不标虚构质量数值。各组显示旋转前与后，全手完整。",
+      "caption": "单张关键姿态示意；动作顺序、目标和条件见右侧说明。"
+    },
+    {
+      "action_id": "T10",
+      "path": "assets/generated/T10-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-ac6a0b23-a343-4d50-be20-4786aa3db015.png",
+      "status": "approved",
+      "prompt": "Use case: scientific-educational. Produce ONE original formal hand-motor/sports instruction textbook illustration, ONE key pose, NO sequence and NO panels. Clean white background, natural adult skin, fine graphite contours with realistic muted color shading. Show complete fingertips, palm, entire wrist and short forearm with generous framing margins. Exactly FIVE anatomical digits per human hand, each with identifiable unique base and fingertip: thumb/index/middle/ring/little. Separate unused fingers gently so they do not hide each other. Choose a revealing view around contact so five-digit topology and finger lengths can be checked; do not hide fingers behind large props or crop wrists. Realistic segment proportions and natural joints. No impossible bends/intersections/floating digits; objects supported by contact or a work surface. For two hands, use one left and one right and show all ten digits. Draw ONLY hands and the necessary named prop(s) and support surface. Choose the action's most informative active execution pose, using the specified prop exactly. This is one static illustrative posture, not a movement trace or a claim about forces. No text, no arrows, no logos. TASK SPECIFICATION: {\"action_id\":\"T10\",\"name\":\"薄片边缘夹取\",\"description\":\"薄片边缘夹取。在固定工作区内记录接近、接触、执行和结束四个阶段。\",\"primitives\":[\"接近与预成形\",\"侧向夹持\",\"整体搬运\"],\"props\":[{\"name\":\"卡片\",\"spec\":\"塑料卡、硬纸卡，记录厚度\"}],\"hands\":\"单手\"}",
+      "caption": "抓持薄片的关键姿态；整体搬运轨迹不在静态图中表示。",
+      "review": "已逐指核对五指、长度、关节连接及完整构图；道具和所示关键握姿符合动作描述。静态图不能确认完整执行过程。",
+      "physics": "unknown",
+      "temporal": "key_pose_only"
+    },
+    {
+      "action_id": "T09",
+      "path": "assets/generated/T09-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-25e39cc2-6baa-4fca-a9f1-40e9cf3961ca.png",
+      "status": "pending_review",
+      "prompt": "Use case: scientific-educational. Produce ONE original formal hand-motor/sports instruction textbook illustration, ONE key pose, NO sequence and NO panels. Clean white background, natural adult skin, fine graphite contours with realistic muted color shading. Show complete fingertips, palm, entire wrist and short forearm with generous framing margins. Exactly FIVE anatomical digits per human hand, each with identifiable unique base and fingertip: thumb/index/middle/ring/little. Separate unused fingers gently so they do not hide each other. Choose a revealing view around contact so five-digit topology and finger lengths can be checked; do not hide fingers behind large props or crop wrists. Realistic segment proportions and natural joints. No impossible bends/intersections/floating digits; objects supported by contact or a work surface. For two hands, use one left and one right and show all ten digits. Draw ONLY hands and the necessary named prop(s) and support surface. Choose the action's most informative active execution pose, using the specified prop exactly. This is one static illustrative posture, not a movement trace or a claim about forces. No text, no arrows, no logos. TASK SPECIFICATION: {\"action_id\":\"T09\",\"name\":\"杯沿精密夹取\",\"description\":\"杯沿精密夹取。在固定工作区内记录接近、接触、执行和结束四个阶段。\",\"primitives\":[\"接近与预成形\",\"指腹对捏\",\"整体搬运\"],\"props\":[{\"name\":\"杯\",\"spec\":\"有柄与无柄；先用空杯\"}],\"hands\":\"单手\"}",
+      "caption": "动作进行中的单张关键姿态示意；完整顺序、目标和条件见动作说明。"
+    },
+    {
+      "action_id": "B03",
+      "path": "assets/generated/B03-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-c128b35c-4f6e-4e5f-a0c4-29246a7d33e4.png",
+      "status": "pending_review",
+      "prompt": "Use case: scientific-educational. Produce ONE original formal hand-motor/sports instruction textbook illustration, ONE key pose, NO sequence and NO panels. Clean white background, natural adult skin, fine graphite contours with realistic muted color shading. Show complete fingertips, palm, entire wrist and short forearm with generous framing margins. Exactly FIVE anatomical digits per human hand, each with identifiable unique base and fingertip: thumb/index/middle/ring/little. Separate unused fingers gently so they do not hide each other. Choose a revealing view around contact so five-digit topology and finger lengths can be checked; do not hide fingers behind large props or crop wrists. Realistic segment proportions and natural joints. No impossible bends/intersections/floating digits; objects supported by contact or a work surface. For two hands, use one left and one right and show all ten digits. Draw ONLY hands and the necessary named prop(s) and support surface. Choose the action's most informative active execution pose, using the specified prop exactly. This is one static illustrative posture, not a movement trace or a claim about forces. No text, no arrows, no logos. TASK SPECIFICATION: {\"action_id\":\"B03\",\"name\":\"双手书本合盖\",\"description\":\"分配稳定和合盖角色，允许手型改变操作策略。\",\"primitives\":[\"双手稳定—操作\",\"拧转机构\"],\"props\":[{\"name\":\"书 / 铰链板\",\"spec\":\"开合角可观测\"}],\"hands\":\"双手\"}",
+      "caption": "动作进行中的单张关键姿态示意；完整顺序、目标和条件见动作说明。"
+    },
+    {
+      "action_id": "T07",
+      "path": "assets/generated/T07-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-42ae7b5b-48e3-4d48-b042-1b5c47d6c273.png",
+      "status": "pending_review",
+      "prompt": "Use case: scientific-educational. Produce ONE original formal hand-motor/sports instruction textbook illustration, ONE key pose, NO sequence and NO panels. Clean white background, natural adult skin, fine graphite contours with realistic muted color shading. Show complete fingertips, palm, entire wrist and short forearm with generous framing margins. Exactly FIVE anatomical digits per human hand, each with identifiable unique base and fingertip: thumb/index/middle/ring/little. Separate unused fingers gently so they do not hide each other. Choose a revealing view around contact so five-digit topology and finger lengths can be checked; do not hide fingers behind large props or crop wrists. Realistic segment proportions and natural joints. No impossible bends/intersections/floating digits; objects supported by contact or a work surface. For two hands, use one left and one right and show all ten digits. Draw ONLY hands and the necessary named prop(s) and support surface. Choose the action's most informative active execution pose, using the specified prop exactly. This is one static illustrative posture, not a movement trace or a claim about forces. No text, no arrows, no logos. TASK SPECIFICATION: {\"action_id\":\"T07\",\"name\":\"圆柱拾取并放置\",\"description\":\"圆柱拾取并放置。在固定工作区内记录接近、接触、执行和结束四个阶段。\",\"primitives\":[\"接近与预成形\",\"包络握持\",\"整体搬运\",\"释放接触\"],\"props\":[{\"name\":\"圆柱组\",\"spec\":\"建议直径 20 / 40 / 60 mm；轻质、圆边\"}],\"hands\":\"单手\"}",
+      "caption": "动作进行中的单张关键姿态示意；完整顺序、目标和条件见动作说明。"
+    },
+    {
+      "action_id": "T11",
+      "path": "assets/generated/T11-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-a8a6b1cd-657d-4387-ab5e-65238aa6c144.png",
+      "status": "pending_review",
+      "prompt": "Use case: scientific-educational. Produce ONE original formal hand-motor/sports instruction textbook illustration, ONE key pose, NO sequence and NO panels. Clean white background, natural adult skin, fine graphite contours with realistic muted color shading. Show complete fingertips, palm, entire wrist and short forearm with generous framing margins. Exactly FIVE anatomical digits per human hand, each with identifiable unique base and fingertip: thumb/index/middle/ring/little. Separate unused fingers gently so they do not hide each other. Choose a revealing view around contact so five-digit topology and finger lengths can be checked; do not hide fingers behind large props or crop wrists. Realistic segment proportions and natural joints. No impossible bends/intersections/floating digits; objects supported by contact or a work surface. For two hands, use one left and one right and show all ten digits. Draw ONLY hands and the necessary named prop(s) and support surface. Choose the action's most informative active execution pose, using the specified prop exactly. This is one static illustrative posture, not a movement trace or a claim about forces. No text, no arrows, no logos. TASK SPECIFICATION: {\"action_id\":\"T11\",\"name\":\"物体垂直堆叠\",\"description\":\"物体垂直堆叠。在固定工作区内记录接近、接触、执行和结束四个阶段。\",\"primitives\":[\"稳定持握\",\"整体搬运\",\"释放接触\"],\"props\":[{\"name\":\"方块 / 长方体组\",\"spec\":\"建议边长 25 / 40 / 60 mm；表面加朝向标记\"}],\"hands\":\"单手\"}",
+      "caption": "动作进行中的单张关键姿态示意；完整顺序、目标和条件见动作说明。"
+    },
+    {
+      "action_id": "T13",
+      "path": "assets/generated/T13-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-5c4ed435-035c-44e2-957e-b64949f0c7df.png",
+      "status": "pending_review",
+      "prompt": "Use case: scientific-educational. Produce ONE original formal hand-motor/sports instruction textbook illustration, ONE key pose, NO sequence and NO panels. Clean white background, natural adult skin, fine graphite contours with realistic muted color shading. Show complete fingertips, palm, entire wrist and short forearm with generous framing margins. Exactly FIVE anatomical digits per human hand, each with identifiable unique base and fingertip: thumb/index/middle/ring/little. Separate unused fingers gently so they do not hide each other. Choose a revealing view around contact so five-digit topology and finger lengths can be checked; do not hide fingers behind large props or crop wrists. Realistic segment proportions and natural joints. No impossible bends/intersections/floating digits; objects supported by contact or a work surface. For two hands, use one left and one right and show all ten digits. Draw ONLY hands and the necessary named prop(s) and support surface. Choose the action's most informative active execution pose, using the specified prop exactly. This is one static illustrative posture, not a movement trace or a claim about forces. No text, no arrows, no logos. TASK SPECIFICATION: {\"action_id\":\"T13\",\"name\":\"有遮挡目标拾取\",\"description\":\"有遮挡目标拾取。在固定工作区内记录接近、接触、执行和结束四个阶段。\",\"primitives\":[\"接近与预成形\",\"建立接触\",\"指腹对捏\"],\"props\":[{\"name\":\"方块 / 长方体组\",\"spec\":\"建议边长 25 / 40 / 60 mm；表面加朝向标记\"},{\"name\":\"瓶与螺纹盖\",\"spec\":\"空塑料瓶；盖子直径及螺距记录\"}],\"hands\":\"单手\"}",
+      "caption": "动作进行中的单张关键姿态示意；完整顺序、目标和条件见动作说明。"
+    },
+    {
+      "action_id": "T14",
+      "path": "assets/generated/T14-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-bc87577e-ba9d-49ff-988b-2e64e1bc5973.png",
+      "status": "pending_review",
+      "prompt": "Use case: scientific-educational. Produce ONE original formal hand-motor/sports instruction textbook illustration, ONE key pose, NO sequence and NO panels. Clean white background, natural adult skin, fine graphite contours with realistic muted color shading. Show complete fingertips, palm, entire wrist and short forearm with generous framing margins. Exactly FIVE anatomical digits per human hand, each with identifiable unique base and fingertip: thumb/index/middle/ring/little. Separate unused fingers gently so they do not hide each other. Choose a revealing view around contact so five-digit topology and finger lengths can be checked; do not hide fingers behind large props or crop wrists. Realistic segment proportions and natural joints. No impossible bends/intersections/floating digits; objects supported by contact or a work surface. For two hands, use one left and one right and show all ten digits. Draw ONLY hands and the necessary named prop(s) and support surface. Choose the action's most informative active execution pose, using the specified prop exactly. This is one static illustrative posture, not a movement trace or a claim about forces. No text, no arrows, no logos. TASK SPECIFICATION: {\"action_id\":\"T14\",\"name\":\"横放笔拾取\",\"description\":\"横放笔拾取。在固定工作区内记录接近、接触、执行和结束四个阶段。\",\"primitives\":[\"接近与预成形\",\"指腹对捏\",\"整体搬运\"],\"props\":[{\"name\":\"笔与笔帽\",\"spec\":\"粗细两级，钝端；有盖与无盖\"}],\"hands\":\"单手\"}",
+      "caption": "动作进行中的单张关键姿态示意；完整顺序、目标和条件见动作说明。"
+    },
+    {
+      "action_id": "T17",
+      "path": "assets/generated/T17-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-f641053e-941e-4a7f-8799-e06ca53e30f9.png",
+      "status": "approved",
+      "prompt": "Use case: scientific-educational. Produce ONE original formal hand-motor/sports instruction textbook illustration, ONE key pose, NO sequence and NO panels. Clean white background, natural adult skin, fine graphite contours with realistic muted color shading. Show complete fingertips, palm, entire wrist and short forearm with generous framing margins. Exactly FIVE anatomical digits per human hand, each with identifiable unique base and fingertip: thumb/index/middle/ring/little. Separate unused fingers gently so they do not hide each other. Choose a revealing view around contact so five-digit topology and finger lengths can be checked; do not hide fingers behind large props or crop wrists. Realistic segment proportions and natural joints. No impossible bends/intersections/floating digits; objects supported by contact or a work surface. For two hands, use one left and one right and show all ten digits. Draw ONLY hands and the necessary named prop(s) and support surface. Choose the action's most informative active execution pose, using the specified prop exactly. This is one static illustrative posture, not a movement trace or a claim about forces. No text, no arrows, no logos. TASK SPECIFICATION: {\"action_id\":\"T17\",\"name\":\"细长物水平搬运\",\"description\":\"细长物水平搬运。在固定工作区内记录接近、接触、执行和结束四个阶段。\",\"primitives\":[\"稳定持握\",\"整体搬运\"],\"props\":[{\"name\":\"笔与笔帽\",\"spec\":\"粗细两级，钝端；有盖与无盖\"}],\"hands\":\"单手\"}",
+      "caption": "细长物体提起搬运中的关键握姿；动作轨迹与变化幅度见采集说明。",
+      "review": "已逐指核对五指、长度、关节连接及完整构图；道具和所示关键握姿符合动作描述。静态图不能确认完整执行过程。",
+      "physics": "unknown",
+      "temporal": "key_pose_only"
+    },
+    {
+      "action_id": "T15",
+      "path": "assets/generated/T15-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-0b329f31-c45f-4a3a-aad7-c2d1211af413.png",
+      "status": "pending_review",
+      "prompt": "Use case: scientific-educational. Produce ONE original formal hand-motor/sports instruction textbook illustration, ONE key pose, NO sequence and NO panels. Clean white background, natural adult skin, fine graphite contours with realistic muted color shading. Show complete fingertips, palm, entire wrist and short forearm with generous framing margins. Exactly FIVE anatomical digits per human hand, each with identifiable unique base and fingertip: thumb/index/middle/ring/little. Separate unused fingers gently so they do not hide each other. Choose a revealing view around contact so five-digit topology and finger lengths can be checked; do not hide fingers behind large props or crop wrists. Realistic segment proportions and natural joints. No impossible bends/intersections/floating digits; objects supported by contact or a work surface. For two hands, use one left and one right and show all ten digits. Draw ONLY hands and the necessary named prop(s) and support surface. Choose the action's most informative active execution pose, using the specified prop exactly. This is one static illustrative posture, not a movement trace or a claim about forces. No text, no arrows, no logos. TASK SPECIFICATION: {\"action_id\":\"T15\",\"name\":\"物体移到标记区域\",\"description\":\"物体移到标记区域。在固定工作区内记录接近、接触、执行和结束四个阶段。\",\"primitives\":[\"稳定持握\",\"整体搬运\",\"释放接触\"],\"props\":[{\"name\":\"方块 / 长方体组\",\"spec\":\"建议边长 25 / 40 / 60 mm；表面加朝向标记\"}],\"hands\":\"单手\"}",
+      "caption": "动作进行中的单张关键姿态示意；完整顺序、目标和条件见动作说明。"
+    },
+    {
+      "action_id": "T12",
+      "path": "assets/generated/T12-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-807c18d7-39d0-4bcd-ae83-f2c6cbd49066.png",
+      "status": "pending_review",
+      "prompt": "Use case: scientific-educational. Produce ONE original formal hand-motor/sports instruction textbook illustration, ONE key pose, NO sequence and NO panels. Clean white background, natural adult skin, fine graphite contours with realistic muted color shading. Show complete fingertips, palm, entire wrist and short forearm with generous framing margins. Exactly FIVE anatomical digits per human hand, each with identifiable unique base and fingertip: thumb/index/middle/ring/little. Separate unused fingers gently so they do not hide each other. Choose a revealing view around contact so five-digit topology and finger lengths can be checked; do not hide fingers behind large props or crop wrists. Realistic segment proportions and natural joints. No impossible bends/intersections/floating digits; objects supported by contact or a work surface. For two hands, use one left and one right and show all ten digits. Draw ONLY hands and the necessary named prop(s) and support surface. Choose the action's most informative active execution pose, using the specified prop exactly. This is one static illustrative posture, not a movement trace or a claim about forces. No text, no arrows, no logos. TASK SPECIFICATION: {\"action_id\":\"T12\",\"name\":\"受限空间拾取\",\"description\":\"受限空间拾取。在固定工作区内记录接近、接触、执行和结束四个阶段。\",\"primitives\":[\"接近与预成形\",\"建立接触\",\"指腹对捏\"],\"props\":[{\"name\":\"方块 / 长方体组\",\"spec\":\"建议边长 25 / 40 / 60 mm；表面加朝向标记\"},{\"name\":\"盒与盖\",\"spec\":\"翻盖、滑盖、分离盖\"}],\"hands\":\"单手\"}",
+      "caption": "动作进行中的单张关键姿态示意；完整顺序、目标和条件见动作说明。"
+    },
+    {
+      "action_id": "T20",
+      "path": "assets/generated/T20-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-3da5b54b-72f9-4f3b-86b4-0402dbac537e.png",
+      "status": "pending_review",
+      "prompt": "Use case: scientific-educational. Produce ONE original formal hand-motor/sports instruction textbook illustration, ONE key pose, NO sequence and NO panels. Clean white background, natural adult skin, fine graphite contours with realistic muted color shading. Show complete fingertips, palm, entire wrist and short forearm with generous framing margins. Exactly FIVE anatomical digits per human hand, each with identifiable unique base and fingertip: thumb/index/middle/ring/little. Separate unused fingers gently so they do not hide each other. Choose a revealing view around contact so five-digit topology and finger lengths can be checked; do not hide fingers behind large props or crop wrists. Realistic segment proportions and natural joints. No impossible bends/intersections/floating digits; objects supported by contact or a work surface. For two hands, use one left and one right and show all ten digits. Draw ONLY hands and the necessary named prop(s) and support surface. Choose the action's most informative active execution pose, using the specified prop exactly. This is one static illustrative posture, not a movement trace or a claim about forces. No text, no arrows, no logos. TASK SPECIFICATION: {\"action_id\":\"T20\",\"name\":\"预成形开度适配\",\"description\":\"预成形开度适配。在固定工作区内记录接近、接触、执行和结束四个阶段。\",\"primitives\":[\"接近与预成形\",\"展指与并指\"],\"props\":[{\"name\":\"球体组\",\"spec\":\"建议直径 30 / 50 / 70 mm\"},{\"name\":\"圆柱组\",\"spec\":\"建议直径 20 / 40 / 60 mm；轻质、圆边\"}],\"hands\":\"单手\"}",
+      "caption": "动作进行中的单张关键姿态示意；完整顺序、目标和条件见动作说明。"
+    },
+    {
+      "action_id": "T19",
+      "path": "assets/generated/T19-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-755695ea-068b-472b-b6d0-92657903b40d.png",
+      "status": "pending_review",
+      "prompt": "Use case: scientific-educational. Produce ONE original formal hand-motor/sports instruction textbook illustration, ONE key pose, NO sequence and NO panels. Clean white background, natural adult skin, fine graphite contours with realistic muted color shading. Show complete fingertips, palm, entire wrist and short forearm with generous framing margins. Exactly FIVE anatomical digits per human hand, each with identifiable unique base and fingertip: thumb/index/middle/ring/little. Separate unused fingers gently so they do not hide each other. Choose a revealing view around contact so five-digit topology and finger lengths can be checked; do not hide fingers behind large props or crop wrists. Realistic segment proportions and natural joints. No impossible bends/intersections/floating digits; objects supported by contact or a work surface. For two hands, use one left and one right and show all ten digits. Draw ONLY hands and the necessary named prop(s) and support surface. Choose the action's most informative active execution pose, using the specified prop exactly. This is one static illustrative posture, not a movement trace or a claim about forces. No text, no arrows, no logos. TASK SPECIFICATION: {\"action_id\":\"T19\",\"name\":\"放置后脱离接触\",\"description\":\"放置后脱离接触。在固定工作区内记录接近、接触、执行和结束四个阶段。\",\"primitives\":[\"释放接触\",\"整体搬运\"],\"props\":[{\"name\":\"方块 / 长方体组\",\"spec\":\"建议边长 25 / 40 / 60 mm；表面加朝向标记\"}],\"hands\":\"单手\"}",
+      "caption": "动作进行中的单张关键姿态示意；完整顺序、目标和条件见动作说明。"
+    },
+    {
+      "action_id": "U09",
+      "path": "assets/generated/U09-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-678d5c2f-ca77-46f1-b4b9-8e1d3ebc0443.png",
+      "status": "pending_review",
+      "prompt": "Use case: scientific-educational. Produce ONE original formal hand-motor/sports instruction textbook illustration, ONE key pose, NO sequence and NO panels. Clean white background, natural adult skin, fine graphite contours with realistic muted color shading. Show complete fingertips, palm, entire wrist and short forearm with generous framing margins. Exactly FIVE anatomical digits per human hand, each with identifiable unique base and fingertip: thumb/index/middle/ring/little. Separate unused fingers gently so they do not hide each other. Choose a revealing view around contact so five-digit topology and finger lengths can be checked; do not hide fingers behind large props or crop wrists. Realistic segment proportions and natural joints. No impossible bends/intersections/floating digits; objects supported by contact or a work surface. For two hands, use one left and one right and show all ten digits. Draw ONLY hands and the necessary named prop(s) and support surface. Choose the action's most informative active execution pose, using the specified prop exactly. This is one static illustrative posture, not a movement trace or a claim about forces. No text, no arrows, no logos. TASK SPECIFICATION: {\"action_id\":\"U09\",\"name\":\"按下按钮\",\"description\":\"按下按钮。在固定工作区内记录接近、接触、执行和结束四个阶段。\",\"primitives\":[\"推与按压\"],\"props\":[{\"name\":\"按钮 / 开关板\",\"spec\":\"不同键程与触感，低电压或无电\"}],\"hands\":\"单手\"}",
+      "caption": "动作进行中的单张关键姿态示意；完整顺序、目标和条件见动作说明。"
+    },
+    {
+      "action_id": "T18",
+      "path": "assets/generated/T18-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-044f5f7c-c254-4a35-bcf1-9e9510d8047b.png",
+      "status": "pending_review",
+      "prompt": "Use case: scientific-educational. Produce ONE original formal hand-motor/sports instruction textbook illustration, ONE key pose, NO sequence and NO panels. Clean white background, natural adult skin, fine graphite contours with realistic muted color shading. Show complete fingertips, palm, entire wrist and short forearm with generous framing margins. Exactly FIVE anatomical digits per human hand, each with identifiable unique base and fingertip: thumb/index/middle/ring/little. Separate unused fingers gently so they do not hide each other. Choose a revealing view around contact so five-digit topology and finger lengths can be checked; do not hide fingers behind large props or crop wrists. Realistic segment proportions and natural joints. No impossible bends/intersections/floating digits; objects supported by contact or a work surface. For two hands, use one left and one right and show all ten digits. Draw ONLY hands and the necessary named prop(s) and support surface. Choose the action's most informative active execution pose, using the specified prop exactly. This is one static illustrative posture, not a movement trace or a claim about forces. No text, no arrows, no logos. TASK SPECIFICATION: {\"action_id\":\"T18\",\"name\":\"抓取后精准回放\",\"description\":\"抓取后精准回放。在固定工作区内记录接近、接触、执行和结束四个阶段。\",\"primitives\":[\"接近与预成形\",\"稳定持握\",\"整体搬运\",\"释放接触\"],\"props\":[{\"name\":\"棱柱\",\"spec\":\"六棱或八棱，注明尺寸\"}],\"hands\":\"单手\"}",
+      "caption": "动作进行中的单张关键姿态示意；完整顺序、目标和条件见动作说明。"
+    },
+    {
+      "action_id": "B01",
+      "path": "assets/generated/B01-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-404b66a0-1879-4ba3-abf9-e134f4abe042.png",
+      "status": "pending_review",
+      "prompt": "Use case: scientific-educational. Produce ONE original formal hand-motor/sports instruction textbook illustration, ONE key pose, NO sequence and NO panels. Clean white background, natural adult skin, fine graphite contours with realistic muted color shading. Show complete fingertips, palm, entire wrist and short forearm with generous framing margins. Exactly FIVE anatomical digits per human hand, each with identifiable unique base and fingertip: thumb/index/middle/ring/little. Separate unused fingers gently so they do not hide each other. Choose a revealing view around contact so five-digit topology and finger lengths can be checked; do not hide fingers behind large props or crop wrists. Realistic segment proportions and natural joints. No impossible bends/intersections/floating digits; objects supported by contact or a work surface. For two hands, use one left and one right and show all ten digits. Draw ONLY hands and the necessary named prop(s) and support surface. Choose the action's most informative active execution pose, using the specified prop exactly. This is one static illustrative posture, not a movement trace or a claim about forces. No text, no arrows, no logos. TASK SPECIFICATION: {\"action_id\":\"B01\",\"name\":\"双手剪刀开合\",\"description\":\"一手稳定物体或手柄，另一手驱动剪刀开合。\",\"primitives\":[\"双手稳定—操作\",\"工具驱动\",\"拧转机构\"],\"props\":[{\"name\":\"安全剪刀\",\"spec\":\"钝头；空剪及薄纸分阶段\"}],\"hands\":\"双手\"}",
+      "caption": "动作进行中的单张关键姿态示意；完整顺序、目标和条件见动作说明。"
+    },
+    {
+      "action_id": "B02",
+      "path": "assets/generated/B02-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-e8833bf9-2fa1-46b5-b480-a83672f2bdf7.png",
+      "status": "pending_review",
+      "prompt": "Use case: scientific-educational. Produce ONE original formal hand-motor/sports instruction textbook illustration, ONE key pose, NO sequence and NO panels. Clean white background, natural adult skin, fine graphite contours with realistic muted color shading. Show complete fingertips, palm, entire wrist and short forearm with generous framing margins. Exactly FIVE anatomical digits per human hand, each with identifiable unique base and fingertip: thumb/index/middle/ring/little. Separate unused fingers gently so they do not hide each other. Choose a revealing view around contact so five-digit topology and finger lengths can be checked; do not hide fingers behind large props or crop wrists. Realistic segment proportions and natural joints. No impossible bends/intersections/floating digits; objects supported by contact or a work surface. For two hands, use one left and one right and show all ten digits. Draw ONLY hands and the necessary named prop(s) and support surface. Choose the action's most informative active execution pose, using the specified prop exactly. This is one static illustrative posture, not a movement trace or a claim about forces. No text, no arrows, no logos. TASK SPECIFICATION: {\"action_id\":\"B02\",\"name\":\"双手笔记本开合\",\"description\":\"一手稳定底座，另一手操作上盖。\",\"primitives\":[\"双手稳定—操作\",\"拧转机构\"],\"props\":[{\"name\":\"笔记本模型\",\"spec\":\"优先无电子功能的铰链模型\"}],\"hands\":\"双手\"}",
+      "caption": "动作进行中的单张关键姿态示意；完整顺序、目标和条件见动作说明。"
+    },
+    {
+      "action_id": "T06",
+      "path": "assets/generated/T06-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-79ed4eb6-0aaf-4550-adfb-382de72298c5.png",
+      "status": "pending_review",
+      "prompt": "Use case: scientific-educational. Produce ONE original formal hand-motor/sports instruction textbook illustration, ONE key pose, NO sequence and NO panels. Clean white background, natural adult skin, fine graphite contours with realistic muted color shading. Show complete fingertips, palm, entire wrist and short forearm with generous framing margins. Exactly FIVE anatomical digits per human hand, each with identifiable unique base and fingertip: thumb/index/middle/ring/little. Separate unused fingers gently so they do not hide each other. Choose a revealing view around contact so five-digit topology and finger lengths can be checked; do not hide fingers behind large props or crop wrists. Realistic segment proportions and natural joints. No impossible bends/intersections/floating digits; objects supported by contact or a work surface. For two hands, use one left and one right and show all ten digits. Draw ONLY hands and the necessary named prop(s) and support surface. Choose the action's most informative active execution pose, using the specified prop exactly. This is one static illustrative posture, not a movement trace or a claim about forces. No text, no arrows, no logos. TASK SPECIFICATION: {\"action_id\":\"T06\",\"name\":\"球体拾取并放置\",\"description\":\"球体拾取并放置。在固定工作区内记录接近、接触、执行和结束四个阶段。\",\"primitives\":[\"接近与预成形\",\"指腹对捏\",\"整体搬运\",\"释放接触\"],\"props\":[{\"name\":\"球体组\",\"spec\":\"建议直径 30 / 50 / 70 mm\"}],\"hands\":\"单手\"}",
+      "caption": "动作进行中的单张关键姿态示意；完整顺序、目标和条件见动作说明。"
+    },
+    {
+      "action_id": "T05",
+      "path": "assets/generated/T05-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-aa573f3b-0bd8-401a-bfc1-477357ddd215.png",
+      "status": "pending_review",
+      "prompt": "Use case: scientific-educational. Produce ONE original formal hand-motor/sports instruction textbook illustration, ONE key pose, NO sequence and NO panels. Clean white background, natural adult skin, fine graphite contours with realistic muted color shading. Show complete fingertips, palm, entire wrist and short forearm with generous framing margins. Exactly FIVE anatomical digits per human hand, each with identifiable unique base and fingertip: thumb/index/middle/ring/little. Separate unused fingers gently so they do not hide each other. Choose a revealing view around contact so five-digit topology and finger lengths can be checked; do not hide fingers behind large props or crop wrists. Realistic segment proportions and natural joints. No impossible bends/intersections/floating digits; objects supported by contact or a work surface. For two hands, use one left and one right and show all ten digits. Draw ONLY hands and the necessary named prop(s) and support surface. Choose the action's most informative active execution pose, using the specified prop exactly. This is one static illustrative posture, not a movement trace or a claim about forces. No text, no arrows, no logos. TASK SPECIFICATION: {\"action_id\":\"T05\",\"name\":\"硬币从桌面捏起\",\"description\":\"硬币从桌面捏起。在固定工作区内记录接近、接触、执行和结束四个阶段。\",\"primitives\":[\"接近与预成形\",\"指尖对捏\",\"整体搬运\"],\"props\":[{\"name\":\"代币 / 硬币\",\"spec\":\"建议直径 25–35 mm 的代币\"}],\"hands\":\"单手\"}",
+      "caption": "动作进行中的单张关键姿态示意；完整顺序、目标和条件见动作说明。"
+    },
+    {
+      "action_id": "T08",
+      "path": "assets/generated/T08-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-10d9f56f-af29-48ee-95e5-604f32421ef3.png",
+      "status": "approved",
+      "prompt": "Use case: scientific-educational. Produce ONE original formal hand-motor/sports instruction textbook illustration, ONE key pose, NO sequence and NO panels. Clean white background, natural adult skin, fine graphite contours with realistic muted color shading. Show complete fingertips, palm, entire wrist and short forearm with generous framing margins. Exactly FIVE anatomical digits per human hand, each with identifiable unique base and fingertip: thumb/index/middle/ring/little. Separate unused fingers gently so they do not hide each other. Choose a revealing view around contact so five-digit topology and finger lengths can be checked; do not hide fingers behind large props or crop wrists. Realistic segment proportions and natural joints. No impossible bends/intersections/floating digits; objects supported by contact or a work surface. For two hands, use one left and one right and show all ten digits. Draw ONLY hands and the necessary named prop(s) and support surface. Choose the action's most informative active execution pose, using the specified prop exactly. This is one static illustrative posture, not a movement trace or a claim about forces. No text, no arrows, no logos. TASK SPECIFICATION: {\"action_id\":\"T08\",\"name\":\"杯柄钩取\",\"description\":\"杯柄钩取。在固定工作区内记录接近、接触、执行和结束四个阶段。\",\"primitives\":[\"接近与预成形\",\"稳定持握\",\"整体搬运\"],\"props\":[{\"name\":\"杯\",\"spec\":\"有柄与无柄；先用空杯\"}],\"hands\":\"单手\"}",
+      "caption": "杯柄钩持的接触准备姿态；杯底仍在桌面，图中尚未提起。",
+      "review": "逐指确认五指、长度关系、关节连接和完整手部构图；图中道具与关键握持姿态经独立复核。",
+      "physics": "unknown",
+      "temporal": "key_pose_only"
+    },
+    {
+      "action_id": "T16",
+      "path": "assets/generated/T16-v1.png",
+      "original_path": "/home/yiyuan-han/.codex/generated_images/01a0d23b-1217-7611-a688-83db75c94955/exec-83d646a2-299a-444f-a471-228624fa6870.png",
+      "status": "approved",
+      "prompt": "Use case: scientific-educational. Produce ONE original formal hand-motor/sports instruction textbook illustration, ONE key pose, NO sequence and NO panels. Clean white background, natural adult skin, fine graphite contours with realistic muted color shading. Show complete fingertips, palm, entire wrist and short forearm with generous framing margins. Exactly FIVE anatomical digits per human hand, each with identifiable unique base and fingertip: thumb/index/middle/ring/little. Separate unused fingers gently so they do not hide each other. Choose a revealing view around contact so five-digit topology and finger lengths can be checked; do not hide fingers behind large props or crop wrists. Realistic segment proportions and natural joints. No impossible bends/intersections/floating digits; objects supported by contact or a work surface. For two hands, use one left and one right and show all ten digits. Draw ONLY hands and the necessary named prop(s) and support surface. Choose the action's most informative active execution pose, using the specified prop exactly. This is one static illustrative posture, not a movement trace or a claim about forces. No text, no arrows, no logos. TASK SPECIFICATION: {\"action_id\":\"T16\",\"name\":\"持物改变腕方向\",\"description\":\"持物改变腕方向。在固定工作区内记录接近、接触、执行和结束四个阶段。\",\"primitives\":[\"稳定持握\",\"前臂旋转\",\"整体搬运\"],\"props\":[{\"name\":\"瓶与螺纹盖\",\"spec\":\"空塑料瓶；盖子直径及螺距记录\"}],\"hands\":\"单手\"}",
+      "caption": "持瓶改变腕方向时所用的稳定握姿；静帧不展示腕部旋转范围或过程。",
+      "review": "逐指确认五指、长度关系、关节连接和完整手部构图；图中道具与关键握持姿态经独立复核。",
+      "physics": "unknown",
+      "temporal": "key_pose_only"
+    }
+  ]
+}

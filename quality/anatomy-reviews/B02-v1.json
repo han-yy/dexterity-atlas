@@ -1,0 +1,182 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/B02-v1.png",
+  "sha256": "3959fd14f13eff8b000039424c21cbfb983e87daf89fab7b1ae20e1fa1d8c1c0",
+  "action_id": "B02",
+  "reviewer": "hand-anatomy-reviewer / independent visual model review (motion_media)",
+  "expected_panels": 1,
+  "expected_hands_per_panel": [
+    2
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "unknown",
+          "view": "上方手的拇食指径侧斜视，夹住屏幕上缘",
+          "bbox": [
+            0.606,
+            0.009,
+            1,
+            0.54
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "从靠近腕部的径侧根部向左伸出，近节与指间横纹连续，带甲末端贴住屏幕正面边框。"
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "由手上缘独立隆起向左形成拱形，屈曲后指腹下压屏幕上沿，末端在上沿处可见。"
+            },
+            "middle": {
+              "visibility": "unresolvable",
+              "trace": "虎口内、屏幕后方有卷曲皮肤段，但没有可独立对应的中指根部到末端链。"
+            },
+            "ring": {
+              "visibility": "unresolvable",
+              "trace": "屏幕后方仅见部分折叠轮廓，无法将无名指从相邻卷指中独立分出。"
+            },
+            "little": {
+              "visibility": "unresolvable",
+              "trace": "屏幕和手掌后方没有可追踪的小指独立末端，不能据握持姿态推补。"
+            }
+          },
+          "count_observation": "拇、食指可独立追踪，另外三指在屏幕后高度重叠，不满足五指逐指核验。",
+          "length_observation": "可见拇食指的弯曲长度没有明确异常；屏幕后另三指的全长、短小指关系无法判断。",
+          "joint_observation": "拇食指虎口与腕部连续；屏幕后卷指根部与关节拓扑不可分辨。掌背面证据不足以可靠判定该手左右。",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "unknown",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "拇、食指可独立追踪，另外三指在屏幕后高度重叠，不满足五指逐指核验。",
+              "correction": "补充同一姿态的无遮挡视角，或轻微分开并露出受遮挡手指的独立根部、指节与指尖；保留正确道具和接触。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "拇食指虎口与腕部连续；屏幕后卷指根部与关节拓扑不可分辨。掌背面证据不足以可靠判定该手左右。",
+              "correction": "补充同一姿态的无遮挡视角，或轻微分开并露出受遮挡手指的独立根部、指节与指尖；保留正确道具和接触。"
+            },
+            {
+              "code": "length_ratio",
+              "check": "proportions",
+              "evidence": "可见拇食指的弯曲长度没有明确异常；屏幕后另三指的全长、短小指关系无法判断。",
+              "correction": "补充同一姿态的无遮挡视角，或轻微分开并露出受遮挡手指的独立根部、指节与指尖；保留正确道具和接触。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "拇食指虎口与腕部连续；屏幕后卷指根部与关节拓扑不可分辨。掌背面证据不足以可靠判定该手左右。",
+              "correction": "补充同一姿态的无遮挡视角，或轻微分开并露出受遮挡手指的独立根部、指节与指尖；保留正确道具和接触。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "handedness",
+              "evidence": "该径侧斜视主要显示拇食指虎口，手背与掌面标志不足，不能仅按拇指画面位置确定左右。",
+              "correction": "补充可识别掌背面和拇指根部的视角，确认与另一手构成左右手配对。"
+            }
+          ]
+        },
+        {
+          "hand_id": "H2",
+          "side": "right",
+          "view": "下方支撑手背侧斜视",
+          "bbox": [
+            0,
+            0.589,
+            0.356,
+            0.9
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "unresolvable",
+              "trace": "手上缘可见拇指近节弯向屏幕铰链背面，但远节及指尖在屏幕后消失，不能完整追踪。"
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "由最上方远掌根部向右伸出，越过底座左前边缘，指甲位于最右端。"
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "食指下方有独立长指腹，沿相邻关节向右弯曲，末端部分被食指覆盖但边界可以局部追踪。"
+            },
+            "ring": {
+              "visibility": "visible",
+              "trace": "中指下方由独立掌指关节接出，较深屈曲后圆端位于画面下中，指间分界明确。"
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "最下方短指由尺侧掌缘卷起，近节、折弯和短指端均在底座外。"
+            }
+          },
+          "count_observation": "四根长指有独立轮廓；拇指只见近节，末端遮挡，不能把整手五指计数判为通过。",
+          "length_observation": "食指较伸直，中、无名指更屈曲，小指可见弯曲链较短；不强制食指和无名指排序。拇指隐藏远节使完整比例检查未知。",
+          "joint_observation": "手背、四长指与腕部连续，底座边缘未见明显穿透；隐藏拇指的末节和连接无法确认。",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "四根长指有独立轮廓；拇指只见近节，末端遮挡，不能把整手五指计数判为通过。",
+              "correction": "补充同一姿态的无遮挡视角，或轻微分开并露出受遮挡手指的独立根部、指节与指尖；保留正确道具和接触。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "手背、四长指与腕部连续，底座边缘未见明显穿透；隐藏拇指的末节和连接无法确认。",
+              "correction": "补充同一姿态的无遮挡视角，或轻微分开并露出受遮挡手指的独立根部、指节与指尖；保留正确道具和接触。"
+            },
+            {
+              "code": "length_ratio",
+              "check": "proportions",
+              "evidence": "食指较伸直，中、无名指更屈曲，小指可见弯曲链较短；不强制食指和无名指排序。拇指隐藏远节使完整比例检查未知。",
+              "correction": "补充同一姿态的无遮挡视角，或轻微分开并露出受遮挡手指的独立根部、指节与指尖；保留正确道具和接触。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "手背、四长指与腕部连续，底座边缘未见明显穿透；隐藏拇指的末节和连接无法确认。",
+              "correction": "补充同一姿态的无遮挡视角，或轻微分开并露出受遮挡手指的独立根部、指节与指尖；保留正确道具和接触。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "pass",
+    "observation": "仅一个静态画面，实际看到 2 只手，与动作要求的手数相符；没有跨帧材料，未据此评估左右互换、指长随时间变化或运动连续性。"
+  },
+  "decision": "needs_review",
+  "limitations": "已打开原始分辨率 PNG；有歧义处另做局部放大。单视角视觉检查，遮挡几何和精确长度不作补全或测量；不是物理、临床或完整运动验证。",
+  "action_fidelity": {
+    "status": "pass",
+    "observation": "画面确有笔记本与两只手：上方手夹上盖边缘，下方手接触底座前缘，屏幕处于部分打开角度。符合稳定底座并操作上盖的关键姿态；不证明上盖角度变化或底座全程稳定。"
+  },
+  "action_fidelity_scope": "Only the single key pose and expected prop are reviewed; no temporal completion claim.",
+  "inspection_note": "原图及 /tmp/B02-anatomy-zoom.png 局部放大均已实际查看。"
+}

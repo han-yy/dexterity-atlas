@@ -1,0 +1,492 @@
+{
+  "source": "ACTIONSENSE",
+  "label_count": 20,
+  "activity_tasks": [
+    "T23",
+    "U55",
+    "U53",
+    "U54",
+    "U56",
+    "B26",
+    "B14",
+    "B27",
+    "B28",
+    "T24",
+    "T25",
+    "T26",
+    "T27"
+  ],
+  "activities": [
+    {
+      "id": "AS01",
+      "label": "Get/replace items from refrigerator/cabinets/drawers",
+      "name": "从冰箱、柜子、抽屉取放物品",
+      "action": "T23",
+      "condition": "通用取物 / 归位",
+      "props": [
+        "cabinet",
+        "refrigerator",
+        "drawer",
+        "sink"
+      ],
+      "subactions": [],
+      "source": "ACTIONSENSE",
+      "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+      "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+    },
+    {
+      "id": "AS02",
+      "label": "Clear cutting board",
+      "name": "清理砧板",
+      "action": "U55",
+      "condition": "蔬菜皮、蔬菜片、面包片",
+      "props": [
+        "cutting_board",
+        "chef_knife",
+        "pot",
+        "pan",
+        "cucumber",
+        "potato",
+        "bread"
+      ],
+      "subactions": [],
+      "source": "ACTIONSENSE",
+      "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+      "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+    },
+    {
+      "id": "AS03",
+      "label": "Peel a cucumber",
+      "name": "给黄瓜去皮",
+      "action": "U53",
+      "condition": "黄瓜",
+      "props": [
+        "cucumber",
+        "peeler",
+        "cutting_board"
+      ],
+      "subactions": [
+        "U57"
+      ],
+      "source": "ACTIONSENSE",
+      "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+      "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+    },
+    {
+      "id": "AS04",
+      "label": "Slice a cucumber",
+      "name": "黄瓜切片",
+      "action": "U54",
+      "condition": "已去皮黄瓜 + 厨师刀",
+      "props": [
+        "cucumber",
+        "chef_knife",
+        "cutting_board"
+      ],
+      "subactions": [
+        "U58"
+      ],
+      "source": "ACTIONSENSE",
+      "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+      "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+    },
+    {
+      "id": "AS05",
+      "label": "Peel a potato",
+      "name": "给土豆去皮",
+      "action": "U53",
+      "condition": "土豆",
+      "props": [
+        "potato",
+        "peeler",
+        "cutting_board"
+      ],
+      "subactions": [
+        "U57"
+      ],
+      "source": "ACTIONSENSE",
+      "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+      "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+    },
+    {
+      "id": "AS06",
+      "label": "Slice a potato",
+      "name": "土豆切片",
+      "action": "U54",
+      "condition": "已去皮土豆 + 厨师刀",
+      "props": [
+        "potato",
+        "chef_knife",
+        "cutting_board"
+      ],
+      "subactions": [
+        "U58"
+      ],
+      "source": "ACTIONSENSE",
+      "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+      "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+    },
+    {
+      "id": "AS07",
+      "label": "Slice bread",
+      "name": "面包切片",
+      "action": "U54",
+      "condition": "小餐包 + 面包刀",
+      "props": [
+        "bread",
+        "bread_knife",
+        "cutting_board"
+      ],
+      "subactions": [
+        "U58"
+      ],
+      "source": "ACTIONSENSE",
+      "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+      "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+    },
+    {
+      "id": "AS08",
+      "label": "Spread almond butter on a bread slice",
+      "name": "在面包片上涂杏仁酱",
+      "action": "U56",
+      "condition": "杏仁酱；面包手持或桌面支撑",
+      "props": [
+        "bread",
+        "table_knife",
+        "almond_butter",
+        "jar"
+      ],
+      "subactions": [
+        "U59"
+      ],
+      "source": "ACTIONSENSE",
+      "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+      "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+    },
+    {
+      "id": "AS09",
+      "label": "Spread jelly on a bread slice",
+      "name": "在面包片上涂果冻酱",
+      "action": "U56",
+      "condition": "原流程在杏仁酱层上涂果冻酱",
+      "props": [
+        "bread",
+        "table_knife",
+        "jelly",
+        "jar"
+      ],
+      "subactions": [
+        "U59"
+      ],
+      "source": "ACTIONSENSE",
+      "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+      "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+    },
+    {
+      "id": "AS10",
+      "label": "Open/close a jar of almond butter",
+      "name": "开合杏仁酱罐",
+      "action": "B26",
+      "condition": "开合循环 3 次；可桌面支撑",
+      "props": [
+        "jar",
+        "almond_butter"
+      ],
+      "subactions": [
+        "B07",
+        "U22",
+        "U23"
+      ],
+      "source": "ACTIONSENSE",
+      "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+      "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+    },
+    {
+      "id": "AS11",
+      "label": "Pour water from a pitcher into a glass",
+      "name": "把水壶中的水倒进杯子",
+      "action": "B14",
+      "condition": "手持接收杯；依次向 5 杯倒入",
+      "props": [
+        "pitcher",
+        "cup",
+        "water"
+      ],
+      "subactions": [],
+      "source": "ACTIONSENSE",
+      "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+      "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+    },
+    {
+      "id": "AS12",
+      "label": "Clean a plate with a sponge",
+      "name": "用海绵擦盘子",
+      "action": "B27",
+      "condition": "持盘 + 海绵；模拟干擦",
+      "props": [
+        "plate",
+        "sponge"
+      ],
+      "subactions": [
+        "B29"
+      ],
+      "source": "ACTIONSENSE",
+      "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+      "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+    },
+    {
+      "id": "AS13",
+      "label": "Clean a plate with a towel",
+      "name": "用毛巾擦盘子",
+      "action": "B27",
+      "condition": "持盘 + 毛巾；模拟干擦",
+      "props": [
+        "plate",
+        "cloth"
+      ],
+      "subactions": [
+        "B29"
+      ],
+      "source": "ACTIONSENSE",
+      "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+      "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+    },
+    {
+      "id": "AS14",
+      "label": "Clean a pan with a sponge",
+      "name": "用海绵擦锅",
+      "action": "B28",
+      "condition": "握锅柄 + 海绵；模拟干擦",
+      "props": [
+        "pan",
+        "sponge"
+      ],
+      "subactions": [
+        "B29"
+      ],
+      "source": "ACTIONSENSE",
+      "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+      "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+    },
+    {
+      "id": "AS15",
+      "label": "Clean a pan with a towel",
+      "name": "用毛巾擦锅",
+      "action": "B28",
+      "condition": "握锅柄 + 毛巾；模拟干擦",
+      "props": [
+        "pan",
+        "cloth"
+      ],
+      "subactions": [
+        "B29"
+      ],
+      "source": "ACTIONSENSE",
+      "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+      "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+    },
+    {
+      "id": "AS16",
+      "label": "Get items from cabinets: 3 each large/small plates, bowls, mugs, glasses, sets of utensils",
+      "name": "取出三套餐具",
+      "action": "T23",
+      "condition": "每类 3 件；大盘 / 小盘分开，刀勺叉各 3",
+      "props": [
+        "cabinet",
+        "drawer",
+        "plate",
+        "bowl",
+        "cup",
+        "table_knife",
+        "spoon",
+        "fork"
+      ],
+      "subactions": [],
+      "source": "ACTIONSENSE",
+      "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+      "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+    },
+    {
+      "id": "AS17",
+      "label": "Set table: 3 each large/small plates, bowls, mugs, glasses, sets of utensils",
+      "name": "布置三套餐具",
+      "action": "T24",
+      "condition": "三处用餐位置；每处八种餐具",
+      "props": [
+        "plate",
+        "bowl",
+        "cup",
+        "table_knife",
+        "spoon",
+        "fork"
+      ],
+      "subactions": [],
+      "source": "ACTIONSENSE",
+      "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+      "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+    },
+    {
+      "id": "AS18",
+      "label": "Stack on table: 3 each large/small plates, bowls",
+      "name": "在桌上叠放三组盘碗",
+      "action": "T25",
+      "condition": "大盘 / 小盘 / 碗，各 3 件",
+      "props": [
+        "plate",
+        "bowl"
+      ],
+      "subactions": [],
+      "source": "ACTIONSENSE",
+      "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+      "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+    },
+    {
+      "id": "AS19",
+      "label": "Load dishwasher: 3 each large/small plates, bowls, mugs, glasses, sets of utensils",
+      "name": "将三套餐具装入洗碗机",
+      "action": "T26",
+      "condition": "三套完整餐具；摆放策略可变",
+      "props": [
+        "plate",
+        "bowl",
+        "cup",
+        "table_knife",
+        "spoon",
+        "fork",
+        "dishwasher"
+      ],
+      "subactions": [],
+      "source": "ACTIONSENSE",
+      "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+      "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+    },
+    {
+      "id": "AS20",
+      "label": "Unload dishwasher: 3 each large/small plates, bowls, mugs, glasses, sets of utensils",
+      "name": "卸下三套餐具并归位",
+      "action": "T27",
+      "condition": "三套完整餐具；返回原储位",
+      "props": [
+        "plate",
+        "bowl",
+        "cup",
+        "table_knife",
+        "spoon",
+        "fork",
+        "dishwasher",
+        "cabinet",
+        "drawer"
+      ],
+      "subactions": [],
+      "source": "ACTIONSENSE",
+      "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+      "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "attribution": "DelPreto et al., ActionSense, NeurIPS 2022 / MIT. 中文译名、归并映射与采集拆解由 Dexterity Atlas 编写。",
+  "calibration_actions": [
+    "C13",
+    "C14",
+    "C09",
+    "C15",
+    "C16"
+  ],
+  "equipment": [
+    "emg_armband",
+    "finger_glove",
+    "body_imu",
+    "eye_tracker",
+    "rgb_camera",
+    "depth_camera",
+    "microphone",
+    "sensor"
+  ],
+  "props": [
+    "cucumber",
+    "potato",
+    "bread",
+    "peeler",
+    "chef_knife",
+    "bread_knife",
+    "table_knife",
+    "cutting_board",
+    "almond_butter",
+    "jelly",
+    "jar",
+    "pitcher",
+    "water",
+    "spoon",
+    "pot",
+    "dishwasher",
+    "cabinet",
+    "refrigerator",
+    "sink",
+    "scale",
+    "textured_calibration",
+    "emg_armband",
+    "finger_glove",
+    "body_imu",
+    "eye_tracker",
+    "rgb_camera",
+    "depth_camera",
+    "microphone",
+    "cup",
+    "bowl",
+    "plate",
+    "pan",
+    "sponge",
+    "cloth",
+    "fork",
+    "bag",
+    "drawer",
+    "sensor"
+  ],
+  "new_actions": [
+    "U53",
+    "U54",
+    "U55",
+    "U56",
+    "B26",
+    "B27",
+    "B28",
+    "T23",
+    "T24",
+    "T25",
+    "T26",
+    "T27",
+    "U57",
+    "U58",
+    "U59",
+    "B29",
+    "C13",
+    "C14",
+    "C15",
+    "C16"
+  ],
+  "enriched_actions": [
+    "B07",
+    "B14",
+    "C09",
+    "U22",
+    "U23"
+  ],
+  "scope": "完整活动 → 本库任务链 → 建议采集子动作。原始材料没有提供本库这些细分步骤的逐帧标签。",
+  "images": [
+    {
+      "url": "https://action-sense.csail.mit.edu/images/kitchen_items.jpg",
+      "label": "官方厨房道具总览"
+    },
+    {
+      "url": "https://action-sense.csail.mit.edu/images/activity_stats.jpg",
+      "label": "官方 20 项活动标签表"
+    }
+  ],
+  "dataset_notes": [
+    "真实人类厨房活动。20 个原标签映射为 13 个完整活动入口，材料与工具差异保留为条件；另有子动作和校准入口。",
+    "官网 Data 提醒早期 Manus 手指追踪不可靠；S06–S09 无手指追踪与触觉。逐 session 核查模态，不能以项目概览推定每次录制都有完整传感。",
+    "传感说明中手套只记录指屈曲而没有侧展，触觉未覆盖指尖；身体 IMU 的全局位置也可能漂移。",
+    "细粒度分段、阶段判据与中文任务拆解是本库编写；校准协议来自 C.3.1，厨房流程来自 C.4。"
+  ]
+}

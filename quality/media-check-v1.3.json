@@ -1,0 +1,54 @@
+{
+  "checked": "2026-09-28",
+  "method": "HTTP HEAD, not proof of playback",
+  "results": [
+    {
+      "url": "https://action-sense.csail.mit.edu/images/activities_grid_slide_compressed_cropped.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "url": "https://www.youtube.com/embed/u3sUbmwJcrQ",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=8",
+      "status": 200,
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://action-sense.csail.mit.edu/images/kitchen_items.jpg",
+      "status": 200,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://action-sense.csail.mit.edu/images/wearable_sensors_v0.jpg",
+      "status": 200,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://action-sense.csail.mit.edu/images/activity_stats.jpg",
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>"
+    },
+    {
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Paper-Datasets_and_Benchmarks.pdf",
+      "status": 200,
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+      "status": 200,
+      "content_type": "text/html"
+    },
+    {
+      "url": "https://action-sense.csail.mit.edu/data.html",
+      "status": 200,
+      "content_type": "text/html"
+    }
+  ],
+  "browser_observations": {
+    "activity_stats.jpg": "Official image rendered and all 20 rows visually read on 2026-09-28; HEAD failed with transient TLS EOF",
+    "as_grid": "Rendered montage; duration 36.970267 seconds, paused=false observed; no individual subaction segmentation claimed"
+  }
+}

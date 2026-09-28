@@ -1,0 +1,108 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/T15-v1.png",
+  "sha256": "d45dc5f16147e78aeda1b9bdfc57dbc40d2af73a0efbafd9548285e3235d0076",
+  "action_id": "T15",
+  "reviewer": "hand-anatomy-reviewer / anatomy_review_batch2 / visual model review",
+  "intended_action": {
+    "name": "物体移到标记区域",
+    "hands": "单手"
+  },
+  "expected_panels": 1,
+  "expected_hands_per_panel": [
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0.0,
+        0,
+        1.0,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "dorsal/radial oblique grasp over a target region",
+          "bbox": [
+            0.302,
+            0,
+            1,
+            0.633
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "The thumb arises from the near radial side, bends down-left and ends in the broad nail pad on the cube right face."
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "The nearer of the two clear left-contact fingers follows its own knuckle from the dorsal palm, bends down and ends in a nail-bearing tip against the cube upper-left edge."
+            },
+            "middle": {
+              "visibility": "visible",
+              "trace": "The farther neighboring long ray has a separate upper contour and bent chain, ending in the outer left nail-bearing tip adjacent to the index."
+            },
+            "ring": {
+              "visibility": "unresolvable",
+              "trace": "A rear finger strip and a small nail/skin fragment below the two near fingers are visible at the cube left edge, but the object hides their connecting chain; they cannot be certified as one unique ring finger."
+            },
+            "little": {
+              "visibility": "unresolvable",
+              "trace": "The innermost rear ray descends behind the cube top and has no separately visible terminal pad. Its complete little-finger attachment, chain and tip cannot be traced."
+            }
+          },
+          "count_observation": "Three complete rays are visible: thumb and the two adjacent left-contact fingers. Rear strips and the small lower fragment do not supply two independently traceable remaining fingers.",
+          "length_observation": "The near thumb, index and middle show plausible curved segment lengths for a bent grasp; the adjacent long fingers have similar overall spans with differing flexion, without enforcing an index/ring ordering. The two rear ray centerlines terminate behind the cube, so their full lengths and the little-finger relationship are unresolved.",
+          "joint_observation": "Visible near rays join the right dorsal hand continuously with plausible bends. The cube hides rear endpoints and makes their separate joint chains unverifiable. Fingers that are actually visible, palm/back of hand, wrist and short forearm fit; uncertain regions are object occlusions.",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "The cube hides the complete distal chains of the rear ulnar rays. A tiny nail/skin fragment below the two near fingers cannot be connected uniquely to one of those rear bases.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "The cube hides the complete distal chains of the rear ulnar rays. A tiny nail/skin fragment below the two near fingers cannot be connected uniquely to one of those rear bases. The hidden ray cannot be connected to a unique base through its full visible chain.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "The near thumb, index and middle show plausible curved segment lengths for a bent grasp; the adjacent long fingers have similar overall spans with differing flexion, without enforcing an index/ring ordering. The two rear ray centerlines terminate behind the cube, so their full lengths and the little-finger relationship are unresolved.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "The cube hides the complete distal chains of the rear ulnar rays. A tiny nail/skin fragment below the two near fingers cannot be connected uniquely to one of those rear bases. Hidden flexion and segment topology cannot be verified.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "pass",
+    "observation": "One actual panel and one hand were inspected. No temporal sequence is supplied, so there is no observed inter-panel side swap or length change; this does not certify an unshown movement. Within-frame uncertainties, if present, are recorded in the hand checks."
+  },
+  "decision": "needs_review",
+  "limitations": "Actual full-resolution image and enlarged digit/contact details inspected. Qualitative visual anatomy only: hidden bones, exact finger lengths and physical feasibility are not measured. Action fidelity is assessed separately against the catalog props and the visible key pose; a static pose does not validate full motion, contact timing or task success.",
+  "action_fidelity": {
+    "status": "pass",
+    "observation": "目录目标为物体移到标记区域，道具为方块。原图单手夹持木方块，方块悬在蓝色方形标记内部上方并有下方阴影，明确表达将方块带到指定区域、即将放置的关键姿态。单图不证明此前搬运轨迹或最终释放稳定性。"
+  }
+}

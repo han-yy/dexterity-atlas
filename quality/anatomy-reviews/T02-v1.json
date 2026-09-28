@@ -1,0 +1,104 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/T02-v1.png",
+  "sha256": "36146954a2cb623d61294fe5c7381d3948f479df1b21e525b5b679293df662b7",
+  "action_id": "T02",
+  "reviewer": "hand-anatomy-reviewer / anatomy_review_batch2 / visual model review",
+  "intended_action": {
+    "name": "桌面物体拾取并举起",
+    "hands": "单手"
+  },
+  "expected_panels": 1,
+  "expected_hands_per_panel": [
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0.0,
+        0,
+        1.0,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "dorsal/radial oblique reaching grasp",
+          "bbox": [
+            0.294,
+            0,
+            1,
+            0.667
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "The radial thumb emerges from the image-right side of the hand, bends down-left and ends in the broad nail-bearing pad pressing the cube right face."
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "The outer upper-left finger originates at the dorsal distal hand, curves down through two bend regions and ends in a separate narrow nail at the cube left/front edge."
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "The next ray follows behind the index and reappears as the lower nail-edged tip along the cube left edge; its exposed strip and local overlap link that tip to the neighboring finger rather than an extra branch."
+            },
+            "ring": {
+              "visibility": "unresolvable",
+              "trace": "One central rear bent ray descends toward the cube top/rear edge, but its terminal pad is hidden behind the block and nearer fingers; an independent full ring trace is unavailable."
+            },
+            "little": {
+              "visibility": "unresolvable",
+              "trace": "The farther ulnar bent skin region under the palm cannot be followed to a separate terminal little-finger pad; its shortened projection may be flexion/occlusion rather than an actual short digit."
+            }
+          },
+          "count_observation": "Thumb, index and a partially overlapped middle can be traced. Two rear bent rays are visible only in part and cannot be counted as complete independent digits from their knuckles alone.",
+          "length_observation": "Thumb and near index have plausible bent section lengths. The partially visible middle and two rear curled rays are foreshortened and interrupted by cube/finger overlap; their full curved lengths and their ordering cannot be established from the visible short strips.",
+          "joint_observation": "The exposed thumb and near finger contours join a right dorsal/radial hand without a visible branch. Rear joint chains and distinct tips are hidden by the block and finger overlap. Visible fingertips, the complete hand/wrist and a short forearm fit; the forearm continues naturally beyond the upper-right image boundary.",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "The cube and the nearer fingers conceal terminal portions of the two rear ulnar rays. Their exposed bent segments cannot be matched to two separate visible distal pads.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "The cube and the nearer fingers conceal terminal portions of the two rear ulnar rays. Their exposed bent segments cannot be matched to two separate visible distal pads. The hidden ray cannot be connected to a unique base through its full visible chain.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "Thumb and near index have plausible bent section lengths. The partially visible middle and two rear curled rays are foreshortened and interrupted by cube/finger overlap; their full curved lengths and their ordering cannot be established from the visible short strips.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "The cube and the nearer fingers conceal terminal portions of the two rear ulnar rays. Their exposed bent segments cannot be matched to two separate visible distal pads. Hidden flexion and segment topology cannot be verified.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "pass",
+    "observation": "One actual panel and one right hand were inspected. The visible posture has no cross-panel identity comparison; rear ring/little topology and lengths remain unresolved within this single pose. This report does not approve the depicted pickup action or prop match."
+  },
+  "decision": "needs_review",
+  "limitations": "Actual original image and, where necessary, enlarged detail inspected. Single-view visual anatomy assessment only: hidden bone geometry, exact centerline lengths and physical feasibility are not measured. This report does not approve action fidelity or motion between the illustrated panels."
+}

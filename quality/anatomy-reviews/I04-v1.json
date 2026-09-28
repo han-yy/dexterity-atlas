@@ -1,0 +1,189 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/I04-v1.png",
+  "sha256": "88bbbea55a15e82a4889568aacfdf9488f2f76731af8b1970c5da2c2ca20a75c",
+  "action_id": "I04",
+  "reviewer": "hand-anatomy-reviewer / independent visual model review",
+  "expected_panels": 3,
+  "expected_hands_per_panel": [
+    1,
+    1,
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0,
+        0,
+        0.36,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "palmar oblique",
+          "bbox": [
+            0.022,
+            0.08,
+            0.359,
+            0.97
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "右侧鱼际根部向上内收，经过清楚 IP 弯折到硬币右侧带甲拇指端。"
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "从靠拇指的远端掌缘斜向左上，经连续近/中/末节到硬币左侧指端。"
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "在食指左下的第一条蜷曲指，从远端掌缘短重叠后向左绕弯再返回右侧带甲指端。"
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "位于中指下方，独立弯曲轮廓和末节回到掌前，指端在中指指端下方。"
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "最下尺侧小指从外侧掌缘起，弯向内，具有独立末节与最下方小指甲。"
+            }
+          },
+          "count_observation": "逐条追踪到一条拇指与四条独立长指；每条均有独立路径和指端，未见额外或分叉指。",
+          "length_observation": "蜷曲中指与无名指的弧长接近，未按末端的垂直高度估算指长；小指弧线较短，食指较展开而投影较高。拇指两个节段无拉长，整体比例可信。",
+          "joint_observation": "拇指侧根与四指远端根部次序清楚；蜷曲指只有短距离相互遮挡，每个末节能回溯到对应指列，未见分叉或异常关节。",
+          "checks": {
+            "five_digits": "pass",
+            "connectivity": "pass",
+            "proportions": "pass",
+            "joint_structure": "pass",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": []
+        }
+      ]
+    },
+    {
+      "panel": 2,
+      "bbox": [
+        0.36,
+        0,
+        0.685,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "palmar oblique",
+          "bbox": [
+            0.362,
+            0.132,
+            0.684,
+            0.972
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "右侧拇指根部连接鱼际，内收弯曲后带甲末节指向左上，在硬币上方。"
+            },
+            "index": {
+              "visibility": "traceable",
+              "trace": "最上方带甲食指端由远端桡侧根部上行后向镜头屈曲；根部局部被中指挡住但短遮挡两侧轮廓匹配。"
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "硬币左边第一条粗弯曲指从掌远端向左外弯，再向内下行至硬币左下的独立指甲。"
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "中指下方的单独弯曲指，近端短遮挡后出现，末节在掌前，指甲与上下邻指分离。"
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "最下尺侧小指沿外缘收拢，末节回到掌前，最下指甲有独立轮廓。"
+            }
+          },
+          "count_observation": "逐条追踪到一条拇指与四条独立长指；每条均有独立路径和指端，未见额外或分叉指。",
+          "length_observation": "食指向镜头强屈曲，投影变短并不显示骨段变短；中、无名、小指沿弧线逐渐更短/更细。拇指较第1格更屈曲，未见节段拉伸；无明显比例异常。",
+          "joint_observation": "每条可见弯曲链分别接回掌缘，无指端重复或共用；食指和拇指方向可由指腹/指甲及关节弯折解释。",
+          "checks": {
+            "five_digits": "pass",
+            "connectivity": "pass",
+            "proportions": "pass",
+            "joint_structure": "pass",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": []
+        }
+      ]
+    },
+    {
+      "panel": 3,
+      "bbox": [
+        0.685,
+        0,
+        1,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "palmar oblique",
+          "bbox": [
+            0.689,
+            0.099,
+            1,
+            0.973
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "右侧拇指鱼际起始，上伸并略屈，IP 及末节连续，指尖远离掌心硬币。"
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "最高后方的食指从桡侧掌远端斜向左上，三段连续，指腹朝前，完整圆指端可见。"
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "食指左前方的中指向镜头蜷曲，圆形带甲末节通过短侧面段接到其独立近节；不是从食指分叉出来。"
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "中指下方的无名指从掌缘外弯，再回到靠硬币左上方的指端，轮廓和指甲独立。"
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "最下小指从尺側外缘内收回弯，末端位于硬币左下，单独指甲与无名指分离。"
+            }
+          },
+          "count_observation": "逐条追踪到一条拇指与四条独立长指；每条均有独立路径和指端，未见额外或分叉指。",
+          "length_observation": "伸出的食指较长；中指朝镜头屈曲，投影短但可见回折链，无依据判为残短。无名指与小指弧线较短且逐步变细，拇指未异常拉长；不对食/无名指设固定长短排序。",
+          "joint_observation": "五条指列独立连接掌部，中指的正对镜头末节与食指在遮挡处仍有分开的边界；无额外关节、指端或交叉穿透。",
+          "checks": {
+            "five_digits": "pass",
+            "connectivity": "pass",
+            "proportions": "pass",
+            "joint_structure": "pass",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "pass",
+    "observation": "三格保持同一右手掌面、鱼际侧与五指排列。食指和中指的投影变化可由屈曲解释；未见手指出生/消失或长度突变；每格完整手腕和短前臂可见。"
+  },
+  "decision": "approve",
+  "limitations": "实际查看原始全分辨率三格图，并放大相关指列和接触区；这是单视角视觉检查，不能测量隐藏骨骼、真实指长或证明物理可行性。已查 research/catalog.json 动作定义；本报告仅审手部形态，不代替动作语义与接触审核。"
+}

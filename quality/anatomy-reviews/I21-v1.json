@@ -1,0 +1,75 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/I21-v1.png",
+  "sha256": "b58a9f20f1087e35ffcde87e5f6691e3530afe5ff8eb302ca355718715e9e89a",
+  "action_id": "I21",
+  "reviewer": "hand-anatomy-reviewer / independent visual model review",
+  "expected_panels": 1,
+  "expected_hands_per_panel": [
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "radial oblique, dorsal thumb and palmar finger sides visible",
+          "bbox": [
+            0.193,
+            0.019,
+            1,
+            0.983
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "前景拇指由右侧桡侧基部向左伸，IP 皱褶后连接大指甲及末端，支在圆盘下方。"
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "最上食指由远端桡侧掌缘上起，近节弯向左，中节与末节连续下降到盘面上方带甲指端。"
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "食指下方中指从掌远端向左弯，近/中节在圆盘后可见，经拇指宽度的短遮挡后，唯一延续到最左下垂的指端。"
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "中指下方的无名指从掌远端短暂被前景拇指遮住，遮挡上下轮廓和指列顺序唯一接续，向下到中央较低带甲指端。"
+            },
+            "little": {
+              "visibility": "traceable",
+              "trace": "最右下小指自较低尺侧掌缘出来，短遮挡后向下弯到最右下较小指端，与无名指边界分开。"
+            }
+          },
+          "count_observation": "一条横向拇指、一条上方弯曲食指及三条下垂长指，五条均有可独立回溯的指链。",
+          "length_observation": "食指成大弧、中指略向镜头，无名指和小指下垂，姿态不同不能用末端高度排序。沿各自可见弧线比较，中指与无名指较长，小指从其较低根部起明显较短；食指投影大由弧向与视角解释，未见夸张中节。拇指两节与掌面尺度相容。",
+          "joint_observation": "五条指列都能接回唯一根部并找到独立末端；中/无名/小指在拇指后方为局部遮挡，出口位置和两侧走向清楚。可见关节转折连续，指甲位于对应末节背侧，未见指体穿过圆盘。",
+          "checks": {
+            "five_digits": "pass",
+            "connectivity": "pass",
+            "proportions": "pass",
+            "joint_structure": "pass",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "pass",
+    "observation": "文件只有一个关键姿态面板，实际可见一只右手；没有可做跨帧比较的第二姿态。本字段只表示单格身份/数量一致，不证明任何未显示的运动过程或跨帧指长一致性。"
+  },
+  "decision": "approve",
+  "limitations": "独立打开本文件的全分辨率原图，并放大相关指列与接触区；已读取 research/catalog.json 对应动作定义。仅审可见手部形态，不要求看见骨骼，也不把指甲数等同于指链数。小范围遮挡以唯一连续的两侧轮廓衔接；不可解析的指链不通过。单视图不测量真实骨长、隐藏结构或验证物理可行性，亦不证明 catalog 动作过程、道具一致性或动作语义通过。"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "手部形态检查"
+  short_description: "逐帧检查手指数目、长度比例、连接结构与左右手，拦截畸形教学图"
+  default_prompt: "使用 $hand-anatomy-reviewer 检查这些图片中每只手的五指、长度比例、关节连接与跨帧一致性，输出绑定图片的审查报告。"

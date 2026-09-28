@@ -8,18 +8,20 @@
 
 1. 下载并解压 `dexterity-atlas-github-pages.zip`。解压后的内容应直接包含 `index.html`、`app.js`、`data.js`、`hand.js`、`style.css`，以及 `assets`、`vendor`、`research`、`quality` 等文件夹。
 2. 登录 `han-yy`，打开 https://github.com/new ，Owner 选择 `han-yy`，Repository name 填 `dexterity-atlas`，选 **Public**，打开 **Add README**，点击 **Create repository**。如果该仓库已经存在且存有其他内容，先换一个新仓库名，避免覆盖。
-3. 在新仓库点 **Add file → Upload files**。将解压后的所有文件和文件夹拖入上传区，点击 **Commit changes**，提交到 `main`。上传的是解压后的内容，不是 ZIP，也不要再套一层 `dexterity-atlas` 文件夹。仓库首页应直接看到 `index.html`。
+3. 在新仓库点 **Add file → Upload files**。分批上传解压后的内容：根目录文件与 `vendor` 一批，`assets`、`research`、`quality` 各一批；每批提交到 `main`。GitHub 网页每次最多上传 100 个文件，若某个文件夹超过 100 个，请继续拆分并保留原目录路径。上传的是解压后的内容，不是 ZIP，也不要再套一层 `dexterity-atlas` 文件夹。仓库首页应直接看到 `index.html`。[上传限制依据](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository)
 4. 包含空文件 `.nojekyll`；如果文件管理器隐藏它导致漏传，可在 GitHub 点 **Add file → Create new file**，文件名填 `.nojekyll`，内容留空并提交。
 5. 打开 https://github.com/han-yy/dexterity-atlas/settings/pages ，在 **Build and deployment** 下将 **Source** 设为 **Deploy from a branch**，Branch 选 **main**，文件夹选 **/(root)**，点 **Save**。
 6. 等待发布完成，首次发布可能需要几分钟，官方文档提示最多可达 10 分钟。刷新 Pages 页面，点击 **Visit site**。也可以在 **Actions** 查看部署是否成功。
 
 ## 发布后检查
 
-- 打开“动作库”，应显示 231 个动作；可筛选、搜索并打开动作详情。
+- 打开“动作库”，应显示 251 个动作；可筛选、搜索并打开动作详情。
 - 在详情查看来源链接、原始图示或官方视频；“3D 关节示意”筛选应返回 18 个动作。
-- 查看“元动作”的 37 项与“道具清单”的 79 项。
+- “AI 教学图”筛选仅展示已通过手部形态与动作核对的图片；详情可展开五指、长度检查报告并切回原始素材。包内不包含被拒绝或尚未通过的生成图片。
+- 查看“元动作”的 40 项与“道具清单”的 107 项。
+- 打开“ActionSense 拆解”，可见 20 项原标签、13 个活动入口、任务链、道具与原始视频合集。
 - 向采集清单添加动作，尝试导出 CSV 或 JSON。
-- “参考来源”有 24 项；直接来源、改编任务和自行扩展都有独立标记。
+- “参考来源”有 25 项；直接来源、改编任务和自行扩展都有独立标记。
 
 ## 后续更新
 
@@ -38,4 +40,4 @@
 - [配置发布来源](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 - [创建 GitHub Pages 网站](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
 
-GitHub Free 支持公共仓库的 Pages。站点保留原始图示和视频的来源署名；原素材版权仍归各权利人。111 个自行扩展动作是数采设计建议，不应当作已被论文逐项验证的实验任务。
+GitHub Free 支持公共仓库的 Pages。站点保留原始图示和视频的来源署名；原素材版权仍归各权利人。106 个自行扩展动作是数采设计建议，不应当作已被论文逐项验证的实验任务。

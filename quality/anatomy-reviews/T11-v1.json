@@ -1,0 +1,104 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/T11-v1.png",
+  "sha256": "b508f3c4028608846050ac612a0a5bd02b61446143597efb87412b8dd321470b",
+  "action_id": "T11",
+  "reviewer": "hand-anatomy-reviewer / independent visual model review",
+  "expected_panels": 1,
+  "expected_hands_per_panel": [
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "dorsoradial oblique",
+          "bbox": [
+            0.245,
+            0.05,
+            1,
+            0.552
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "前右拇指从桡侧掌缘向左下伸，连续经过 IP 到顶层方块右侧完整带甲指端。"
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "左侧食指由远端手背起，向左下屈曲，末节与指端贴顶层方块左上边缘。"
+            },
+            "middle": {
+              "visibility": "unresolvable",
+              "trace": "食指后方中指样指柱下行到方块顶面后即被遮住，没有独立可追踪到指尖的末段。"
+            },
+            "ring": {
+              "visibility": "unresolvable",
+              "trace": "掌内较右的另一条弯曲指链进入方块后侧遮挡，末节不可见，不能独立确定无名指终点。"
+            },
+            "little": {
+              "visibility": "unresolvable",
+              "trace": "最深处小指未形成可辨根部到指端通路；不能把掌内皱褶作为第五指证据。"
+            }
+          },
+          "count_observation": "拇食指明确，其后只有部分长指段，三个后方指端未全部可辨，完整五指未知。",
+          "length_observation": "拇指/食指可见弧长与掌宽相容；后方三指被方块及自身叠合挡住，无法比较实际弧长、小指长度或末节比例。投影缺失不直接判缺指或短指。",
+          "joint_observation": "清楚的拇食指链连接正常；后方指链在物体后断于遮挡，不能核实每根的独立末段和关节顺序，也未将物体轮廓计入手指。",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "上层方块及前景手指遮住内侧三指的独立末端，放大后无法为中/无名/小指各配一条完整链。",
+              "correction": "改变手掌倾角或放松后方三指，使它们分别显露连续弯曲段和指端；保持两指握持顶层方块、下方堆叠对齐。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "上层方块及前景手指遮住内侧三指的独立末端，放大后无法为中/无名/小指各配一条完整链。",
+              "correction": "改变手掌倾角或放松后方三指，使它们分别显露连续弯曲段和指端；保持两指握持顶层方块、下方堆叠对齐。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "上层方块及前景手指遮住内侧三指的独立末端，放大后无法为中/无名/小指各配一条完整链。",
+              "correction": "改变手掌倾角或放松后方三指，使它们分别显露连续弯曲段和指端；保持两指握持顶层方块、下方堆叠对齐。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "上层方块及前景手指遮住内侧三指的独立末端，放大后无法为中/无名/小指各配一条完整链。",
+              "correction": "改变手掌倾角或放松后方三指，使它们分别显露连续弯曲段和指端；保持两指握持顶层方块、下方堆叠对齐。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "pass",
+    "observation": "单格只见一只手及其连续手腕/短前臂，无多余手。没有其他时间帧可比较；不从单格推断跨帧长度或运动连续性。"
+  },
+  "decision": "needs_review",
+  "action_fidelity": {
+    "status": "pass",
+    "observation": "图中是三个木方块的竖直堆叠，最上块由拇食指夹住并对准中间方块顶面，仅留很小间隙，符合垂直堆叠的放置前关键姿态；不存在被画成无接触驱动的上层块。最终松手稳定状态未显示，不能把静帧当作堆叠已完成。"
+  },
+  "limitations": "已独立打开当前实际原始文件的全分辨率图，并放大相关手指；透明区域仅在临时白底预览中辅助观察，原图未修改。已读取 research/catalog.json 对应目标。形态判断只覆盖可见外部指链，不要求看见骨骼，不测量隐藏骨长或保证物理可行性。action_fidelity 只核对所画道具与单张关键姿态，不等同于确认完整运动过程、轨迹、接触时序或任务最终成功。"
+}

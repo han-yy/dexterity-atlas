@@ -1,0 +1,280 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/I15-v1.png",
+  "sha256": "557be018def353b1d43133b616dcbe9a3d5fcd7539b227fe6ea276866c828edb",
+  "action_id": "I15",
+  "reviewer": "hand-anatomy-reviewer / anatomy_review_batch2 / visual model review",
+  "intended_action": {
+    "name": "绕掌系 Z 轴定向旋转",
+    "hands": "单手"
+  },
+  "expected_panels": 3,
+  "expected_hands_per_panel": [
+    1,
+    1,
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0.0,
+        0,
+        0.3333,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "left",
+          "view": "near-frontal palm with upright pinch",
+          "bbox": [
+            0.03,
+            0.239,
+            0.287,
+            0.969
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "Panel 1: thumb originates in the left thenar mass, extends upward along the left face of the cube and ends in a distinct nail-bearing pad across one main bend."
+            },
+            "index": {
+              "visibility": "unresolvable",
+              "trace": "Panel 1: a straight central ray starts beside the thumb web and extends under the cube; no distal end is visible, so its complete index chain remains unresolved."
+            },
+            "middle": {
+              "visibility": "visible",
+              "trace": "Panel 1: the exposed contact ray to the right of the cube runs from a distinct distal-palm base through two bends to a rounded terminal pad; provisionally the middle by the visible base row."
+            },
+            "ring": {
+              "visibility": "unresolvable",
+              "trace": "Panel 1: a diagonal skin strip behind the right contact ray could belong to a flexed ring finger, but it has no independently visible tip or complete joint chain."
+            },
+            "little": {
+              "visibility": "unresolvable",
+              "trace": "Panel 1: transverse folds at the upper ulnar palm do not separate a little-finger base, segment chain and tip from the palm contour."
+            }
+          },
+          "count_observation": "Thumb and right contact finger are complete rays; one central partial ray is visible. Two further complete finger paths cannot be traced from the folded palm and rear strip.",
+          "length_observation": "The visible thumb and right contact finger have plausible bent segment lengths. The exposed upright ray shows only its lower sections; its full length cannot be compared with the contact finger. Ring and little centerlines are not resolved, so apparent palm folds cannot establish their lengths or rule out a stub.",
+          "joint_observation": "The two fully visible rays have plausible continuity, but the index distal end and two ulnar chains cannot be evaluated from the cube and palm overlaps. No extra digit is asserted from shading. The visible fingers, palm, wrist and short forearm are all framed.",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "Panel 1: the central upright ray disappears under the cube without a separate tip; the diagonal ray behind the right contact finger and the transverse palm folds do not resolve separate ring/little tips.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "Panel 1: the central upright ray disappears under the cube without a separate tip; the diagonal ray behind the right contact finger and the transverse palm folds do not resolve separate ring/little tips. The hidden ray cannot be connected to a unique base through its full visible chain.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "The visible thumb and right contact finger have plausible bent segment lengths. The exposed upright ray shows only its lower sections; its full length cannot be compared with the contact finger. Ring and little centerlines are not resolved, so apparent palm folds cannot establish their lengths or rule out a stub.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "Panel 1: the central upright ray disappears under the cube without a separate tip; the diagonal ray behind the right contact finger and the transverse palm folds do not resolve separate ring/little tips. Hidden flexion and segment topology cannot be verified.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "panel": 2,
+      "bbox": [
+        0.3333,
+        0,
+        0.6667,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "left",
+          "view": "near-frontal palm with upright pinch",
+          "bbox": [
+            0.37,
+            0.245,
+            0.622,
+            0.969
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "Panel 2: thumb originates in the left thenar mass, extends upward along the left face of the cube and ends in a distinct nail-bearing pad across one main bend."
+            },
+            "index": {
+              "visibility": "unresolvable",
+              "trace": "Panel 2: a straight central ray starts beside the thumb web and extends under the cube; no distal end is visible, so its complete index chain remains unresolved."
+            },
+            "middle": {
+              "visibility": "visible",
+              "trace": "Panel 2: the exposed contact ray to the right of the cube runs from a distinct distal-palm base through two bends to a rounded terminal pad; provisionally the middle by the visible base row."
+            },
+            "ring": {
+              "visibility": "unresolvable",
+              "trace": "Panel 2: a diagonal skin strip behind the right contact ray could belong to a flexed ring finger, but it has no independently visible tip or complete joint chain."
+            },
+            "little": {
+              "visibility": "unresolvable",
+              "trace": "Panel 2: transverse folds at the upper ulnar palm do not separate a little-finger base, segment chain and tip from the palm contour."
+            }
+          },
+          "count_observation": "Thumb and right contact finger are complete rays; one central partial ray is visible. Two further complete finger paths cannot be traced from the folded palm and rear strip.",
+          "length_observation": "The visible thumb and right contact finger have plausible bent segment lengths. The exposed upright ray shows only its lower sections; its full length cannot be compared with the contact finger. Ring and little centerlines are not resolved, so apparent palm folds cannot establish their lengths or rule out a stub.",
+          "joint_observation": "The two fully visible rays have plausible continuity, but the index distal end and two ulnar chains cannot be evaluated from the cube and palm overlaps. No extra digit is asserted from shading. The visible fingers, palm, wrist and short forearm are all framed.",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "Panel 2: the central upright ray disappears under the cube without a separate tip; the diagonal ray behind the right contact finger and the transverse palm folds do not resolve separate ring/little tips.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "Panel 2: the central upright ray disappears under the cube without a separate tip; the diagonal ray behind the right contact finger and the transverse palm folds do not resolve separate ring/little tips. The hidden ray cannot be connected to a unique base through its full visible chain.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "The visible thumb and right contact finger have plausible bent segment lengths. The exposed upright ray shows only its lower sections; its full length cannot be compared with the contact finger. Ring and little centerlines are not resolved, so apparent palm folds cannot establish their lengths or rule out a stub.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "Panel 2: the central upright ray disappears under the cube without a separate tip; the diagonal ray behind the right contact finger and the transverse palm folds do not resolve separate ring/little tips. Hidden flexion and segment topology cannot be verified.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "panel": 3,
+      "bbox": [
+        0.6667,
+        0,
+        1.0,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "left",
+          "view": "near-frontal palm with upright pinch",
+          "bbox": [
+            0.703,
+            0.251,
+            0.957,
+            0.969
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "Panel 3: thumb originates in the left thenar mass, extends upward along the left face of the cube and ends in a distinct nail-bearing pad across one main bend."
+            },
+            "index": {
+              "visibility": "unresolvable",
+              "trace": "Panel 3: a straight central ray starts beside the thumb web and extends under the cube; no distal end is visible, so its complete index chain remains unresolved."
+            },
+            "middle": {
+              "visibility": "visible",
+              "trace": "Panel 3: the exposed contact ray to the right of the cube runs from a distinct distal-palm base through two bends to a rounded terminal pad; provisionally the middle by the visible base row."
+            },
+            "ring": {
+              "visibility": "unresolvable",
+              "trace": "Panel 3: a diagonal skin strip behind the right contact ray could belong to a flexed ring finger, but it has no independently visible tip or complete joint chain."
+            },
+            "little": {
+              "visibility": "unresolvable",
+              "trace": "Panel 3: transverse folds at the upper ulnar palm do not separate a little-finger base, segment chain and tip from the palm contour."
+            }
+          },
+          "count_observation": "Thumb and right contact finger are complete rays; one central partial ray is visible. Two further complete finger paths cannot be traced from the folded palm and rear strip.",
+          "length_observation": "The visible thumb and right contact finger have plausible bent segment lengths. The exposed upright ray shows only its lower sections; its full length cannot be compared with the contact finger. Ring and little centerlines are not resolved, so apparent palm folds cannot establish their lengths or rule out a stub.",
+          "joint_observation": "The two fully visible rays have plausible continuity, but the index distal end and two ulnar chains cannot be evaluated from the cube and palm overlaps. No extra digit is asserted from shading. The visible fingers, palm, wrist and short forearm are all framed.",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "Panel 3: the central upright ray disappears under the cube without a separate tip; the diagonal ray behind the right contact finger and the transverse palm folds do not resolve separate ring/little tips.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "Panel 3: the central upright ray disappears under the cube without a separate tip; the diagonal ray behind the right contact finger and the transverse palm folds do not resolve separate ring/little tips. The hidden ray cannot be connected to a unique base through its full visible chain.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "The visible thumb and right contact finger have plausible bent segment lengths. The exposed upright ray shows only its lower sections; its full length cannot be compared with the contact finger. Ring and little centerlines are not resolved, so apparent palm folds cannot establish their lengths or rule out a stub.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "Panel 3: the central upright ray disappears under the cube without a separate tip; the diagonal ray behind the right contact finger and the transverse palm folds do not resolve separate ring/little tips. Hidden flexion and segment topology cannot be verified.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "unknown",
+    "observation": "Left-palm orientation stays consistent in all three panels, and visible thumb/contact-finger sizes are stable. Hidden distal index and unresolved ulnar folds prevent confirming a stable five-digit sequence.",
+    "issues": [
+      {
+        "code": "ambiguous_occlusion",
+        "panels": [
+          1,
+          2,
+          3
+        ],
+        "evidence": "Index tip, ring chain and little chain remain unresolved.",
+        "correction": "Expose the unresolved rays consistently across these panels so digit identity and lengths can be compared."
+      }
+    ]
+  },
+  "decision": "needs_review",
+  "limitations": "Actual original image and, where necessary, enlarged detail inspected. Single-view visual anatomy assessment only: hidden bone geometry, exact centerline lengths and physical feasibility are not measured. This report does not approve action fidelity or motion between the illustrated panels."
+}

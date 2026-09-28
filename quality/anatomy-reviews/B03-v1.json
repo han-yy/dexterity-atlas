@@ -1,0 +1,149 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/B03-v1.png",
+  "sha256": "02c5870b3ce54fd0db3fe4269ddc5509834c6546f5224b1cd9c56258204d1a4d",
+  "action_id": "B03",
+  "reviewer": "hand-anatomy-reviewer / independent visual model review",
+  "expected_panels": 1,
+  "expected_hands_per_panel": [
+    2
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "dorsal oblique; image-left stabilizing hand",
+          "bbox": [
+            0,
+            0,
+            0.358,
+            0.779
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "画面左手体的桡侧拇指由掌右缘起，向右屈伸经过 IP，完整带甲末端接书脊附近绿色封面。"
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "紧邻拇指的食指从右侧远端手背根部向右下延伸，经两个连续指间关节到书脊旁最右长指端。"
+            },
+            "middle": {
+              "visibility": "visible",
+              "trace": "中指从食指左側独立掌骨头区域向下稍右，三段连续到较低中央带甲指端。"
+            },
+            "ring": {
+              "visibility": "visible",
+              "trace": "无名指由中指左側根部向下，连续近/中/末节止于左中带甲指端，与中指边界分开。"
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "最左小指从尺侧外缘起，较短弧线向下，终止于左下较小带甲指端，完整未截断。"
+            }
+          },
+          "count_observation": "稳定手实际可追踪一条侧根拇指和四条独立伸展长指，各自根部至指端完整，共五指。",
+          "length_observation": "四长指姿态相近而略斜向透视；从各自远端掌缘沿中心线比较，中指较长，小指明显较短，食指与无名指差异在可见正常范围，不强制二者排序。拇指较宽短且两段合理，无异常伸长中节。",
+          "joint_observation": "四指根部横向有序，拇指起于桡侧。各条指甲都在其末节背侧，两处长指间弯折连续，未见分叉、融合、反向指甲或穿过书脊。",
+          "checks": {
+            "five_digits": "pass",
+            "connectivity": "pass",
+            "proportions": "pass",
+            "joint_structure": "pass",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": []
+        },
+        {
+          "hand_id": "H2",
+          "side": "left",
+          "view": "dorsal-radial oblique; image-right cover-operating hand",
+          "bbox": [
+            0.626,
+            0,
+            1,
+            0.528
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "上左侧拇指由手背桡侧根部起，向左下越过 IP，到压在绿色封面外表的完整带甲指端。"
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "紧邻拇指的食指由上方远端掌缘弯向左下，中/末节连续到纸页侧面最上方完整指甲与指端。"
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "食指下方中指有独立掌骨头、向左下的弯曲链，末端在食指端下方露出；有限重叠两侧能够唯一匹配。"
+            },
+            "ring": {
+              "visibility": "unresolvable",
+              "trace": "无名指在中指下侧有背侧弯曲段，但末节进入相邻指/书页后的遮挡，没有独立外露指端；不能把中指下缘当作该指端。"
+            },
+            "little": {
+              "visibility": "unresolvable",
+              "trace": "最下尺侧只有一条弯曲的长轮廓和皮肤折痕，终点叠入无名指下方，未能独立配对小指根部—末节—指端。"
+            }
+          },
+          "count_observation": "操作手能确认拇、食、中三条完整或短遮挡可追踪链；环/小指仅可见部分背侧链，不能独立确认其末端，完整五指未知。",
+          "length_observation": "拇食中已见节段没有明显短残或伸长；环指和小指深度回弯，末端不可解析，不能按其下缘弧度假定完整指长。因此两条尺侧指的相对长度及整手比例不能通过。",
+          "joint_observation": "可见拇食中指连接合理，末端相互区分；环/小指末节与相邻指叠合，不能完成各自关节链和终点检查。两只手没有互相借用指端。",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "操作封面的左手最下两条蜷曲指的末端被邻指及书页遮住；放大后只有背侧弧线，缺少可唯一匹配的末节/指端出口。",
+              "correction": "调整操作手角度或略分开无名指与小指，露出两条各自连续的末节和指端，保留拇指压封面、其余指扶页的角色。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "操作封面的左手最下两条蜷曲指的末端被邻指及书页遮住；放大后只有背侧弧线，缺少可唯一匹配的末节/指端出口。",
+              "correction": "调整操作手角度或略分开无名指与小指，露出两条各自连续的末节和指端，保留拇指压封面、其余指扶页的角色。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "操作封面的左手最下两条蜷曲指的末端被邻指及书页遮住；放大后只有背侧弧线，缺少可唯一匹配的末节/指端出口。",
+              "correction": "调整操作手角度或略分开无名指与小指，露出两条各自连续的末节和指端，保留拇指压封面、其余指扶页的角色。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "操作封面的左手最下两条蜷曲指的末端被邻指及书页遮住；放大后只有背侧弧线，缺少可唯一匹配的末节/指端出口。",
+              "correction": "调整操作手角度或略分开无名指与小指，露出两条各自连续的末节和指端，保留拇指压封面、其余指扶页的角色。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "pass",
+    "observation": "单格包含一只稳定书本的右手和一只操作封面的左手，各自腕部连续，无借用对方手指或多余手。没有其他时间帧可比较；不从单格推断跨帧长度或运动连续性。"
+  },
+  "decision": "needs_review",
+  "action_fidelity": {
+    "status": "pass",
+    "observation": "道具确为带书脊、封面和纸页的书本。一手在书脊/底封面附近稳定，另一手握住抬起的上封面/页块，符合双手分配稳定与合盖角色的中间关键姿态；手与书有可见接触，无悬空驱动。静帧不能区分正在打开还是正在合上，也未显示最终完全合盖，故此 pass 仅指道具和角色/姿态匹配。"
+  },
+  "limitations": "已独立打开当前实际原始文件的全分辨率图，并放大相关手指；透明区域仅在临时白底预览中辅助观察，原图未修改。已读取 research/catalog.json 对应目标。形态判断只覆盖可见外部指链，不要求看见骨骼，不测量隐藏骨长或保证物理可行性。action_fidelity 只核对所画道具与单张关键姿态，不等同于确认完整运动过程、轨迹、接触时序或任务最终成功。"
+}

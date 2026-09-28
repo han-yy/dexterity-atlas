@@ -1,0 +1,106 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/T06-v1.png",
+  "sha256": "ab039b24fb0de80827c80990199b9cfe219c65a2c6c62418fce4c7495bd82a1e",
+  "action_id": "T06",
+  "reviewer": "hand-anatomy-reviewer / independent visual model review (motion_media)",
+  "expected_panels": 1,
+  "expected_hands_per_panel": [
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "背侧径侧斜视，捏持木球",
+          "bbox": [
+            0.29,
+            0,
+            1,
+            0.67
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "径侧掌根沿画面右侧下降，指间弯折后带甲指尖接触悬起木球右侧。"
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "靠拇指的长指从前方掌指关节向下弯，指甲在球左上方，指腹接触球面。"
+            },
+            "middle": {
+              "visibility": "visible",
+              "trace": "紧邻食指左侧，由独立关节隆起沿两次屈曲到下垂末端，指甲与食指分开。"
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "最左外侧的长指从掌缘沿可见细长近节下降，指端和指甲在中指左侧。"
+            },
+            "little": {
+              "visibility": "unresolvable",
+              "trace": "外侧长指后没有可独立确认的小指根部、全链和末端；不能凭正常手应有五指补全。"
+            }
+          },
+          "count_observation": "明确可追踪拇指与三根长指；第五指未能独立定位，未见可据以明确判为多指或缺指的无遮挡证据。",
+          "length_observation": "可见三根屈曲长指的节段未见明显异常，拇指短于屈曲长指链；小指全长不可见，整手比例未知。",
+          "joint_observation": "已见指链均接向掌部，球只接触拇食指端；隐蔽第五指的连接和关节未获证据。",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "明确可追踪拇指与三根长指；第五指未能独立定位，未见可据以明确判为多指或缺指的无遮挡证据。",
+              "correction": "补充同一姿态的无遮挡视角，或轻微分开并露出受遮挡手指的独立根部、指节与指尖；保留正确道具和接触。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "已见指链均接向掌部，球只接触拇食指端；隐蔽第五指的连接和关节未获证据。",
+              "correction": "补充同一姿态的无遮挡视角，或轻微分开并露出受遮挡手指的独立根部、指节与指尖；保留正确道具和接触。"
+            },
+            {
+              "code": "length_ratio",
+              "check": "proportions",
+              "evidence": "可见三根屈曲长指的节段未见明显异常，拇指短于屈曲长指链；小指全长不可见，整手比例未知。",
+              "correction": "补充同一姿态的无遮挡视角，或轻微分开并露出受遮挡手指的独立根部、指节与指尖；保留正确道具和接触。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "已见指链均接向掌部，球只接触拇食指端；隐蔽第五指的连接和关节未获证据。",
+              "correction": "补充同一姿态的无遮挡视角，或轻微分开并露出受遮挡手指的独立根部、指节与指尖；保留正确道具和接触。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "pass",
+    "observation": "仅一个静态画面，实际看到 1 只手，与动作要求的手数相符；没有跨帧材料，未据此评估左右互换、指长随时间变化或运动连续性。"
+  },
+  "decision": "needs_review",
+  "limitations": "已打开原始分辨率 PNG；有歧义处另做局部放大。单视角视觉检查，遮挡几何和精确长度不作补全或测量；不是物理、临床或完整运动验证。",
+  "action_fidelity": {
+    "status": "pass",
+    "observation": "拇食指接触木球两侧，所持球下方与桌面可见间隙，旁边另有放置在桌面的球体。符合球体拾取中的悬持姿态；不证明完成目标位置放置。"
+  },
+  "action_fidelity_scope": "Only the single key pose and expected prop are reviewed; no temporal completion claim.",
+  "inspection_note": "原图及 /tmp/T06-anatomy-zoom.png 局部放大均已实际查看。"
+}

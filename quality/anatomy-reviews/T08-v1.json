@@ -1,0 +1,80 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/T08-v1.png",
+  "sha256": "480bd7a2a1166ecb5da94066eb7c724b644569b2168b856848eeaf02e4bce6a6",
+  "action_id": "T08",
+  "reviewer": "hand-anatomy-reviewer / independent visual model review (motion_media)",
+  "expected_panels": 1,
+  "expected_hands_per_panel": [
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "掌侧斜视，四指围住杯柄",
+          "bbox": [
+            0.384,
+            0.263,
+            1,
+            0.675
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "从右上鱼际根部向左延伸，经清楚的弯曲关节到上方带甲指尖，压在杯柄上缘。"
+            },
+            "index": {
+              "visibility": "traceable",
+              "trace": "从远侧掌部上方卷入杯柄内，上方第一根圆形指腹绕向右，指甲位于柄内右上；杯柄遮住短段。"
+            },
+            "middle": {
+              "visibility": "visible",
+              "trace": "食指下方第二根粗指从掌缘卷向左再回向右，独立指尖和指甲位于中央。"
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "中指下方一根卷指部分被杯柄下弧遮住，弧两侧能对应连续皮肤轮廓，右端指甲独立。"
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "最下方短指从尺侧掌缘向左卷回，圆端和较小指甲在无名指下方。"
+            }
+          },
+          "count_observation": "一根上置拇指及四根围柄卷指均有独立根部方向和末端；未见分叉或额外指尖。",
+          "length_observation": "各长指屈曲程度不同，不能以末端水平位置当全长；小指链明显较短，中间两指节段宽长相近，拇指两节未见异常拉伸。",
+          "joint_observation": "四根卷指由有序远掌部接出，拇指来自鱼际径侧；杯柄遮挡处轮廓对应，未见明显穿透或逆向关节。",
+          "checks": {
+            "five_digits": "pass",
+            "connectivity": "pass",
+            "proportions": "pass",
+            "joint_structure": "pass",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "pass",
+    "observation": "仅一个静态画面，实际看到 1 只手，与动作要求的手数相符；没有跨帧材料，未据此评估左右互换、指长随时间变化或运动连续性。"
+  },
+  "decision": "approve",
+  "limitations": "已打开原始分辨率 PNG；有歧义处另做局部放大。单视角视觉检查，遮挡几何和精确长度不作补全或测量；不是物理、临床或完整运动验证。",
+  "action_fidelity": {
+    "status": "pass",
+    "observation": "图示带柄杯，弯曲手指进入并围住杯柄，拇指置于柄上方。道具和钩持杯柄的接触姿态匹配；杯底仍接桌，单帧不证明已经提起。"
+  },
+  "action_fidelity_scope": "Only the single key pose and expected prop are reviewed; no temporal completion claim."
+}

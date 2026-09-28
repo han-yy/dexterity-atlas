@@ -1,0 +1,83 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/T17-v1.png",
+  "sha256": "c7107c5619baa3441945f2f8a18fcfc8350898b050113b14d2c9c1ec954138ca",
+  "action_id": "T17",
+  "reviewer": "hand-anatomy-reviewer / anatomy_review_batch2 / visual model review",
+  "intended_action": {
+    "name": "细长物水平搬运",
+    "hands": "单手"
+  },
+  "expected_panels": 1,
+  "expected_hands_per_panel": [
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0.0,
+        0,
+        1.0,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "radial oblique with partial palm, horizontal pen held in air",
+          "bbox": [
+            0.309,
+            0.177,
+            1,
+            0.91
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "The radial thumb crosses leftward from the broad near thenar mass through a single main bend to the broad nail pad pressing the horizontal pen near its center."
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "The upper long-finger ray arches left from the distal hand through two visible bend regions and terminates in a separate pad on top of the pen, above-left of the thumb tip."
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "The next ray is visible beneath the index near its base, passes through the local pen/thumb overlap and reappears directly below the pen as the uppermost lower nail-bearing pad. Exposed side contours distinguish that return path from the index."
+            },
+            "ring": {
+              "visibility": "visible",
+              "trace": "The next lower curled ray follows a separate palmar base under the thumb to a bent forward-returning chain and the central lower nail-bearing fingertip."
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "The outer ulnar ray follows the lowest palm edge through a smaller curl and ends in the lowest short nail-bearing fingertip, clearly separate from the ring."
+            }
+          },
+          "count_observation": "Five separate digit chains are visible or traceable: thumb and index above/against the pen plus middle, ring and little below. The three lower nails belong to separate curved rays rather than extra tips on a branch.",
+          "length_observation": "The index is less tightly flexed and therefore projects farther left than the three curled fingers. Tracing curved paths, the middle/ring retain substantial segments and the little is visibly shorter and smaller. The foreground thumb is broader due to radial view but has plausible two-section length; no grossly elongated phalanx or unexplained stub is visible.",
+          "joint_observation": "The thumb arises from the radial thenar mass, with four ordered long-finger bases. Visible bends and terminal nails remain continuous; the thin pen and short thumb overlap do not create a branched or detached fingertip. Entire hand, wrist and a short forearm fit, with only the proximal forearm ending at image-right.",
+          "checks": {
+            "five_digits": "pass",
+            "connectivity": "pass",
+            "proportions": "pass",
+            "joint_structure": "pass",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "pass",
+    "observation": "One actual panel and one hand were inspected. No temporal sequence is supplied, so there is no observed inter-panel side swap or length change; this does not certify an unshown movement. Within-frame uncertainties, if present, are recorded in the hand checks."
+  },
+  "decision": "approve",
+  "limitations": "Actual full-resolution image and enlarged digit/contact details inspected. Qualitative visual anatomy only: hidden bones, exact finger lengths and physical feasibility are not measured. Action fidelity is assessed separately against the catalog props and the visible key pose; a static pose does not validate full motion, contact timing or task success.",
+  "action_fidelity": {
+    "status": "pass",
+    "observation": "目录目标为细长物水平搬运，道具为笔。原图单手夹持细长笔杆，笔身轴线近水平并离开支撑面，拇指与上侧手指形成明确夹持，符合水平搬运中的持物姿态。单幅静态图无法验证实际位移轨迹、速度或全过程水平误差。"
+  }
+}

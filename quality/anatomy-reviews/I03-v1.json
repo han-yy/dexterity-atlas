@@ -1,0 +1,250 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/I03-v1.png",
+  "sha256": "7bd5a28d013dcb631386b348390f1bb103d1bb1daac788d77567ae3ca360bba3",
+  "action_id": "I03",
+  "reviewer": "hand-anatomy-reviewer / independent visual model review",
+  "expected_panels": 3,
+  "expected_hands_per_panel": [
+    1,
+    1,
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0,
+        0,
+        0.3333,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "left",
+          "view": "palmar oblique",
+          "bbox": [
+            0,
+            0.09,
+            0.321,
+            0.992
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "左侧拇指从清楚的鱼际桡侧基部弯向左上，近节/IP/末节连续，尖端在左上。"
+            },
+            "index": {
+              "visibility": "traceable",
+              "trace": "最靠拇指的一条长指沿方块左上缘上行，越过短暂物体遮挡后接到左边高指端，根部与指蹼可辨。"
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "第二条高长指从方块上缘后方延续向上，指腹、两道弯折与圆指端连续，独立于旁边食指。"
+            },
+            "ring": {
+              "visibility": "visible",
+              "trace": "第三条长指在方块右侧，由远端掌缘向右上伸出，独立到次高右指端。"
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "最右小指从较低尺侧掌缘起，略弯向上，终止于最低的圆指端。"
+            }
+          },
+          "count_observation": "逐条追踪到一条拇指与四条独立长指；每条均有独立路径和指端，未见额外或分叉指。",
+          "length_observation": "四条长指姿态相近但有轻微屈曲与斜向透视。中指和食指均为较长指，无名指居中，小指明显较短；食/无名长度不施加固定排序。拇指长度与掌宽协调，方块遮住局部掌面不改变可见节段比例。",
+          "joint_observation": "拇指有独立侧根；四长指在远端掌缘按顺序排列，方块边缘的短遮挡前后有对应连续段。可见关节弯折和指腹方向合理，无多生指或穿透。",
+          "checks": {
+            "five_digits": "pass",
+            "connectivity": "pass",
+            "proportions": "pass",
+            "joint_structure": "pass",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": []
+        }
+      ]
+    },
+    {
+      "panel": 2,
+      "bbox": [
+        0.3333,
+        0,
+        0.6667,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "left",
+          "view": "palmar oblique",
+          "bbox": [
+            0.338,
+            0.132,
+            0.641,
+            0.995
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "左侧鱼际起的拇指向上内收，带甲末节压在方块左前缘，基部到指端连续。"
+            },
+            "index": {
+              "visibility": "traceable",
+              "trace": "左上食指从拇食指蹼后向上绕过方块左上角，屈曲后指端在方块顶面左侧。"
+            },
+            "middle": {
+              "visibility": "unresolvable",
+              "trace": "方块顶边中间只见小皮肤圆弧；该圆弧到远端掌缘的独立链被大面积遮住，中指的基部与末端无法配对。"
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "方块右上方高指端有连续外侧轮廓下接右侧的独立指列，局部被方块右边缘遮住，按顺序为无名指。"
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "最右前方小指自较低尺侧掌缘上行，在中、末节处屈曲，圆指端朝向镜头。"
+            }
+          },
+          "count_observation": "有四条可分辨指链以及方块上方一个不能独立回溯的皮肤圆弧；不足以确认完整五指。",
+          "length_observation": "拇指、食指与右侧两指可见段没有显著拉长，小指的前伸使其看起来较粗；中指主要链不可见，不能比较其曲线长度或验证四指长度关系。",
+          "joint_observation": "已露出的拇食指和外侧指弯曲连续；中指的根部、关节及末端缺乏同一链的可见证据，不把方块上方皮肤小凸起直接计作一整指。",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "第2格方块上缘只露出一小段中指样圆弧，而其根部到中节被方块遮住，不能证明该小圆弧与哪一独立指列连接，也不能核对整条指长。",
+              "correction": "缩小方块或稍分开手指/调整视角，让中指从根部到指端可独立追踪，同时保留原本的方块握持与位姿变化。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "第2格方块上缘只露出一小段中指样圆弧，而其根部到中节被方块遮住，不能证明该小圆弧与哪一独立指列连接，也不能核对整条指长。",
+              "correction": "缩小方块或稍分开手指/调整视角，让中指从根部到指端可独立追踪，同时保留原本的方块握持与位姿变化。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "第2格方块上缘只露出一小段中指样圆弧，而其根部到中节被方块遮住，不能证明该小圆弧与哪一独立指列连接，也不能核对整条指长。",
+              "correction": "缩小方块或稍分开手指/调整视角，让中指从根部到指端可独立追踪，同时保留原本的方块握持与位姿变化。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "第2格方块上缘只露出一小段中指样圆弧，而其根部到中节被方块遮住，不能证明该小圆弧与哪一独立指列连接，也不能核对整条指长。",
+              "correction": "缩小方块或稍分开手指/调整视角，让中指从根部到指端可独立追踪，同时保留原本的方块握持与位姿变化。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "panel": 3,
+      "bbox": [
+        0.6667,
+        0,
+        1,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "left",
+          "view": "palmar oblique",
+          "bbox": [
+            0.677,
+            0.145,
+            0.969,
+            0.995
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "左侧拇指从鱼际起上行，IP 后的带甲末节接方块左面，连续且无分叉。"
+            },
+            "index": {
+              "visibility": "unresolvable",
+              "trace": "紧邻拇指的内侧长指柱上行后被方块下缘遮住，不能追到独立食指指端；不将物体边缘视为指端。"
+            },
+            "middle": {
+              "visibility": "unresolvable",
+              "trace": "方块后未出现可独立确认的中指全链；现有内侧指柱与方块右上的指端不能在不猜测的情况下匹配为两根不同指。"
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "方块右后方的较高圆指端沿右侧后方指列下行至掌远端，少量边缘被方块遮住，按外侧次序为无名指。"
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "最右前侧指由尺側远端起向上弯曲，末节圆指腹朝镜头，完整外轮廓到指端。"
+            }
+          },
+          "count_observation": "可确认拇指与两条外侧完整指链；内侧两个命名指的身份/末端不可全部解析，五指未知。",
+          "length_observation": "外侧小指与无名指有不同屈曲和透视，未观察到明确异常拉长；内侧两指的末端不可辨，无法核验其相对长度或与第1格是否相同。",
+          "joint_observation": "拇指及外侧两指表面连续，内侧被方块截断的指柱不能验证完整三段结构或独立根部配对。",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "第3格方块遮住内侧指端和指列连接；拇指对侧仅两条较完整外侧长指及一条被方块截断的内侧指柱可见。食指/中指不能都从唯一根部独立追到指端。",
+              "correction": "重绘第3格的握持视角，露出食指与中指各自指端及连续指节，避免方块同时遮住两指的身份线索。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "第3格方块遮住内侧指端和指列连接；拇指对侧仅两条较完整外侧长指及一条被方块截断的内侧指柱可见。食指/中指不能都从唯一根部独立追到指端。",
+              "correction": "重绘第3格的握持视角，露出食指与中指各自指端及连续指节，避免方块同时遮住两指的身份线索。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "第3格方块遮住内侧指端和指列连接；拇指对侧仅两条较完整外侧长指及一条被方块截断的内侧指柱可见。食指/中指不能都从唯一根部独立追到指端。",
+              "correction": "重绘第3格的握持视角，露出食指与中指各自指端及连续指节，避免方块同时遮住两指的身份线索。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "第3格方块遮住内侧指端和指列连接；拇指对侧仅两条较完整外侧长指及一条被方块截断的内侧指柱可见。食指/中指不能都从唯一根部独立追到指端。",
+              "correction": "重绘第3格的握持视角，露出食指与中指各自指端及连续指节，避免方块同时遮住两指的身份线索。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "unknown",
+    "observation": "三格均显露左掌鱼际与同侧拇指根部，未见左右手互换；第2、3格物体遮挡导致中指/食指身份和长度连续性无法核实。",
+    "issues": [
+      {
+        "code": "ambiguous_occlusion",
+        "panels": [
+          2,
+          3
+        ],
+        "evidence": "第2格方块上缘只露出一小段中指样圆弧，而其根部到中节被方块遮住，不能证明该小圆弧与哪一独立指列连接，也不能核对整条指长。 第3格方块遮住内侧指端和指列连接；拇指对侧仅两条较完整外侧长指及一条被方块截断的内侧指柱可见。食指/中指不能都从唯一根部独立追到指端。",
+        "correction": "缩小方块或稍分开手指/调整视角，让中指从根部到指端可独立追踪，同时保留原本的方块握持与位姿变化。 重绘第3格的握持视角，露出食指与中指各自指端及连续指节，避免方块同时遮住两指的身份线索。"
+      }
+    ]
+  },
+  "decision": "needs_review",
+  "limitations": "实际查看原始全分辨率三格图，并放大相关指列和接触区；这是单视角视觉检查，不能测量隐藏骨骼、真实指长或证明物理可行性。已查 research/catalog.json 动作定义；本报告仅审手部形态，不代替动作语义与接触审核。"
+}

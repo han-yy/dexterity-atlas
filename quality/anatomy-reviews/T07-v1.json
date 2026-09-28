@@ -1,0 +1,104 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/T07-v1.png",
+  "sha256": "c89896d309dc4e22d11554bbae73dbc5809de6c91e65051bf6158795bbc8d835",
+  "action_id": "T07",
+  "reviewer": "hand-anatomy-reviewer / independent visual model review",
+  "expected_panels": 1,
+  "expected_hands_per_panel": [
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "left",
+          "view": "dorsoradial oblique, forearm enters from image-left",
+          "bbox": [
+            0,
+            0,
+            0.633,
+            0.565
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "前左拇指由桡侧掌缘向右下伸，IP 后的大指甲和末节贴圆柱左前侧，完整连续。"
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "最外上方食指从手背远端向右弯，再向下，近/中/末节连续至圆柱右上侧指端。"
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "食指后方中指的近端有独立弯曲轮廓，沿圆柱右侧短遮挡后接到食指端下方另一个较低完整指端，出口位置唯一。"
+            },
+            "ring": {
+              "visibility": "unresolvable",
+              "trace": "掌内靠右的弯曲指段在圆柱顶面后被遮住，未出现可独立回溯的无名指末节/指端。"
+            },
+            "little": {
+              "visibility": "unresolvable",
+              "trace": "最深处靠左下的小指样近段到达圆柱后即消失，无法找到独立指端，也无法由褶皱判断隐藏的完整链。"
+            }
+          },
+          "count_observation": "拇、食及右侧中指可辨；圆柱后两条尺侧指的指端不可见，完整五指无法独立验证。",
+          "length_observation": "拇食指比例与掌宽协调，中指右侧露出段未见显著异常；无名指、小指被圆柱截断，无法比较其曲线长度或核对小指是否合理短于其他指，不给整手比例通过。",
+          "joint_observation": "拇食指连续，中指局部重叠可配对；两条后方长指只有部分近/中段，无独立末端，连接及关节结构未知。",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "圆柱遮住无名指、小指的末节和指端，近端皮肤曲面不能证明完整第五/第四链；这并非两端均可辨的小范围遮挡。",
+              "correction": "略转动观察角度或分开两条尺侧指，让它们在圆柱后仍露出各自末节和指端；维持圆柱抓握与手腕完整。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "圆柱遮住无名指、小指的末节和指端，近端皮肤曲面不能证明完整第五/第四链；这并非两端均可辨的小范围遮挡。",
+              "correction": "略转动观察角度或分开两条尺侧指，让它们在圆柱后仍露出各自末节和指端；维持圆柱抓握与手腕完整。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "圆柱遮住无名指、小指的末节和指端，近端皮肤曲面不能证明完整第五/第四链；这并非两端均可辨的小范围遮挡。",
+              "correction": "略转动观察角度或分开两条尺侧指，让它们在圆柱后仍露出各自末节和指端；维持圆柱抓握与手腕完整。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "圆柱遮住无名指、小指的末节和指端，近端皮肤曲面不能证明完整第五/第四链；这并非两端均可辨的小范围遮挡。",
+              "correction": "略转动观察角度或分开两条尺侧指，让它们在圆柱后仍露出各自末节和指端；维持圆柱抓握与手腕完整。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "pass",
+    "observation": "单格只见一只手及其连续手腕/短前臂，无多余手。没有其他时间帧可比较；不从单格推断跨帧长度或运动连续性。"
+  },
+  "decision": "needs_review",
+  "action_fidelity": {
+    "status": "pass",
+    "observation": "图中抓握的是直立木圆柱，拇指与对侧长指有真实可见接触，中间圆柱被手持在桌面上方，桌上另有圆柱，符合拾取/转运中的关键姿态。没有画出放置终点或轨迹，不能用这一帧确认完整 pick-and-place 时序。"
+  },
+  "limitations": "已独立打开当前实际原始文件的全分辨率图，并放大相关手指；透明区域仅在临时白底预览中辅助观察，原图未修改。已读取 research/catalog.json 对应目标。形态判断只覆盖可见外部指链，不要求看见骨骼，不测量隐藏骨长或保证物理可行性。action_fidelity 只核对所画道具与单张关键姿态，不等同于确认完整运动过程、轨迹、接触时序或任务最终成功。"
+}

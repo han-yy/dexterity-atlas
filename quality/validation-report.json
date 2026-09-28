@@ -1,15 +1,21 @@
 {
-  "checked_at": "2026-09-24T10:01:58.440Z",
+  "checked_at": "2026-09-28T04:47:29.414Z",
   "catalogue": {
-    "actions": 231,
-    "primitives": 37,
-    "props": 79,
-    "sources": 24,
+    "actions": 251,
+    "primitives": 40,
+    "props": 107,
+    "sources": 25,
     "by_origin": {
-      "direct": 107,
-      "adapted": 13,
-      "extension": 111
+      "direct": 125,
+      "adapted": 20,
+      "extension": 106
     }
+  },
+  "generated_illustrations": {
+    "published": 14,
+    "candidates": 142,
+    "remaining": 128,
+    "gate": "action approval + complete visual anatomy report + exact image hash"
   },
   "numeric_template_checks": {
     "templates": 18,
@@ -23,20 +29,5 @@
     "visual_review": "Representative joint templates and cited source figures inspected. Not all action variants individually visually reviewed.",
     "physics": "NOT VALIDATED: no collision/force/friction simulator or calibrated human model",
     "template_limits": "Illustrative display bounds, not clinical ROM or a robot URDF"
-  },
-  "browser_checks_v1_2": {
-    "status": "representative checks passed",
-    "checked": [
-      "Coverage import summary: 21 new actions, 7 enriched actions, 32 new props",
-      "U17 media selector changes video source, caption and source URL; ADEPT star video readyState 4, duration 7.75 s",
-      "I01 selection of X-axis simulation updates domain badge and caption",
-      "New props filter returns 32/79; ADEPT + new returns 6; bulb search returns bulb and socket",
-      "Source shortcut TeleDexter returns 13 linked actions",
-      "TeleDexter hammer clip loaded with readyState 4 and teleoperation label",
-      "375 px viewport: page and dialog widths do not horizontally overflow after header / grid fix",
-      "Static CSV files parsed: 231 action rows, 79 prop rows; imported props retain citations and action links"
-    ],
-    "download_limit": "Browser download-event observation timed out for filtered CSV button; no JS error seen. Filtered download completion is unverified. Complete static props.csv is supplied as a direct-link fallback.",
-    "media_limits": "59 remote entries returned HTTP 200 in HEAD checks. Availability does not prove every clip is playable or individually reviewed."
   }
 }

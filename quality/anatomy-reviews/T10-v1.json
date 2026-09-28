@@ -1,0 +1,79 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/T10-v1.png",
+  "sha256": "fbad7ba2ca3515e2383c96fa03f57be1cb136be5f808b794d3d8730d4774dcd3",
+  "action_id": "T10",
+  "reviewer": "hand-anatomy-reviewer / independent visual model review",
+  "expected_panels": 1,
+  "expected_hands_per_panel": [
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "palmar-radial oblique",
+          "bbox": [
+            0.407,
+            0.14,
+            1,
+            0.789
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "上方拇指由明显鱼际桡侧根部起，向左经过 MCP/IP 的连续弯曲到压在卡片上方的带甲指端。"
+            },
+            "index": {
+              "visibility": "traceable",
+              "trace": "卡片下方食指由掌远端起向左回弯，近端部分被拇指遮挡，露出的弯曲段唯一延续到卡边下带甲指端；不与中指共享终点。"
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "食指下方中指有独立回弯近段，向左外弯后返回掌前，到靠上较大的中指甲；相邻重叠只遮极短边缘。"
+            },
+            "ring": {
+              "visibility": "visible",
+              "trace": "下一条无名指由掌远端独立根部回弯，三个可见连续段到中下方指甲，轮廓与中指分开。"
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "最下小指从尺側掌缘回弯，短近/中/末段连续到最低的小指甲，完整指端可见。"
+            }
+          },
+          "count_observation": "可独立追踪一条拇指与四条长指，五条链各有唯一根部路径与指端；没有额外、分叉或借用指端。",
+          "length_observation": "四指回弯程度不同，沿中心线判断而非按指端高度排序。中指与无名指的回弯弧长相近，小指较短且较细，食指短投影源于更紧屈曲；拇指两节不夸张，未见异常长中节或明显短残指。",
+          "joint_observation": "拇指为侧根，四指来自有序远端掌缘；每条回弯链及指甲位置连续合理。卡片边缘只在拇食指之间短距离穿过夹持间隙，未显示穿入指体。完整手腕及短前臂在画内。",
+          "checks": {
+            "five_digits": "pass",
+            "connectivity": "pass",
+            "proportions": "pass",
+            "joint_structure": "pass",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "pass",
+    "observation": "单格只见一只手及其连续手腕/短前臂，无多余手。没有其他时间帧可比较；不从单格推断跨帧长度或运动连续性。"
+  },
+  "decision": "approve",
+  "action_fidelity": {
+    "status": "pass",
+    "observation": "道具是薄而平的卡片，手在其窄边/角部以拇指上压、食指下托夹持，其他三指收拢；卡片已离开桌面。这与薄片边缘夹取的关键姿态相符，并非掌握整块物体。单帧不验证之前的接近或之后的放置。"
+  },
+  "limitations": "已独立打开当前实际原始文件的全分辨率图，并放大相关手指；透明区域仅在临时白底预览中辅助观察，原图未修改。已读取 research/catalog.json 对应目标。形态判断只覆盖可见外部指链，不要求看见骨骼，不测量隐藏骨长或保证物理可行性。action_fidelity 只核对所画道具与单张关键姿态，不等同于确认完整运动过程、轨迹、接触时序或任务最终成功。"
+}

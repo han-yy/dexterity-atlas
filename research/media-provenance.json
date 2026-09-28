@@ -174,7 +174,9 @@
     "source": "https://haozhi.io/hora/",
     "scope": "原项目同类演示；不承诺覆盖每个扩展条件",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "viser",
@@ -183,7 +185,9 @@
     "source": "https://rffr.leggedrobotics.com/works/viserdex/",
     "scope": "任务族演示；具体物体以视频实际内容为准",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "tea",
@@ -192,7 +196,9 @@
     "source": "https://dex-umi.github.io/",
     "scope": "对应 Tea Picking with Tool",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "cube",
@@ -201,7 +207,9 @@
     "source": "https://dex-umi.github.io/",
     "scope": "对应 Cube Picking",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "kitchen",
@@ -210,7 +218,9 @@
     "source": "https://dex-umi.github.io/",
     "scope": "完整四步视频，未裁切为各子动作",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "egg",
@@ -219,7 +229,9 @@
     "source": "https://dex-umi.github.io/",
     "scope": "对应 Egg Carton",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "nina",
@@ -228,7 +240,9 @@
     "source": "https://ninapro.hevs.ch/instructions/DB1.html",
     "scope": "原图含 A/B/C/D；本库明确指出对应分组与编号",
     "domain": "参考素材",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "feix",
@@ -237,7 +251,9 @@
     "source": "https://www.eng.yale.edu/grablab/pubs/Feix_THMS2016.pdf",
     "scope": "按 GRASP # 编号定位；静态姿态参考，不是视频",
     "domain": "参考素材",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "grab",
@@ -246,7 +262,9 @@
     "source": "https://grab.is.tue.mpg.de/",
     "scope": "仅为相关任务与接触记录参考，未逐动作定位",
     "domain": "参考素材",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "arctic",
@@ -255,7 +273,9 @@
     "source": "https://arctic.is.tue.mpg.de/",
     "scope": "多任务合集，未逐项定位剪刀或笔记本片段",
     "domain": "人手数据集",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "dexmachina",
@@ -264,7 +284,9 @@
     "source": "https://project-dexmachina.github.io/",
     "scope": "仿真任务合集；不是每个动作的独立录像",
     "domain": "仿真",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "hora_multi",
@@ -273,7 +295,9 @@
     "source": "https://haozhi.io/hora/",
     "scope": "Multi-Axis Rotation Policy 小节；轴向切换，不等同于任意终点朝向。",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "penspin",
@@ -282,7 +306,9 @@
     "source": "https://penspin.github.io/",
     "scope": "官方 teaser；细长物体和换指过程。",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "dactyl",
@@ -291,7 +317,9 @@
     "source": "https://arxiv.org/abs/1808.00177",
     "scope": "论文摘要链接的总览；未逐帧定位重力辅助片段。",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "rubik",
@@ -300,7 +328,9 @@
     "source": "https://openai.com/index/solving-rubiks-cube/",
     "scope": "原站包含完整求解及扰动演示；请在原站播放，未取得稳定直链。",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "onehand_lid",
@@ -309,7 +339,9 @@
     "source": "https://dex-manip.github.io/",
     "scope": "Experiments / Best policy evaluation。",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "baoding",
@@ -318,7 +350,9 @@
     "source": "https://bair.berkeley.edu/blog/2019/09/30/deep-dynamics/",
     "scope": "Figure 4 最右：约 2 小时训练后的实机展示。",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "pencil_path",
@@ -327,7 +361,9 @@
     "source": "https://bair.berkeley.edu/blog/2019/09/30/deep-dynamics/",
     "scope": "Figure 7 仿真手写展示；允许手指和手腕共同运动。",
     "domain": "仿真",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "catch_under",
@@ -336,7 +372,9 @@
     "source": "https://dexterous-manipulation.github.io/",
     "scope": "Results / EggCatchUnderarm / TOPDM。",
     "domain": "仿真",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "catch_over",
@@ -345,7 +383,9 @@
     "source": "https://dexterous-manipulation.github.io/",
     "scope": "Results / EggCatchOverarm / TOPDM。",
     "domain": "仿真",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "catch_two",
@@ -354,7 +394,9 @@
     "source": "https://dexterous-manipulation.github.io/",
     "scope": "Results / TwoEggCatchUnderarm / TOPDM。",
     "domain": "仿真",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "piano",
@@ -363,7 +405,9 @@
     "source": "https://kzakka.com/robopianist/",
     "scope": "Simple pieces / Twinkle Twinkle Little Star。",
     "domain": "仿真",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "p2_tight",
@@ -372,7 +416,9 @@
     "source": "https://play2perfect.github.io/",
     "scope": "Watch Play2Perfect in Slow Speed / Tight Insertion；网站播放器可调速。",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "p2_screw",
@@ -381,7 +427,9 @@
     "source": "https://play2perfect.github.io/",
     "scope": "Watch Play2Perfect in Slow Speed / Screwing。",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "p2_multi",
@@ -390,7 +438,9 @@
     "source": "https://play2perfect.github.io/",
     "scope": "Watch Play2Perfect in Slow Speed / Multi-Part Assembly。",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "p2_retry",
@@ -399,7 +449,9 @@
     "source": "https://play2perfect.github.io/",
     "scope": "Recovery Behavior / 第一段；包含失败和后续重试。",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "p2_retry2",
@@ -408,7 +460,9 @@
     "source": "https://play2perfect.github.io/",
     "scope": "Recovery Behavior / 第二段。",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "p2_interactive",
@@ -417,7 +471,9 @@
     "source": "https://play2perfect.github.io/",
     "scope": "Select Assembly Task：iPhone Charger into Socket / YCB Fork in Rack；选择任务后播放。",
     "domain": "仿真",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "ad_fmb",
@@ -426,7 +482,9 @@
     "source": "https://adept-dexterity.github.io/",
     "scope": "Rollout gallery / Real / FMB insertion / KUKA–Allegro / Vision-based insert。",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "ad_star",
@@ -435,7 +493,9 @@
     "source": "https://adept-dexterity.github.io/",
     "scope": "Rollout gallery / Real / KUKA–Allegro / Star peg。",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "ad_touch",
@@ -444,7 +504,9 @@
     "source": "https://adept-dexterity.github.io/",
     "scope": "Rollout gallery / Real / Flexiv–Sharpa / Visuo-tactile insert。",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "ad_dish",
@@ -453,7 +515,9 @@
     "source": "https://adept-dexterity.github.io/",
     "scope": "Capabilities / Dish-rack placement：Flip · regrasp · transport。",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "ad_repose",
@@ -462,7 +526,9 @@
     "source": "https://adept-dexterity.github.io/",
     "scope": "The ADEPT recipe / Reposing pre-training；并行仿真教师，多种几何体。",
     "domain": "仿真",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "wm_z",
@@ -471,7 +537,9 @@
     "source": "https://wmcraftnet.github.io/",
     "scope": "Real-world rollout：0–24 s 鸭子，24–35 s 圆柱，35–50 s 十字块，50–73 s 馒头，73–94 s 双缺口块。",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "wm_y",
@@ -480,7 +548,9 @@
     "source": "https://wmcraftnet.github.io/",
     "scope": "Diverse Axis / Sim-to-Real / Screwdriver；绕较短方向，不是工具长轴快转。",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "wm_x",
@@ -489,7 +559,9 @@
     "source": "https://wmcraftnet.github.io/",
     "scope": "Diverse Axis / Tests in Simulation / X-Axis Rotation / Stepped block。",
     "domain": "仿真",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "wm_perturb",
@@ -498,7 +570,9 @@
     "source": "https://wmcraftnet.github.io/",
     "scope": "Real-world perturbation recovery：3–5 s、22–25 s 人为扰动。",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "wm_ood",
@@ -507,7 +581,9 @@
     "source": "https://wmcraftnet.github.io/",
     "scope": "OOD-to-duck recovery：换入鸭子后恢复；不意味着原 OOD 物体也已成功。",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "wm_start",
@@ -516,7 +592,9 @@
     "source": "https://wmcraftnet.github.io/",
     "scope": "Challenging-start recovery：0 s switch 侧倒，调整为可旋转状态。",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "wm_palm",
@@ -525,7 +603,9 @@
     "source": "https://wmcraftnet.github.io/",
     "scope": "Bucket palm-region recovery：约 6 s 滑入掌区后重新调整并续转。",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "wm_cylinder",
@@ -534,7 +614,9 @@
     "source": "https://wmcraftnet.github.io/",
     "scope": "Cylinder unexpected-contact recovery：约 6 s、15 s。",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "wm_gravity",
@@ -543,7 +625,9 @@
     "source": "https://wmcraftnet.github.io/",
     "scope": "Gravity-Invariant Rotation / Successful sim-to-real transfer。",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "wm_cross",
@@ -552,7 +636,9 @@
     "source": "https://wmcraftnet.github.io/",
     "scope": "Challenging Initialization Pose / Cross block：0–7 s 掌到指，随后 Z 轴旋转。",
     "domain": "仿真",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "wm_bulb",
@@ -561,7 +647,9 @@
     "source": "https://wmcraftnet.github.io/",
     "scope": "Challenging Initialization Pose / Bulb：0–5 s 拇指、食指、中指扶正。",
     "domain": "仿真",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "wm_move",
@@ -570,7 +658,9 @@
     "source": "https://wmcraftnet.github.io/",
     "scope": "Application: Tool Use / Goal-conditioned translation；定性仿真，不演示拧螺丝。",
     "domain": "仿真",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "wm_axial",
@@ -579,7 +669,9 @@
     "source": "https://wmcraftnet.github.io/",
     "scope": "Application: Tool Use / Fast screwdriver rotation；定性仿真，不演示紧固。",
     "domain": "仿真",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "td_hammer",
@@ -588,7 +680,9 @@
     "source": "https://bigai-dex.github.io/blog/teledexter/",
     "scope": "Full Task Teleoperation / 锤子完整使用链 / 第 1 次演示。",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "td_brush",
@@ -597,7 +691,9 @@
     "source": "https://bigai-dex.github.io/blog/teledexter/",
     "scope": "Full Task Teleoperation / 刷子完整使用链 / 第 1 次演示。",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "td_screwdriver",
@@ -606,7 +702,9 @@
     "source": "https://bigai-dex.github.io/blog/teledexter/",
     "scope": "Full Task Teleoperation / 螺丝刀完整使用链 / 第 1 次演示。",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "td_bulb",
@@ -615,7 +713,9 @@
     "source": "https://bigai-dex.github.io/blog/teledexter/",
     "scope": "Full Task Teleoperation / 灯泡更换完整链 / 第 1 次演示。",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "td_pen",
@@ -624,7 +724,9 @@
     "source": "https://bigai-dex.github.io/blog/teledexter/",
     "scope": "In-Hand Manipulation / long-horizon pen spinning。",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "td_penrecover",
@@ -633,7 +735,9 @@
     "source": "https://bigai-dex.github.io/blog/teledexter/",
     "scope": "In-Hand Manipulation / mid-spin recovery。",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "td_cuboid",
@@ -642,7 +746,9 @@
     "source": "https://bigai-dex.github.io/blog/teledexter/",
     "scope": "Any-grasp-to-any-grasp / Leap Hand / cuboid；物体与手的目标同时变化。",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "td_cylinder",
@@ -651,7 +757,9 @@
     "source": "https://bigai-dex.github.io/blog/teledexter/",
     "scope": "Any-grasp-to-any-grasp / Leap Hand / cylinder；物体与手的目标同时变化。",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "td_policy_hammer",
@@ -660,7 +768,9 @@
     "source": "https://bigai-dex.github.io/blog/teledexter/",
     "scope": "Autonomous Policy Learning / 锤击；这是单项策略，不是完整遥操作链。",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "td_policy_brush",
@@ -669,7 +779,9 @@
     "source": "https://bigai-dex.github.io/blog/teledexter/",
     "scope": "Autonomous Policy Learning / 刷扫；这是单项策略，不是完整遥操作链。",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "td_policy_bulb",
@@ -678,7 +790,9 @@
     "source": "https://bigai-dex.github.io/blog/teledexter/",
     "scope": "Autonomous Policy Learning / 安装灯泡；这是单项策略，不是完整遥操作链。",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "wm_object_duck_57",
@@ -687,7 +801,9 @@
     "source": "https://wmcraftnet.github.io/",
     "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 鸭子 · Z 轴",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "wm_object_corner_block_58",
@@ -696,7 +812,9 @@
     "source": "https://wmcraftnet.github.io/",
     "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 拐角块 · Z 轴",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "wm_object_cross_block_59",
@@ -705,7 +823,9 @@
     "source": "https://wmcraftnet.github.io/",
     "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 十字块 · Z 轴",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "wm_object_cylinder_60",
@@ -714,7 +834,9 @@
     "source": "https://wmcraftnet.github.io/",
     "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 圆柱 · Z 轴",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "wm_object_piggy_61",
@@ -723,7 +845,9 @@
     "source": "https://wmcraftnet.github.io/",
     "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 储蓄罐 · Z 轴",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "wm_object_strawberry_62",
@@ -732,7 +856,9 @@
     "source": "https://wmcraftnet.github.io/",
     "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 草莓 · Z 轴",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "wm_object_fire_hydrant_63",
@@ -741,7 +867,9 @@
     "source": "https://wmcraftnet.github.io/",
     "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 消防栓 · Z 轴",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "wm_object_cube_64",
@@ -750,7 +878,9 @@
     "source": "https://wmcraftnet.github.io/",
     "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 蓝色方块 · Z 轴",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "wm_object_bulb_65",
@@ -759,7 +889,9 @@
     "source": "https://wmcraftnet.github.io/",
     "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 灯泡 · Z 轴",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "wm_object_apple_66",
@@ -768,7 +900,9 @@
     "source": "https://wmcraftnet.github.io/",
     "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 苹果 · Z 轴",
     "domain": "仿真",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "wm_object_notched_block_67",
@@ -777,7 +911,9 @@
     "source": "https://wmcraftnet.github.io/",
     "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 双缺口圆柱 · Z 轴",
     "domain": "仿真",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "wm_object_notched_block_68",
@@ -786,7 +922,9 @@
     "source": "https://wmcraftnet.github.io/",
     "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 单缺口 / 窄体 / 双缺口块 · 未见物体",
     "domain": "仿真",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "wm_object_toothpaste_69",
@@ -795,7 +933,9 @@
     "source": "https://wmcraftnet.github.io/",
     "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 牙膏管 · Y 轴短轴",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "wm_object_corner_block_70",
@@ -804,7 +944,9 @@
     "source": "https://wmcraftnet.github.io/",
     "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 拐角块 · Y 轴",
     "domain": "真实机器人",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "wm_object_toy_bucket_71",
@@ -813,7 +955,9 @@
     "source": "https://wmcraftnet.github.io/",
     "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 玩具垃圾桶 · Y 轴",
     "domain": "仿真",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "wm_object_cylinder_72",
@@ -822,7 +966,9 @@
     "source": "https://wmcraftnet.github.io/",
     "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 拐角圆柱 · Y 轴",
     "domain": "仿真",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "wm_object_can_73",
@@ -831,7 +977,9 @@
     "source": "https://wmcraftnet.github.io/",
     "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 易拉罐 · Y 轴",
     "domain": "仿真",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "wm_object_flashlight_74",
@@ -840,7 +988,9 @@
     "source": "https://wmcraftnet.github.io/",
     "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 手电筒 · Y 轴",
     "domain": "仿真",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "wm_object_bottle_75",
@@ -849,7 +999,9 @@
     "source": "https://wmcraftnet.github.io/",
     "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 瓶子 · Y 轴",
     "domain": "仿真",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "wm_object_lego_brick_76",
@@ -858,7 +1010,9 @@
     "source": "https://wmcraftnet.github.io/",
     "scope": "One Policy for Multi-Object Rotation / Diverse Axis / 凸点积木 · X 轴",
     "domain": "仿真",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "wm_init_bottle",
@@ -867,7 +1021,9 @@
     "source": "https://wmcraftnet.github.io/",
     "scope": "Challenging Initialization Pose / 0–10 s 拇指调整瓶子靠近手指，随后 Y 轴旋转",
     "domain": "仿真",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "wm_init_can",
@@ -876,7 +1032,9 @@
     "source": "https://wmcraftnet.github.io/",
     "scope": "Challenging Initialization Pose / 0–5 s 五指扶正，随后 Z 轴旋转",
     "domain": "仿真",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "wm_init_corner_block",
@@ -885,7 +1043,9 @@
     "source": "https://wmcraftnet.github.io/",
     "scope": "Challenging Initialization Pose / 0–4 s 引导至掌指交界，随后 Z 轴旋转",
     "domain": "仿真",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
   },
   {
     "catalog_media_id": "wm_init_piggy",
@@ -894,7 +1054,42 @@
     "source": "https://wmcraftnet.github.io/",
     "scope": "Challenging Initialization Pose / 0–5 s 五指调整至可控区域，随后 Z 轴旋转",
     "domain": "仿真",
-    "verified": "2026-09-24"
+    "verified": "2026-09-24",
+    "license": null,
+    "license_url": null
+  },
+  {
+    "catalog_media_id": "as_grid",
+    "type": "video",
+    "url": "https://action-sense.csail.mit.edu/images/activities_grid_slide_compressed_cropped.mp4",
+    "source": "https://action-sense.csail.mit.edu/",
+    "scope": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+    "domain": "人类采集",
+    "verified": "2026-09-28",
+    "license": "CC BY-NC-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+  },
+  {
+    "catalog_media_id": "as_session",
+    "type": "youtube",
+    "url": "https://www.youtube.com/embed/u3sUbmwJcrQ",
+    "source": "https://action-sense.csail.mit.edu/",
+    "scope": "首页原始 YouTube 演示；章节对应活动标签。本库未核定各子动作时间戳。",
+    "domain": "人类采集",
+    "verified": "2026-09-28",
+    "license": "CC BY-NC-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+  },
+  {
+    "catalog_media_id": "as_calibration",
+    "type": "link",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=8",
+    "source": "https://action-sense.csail.mit.edu/",
+    "scope": "Supplement C.3.1，印刷页 8；以文字协议为证据，尚未定位独立校准视频。",
+    "domain": "人类采集",
+    "verified": "2026-09-28",
+    "license": "CC BY-NC-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
   },
   {
     "catalog_prop_image_id": "sphere",
@@ -931,5 +1126,202 @@
     "scope": "ADEPT 几何示意 · 原规格之一",
     "domain": "几何示意",
     "verified": "2026-09-24"
+  },
+  {
+    "generated_illustration_id": "I04",
+    "type": "ai_image",
+    "url": "assets/generated/I04-v1.png",
+    "domain": "AI 教学示意",
+    "scope": "按本库动作描述生成的关键姿态示意；不是原研究图像或实际采集记录。",
+    "source_basis": [
+      "https://pubmed.ncbi.nlm.nih.gov/20854484/",
+      "https://www.eng.yale.edu/grablab/pubs/bullock_icorr2011.pdf"
+    ],
+    "generator": "built-in image_gen",
+    "review": "quality/anatomy-reviews/I04-v1.json",
+    "physics": "unknown"
+  },
+  {
+    "generated_illustration_id": "I05",
+    "type": "ai_image",
+    "url": "assets/generated/I05-v3.png",
+    "domain": "AI 教学示意",
+    "scope": "掌心到指尖转移的终点握姿；不是完整运动过程。",
+    "source_basis": [
+      "https://pubmed.ncbi.nlm.nih.gov/20854484/",
+      "https://www.eng.yale.edu/grablab/pubs/bullock_icorr2011.pdf",
+      "https://wmcraftnet.github.io/"
+    ],
+    "generator": "built-in image_gen",
+    "review": "quality/anatomy-reviews/I05-v3.json",
+    "physics": "unknown"
+  },
+  {
+    "generated_illustration_id": "I07",
+    "type": "ai_image",
+    "url": "assets/generated/I07-v1.png",
+    "domain": "AI 教学示意",
+    "scope": "按本库动作描述生成的关键姿态示意；不是原研究图像或实际采集记录。",
+    "source_basis": [
+      "https://pubmed.ncbi.nlm.nih.gov/20854484/",
+      "https://www.eng.yale.edu/grablab/pubs/bullock_icorr2011.pdf"
+    ],
+    "generator": "built-in image_gen",
+    "review": "quality/anatomy-reviews/I07-v1.json",
+    "physics": "unknown"
+  },
+  {
+    "generated_illustration_id": "I08",
+    "type": "ai_image",
+    "url": "assets/generated/I08-v1.png",
+    "domain": "AI 教学示意",
+    "scope": "按本库动作描述生成的关键姿态示意；不是原研究图像或实际采集记录。",
+    "source_basis": [
+      "https://pubmed.ncbi.nlm.nih.gov/20854484/",
+      "https://www.eng.yale.edu/grablab/pubs/bullock_icorr2011.pdf"
+    ],
+    "generator": "built-in image_gen",
+    "review": "quality/anatomy-reviews/I08-v1.json",
+    "physics": "unknown"
+  },
+  {
+    "generated_illustration_id": "I09",
+    "type": "ai_image",
+    "url": "assets/generated/I09-v1.png",
+    "domain": "AI 教学示意",
+    "scope": "指间翻转的关键握姿示意；不用于连续轨迹或物体几何标定。",
+    "source_basis": [
+      "https://pubmed.ncbi.nlm.nih.gov/20854484/",
+      "https://www.eng.yale.edu/grablab/pubs/bullock_icorr2011.pdf"
+    ],
+    "generator": "built-in image_gen",
+    "review": "quality/anatomy-reviews/I09-v1.json",
+    "physics": "unknown"
+  },
+  {
+    "generated_illustration_id": "I10",
+    "type": "ai_image",
+    "url": "assets/generated/I10-v1.png",
+    "domain": "AI 教学示意",
+    "scope": "目标位置示意：X 从拇指根部横向指向小指侧。只显示掌系目标位置，不示范手指如何驱动物体。",
+    "source_basis": [
+      "https://arxiv.org/abs/2609.13761",
+      "https://www.eng.yale.edu/grablab/pubs/bullock_icorr2011.pdf"
+    ],
+    "generator": "built-in image_gen",
+    "review": "quality/anatomy-reviews/I10-v1.json",
+    "physics": "unknown"
+  },
+  {
+    "generated_illustration_id": "I11",
+    "type": "ai_image",
+    "url": "assets/generated/I11-v1.png",
+    "domain": "AI 教学示意",
+    "scope": "目标位置示意：Y 沿中指方向。只显示掌系目标位置，不示范手指如何驱动物体。",
+    "source_basis": [
+      "https://arxiv.org/abs/2609.13761",
+      "https://www.eng.yale.edu/grablab/pubs/bullock_icorr2011.pdf"
+    ],
+    "generator": "built-in image_gen",
+    "review": "quality/anatomy-reviews/I11-v1.json",
+    "physics": "unknown"
+  },
+  {
+    "generated_illustration_id": "I19",
+    "type": "ai_image",
+    "url": "assets/generated/I19-v1.png",
+    "domain": "AI 教学示意",
+    "scope": "拇、食、中三指接触球体的关键姿态；箭头表示目标滚动方向，静帧不展示实际滚动过程。",
+    "source_basis": [
+      "https://www.eng.yale.edu/grablab/pubs/bullock_icorr2011.pdf",
+      "https://www.eng.yale.edu/grablab/pubs/bullock_icorr2011.pdf"
+    ],
+    "generator": "built-in image_gen",
+    "review": "quality/anatomy-reviews/I19-v1.json",
+    "physics": "unknown"
+  },
+  {
+    "generated_illustration_id": "I25",
+    "type": "ai_image",
+    "url": "assets/generated/I25-v1.png",
+    "domain": "AI 教学示意",
+    "scope": "硬币翻面动作中的夹持姿态；单张图不表示已经完成 180° 翻转。",
+    "source_basis": [
+      "https://www.eng.yale.edu/grablab/pubs/bullock_icorr2011.pdf",
+      "https://www.eng.yale.edu/grablab/pubs/bullock_icorr2011.pdf"
+    ],
+    "generator": "built-in image_gen",
+    "review": "quality/anatomy-reviews/I25-v1.json",
+    "physics": "unknown"
+  },
+  {
+    "generated_illustration_id": "I26",
+    "type": "ai_image",
+    "url": "assets/generated/I26-v1.png",
+    "domain": "AI 教学示意",
+    "scope": "调至书写抓握后的目标姿态；未展示换接触和转笔的完整过程。",
+    "source_basis": [
+      "https://www.eng.yale.edu/grablab/pubs/bullock_icorr2011.pdf",
+      "https://www.eng.yale.edu/grablab/pubs/bullock_icorr2011.pdf"
+    ],
+    "generator": "built-in image_gen",
+    "review": "quality/anatomy-reviews/I26-v1.json",
+    "physics": "unknown"
+  },
+  {
+    "generated_illustration_id": "T08",
+    "type": "ai_image",
+    "url": "assets/generated/T08-v1.png",
+    "domain": "AI 教学示意",
+    "scope": "杯柄钩持的接触准备姿态；杯底仍在桌面，图中尚未提起。",
+    "source_basis": [
+      "https://dex-ycb.github.io/",
+      "https://www.eng.yale.edu/grablab/pubs/bullock_icorr2011.pdf"
+    ],
+    "generator": "built-in image_gen",
+    "review": "quality/anatomy-reviews/T08-v1.json",
+    "physics": "unknown"
+  },
+  {
+    "generated_illustration_id": "T10",
+    "type": "ai_image",
+    "url": "assets/generated/T10-v1.png",
+    "domain": "AI 教学示意",
+    "scope": "抓持薄片的关键姿态；整体搬运轨迹不在静态图中表示。",
+    "source_basis": [
+      "https://dex-ycb.github.io/",
+      "https://www.eng.yale.edu/grablab/pubs/bullock_icorr2011.pdf"
+    ],
+    "generator": "built-in image_gen",
+    "review": "quality/anatomy-reviews/T10-v1.json",
+    "physics": "unknown"
+  },
+  {
+    "generated_illustration_id": "T16",
+    "type": "ai_image",
+    "url": "assets/generated/T16-v1.png",
+    "domain": "AI 教学示意",
+    "scope": "持瓶改变腕方向时所用的稳定握姿；静帧不展示腕部旋转范围或过程。",
+    "source_basis": [
+      "https://dex-ycb.github.io/",
+      "https://www.eng.yale.edu/grablab/pubs/bullock_icorr2011.pdf"
+    ],
+    "generator": "built-in image_gen",
+    "review": "quality/anatomy-reviews/T16-v1.json",
+    "physics": "unknown"
+  },
+  {
+    "generated_illustration_id": "T17",
+    "type": "ai_image",
+    "url": "assets/generated/T17-v1.png",
+    "domain": "AI 教学示意",
+    "scope": "细长物体提起搬运中的关键握姿；动作轨迹与变化幅度见采集说明。",
+    "source_basis": [
+      "https://dex-ycb.github.io/",
+      "https://www.eng.yale.edu/grablab/pubs/bullock_icorr2011.pdf"
+    ],
+    "generator": "built-in image_gen",
+    "review": "quality/anatomy-reviews/T17-v1.json",
+    "physics": "unknown"
   }
 ]

@@ -1,0 +1,120 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/I27-v1.png",
+  "sha256": "88ae3ec4d85d307b255d9c415c3e9022cca6c753065c2d0c3bb5188185fdf41f",
+  "action_id": "I27",
+  "reviewer": "hand-anatomy-reviewer / anatomy_review_batch2 / visual model review",
+  "intended_action": {
+    "name": "掌内暂存后逐枚取出",
+    "hands": "单手"
+  },
+  "expected_panels": 1,
+  "expected_hands_per_panel": [
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0.0,
+        0,
+        1.0,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "unknown",
+          "view": "palm oblique with ambiguous radial/contact-ray mapping",
+          "bbox": [
+            0.181,
+            0.032,
+            1,
+            0.997
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "unresolvable",
+              "trace": "The upper contact ray continues toward the broad upper palm mound, while the lower nail-bearing ray has a shorter thumb-like two-section silhouette. These competing cues do not permit one unique thumb base-to-tip trace."
+            },
+            "index": {
+              "visibility": "unresolvable",
+              "trace": "Either the long upper pad-contacting ray or the lower nail-bearing ray must be the index, but their palm attachments cannot be mapped to a reliable thumb/index web and ordered long-finger row."
+            },
+            "middle": {
+              "visibility": "visible",
+              "trace": "The uppermost of the three curled lower rays has its own base/fold beside the contact-ray web, bends leftward and returns to the separate nail touching the upper stored coin; provisional middle by its order among the three curled rays."
+            },
+            "ring": {
+              "visibility": "visible",
+              "trace": "The next curled ray lies below the upper curled ray, has a separate knuckle and bent chain, and ends in a distinct nail against the stored coins; provisional ring by ulnar order."
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "The lowest curled ray starts at the outer ulnar edge, forms a smaller upward-returning curl and ends in its own short nail at the lower stored coin."
+            }
+          },
+          "count_observation": "Five terminal candidates are visible, but the upper coin-contacting ray appears continuous with a broad radial/thenar-like mound while showing a long multi-section profile; the lower nail-bearing contact ray has a thumb-like profile near the distal finger row. The two contact rays cannot be assigned unambiguously to thumb and index from these contours.",
+          "length_observation": "The three curled ulnar rays have substantial visible middle/ring sections and a smaller little-finger curl; flexion explains their lower projected span. The two extended contact rays differ strongly in exposed length and base geometry. Until thumb/index identity and anatomical base are resolved, their centerline length and segment comparison cannot be approved. Skin creases alone are not counted as extra joints.",
+          "joint_observation": "The three curled rays remain individually continuous. The contact-ray web and upper broad mound do not identify a single clear thumb origin or establish the expected two- versus three-phalangeal mapping. This is recorded as uncertainty rather than inferring an extra bone from creases. Fingertips, palm, wrist and short forearm are all framed.",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "unknown",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "Five terminal candidates are visible, but the upper coin-contacting ray appears continuous with a broad radial/thenar-like mound while showing a long multi-section profile; the lower nail-bearing contact ray has a thumb-like profile near the distal finger row. The two contact rays cannot be assigned unambiguously to thumb and index from these contours.",
+              "correction": "Redraw the coin pinch from a clearer palm-oblique angle with a unique radial thumb, an adjacent index and both anatomical bases visible; retain the three separately curled storage fingers."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "Five terminal candidates are visible, but the upper coin-contacting ray appears continuous with a broad radial/thenar-like mound while showing a long multi-section profile; the lower nail-bearing contact ray has a thumb-like profile near the distal finger row. The two contact rays cannot be assigned unambiguously to thumb and index from these contours. The hidden ray cannot be connected to a unique base through its full visible chain.",
+              "correction": "Redraw the coin pinch from a clearer palm-oblique angle with a unique radial thumb, an adjacent index and both anatomical bases visible; retain the three separately curled storage fingers."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "The three curled ulnar rays have substantial visible middle/ring sections and a smaller little-finger curl; flexion explains their lower projected span. The two extended contact rays differ strongly in exposed length and base geometry. Until thumb/index identity and anatomical base are resolved, their centerline length and segment comparison cannot be approved. Skin creases alone are not counted as extra joints.",
+              "correction": "Redraw the coin pinch from a clearer palm-oblique angle with a unique radial thumb, an adjacent index and both anatomical bases visible; retain the three separately curled storage fingers."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "Five terminal candidates are visible, but the upper coin-contacting ray appears continuous with a broad radial/thenar-like mound while showing a long multi-section profile; the lower nail-bearing contact ray has a thumb-like profile near the distal finger row. The two contact rays cannot be assigned unambiguously to thumb and index from these contours. Hidden flexion and segment topology cannot be verified.",
+              "correction": "Redraw the coin pinch from a clearer palm-oblique angle with a unique radial thumb, an adjacent index and both anatomical bases visible; retain the three separately curled storage fingers."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "handedness",
+              "evidence": "The palm side is visible, but the unique radial thumb origin is ambiguous between the two coin-contacting rays. Image position alone cannot establish the hand side.",
+              "correction": "Redraw the coin pinch from a clearer palm-oblique angle with a unique radial thumb, an adjacent index and both anatomical bases visible; retain the three separately curled storage fingers."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "unknown",
+    "observation": "One actual panel and one hand are present. No cross-panel sequence is supplied; within the pose, the ambiguous thumb/index mapping prevents certifying anatomical identity.",
+    "issues": [
+      {
+        "code": "joint_topology",
+        "panels": [
+          1
+        ],
+        "evidence": "Thumb/index mapping remains unresolved at the two coin-contacting rays even after enlargement.",
+        "correction": "Expose an unambiguous radial thumb origin and adjacent index base in the redraw."
+      }
+    ]
+  },
+  "decision": "needs_review",
+  "limitations": "Actual original image and, where necessary, enlarged detail inspected. Single-view visual anatomy assessment only: hidden bone geometry, exact centerline lengths and physical feasibility are not measured. This report does not approve action fidelity or motion between the illustrated panels."
+}

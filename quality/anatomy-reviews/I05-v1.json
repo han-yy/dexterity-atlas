@@ -1,0 +1,267 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/I05-v1.png",
+  "sha256": "5a2fde82170af317b04f5ef5b1a59d06d613bfccf404b85251700d1ca458b275",
+  "action_id": "I05",
+  "reviewer": "hand-anatomy-reviewer / independent visual model review",
+  "expected_panels": 3,
+  "expected_hands_per_panel": [
+    1,
+    1,
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0,
+        0,
+        0.3333,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "left",
+          "view": "palmar frontal",
+          "bbox": [
+            0.041,
+            0.185,
+            0.297,
+            0.933
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "左侧拇指从左鱼际起向左上伸出，IP 与末节连续，指甲位于外侧末端。"
+            },
+            "index": {
+              "visibility": "traceable",
+              "trace": "最靠拇指的蜷曲指由远端掌缘向上回弯，返回最左边的四枚长指甲位置；短根部遮挡可接续。"
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "第二条蜷曲指从中间掌缘上起，回弯后止于第二枚长指甲，独立于邻指。"
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "第三条蜷曲指位于中指右侧，回弯后的独立末端压在硬币上缘附近。"
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "最右小指由尺侧掌缘起，短回弯终止在硬币右边最小的指端。"
+            }
+          },
+          "count_observation": "逐条追踪到一条拇指与四条独立长指；每条均有独立路径和指端，未见额外或分叉指。",
+          "length_observation": "沿回弯链观察，中指与食指较长、无名指略短、小指最短；指尖高低由屈曲不同造成。拇指与掌宽相容，没有明显短残指或超长节段。",
+          "joint_observation": "左侧拇指根部与四条蜷曲长指分开；四个末节分别连向四条近端通路，硬币局部遮挡不形成分叉或融合。",
+          "checks": {
+            "five_digits": "pass",
+            "connectivity": "pass",
+            "proportions": "pass",
+            "joint_structure": "pass",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": []
+        }
+      ]
+    },
+    {
+      "panel": 2,
+      "bbox": [
+        0.3333,
+        0,
+        0.6667,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "palmar frontal",
+          "bbox": [
+            0.351,
+            0.079,
+            0.686,
+            0.933
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "右侧清楚的鱼际连接一条内收拇指，两节弯折后带甲指端压在硬币右下缘。"
+            },
+            "index": {
+              "visibility": "traceable",
+              "trace": "紧邻拇指的高直指在硬币后上方，指腹向前，由掌远端近节上行到最高指端；币仅遮一小段近端。"
+            },
+            "middle": {
+              "visibility": "visible",
+              "trace": "其左侧另一条长指有连续根部和两处弯折，向上到较低的第二个高指端。"
+            },
+            "ring": {
+              "visibility": "unresolvable",
+              "trace": "两条长指与最左短指之间未见无名指的独立根部、链或指端；不凭应该有五指虚构隐藏无名指。"
+            },
+            "little": {
+              "visibility": "traceable",
+              "trace": "最左短指由尺侧边缘较低位置上行到侧面带甲末端；外侧身份可暂按小指记录，但其根部过低、与缺失指列的关系不可确认。"
+            }
+          },
+          "count_observation": "开敞手掌中仅四条独立指列：右拇指、两条上伸长指和左缘短指；完整五指失败。",
+          "length_observation": "两根上伸长指的中心线并无夸张拉长，但少了一条长指，左缘短指的低起点使四指长度关系无法验证；不把投影较短自动当正常小指。",
+          "joint_observation": "右侧拇指结构明确；远端掌缘只接出三条非拇指链，不能组成完整四长指拓扑。缺失指的节段、关节及连接不可检查。",
+          "checks": {
+            "five_digits": "fail",
+            "connectivity": "fail",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "missing_digit",
+              "check": "five_digits",
+              "evidence": "第2格开敞的掌远端只有两条向上长指和一条左缘短指，加上右侧拇指共四条独立指列；缺少第四条长指的根部/链。硬币仅遮右上指近端一小块，不足以解释整根消失的手指。",
+              "correction": "按同一只五指手重绘第2格，补齐四条按序连接远端掌缘的长指，分别显示每根的根部、两处指间关节与指端；保持硬币由掌向指端移动。"
+            },
+            {
+              "code": "missing_digit",
+              "check": "connectivity",
+              "evidence": "第2格开敞的掌远端只有两条向上长指和一条左缘短指，加上右侧拇指共四条独立指列；缺少第四条长指的根部/链。硬币仅遮右上指近端一小块，不足以解释整根消失的手指。",
+              "correction": "按同一只五指手重绘第2格，补齐四条按序连接远端掌缘的长指，分别显示每根的根部、两处指间关节与指端；保持硬币由掌向指端移动。"
+            },
+            {
+              "code": "length_ratio",
+              "check": "proportions",
+              "evidence": "缺失一条长指后无法核验四指弧长；左缘短指起点较低且轮廓近似拇指，身份与相对长度不清楚。",
+              "correction": "按同一只五指手重绘第2格，补齐四条按序连接远端掌缘的长指，分别显示每根的根部、两处指间关节与指端；保持硬币由掌向指端移动。"
+            },
+            {
+              "code": "joint_topology",
+              "check": "joint_structure",
+              "evidence": "缺失指链的关节无法检查；左缘短指不能替代四条独立长指结构。",
+              "correction": "按同一只五指手重绘第2格，补齐四条按序连接远端掌缘的长指，分别显示每根的根部、两处指间关节与指端；保持硬币由掌向指端移动。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "panel": 3,
+      "bbox": [
+        0.6667,
+        0,
+        1,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "palmar oblique",
+          "bbox": [
+            0.712,
+            0.106,
+            0.992,
+            0.937
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "右侧鱼际延续上伸拇指，经 IP 到硬币右边带甲末节，根到端完整。"
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "最上方左侧食指由拇食指蹼左边上行，经过两处连续弯折，末端接硬币左缘。"
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "掌前较高的一条蜷曲指从远端掌缘向左弯，再向右下回折，终止于靠拇指的大指甲。"
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "其下方较低蜷曲指从尺侧掌缘短遮挡后出现，回弯到较低带甲指端，边界独立。"
+            },
+            "little": {
+              "visibility": "unresolvable",
+              "trace": "最低尺侧只有连续掌缘和软组织隆起；没有独立可追踪的小指根部到指端。"
+            }
+          },
+          "count_observation": "四条可辨指链，小指不可解析，完整五指未知。",
+          "length_observation": "拇食指可见长度与掌宽相容，两条蜷曲指的中心线没有明显拉长；小指完全链不可解析，无法核对小指长度及四指比例。",
+          "joint_observation": "四条可辨链没有明显分叉；小指的连接和关节数因遮挡/融合不清，不能判为完整正常五指。",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "第3格拇指、食指与两条蜷曲长指可独立辨认；最下尺侧掌缘没有可从根部追到指端的小指。可能藏在蜷曲指后，但不可从一个掌缘隆起认定小指。",
+              "correction": "重绘第3格，露出小指独立的近节、回弯段及指端，避免与掌缘或无名指融合；并统一与第1格同一手侧。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "第3格拇指、食指与两条蜷曲长指可独立辨认；最下尺侧掌缘没有可从根部追到指端的小指。可能藏在蜷曲指后，但不可从一个掌缘隆起认定小指。",
+              "correction": "重绘第3格，露出小指独立的近节、回弯段及指端，避免与掌缘或无名指融合；并统一与第1格同一手侧。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "第3格拇指、食指与两条蜷曲长指可独立辨认；最下尺侧掌缘没有可从根部追到指端的小指。可能藏在蜷曲指后，但不可从一个掌缘隆起认定小指。",
+              "correction": "重绘第3格，露出小指独立的近节、回弯段及指端，避免与掌缘或无名指融合；并统一与第1格同一手侧。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "第3格拇指、食指与两条蜷曲长指可独立辨认；最下尺侧掌缘没有可从根部追到指端的小指。可能藏在蜷曲指后，但不可从一个掌缘隆起认定小指。",
+              "correction": "重绘第3格，露出小指独立的近节、回弯段及指端，避免与掌缘或无名指融合；并统一与第1格同一手侧。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "fail",
+    "observation": "第1格是左掌（鱼际和拇指起于画面左侧），第2、3格为右掌（同样掌面可见但鱼际和拇指改在右侧）。这不是转到手背，发生左右手身份互换；第2格还少一条非拇指指列，第3格小指不可追踪。",
+    "issues": [
+      {
+        "code": "handedness_swap",
+        "panels": [
+          1,
+          2,
+          3
+        ],
+        "evidence": "三格均能看见掌纹/鱼际，第1格左掌变为第2、3格右掌；镜像手侧不符合单手连续转移。",
+        "correction": "选定左手或右手，并保持三格的鱼际、拇指根部和四长指次序一致，整组重绘后重新审图。"
+      },
+      {
+        "code": "missing_digit",
+        "panels": [
+          2
+        ],
+        "evidence": "第2格开敞的掌远端只有两条向上长指和一条左缘短指，加上右侧拇指共四条独立指列；缺少第四条长指的根部/链。硬币仅遮右上指近端一小块，不足以解释整根消失的手指。",
+        "correction": "按同一只五指手重绘第2格，补齐四条按序连接远端掌缘的长指，分别显示每根的根部、两处指间关节与指端；保持硬币由掌向指端移动。"
+      },
+      {
+        "code": "ambiguous_occlusion",
+        "panels": [
+          3
+        ],
+        "evidence": "第3格拇指、食指与两条蜷曲长指可独立辨认；最下尺侧掌缘没有可从根部追到指端的小指。可能藏在蜷曲指后，但不可从一个掌缘隆起认定小指。",
+        "correction": "重绘第3格，露出小指独立的近节、回弯段及指端，避免与掌缘或无名指融合；并统一与第1格同一手侧。"
+      }
+    ]
+  },
+  "decision": "reject",
+  "limitations": "实际查看原始全分辨率三格图，并放大相关指列和接触区；这是单视角视觉检查，不能测量隐藏骨骼、真实指长或证明物理可行性。已查 research/catalog.json 动作定义；本报告仅审手部形态，不代替动作语义与接触审核。"
+}

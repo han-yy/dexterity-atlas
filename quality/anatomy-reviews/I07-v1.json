@@ -1,0 +1,189 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/I07-v1.png",
+  "sha256": "f28f4217d4fcb90813cc666160d0ee0b41469f008ae9279bc7145627d0fd66a2",
+  "action_id": "I07",
+  "reviewer": "hand-anatomy-reviewer / independent visual model review",
+  "expected_panels": 3,
+  "expected_hands_per_panel": [
+    1,
+    1,
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0,
+        0,
+        0.373,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "palmar-radial oblique",
+          "bbox": [
+            0.078,
+            0.196,
+            0.365,
+            0.969
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "拇指从右侧明显鱼际起，横过掌前向左，IP 与带甲末节连续，末端触笔杆前面。"
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "上方食指从拇食指蹼上方远端掌缘起，向左上伸，经两处弯折到笔杆顶部前方的指腹端。"
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "食指下方第一条卷曲长指，由远端掌缘向左绕过笔杆，窄笔杆遮挡两侧有匹配轮廓，到最上方左侧独立带甲指端。"
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "中指下方另一条卷曲长指，从掌远端短暂经过拇指后方再向左弯，终止于左侧中间的带甲指端；不与中指共用末端。"
+            },
+            "little": {
+              "visibility": "traceable",
+              "trace": "最低尺侧小指从掌外缘向左上回弯，经短指节到最下方较小指甲；根部到末节边界可追踪。"
+            }
+          },
+          "count_observation": "逐条追踪到一条拇指与四条独立长指；每条均有独立路径和指端，未见额外或分叉指。",
+          "length_observation": "食指展开、其余三指绕笔回弯，不能以指尖高度排序。沿曲线中指/无名指长度相近，小指明显更短，拇指较宽且两段比例自然；窄笔杆遮挡不掩去主要节段。",
+          "joint_observation": "拇指侧根与四长指远端根部按序区分。笔杆/拇指只造成可匹配的短遮挡，每条弯曲链能独立连接至末节；指甲位置和弯曲方向一致，无穿插或分叉。",
+          "checks": {
+            "five_digits": "pass",
+            "connectivity": "pass",
+            "proportions": "pass",
+            "joint_structure": "pass",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": []
+        }
+      ]
+    },
+    {
+      "panel": 2,
+      "bbox": [
+        0.373,
+        0,
+        0.697,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "palmar-radial oblique",
+          "bbox": [
+            0.406,
+            0.149,
+            0.674,
+            0.972
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "拇指从右侧明显鱼际起，横过掌前向左，IP 与带甲末节连续，末端触笔杆前面。"
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "上方食指从远端桡侧起向上，近节与中节折弯后朝左，末端离开笔杆，指腹与完整圆端可见。"
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "食指下方第一条卷曲长指，由远端掌缘向左绕过笔杆，窄笔杆遮挡两侧有匹配轮廓，到最上方左侧独立带甲指端。"
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "中指下方另一条卷曲长指，从掌远端短暂经过拇指后方再向左弯，终止于左侧中间的带甲指端；不与中指共用末端。"
+            },
+            "little": {
+              "visibility": "traceable",
+              "trace": "最低尺侧小指从掌外缘向左上回弯，经短指节到最下方较小指甲；根部到末节边界可追踪。"
+            }
+          },
+          "count_observation": "逐条追踪到一条拇指与四条独立长指；每条均有独立路径和指端，未见额外或分叉指。",
+          "length_observation": "食指离笔并伸展，弧长与第1格相容；中指/无名指仍绕笔，小指链较短。各指曲线长度没有因移位突然增减，拇指无超长末节。",
+          "joint_observation": "拇指侧根与四长指远端根部按序区分。笔杆/拇指只造成可匹配的短遮挡，每条弯曲链能独立连接至末节；指甲位置和弯曲方向一致，无穿插或分叉。",
+          "checks": {
+            "five_digits": "pass",
+            "connectivity": "pass",
+            "proportions": "pass",
+            "joint_structure": "pass",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": []
+        }
+      ]
+    },
+    {
+      "panel": 3,
+      "bbox": [
+        0.697,
+        0,
+        1,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "palmar-radial oblique",
+          "bbox": [
+            0.725,
+            0.206,
+            1,
+            0.969
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "拇指从右侧明显鱼际起，横过掌前向左，IP 与带甲末节连续，末端触笔杆前面。"
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "最上方食指从桡侧远端掌缘向左弯，跨笔杆前方回屈，带甲指端位于笔杆左前；根到端连续。"
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "食指下方第一条卷曲长指，由远端掌缘向左绕过笔杆，窄笔杆遮挡两侧有匹配轮廓，到最上方左侧独立带甲指端。"
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "中指下方另一条卷曲长指，从掌远端短暂经过拇指后方再向左弯，终止于左侧中间的带甲指端；不与中指共用末端。"
+            },
+            "little": {
+              "visibility": "traceable",
+              "trace": "最低尺侧小指从掌外缘向左上回弯，经短指节到最下方较小指甲；根部到末节边界可追踪。"
+            }
+          },
+          "count_observation": "逐条追踪到一条拇指与四条独立长指；每条均有独立路径和指端，未见额外或分叉指。",
+          "length_observation": "食指进一步屈曲导致投影变短，近节和中节没有消失。三条下方长指沿弧线比较，小指更短、更细，中指与无名指近似；未见残短指或伸长关节段。",
+          "joint_observation": "拇指侧根与四长指远端根部按序区分。笔杆/拇指只造成可匹配的短遮挡，每条弯曲链能独立连接至末节；指甲位置和弯曲方向一致，无穿插或分叉。",
+          "checks": {
+            "five_digits": "pass",
+            "connectivity": "pass",
+            "proportions": "pass",
+            "joint_structure": "pass",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "pass",
+    "observation": "全部三格均为右手掌桡侧视角，五条指链可独立辨认。食指从伸出到屈曲、其余指调整位置时身份和弧长相容；未见左右交换或指端增减，手腕和短前臂完整在画内。"
+  },
+  "decision": "approve",
+  "limitations": "实际查看原始全分辨率三格图，并放大相关指列和接触区；这是单视角视觉检查，不能测量隐藏骨骼、真实指长或证明物理可行性。已查 research/catalog.json 动作定义；本报告仅审手部形态，不代替动作语义与接触审核。"
+}

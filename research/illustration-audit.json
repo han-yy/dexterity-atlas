@@ -1,0 +1,471 @@
+{
+  "version": "1.0",
+  "candidates": 142,
+  "approved": 14,
+  "generated": 49,
+  "records": [
+    {
+      "action_id": "T04",
+      "path": "assets/generated/T04-v1.png",
+      "anatomy": "needs_review",
+      "action_review": "approved",
+      "publishable": false,
+      "report": "quality/anatomy-reviews/T04-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "I03",
+      "path": "assets/generated/I03-v1.png",
+      "anatomy": "needs_review",
+      "action_review": "approved",
+      "publishable": false,
+      "report": "quality/anatomy-reviews/I03-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "I04",
+      "path": "assets/generated/I04-v1.png",
+      "anatomy": "approve",
+      "action_review": "approved",
+      "publishable": true,
+      "report": "quality/anatomy-reviews/I04-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "I05",
+      "path": "assets/generated/I05-v1.png",
+      "anatomy": "reject",
+      "action_review": "rejected",
+      "publishable": false,
+      "report": "quality/anatomy-reviews/I05-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "I06",
+      "path": "assets/generated/I06-v1.png",
+      "anatomy": "needs_review",
+      "action_review": "approved",
+      "publishable": false,
+      "report": "quality/anatomy-reviews/I06-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "I07",
+      "path": "assets/generated/I07-v1.png",
+      "anatomy": "approve",
+      "action_review": "approved",
+      "publishable": true,
+      "report": "quality/anatomy-reviews/I07-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "I08",
+      "path": "assets/generated/I08-v1.png",
+      "anatomy": "approve",
+      "action_review": "approved",
+      "publishable": true,
+      "report": "quality/anatomy-reviews/I08-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "I09",
+      "path": "assets/generated/I09-v1.png",
+      "anatomy": "approve",
+      "action_review": "approved",
+      "publishable": true,
+      "report": "quality/anatomy-reviews/I09-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "I10",
+      "path": "assets/generated/I10-v1.png",
+      "anatomy": "approve",
+      "action_review": "approved",
+      "publishable": true,
+      "report": "quality/anatomy-reviews/I10-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "I11",
+      "path": "assets/generated/I11-v1.png",
+      "anatomy": "approve",
+      "action_review": "approved",
+      "publishable": true,
+      "report": "quality/anatomy-reviews/I11-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "I12",
+      "path": "assets/generated/I12-v1.png",
+      "anatomy": "needs_review",
+      "action_review": "pending_review",
+      "publishable": false,
+      "report": "quality/anatomy-reviews/I12-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "I13",
+      "path": "assets/generated/I13-v1.png",
+      "anatomy": "needs_review",
+      "action_review": "pending_review",
+      "publishable": false,
+      "report": "quality/anatomy-reviews/I13-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "I14",
+      "path": "assets/generated/I14-v1.png",
+      "anatomy": "needs_review",
+      "action_review": "pending_review",
+      "publishable": false,
+      "report": "quality/anatomy-reviews/I14-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "I15",
+      "path": "assets/generated/I15-v1.png",
+      "anatomy": "needs_review",
+      "action_review": "pending_review",
+      "publishable": false,
+      "report": "quality/anatomy-reviews/I15-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "I16",
+      "path": "assets/generated/I16-v1.png",
+      "anatomy": "needs_review",
+      "action_review": "pending_review",
+      "publishable": false,
+      "report": "quality/anatomy-reviews/I16-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "I17",
+      "path": "assets/generated/I17-v1.png",
+      "anatomy": "needs_review",
+      "action_review": "pending_review",
+      "publishable": false,
+      "report": "quality/anatomy-reviews/I17-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "I18",
+      "path": "assets/generated/I18-v1.png",
+      "anatomy": "needs_review",
+      "action_review": "pending_review",
+      "publishable": false,
+      "report": "quality/anatomy-reviews/I18-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "I05",
+      "path": "assets/generated/I05-v2.png",
+      "anatomy": "reject",
+      "action_review": "pending_review",
+      "publishable": false,
+      "report": "quality/anatomy-reviews/I05-v2.json",
+      "errors": []
+    },
+    {
+      "action_id": "I05",
+      "path": "assets/generated/I05-v3.png",
+      "anatomy": "approve",
+      "action_review": "approved",
+      "publishable": true,
+      "report": "quality/anatomy-reviews/I05-v3.json",
+      "errors": []
+    },
+    {
+      "action_id": "I19",
+      "path": "assets/generated/I19-v1.png",
+      "anatomy": "approve",
+      "action_review": "approved",
+      "publishable": true,
+      "report": "quality/anatomy-reviews/I19-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "I20",
+      "path": "assets/generated/I20-v1.png",
+      "anatomy": "approve",
+      "action_review": "rejected",
+      "publishable": false,
+      "report": "quality/anatomy-reviews/I20-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "I21",
+      "path": "assets/generated/I21-v1.png",
+      "anatomy": "approve",
+      "action_review": "rejected",
+      "publishable": false,
+      "report": "quality/anatomy-reviews/I21-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "I22",
+      "path": "assets/generated/I22-v1.png",
+      "anatomy": "needs_review",
+      "action_review": "pending_review",
+      "publishable": false,
+      "report": "quality/anatomy-reviews/I22-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "I23",
+      "path": "assets/generated/I23-v1.png",
+      "anatomy": "needs_review",
+      "action_review": "rejected",
+      "publishable": false,
+      "report": "quality/anatomy-reviews/I23-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "I24",
+      "path": "assets/generated/I24-v1.png",
+      "anatomy": "needs_review",
+      "action_review": "rejected",
+      "publishable": false,
+      "report": "quality/anatomy-reviews/I24-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "I25",
+      "path": "assets/generated/I25-v1.png",
+      "anatomy": "approve",
+      "action_review": "approved",
+      "publishable": true,
+      "report": "quality/anatomy-reviews/I25-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "I26",
+      "path": "assets/generated/I26-v1.png",
+      "anatomy": "approve",
+      "action_review": "approved",
+      "publishable": true,
+      "report": "quality/anatomy-reviews/I26-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "I27",
+      "path": "assets/generated/I27-v1.png",
+      "anatomy": "needs_review",
+      "action_review": "pending_review",
+      "publishable": false,
+      "report": "quality/anatomy-reviews/I27-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "T02",
+      "path": "assets/generated/T02-v1.png",
+      "anatomy": "needs_review",
+      "action_review": "rejected",
+      "publishable": false,
+      "report": "quality/anatomy-reviews/T02-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "I29",
+      "path": "assets/generated/I29-v1.png",
+      "anatomy": "needs_review",
+      "action_review": "pending_review",
+      "publishable": false,
+      "report": "quality/anatomy-reviews/I29-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "I30",
+      "path": "assets/generated/I30-v1.png",
+      "anatomy": "needs_review",
+      "action_review": "pending_review",
+      "publishable": false,
+      "report": "quality/anatomy-reviews/I30-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "T10",
+      "path": "assets/generated/T10-v1.png",
+      "anatomy": "approve",
+      "action_review": "approved",
+      "publishable": true,
+      "report": "quality/anatomy-reviews/T10-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "T09",
+      "path": "assets/generated/T09-v1.png",
+      "anatomy": "needs_review",
+      "action_review": "pending_review",
+      "publishable": false,
+      "report": "quality/anatomy-reviews/T09-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "B03",
+      "path": "assets/generated/B03-v1.png",
+      "anatomy": "needs_review",
+      "action_review": "pending_review",
+      "publishable": false,
+      "report": "quality/anatomy-reviews/B03-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "T07",
+      "path": "assets/generated/T07-v1.png",
+      "anatomy": "needs_review",
+      "action_review": "pending_review",
+      "publishable": false,
+      "report": "quality/anatomy-reviews/T07-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "T11",
+      "path": "assets/generated/T11-v1.png",
+      "anatomy": "needs_review",
+      "action_review": "pending_review",
+      "publishable": false,
+      "report": "quality/anatomy-reviews/T11-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "T13",
+      "path": "assets/generated/T13-v1.png",
+      "anatomy": "needs_review",
+      "action_review": "pending_review",
+      "publishable": false,
+      "report": "quality/anatomy-reviews/T13-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "T14",
+      "path": "assets/generated/T14-v1.png",
+      "anatomy": "needs_review",
+      "action_review": "pending_review",
+      "publishable": false,
+      "report": "quality/anatomy-reviews/T14-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "T17",
+      "path": "assets/generated/T17-v1.png",
+      "anatomy": "approve",
+      "action_review": "approved",
+      "publishable": true,
+      "report": "quality/anatomy-reviews/T17-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "T15",
+      "path": "assets/generated/T15-v1.png",
+      "anatomy": "needs_review",
+      "action_review": "pending_review",
+      "publishable": false,
+      "report": "quality/anatomy-reviews/T15-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "T12",
+      "path": "assets/generated/T12-v1.png",
+      "anatomy": "needs_review",
+      "action_review": "pending_review",
+      "publishable": false,
+      "report": "quality/anatomy-reviews/T12-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "T20",
+      "path": "assets/generated/T20-v1.png",
+      "anatomy": "needs_review",
+      "action_review": "pending_review",
+      "publishable": false,
+      "report": "quality/anatomy-reviews/T20-v1.json",
+      "errors": [
+        "关键姿态与动作匹配检查未通过或仍不确定"
+      ]
+    },
+    {
+      "action_id": "T19",
+      "path": "assets/generated/T19-v1.png",
+      "anatomy": "needs_review",
+      "action_review": "pending_review",
+      "publishable": false,
+      "report": "quality/anatomy-reviews/T19-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "U09",
+      "path": "assets/generated/U09-v1.png",
+      "anatomy": "needs_review",
+      "action_review": "pending_review",
+      "publishable": false,
+      "report": "quality/anatomy-reviews/U09-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "T18",
+      "path": "assets/generated/T18-v1.png",
+      "anatomy": "needs_review",
+      "action_review": "pending_review",
+      "publishable": false,
+      "report": "quality/anatomy-reviews/T18-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "B01",
+      "path": "assets/generated/B01-v1.png",
+      "anatomy": "needs_review",
+      "action_review": "pending_review",
+      "publishable": false,
+      "report": "quality/anatomy-reviews/B01-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "B02",
+      "path": "assets/generated/B02-v1.png",
+      "anatomy": "needs_review",
+      "action_review": "pending_review",
+      "publishable": false,
+      "report": "quality/anatomy-reviews/B02-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "T06",
+      "path": "assets/generated/T06-v1.png",
+      "anatomy": "needs_review",
+      "action_review": "pending_review",
+      "publishable": false,
+      "report": "quality/anatomy-reviews/T06-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "T05",
+      "path": "assets/generated/T05-v1.png",
+      "anatomy": "needs_review",
+      "action_review": "pending_review",
+      "publishable": false,
+      "report": "quality/anatomy-reviews/T05-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "T08",
+      "path": "assets/generated/T08-v1.png",
+      "anatomy": "approve",
+      "action_review": "approved",
+      "publishable": true,
+      "report": "quality/anatomy-reviews/T08-v1.json",
+      "errors": []
+    },
+    {
+      "action_id": "T16",
+      "path": "assets/generated/T16-v1.png",
+      "anatomy": "approve",
+      "action_review": "approved",
+      "publishable": true,
+      "report": "quality/anatomy-reviews/T16-v1.json",
+      "errors": []
+    }
+  ],
+  "scope": "逐图、逐帧的可见手形检查；AI 示意不提高原动作的文献证据等级，未验证物理可行性。",
+  "remaining": 128
+}

@@ -1,0 +1,108 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/T13-v1.png",
+  "sha256": "8f8507d7896c7a40e0fb95c814d66ad3328d331c17c818eea03af37c95ab26bf",
+  "action_id": "T13",
+  "reviewer": "hand-anatomy-reviewer / anatomy_review_batch2 / visual model review",
+  "intended_action": {
+    "name": "有遮挡目标拾取",
+    "hands": "单手"
+  },
+  "expected_panels": 1,
+  "expected_hands_per_panel": [
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0.0,
+        0,
+        1.0,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "dorsal/radial oblique reaching around an occluder",
+          "bbox": [
+            0.334,
+            0.155,
+            1,
+            0.725
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "The radial thumb emerges from the near/right side of the dorsal hand, curves down-left through one visible bend and ends in a broad nail-bearing pad against the target cube right face."
+            },
+            "index": {
+              "visibility": "unresolvable",
+              "trace": "The broad nearest long-finger ray runs from the distal hand through a bent knuckle toward the gap beside the bottle; its distal contour vanishes behind the bottle/cube edge and no independent index tip can be isolated."
+            },
+            "middle": {
+              "visibility": "unresolvable",
+              "trace": "A farther dorsal ray is visible behind the index along the upper-left contour, but the bottle covers its distal region; its separate terminal pad cannot be paired with a unique middle base-to-tip chain."
+            },
+            "ring": {
+              "visibility": "unresolvable",
+              "trace": "A narrow central rear curled ray descends toward the target cube top. The cube obscures its actual tip, so its complete ring-finger chain cannot be distinguished from the neighboring overlap."
+            },
+            "little": {
+              "visibility": "unresolvable",
+              "trace": "The rightmost rear curled ray bends toward the cube behind the index; a rounded side segment remains visible but the terminal tip is hidden by the cube, preventing an independent little-finger trace."
+            }
+          },
+          "count_observation": "One complete thumb ray is clear; several non-thumb bends and proximal segments are visible, but the bottle/cube overlap prevents tracing four unique terminal chains. No fifth ray is invented from the occluder outline.",
+          "length_observation": "The thumb has a plausible short two-section curved form, while the exposed upper finger segments are bent rather than visibly stretched. The index/middle terminal paths are interrupted by the bottle and the two rear fingers end behind the cube; their full curved centerlines and five-digit relative lengths cannot be evaluated. Short exposed strips are not treated as anatomically short fingers.",
+          "joint_observation": "The visible hand, wrist and thumb are continuous and right-handed dorsal/radial orientation is consistent. Hidden non-thumb endpoints prevent checking their complete joint topology or absence of merging. All visible hand boundaries and a short forearm fit; occlusion, not cropping, causes the unresolved tips.",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "The bottle masks the terminal region of the near index/middle rays, and the target cube hides the distal ends of the two rear curled rays. Four independently connected non-thumb tips cannot be established from the visible bends.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "The bottle masks the terminal region of the near index/middle rays, and the target cube hides the distal ends of the two rear curled rays. Four independently connected non-thumb tips cannot be established from the visible bends. The hidden ray cannot be connected to a unique base through its full visible chain.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "The thumb has a plausible short two-section curved form, while the exposed upper finger segments are bent rather than visibly stretched. The index/middle terminal paths are interrupted by the bottle and the two rear fingers end behind the cube; their full curved centerlines and five-digit relative lengths cannot be evaluated. Short exposed strips are not treated as anatomically short fingers.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "The bottle masks the terminal region of the near index/middle rays, and the target cube hides the distal ends of the two rear curled rays. Four independently connected non-thumb tips cannot be established from the visible bends. Hidden flexion and segment topology cannot be verified.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "pass",
+    "observation": "One actual panel and one hand were inspected. No temporal sequence is supplied, so there is no observed inter-panel side swap or length change; this does not certify an unshown movement. Within-frame uncertainties, if present, are recorded in the hand checks."
+  },
+  "decision": "needs_review",
+  "limitations": "Actual full-resolution image and enlarged digit/contact details inspected. Qualitative visual anatomy only: hidden bones, exact finger lengths and physical feasibility are not measured. Action fidelity is assessed separately against the catalog props and the visible key pose; a static pose does not validate full motion, contact timing or task success.",
+  "action_fidelity": {
+    "status": "pass",
+    "observation": "目录目标为有遮挡目标拾取，道具为方块/瓶。原图中目标方块被前方瓶子与另一木块部分遮挡，单手从右侧绕入，拇指明确接触目标方块右面；道具、遮挡关系和拾取接触阶段的关键姿态符合。该 pass 仅针对所示静态接触阶段，不证明后续离桌或完整四阶段时序。"
+  }
+}

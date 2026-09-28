@@ -1,0 +1,189 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/I08-v1.png",
+  "sha256": "8e1e4a7fc943f21f7d2b2af54ef9f6db600f8cf26dd88794defa21be876b7d22",
+  "action_id": "I08",
+  "reviewer": "hand-anatomy-reviewer / independent visual model review",
+  "expected_panels": 3,
+  "expected_hands_per_panel": [
+    1,
+    1,
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0,
+        0,
+        0.378,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "palmar-radial oblique",
+          "bbox": [
+            0.043,
+            0.122,
+            0.369,
+            0.97
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "右侧鱼际连续接到斜向左上的拇指，IP 后大指甲及末端贴硬币下缘，根部到指端完整。"
+            },
+            "index": {
+              "visibility": "traceable",
+              "trace": "最上方食指从桡侧掌远端起，经弯曲近/中节向左，末节指腹接硬币上缘；硬币仅遮住接触处很短的指尖边缘。"
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "食指下方的中指由掌远端向左回弯，在拇指后短遮挡后露出最左侧小带甲指端，弯曲链与末端可匹配。"
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "中指下方无名指在拇指后方短遮挡，延续到左侧中间朝下的带甲指端；侧边和回弯段区别于小指。"
+            },
+            "little": {
+              "visibility": "traceable",
+              "trace": "最下尺侧小指自较低掌缘回弯到最低的小指甲，近节侧缘和末节独立，不借用无名指端。"
+            }
+          },
+          "count_observation": "逐条追踪到一条拇指与四条独立长指；每条均有独立路径和指端，未见额外或分叉指。",
+          "length_observation": "食指绕硬币成弧，末节没有拉长；中指/无名指蜷曲，沿可见弯曲中心线长度相近，小指更短，拇指较宽但与掌宽协调。",
+          "joint_observation": "五条指链可分别回溯，短拇指遮挡前后的段方向可配对。拇指为侧根、食指至小指为有序掌远端根；两处长指间关节弯曲及末节指甲位置合理，无融合、分叉或物体穿透。",
+          "checks": {
+            "five_digits": "pass",
+            "connectivity": "pass",
+            "proportions": "pass",
+            "joint_structure": "pass",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": []
+        }
+      ]
+    },
+    {
+      "panel": 2,
+      "bbox": [
+        0.378,
+        0,
+        0.709,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "palmar-radial oblique",
+          "bbox": [
+            0.387,
+            0.135,
+            0.704,
+            0.973
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "右侧鱼际连续接到斜向左上的拇指，IP 后大指甲及末端贴硬币下缘，根部到指端完整。"
+            },
+            "index": {
+              "visibility": "traceable",
+              "trace": "最上方食指从桡侧掌远端起，经弯曲近/中节向左，末节指腹接硬币上缘；硬币仅遮住接触处很短的指尖边缘。"
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "食指下方的中指由掌远端向左回弯，在拇指后短遮挡后露出最左侧小带甲指端，弯曲链与末端可匹配。"
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "中指下方无名指在拇指后方短遮挡，延续到左侧中间朝下的带甲指端；侧边和回弯段区别于小指。"
+            },
+            "little": {
+              "visibility": "traceable",
+              "trace": "最下尺侧小指自较低掌缘回弯到最低的小指甲，近节侧缘和末节独立，不借用无名指端。"
+            }
+          },
+          "count_observation": "逐条追踪到一条拇指与四条独立长指；每条均有独立路径和指端，未见额外或分叉指。",
+          "length_observation": "硬币转为斜面，手指构型变化很小。与第1格比较，拇食指节段长度稳定，蜷曲中、无名指与短小指的相对弧长相容，无突长或突短。",
+          "joint_observation": "五条指链可分别回溯，短拇指遮挡前后的段方向可配对。拇指为侧根、食指至小指为有序掌远端根；两处长指间关节弯曲及末节指甲位置合理，无融合、分叉或物体穿透。",
+          "checks": {
+            "five_digits": "pass",
+            "connectivity": "pass",
+            "proportions": "pass",
+            "joint_structure": "pass",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": []
+        }
+      ]
+    },
+    {
+      "panel": 3,
+      "bbox": [
+        0.709,
+        0,
+        1,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "palmar-radial oblique",
+          "bbox": [
+            0.712,
+            0.129,
+            1,
+            0.973
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "右侧鱼际连续接到斜向左上的拇指，IP 后大指甲及末端贴硬币下缘，根部到指端完整。"
+            },
+            "index": {
+              "visibility": "traceable",
+              "trace": "最上方食指从桡侧掌远端起，经弯曲近/中节向左，末节指腹接硬币上缘；硬币仅遮住接触处很短的指尖边缘。"
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "食指下方的中指由掌远端向左回弯，在拇指后短遮挡后露出最左侧小带甲指端，弯曲链与末端可匹配。"
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "中指下方无名指在拇指后方短遮挡，延续到左侧中间朝下的带甲指端；侧边和回弯段区别于小指。"
+            },
+            "little": {
+              "visibility": "traceable",
+              "trace": "最下尺侧小指自较低掌缘回弯到最低的小指甲，近节侧缘和末节独立，不借用无名指端。"
+            }
+          },
+          "count_observation": "逐条追踪到一条拇指与四条独立长指；每条均有独立路径和指端，未见额外或分叉指。",
+          "length_observation": "硬币更接近侧面，食指仍保持相似弧长；三条收拢指依次拥有独立末端，小指更短。未用投影指尖位置推断固定食/无名指长短比，无异常长中节。",
+          "joint_observation": "五条指链可分别回溯，短拇指遮挡前后的段方向可配对。拇指为侧根、食指至小指为有序掌远端根；两处长指间关节弯曲及末节指甲位置合理，无融合、分叉或物体穿透。",
+          "checks": {
+            "five_digits": "pass",
+            "connectivity": "pass",
+            "proportions": "pass",
+            "joint_structure": "pass",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "pass",
+    "observation": "三格保持同一右手掌桡侧和五指排列；硬币角度改变时手指身份、相对长度、关节弯曲连续。未见左右互换或指端增减；每格完整手掌、手腕和一段前臂在画内。"
+  },
+  "decision": "approve",
+  "limitations": "实际查看原始全分辨率三格图，并放大相关指列和接触区；这是单视角视觉检查，不能测量隐藏骨骼、真实指长或证明物理可行性。已查 research/catalog.json 动作定义；本报告仅审手部形态，不代替动作语义与接触审核。"
+}

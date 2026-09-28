@@ -1,0 +1,104 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/T12-v1.png",
+  "sha256": "1d9c80e944657222b8875e41e24c129d0613d5ce4eb2e02f2ea6c0f813bd410b",
+  "action_id": "T12",
+  "reviewer": "hand-anatomy-reviewer / independent visual model review",
+  "expected_panels": 1,
+  "expected_hands_per_panel": [
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "dorsoradial oblique",
+          "bbox": [
+            0.244,
+            0.024,
+            1,
+            0.587
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "前右拇指由桡侧掌缘向左下伸，经 IP 到所夹木块右侧带甲末端，根到端连续。"
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "前景食指从远端手背起，向左下弯曲，经两处指间关节到木块左上边缘的完整指端。"
+            },
+            "middle": {
+              "visibility": "visible",
+              "trace": "食指后方中指有独立根部与较高弯曲链，向左下悬垂，到木块上方不接物的带甲指端。"
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "再后上方的无名指从尺侧远端掌缘经短重叠后向左拱，末端在最上左侧，根部出入走向可唯一配对。"
+            },
+            "little": {
+              "visibility": "unresolvable",
+              "trace": "最深尺侧只见掌内一块回弯表面，没有独立小指末节/指端；不能将无名指附近皮肤边缘算为小指。"
+            }
+          },
+          "count_observation": "拇、食、中、无名四条指链完整或经短重叠可追踪，小指没有可独立辨认的终点，五指未知。",
+          "length_observation": "已见三条长指沿不同弯曲中心线的长度相容，中指并非按投影高度算短；拇指无明显伸长。小指全链不可解析，无法检验其长度相对另外三指是否正常，因此整手比例不能通过。",
+          "joint_observation": "四条可辨链从各自有序掌缘接出，末端与指甲位置合理；隐藏小指的连接和三段结构仍不可核对，没有用掌内褶皱补足。",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "小指在最深处被手掌/其他手指完全遮住，未露出可唯一匹配的末段及指端；仅凭预期五指不能通过。",
+              "correction": "略展开小指或转动观察角度，让小指独立末端和连接通路可见，保留拇食指从盒内夹取方块的空间关系。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "小指在最深处被手掌/其他手指完全遮住，未露出可唯一匹配的末段及指端；仅凭预期五指不能通过。",
+              "correction": "略展开小指或转动观察角度，让小指独立末端和连接通路可见，保留拇食指从盒内夹取方块的空间关系。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "小指在最深处被手掌/其他手指完全遮住，未露出可唯一匹配的末段及指端；仅凭预期五指不能通过。",
+              "correction": "略展开小指或转动观察角度，让小指独立末端和连接通路可见，保留拇食指从盒内夹取方块的空间关系。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "小指在最深处被手掌/其他手指完全遮住，未露出可唯一匹配的末段及指端；仅凭预期五指不能通过。",
+              "correction": "略展开小指或转动观察角度，让小指独立末端和连接通路可见，保留拇食指从盒内夹取方块的空间关系。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "pass",
+    "observation": "单格只见一只手及其连续手腕/短前臂，无多余手。没有其他时间帧可比较；不从单格推断跨帧长度或运动连续性。"
+  },
+  "decision": "needs_review",
+  "action_fidelity": {
+    "status": "pass",
+    "observation": "道具包括带侧壁的开放盒子与木方块，盒内仍有其他方块，拇食指夹住一块并将其呈现在盒口上方，符合从受限容器取出的退出关键姿态。当前帧手指已高于盒沿，不能证明前一阶段的避碰路径、空间裕量或整个拾取过程。"
+  },
+  "limitations": "已独立打开当前实际原始文件的全分辨率图，并放大相关手指；透明区域仅在临时白底预览中辅助观察，原图未修改。已读取 research/catalog.json 对应目标。形态判断只覆盖可见外部指链，不要求看见骨骼，不测量隐藏骨长或保证物理可行性。action_fidelity 只核对所画道具与单张关键姿态，不等同于确认完整运动过程、轨迹、接触时序或任务最终成功。"
+}

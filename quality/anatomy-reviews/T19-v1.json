@@ -1,0 +1,106 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/T19-v1.png",
+  "sha256": "12bd29f0fbd2b321e03b1ff1f85aa4326f9cd5c9522b1bcd14f9142978bf9685",
+  "action_id": "T19",
+  "reviewer": "hand-anatomy-reviewer / independent visual model review (motion_media)",
+  "expected_panels": 1,
+  "expected_hands_per_panel": [
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "left",
+          "view": "背侧斜视，手离开桌面方块",
+          "bbox": [
+            0,
+            0,
+            0.751,
+            0.661
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "由画面左下径侧掌根伸向下方，清楚的指间折纹之后是完整带甲指尖，与方块有间隙。"
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "最靠拇指的粗长指由前方掌指部向右下弯，指端和指甲独立悬空。"
+            },
+            "middle": {
+              "visibility": "visible",
+              "trace": "食指右侧第二条较长指链从背侧隆起接出，经过两次弯曲到最右上方的带甲末端。"
+            },
+            "ring": {
+              "visibility": "unresolvable",
+              "trace": "中指末端下仅露出一条窄的额外指端轮廓，近节和独立根部被完全叠住，不能可靠辨认完整无名指。"
+            },
+            "little": {
+              "visibility": "traceable",
+              "trace": "掌面内侧下垂的一根细指有独立近节方向和指间折纹，朝下到圆端；其基部有短段被前方食指挡住。"
+            }
+          },
+          "count_observation": "拇指、两条前景长指及一条内侧下垂细指可追踪；中指后方薄轮廓不足以验证第五条完整指链。",
+          "length_observation": "前景两根屈曲指和拇指未见明确节段拉伸；后方叠指长度不可恢复，不能借末端重叠判断无名指与小指比例。",
+          "joint_observation": "可见掌腕连续，前景指节屈曲方向合理；中指下方薄末端与隐藏根部的对应关系未解，关节与连接未知。",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "拇指、两条前景长指及一条内侧下垂细指可追踪；中指后方薄轮廓不足以验证第五条完整指链。",
+              "correction": "补充同一姿态的无遮挡视角，或轻微分开并露出受遮挡手指的独立根部、指节与指尖；保留正确道具和接触。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "可见掌腕连续，前景指节屈曲方向合理；中指下方薄末端与隐藏根部的对应关系未解，关节与连接未知。",
+              "correction": "补充同一姿态的无遮挡视角，或轻微分开并露出受遮挡手指的独立根部、指节与指尖；保留正确道具和接触。"
+            },
+            {
+              "code": "length_ratio",
+              "check": "proportions",
+              "evidence": "前景两根屈曲指和拇指未见明确节段拉伸；后方叠指长度不可恢复，不能借末端重叠判断无名指与小指比例。",
+              "correction": "补充同一姿态的无遮挡视角，或轻微分开并露出受遮挡手指的独立根部、指节与指尖；保留正确道具和接触。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "可见掌腕连续，前景指节屈曲方向合理；中指下方薄末端与隐藏根部的对应关系未解，关节与连接未知。",
+              "correction": "补充同一姿态的无遮挡视角，或轻微分开并露出受遮挡手指的独立根部、指节与指尖；保留正确道具和接触。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "pass",
+    "observation": "仅一个静态画面，实际看到 1 只手，与动作要求的手数相符；没有跨帧材料，未据此评估左右互换、指长随时间变化或运动连续性。"
+  },
+  "decision": "needs_review",
+  "limitations": "已打开原始分辨率 PNG；有歧义处另做局部放大。单视角视觉检查，遮挡几何和精确长度不作补全或测量；不是物理、临床或完整运动验证。",
+  "action_fidelity": {
+    "status": "pass",
+    "observation": "立方体独立放在桌面，所有可见指端与方块之间均有空隙。正确道具与放置后脱离接触的结束姿态匹配；不证明此前放置过程或释放速度。"
+  },
+  "action_fidelity_scope": "Only the single key pose and expected prop are reviewed; no temporal completion claim.",
+  "inspection_note": "原图及 /tmp/T19-anatomy-zoom.png 局部放大均已实际查看。"
+}

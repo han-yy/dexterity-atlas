@@ -1,135 +1,1186 @@
 {
-  "version": "1.2",
-  "project_audit": {
-    "version": "1.2",
-    "date": "2026-09-24",
-    "projects": [
+  "version": "1.4",
+  "illustration_audit": {
+    "version": "1.0",
+    "candidates": 142,
+    "approved": 14,
+    "generated": 49,
+    "records": [
       {
-        "source": "PLAY2PERFECT",
-        "new_actions": [
-          "U39",
-          "U40",
-          "U41",
-          "U42",
-          "U43"
-        ],
-        "enriched_actions": [
-          "U17"
-        ],
-        "new_props": [
-          "threaded_leg",
-          "multipart_kit",
-          "fork",
-          "fork_rack"
-        ],
-        "existing_props": [
-          "peg",
-          "plug"
-        ],
-        "note": "紧配插入并入 U17；新增螺纹桌腿、多部件装配、刚性充电器插接、餐叉入架和重试。仿真菜单确认 charger / fork，未把叉子误记为叉形插销。"
+        "action_id": "T04",
+        "path": "assets/generated/T04-v1.png",
+        "anatomy": "needs_review",
+        "action_review": "approved",
+        "publishable": false,
+        "report": "quality/anatomy-reviews/T04-v1.json",
+        "errors": []
       },
       {
-        "source": "ADEPT",
-        "new_actions": [
-          "T21",
-          "T22"
-        ],
-        "enriched_actions": [
-          "U17"
-        ],
-        "new_props": [
-          "fmb_double",
-          "fmb_star",
-          "plate",
-          "dish_rack",
-          "capsule",
-          "cone"
-        ],
-        "existing_props": [
-          "sphere",
-          "cube"
-        ],
-        "note": "FMB 方圆双叉、星形插销和视触觉版本并入 U17；盘子入架、臂手协同 reposing 新建。16 个几何规格归入已有方块 / 球及新增胶囊 / 圆锥道具。"
+        "action_id": "I03",
+        "path": "assets/generated/I03-v1.png",
+        "anatomy": "needs_review",
+        "action_review": "approved",
+        "publishable": false,
+        "report": "quality/anatomy-reviews/I03-v1.json",
+        "errors": []
       },
       {
-        "source": "WMCRAFT",
-        "new_actions": [
-          "I35",
-          "I36",
-          "I37",
-          "I39"
-        ],
-        "enriched_actions": [
-          "I01",
-          "I05",
-          "I28"
-        ],
-        "new_props": [
-          "bulb",
-          "duck",
-          "piggy",
-          "apple",
-          "strawberry",
-          "bun",
-          "fire_hydrant",
-          "cross_block",
-          "corner_block",
-          "notched_block",
-          "stepped_block",
-          "lego_brick",
-          "can",
-          "toothpaste",
-          "flashlight",
-          "toy_bucket",
-          "switch_object"
-        ],
-        "existing_props": [
-          "cylinder",
-          "bottle",
-          "screw"
-        ],
-        "note": "轴向、形状、控制策略不重复计为动作。新建恢复、重力条件入口与工具平移；未见物体测试归为条件，失败案例不冒充成功演示。"
+        "action_id": "I04",
+        "path": "assets/generated/I04-v1.png",
+        "anatomy": "approve",
+        "action_review": "approved",
+        "publishable": true,
+        "report": "quality/anatomy-reviews/I04-v1.json",
+        "errors": []
       },
       {
-        "source": "TELEDEXTER",
-        "new_actions": [
-          "I38",
-          "U44",
-          "U45",
-          "U46",
-          "U47",
-          "U48",
-          "U49",
-          "U50",
-          "U51",
-          "U52"
-        ],
-        "enriched_actions": [
-          "I02",
-          "U07",
-          "I32"
-        ],
-        "new_props": [
-          "hammer",
-          "nail_board",
-          "brush",
-          "bulb",
-          "bulb_socket",
-          "bunny"
-        ],
-        "existing_props": [
-          "pen",
-          "screw"
-        ],
-        "note": "连续转笔并入 I32、重定向并入 I02；新建联合抓型转换和完整工具链。工具链与可独立采集子步骤有父子关联，不能把条目数当独立能力数。"
+        "action_id": "I05",
+        "path": "assets/generated/I05-v1.png",
+        "anatomy": "reject",
+        "action_review": "rejected",
+        "publishable": false,
+        "report": "quality/anatomy-reviews/I05-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "I06",
+        "path": "assets/generated/I06-v1.png",
+        "anatomy": "needs_review",
+        "action_review": "approved",
+        "publishable": false,
+        "report": "quality/anatomy-reviews/I06-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "I07",
+        "path": "assets/generated/I07-v1.png",
+        "anatomy": "approve",
+        "action_review": "approved",
+        "publishable": true,
+        "report": "quality/anatomy-reviews/I07-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "I08",
+        "path": "assets/generated/I08-v1.png",
+        "anatomy": "approve",
+        "action_review": "approved",
+        "publishable": true,
+        "report": "quality/anatomy-reviews/I08-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "I09",
+        "path": "assets/generated/I09-v1.png",
+        "anatomy": "approve",
+        "action_review": "approved",
+        "publishable": true,
+        "report": "quality/anatomy-reviews/I09-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "I10",
+        "path": "assets/generated/I10-v1.png",
+        "anatomy": "approve",
+        "action_review": "approved",
+        "publishable": true,
+        "report": "quality/anatomy-reviews/I10-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "I11",
+        "path": "assets/generated/I11-v1.png",
+        "anatomy": "approve",
+        "action_review": "approved",
+        "publishable": true,
+        "report": "quality/anatomy-reviews/I11-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "I12",
+        "path": "assets/generated/I12-v1.png",
+        "anatomy": "needs_review",
+        "action_review": "pending_review",
+        "publishable": false,
+        "report": "quality/anatomy-reviews/I12-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "I13",
+        "path": "assets/generated/I13-v1.png",
+        "anatomy": "needs_review",
+        "action_review": "pending_review",
+        "publishable": false,
+        "report": "quality/anatomy-reviews/I13-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "I14",
+        "path": "assets/generated/I14-v1.png",
+        "anatomy": "needs_review",
+        "action_review": "pending_review",
+        "publishable": false,
+        "report": "quality/anatomy-reviews/I14-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "I15",
+        "path": "assets/generated/I15-v1.png",
+        "anatomy": "needs_review",
+        "action_review": "pending_review",
+        "publishable": false,
+        "report": "quality/anatomy-reviews/I15-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "I16",
+        "path": "assets/generated/I16-v1.png",
+        "anatomy": "needs_review",
+        "action_review": "pending_review",
+        "publishable": false,
+        "report": "quality/anatomy-reviews/I16-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "I17",
+        "path": "assets/generated/I17-v1.png",
+        "anatomy": "needs_review",
+        "action_review": "pending_review",
+        "publishable": false,
+        "report": "quality/anatomy-reviews/I17-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "I18",
+        "path": "assets/generated/I18-v1.png",
+        "anatomy": "needs_review",
+        "action_review": "pending_review",
+        "publishable": false,
+        "report": "quality/anatomy-reviews/I18-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "I05",
+        "path": "assets/generated/I05-v2.png",
+        "anatomy": "reject",
+        "action_review": "pending_review",
+        "publishable": false,
+        "report": "quality/anatomy-reviews/I05-v2.json",
+        "errors": []
+      },
+      {
+        "action_id": "I05",
+        "path": "assets/generated/I05-v3.png",
+        "anatomy": "approve",
+        "action_review": "approved",
+        "publishable": true,
+        "report": "quality/anatomy-reviews/I05-v3.json",
+        "errors": []
+      },
+      {
+        "action_id": "I19",
+        "path": "assets/generated/I19-v1.png",
+        "anatomy": "approve",
+        "action_review": "approved",
+        "publishable": true,
+        "report": "quality/anatomy-reviews/I19-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "I20",
+        "path": "assets/generated/I20-v1.png",
+        "anatomy": "approve",
+        "action_review": "rejected",
+        "publishable": false,
+        "report": "quality/anatomy-reviews/I20-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "I21",
+        "path": "assets/generated/I21-v1.png",
+        "anatomy": "approve",
+        "action_review": "rejected",
+        "publishable": false,
+        "report": "quality/anatomy-reviews/I21-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "I22",
+        "path": "assets/generated/I22-v1.png",
+        "anatomy": "needs_review",
+        "action_review": "pending_review",
+        "publishable": false,
+        "report": "quality/anatomy-reviews/I22-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "I23",
+        "path": "assets/generated/I23-v1.png",
+        "anatomy": "needs_review",
+        "action_review": "rejected",
+        "publishable": false,
+        "report": "quality/anatomy-reviews/I23-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "I24",
+        "path": "assets/generated/I24-v1.png",
+        "anatomy": "needs_review",
+        "action_review": "rejected",
+        "publishable": false,
+        "report": "quality/anatomy-reviews/I24-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "I25",
+        "path": "assets/generated/I25-v1.png",
+        "anatomy": "approve",
+        "action_review": "approved",
+        "publishable": true,
+        "report": "quality/anatomy-reviews/I25-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "I26",
+        "path": "assets/generated/I26-v1.png",
+        "anatomy": "approve",
+        "action_review": "approved",
+        "publishable": true,
+        "report": "quality/anatomy-reviews/I26-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "I27",
+        "path": "assets/generated/I27-v1.png",
+        "anatomy": "needs_review",
+        "action_review": "pending_review",
+        "publishable": false,
+        "report": "quality/anatomy-reviews/I27-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "T02",
+        "path": "assets/generated/T02-v1.png",
+        "anatomy": "needs_review",
+        "action_review": "rejected",
+        "publishable": false,
+        "report": "quality/anatomy-reviews/T02-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "I29",
+        "path": "assets/generated/I29-v1.png",
+        "anatomy": "needs_review",
+        "action_review": "pending_review",
+        "publishable": false,
+        "report": "quality/anatomy-reviews/I29-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "I30",
+        "path": "assets/generated/I30-v1.png",
+        "anatomy": "needs_review",
+        "action_review": "pending_review",
+        "publishable": false,
+        "report": "quality/anatomy-reviews/I30-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "T10",
+        "path": "assets/generated/T10-v1.png",
+        "anatomy": "approve",
+        "action_review": "approved",
+        "publishable": true,
+        "report": "quality/anatomy-reviews/T10-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "T09",
+        "path": "assets/generated/T09-v1.png",
+        "anatomy": "needs_review",
+        "action_review": "pending_review",
+        "publishable": false,
+        "report": "quality/anatomy-reviews/T09-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "B03",
+        "path": "assets/generated/B03-v1.png",
+        "anatomy": "needs_review",
+        "action_review": "pending_review",
+        "publishable": false,
+        "report": "quality/anatomy-reviews/B03-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "T07",
+        "path": "assets/generated/T07-v1.png",
+        "anatomy": "needs_review",
+        "action_review": "pending_review",
+        "publishable": false,
+        "report": "quality/anatomy-reviews/T07-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "T11",
+        "path": "assets/generated/T11-v1.png",
+        "anatomy": "needs_review",
+        "action_review": "pending_review",
+        "publishable": false,
+        "report": "quality/anatomy-reviews/T11-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "T13",
+        "path": "assets/generated/T13-v1.png",
+        "anatomy": "needs_review",
+        "action_review": "pending_review",
+        "publishable": false,
+        "report": "quality/anatomy-reviews/T13-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "T14",
+        "path": "assets/generated/T14-v1.png",
+        "anatomy": "needs_review",
+        "action_review": "pending_review",
+        "publishable": false,
+        "report": "quality/anatomy-reviews/T14-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "T17",
+        "path": "assets/generated/T17-v1.png",
+        "anatomy": "approve",
+        "action_review": "approved",
+        "publishable": true,
+        "report": "quality/anatomy-reviews/T17-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "T15",
+        "path": "assets/generated/T15-v1.png",
+        "anatomy": "needs_review",
+        "action_review": "pending_review",
+        "publishable": false,
+        "report": "quality/anatomy-reviews/T15-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "T12",
+        "path": "assets/generated/T12-v1.png",
+        "anatomy": "needs_review",
+        "action_review": "pending_review",
+        "publishable": false,
+        "report": "quality/anatomy-reviews/T12-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "T20",
+        "path": "assets/generated/T20-v1.png",
+        "anatomy": "needs_review",
+        "action_review": "pending_review",
+        "publishable": false,
+        "report": "quality/anatomy-reviews/T20-v1.json",
+        "errors": [
+          "关键姿态与动作匹配检查未通过或仍不确定"
+        ]
+      },
+      {
+        "action_id": "T19",
+        "path": "assets/generated/T19-v1.png",
+        "anatomy": "needs_review",
+        "action_review": "pending_review",
+        "publishable": false,
+        "report": "quality/anatomy-reviews/T19-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "U09",
+        "path": "assets/generated/U09-v1.png",
+        "anatomy": "needs_review",
+        "action_review": "pending_review",
+        "publishable": false,
+        "report": "quality/anatomy-reviews/U09-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "T18",
+        "path": "assets/generated/T18-v1.png",
+        "anatomy": "needs_review",
+        "action_review": "pending_review",
+        "publishable": false,
+        "report": "quality/anatomy-reviews/T18-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "B01",
+        "path": "assets/generated/B01-v1.png",
+        "anatomy": "needs_review",
+        "action_review": "pending_review",
+        "publishable": false,
+        "report": "quality/anatomy-reviews/B01-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "B02",
+        "path": "assets/generated/B02-v1.png",
+        "anatomy": "needs_review",
+        "action_review": "pending_review",
+        "publishable": false,
+        "report": "quality/anatomy-reviews/B02-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "T06",
+        "path": "assets/generated/T06-v1.png",
+        "anatomy": "needs_review",
+        "action_review": "pending_review",
+        "publishable": false,
+        "report": "quality/anatomy-reviews/T06-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "T05",
+        "path": "assets/generated/T05-v1.png",
+        "anatomy": "needs_review",
+        "action_review": "pending_review",
+        "publishable": false,
+        "report": "quality/anatomy-reviews/T05-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "T08",
+        "path": "assets/generated/T08-v1.png",
+        "anatomy": "approve",
+        "action_review": "approved",
+        "publishable": true,
+        "report": "quality/anatomy-reviews/T08-v1.json",
+        "errors": []
+      },
+      {
+        "action_id": "T16",
+        "path": "assets/generated/T16-v1.png",
+        "anatomy": "approve",
+        "action_review": "approved",
+        "publishable": true,
+        "report": "quality/anatomy-reviews/T16-v1.json",
+        "errors": []
       }
     ],
-    "new_action_count": 21,
-    "new_prop_count": 32,
-    "enriched_action_count": 7,
-    "granularity_note": "条目包含完整任务、工具子任务、恢复子任务与条件协议；父子任务与条件不应相加解释为独立技能数量。"
+    "scope": "逐图、逐帧的可见手形检查；AI 示意不提高原动作的文献证据等级，未验证物理可行性。",
+    "remaining": 128
   },
-  "verified": "2026-09-24",
+  "project_audit": {
+    "version": "1.3",
+    "date": "2026-09-28",
+    "title": "ActionSense · 活动与道具逐项拆解",
+    "new_action_count": 20,
+    "new_prop_count": 28,
+    "enriched_action_count": 5,
+    "projects": [
+      {
+        "source": "ACTIONSENSE",
+        "new_actions": [
+          "U53",
+          "U54",
+          "U55",
+          "U56",
+          "B26",
+          "B27",
+          "B28",
+          "T23",
+          "T24",
+          "T25",
+          "T26",
+          "T27",
+          "U57",
+          "U58",
+          "U59",
+          "B29",
+          "C13",
+          "C14",
+          "C15",
+          "C16"
+        ],
+        "enriched_actions": [
+          "B07",
+          "B14",
+          "C09",
+          "U22",
+          "U23"
+        ],
+        "new_props": [
+          "cucumber",
+          "potato",
+          "bread",
+          "peeler",
+          "chef_knife",
+          "bread_knife",
+          "table_knife",
+          "cutting_board",
+          "almond_butter",
+          "jelly",
+          "jar",
+          "pitcher",
+          "water",
+          "spoon",
+          "pot",
+          "dishwasher",
+          "cabinet",
+          "refrigerator",
+          "sink",
+          "scale",
+          "textured_calibration",
+          "emg_armband",
+          "finger_glove",
+          "body_imu",
+          "eye_tracker",
+          "rgb_camera",
+          "depth_camera",
+          "microphone"
+        ],
+        "existing_props": [
+          "cup",
+          "bowl",
+          "plate",
+          "pan",
+          "sponge",
+          "cloth",
+          "fork",
+          "bag",
+          "drawer",
+          "sensor"
+        ],
+        "note": "20 个标签均有映射；同技能材料条件合并，倒水复用 B14，单指校准复用 C09，开盖子步骤关联既有动作。"
+      }
+    ],
+    "granularity_note": "新增条目包括完整活动、本库拆解子动作与校准协议。它们不是相互独立的技能；器材也不计作操纵道具或动作。"
+  },
+  "import_history": [
+    {
+      "version": "1.2",
+      "date": "2026-09-24",
+      "projects": [
+        {
+          "source": "PLAY2PERFECT",
+          "new_actions": [
+            "U39",
+            "U40",
+            "U41",
+            "U42",
+            "U43"
+          ],
+          "enriched_actions": [
+            "U17"
+          ],
+          "new_props": [
+            "threaded_leg",
+            "multipart_kit",
+            "fork",
+            "fork_rack"
+          ],
+          "existing_props": [
+            "peg",
+            "plug"
+          ],
+          "note": "紧配插入并入 U17；新增螺纹桌腿、多部件装配、刚性充电器插接、餐叉入架和重试。仿真菜单确认 charger / fork，未把叉子误记为叉形插销。"
+        },
+        {
+          "source": "ADEPT",
+          "new_actions": [
+            "T21",
+            "T22"
+          ],
+          "enriched_actions": [
+            "U17"
+          ],
+          "new_props": [
+            "fmb_double",
+            "fmb_star",
+            "plate",
+            "dish_rack",
+            "capsule",
+            "cone"
+          ],
+          "existing_props": [
+            "sphere",
+            "cube"
+          ],
+          "note": "FMB 方圆双叉、星形插销和视触觉版本并入 U17；盘子入架、臂手协同 reposing 新建。16 个几何规格归入已有方块 / 球及新增胶囊 / 圆锥道具。"
+        },
+        {
+          "source": "WMCRAFT",
+          "new_actions": [
+            "I35",
+            "I36",
+            "I37",
+            "I39"
+          ],
+          "enriched_actions": [
+            "I01",
+            "I05",
+            "I28"
+          ],
+          "new_props": [
+            "bulb",
+            "duck",
+            "piggy",
+            "apple",
+            "strawberry",
+            "bun",
+            "fire_hydrant",
+            "cross_block",
+            "corner_block",
+            "notched_block",
+            "stepped_block",
+            "lego_brick",
+            "can",
+            "toothpaste",
+            "flashlight",
+            "toy_bucket",
+            "switch_object"
+          ],
+          "existing_props": [
+            "cylinder",
+            "bottle",
+            "screw"
+          ],
+          "note": "轴向、形状、控制策略不重复计为动作。新建恢复、重力条件入口与工具平移；未见物体测试归为条件，失败案例不冒充成功演示。"
+        },
+        {
+          "source": "TELEDEXTER",
+          "new_actions": [
+            "I38",
+            "U44",
+            "U45",
+            "U46",
+            "U47",
+            "U48",
+            "U49",
+            "U50",
+            "U51",
+            "U52"
+          ],
+          "enriched_actions": [
+            "I02",
+            "U07",
+            "I32"
+          ],
+          "new_props": [
+            "hammer",
+            "nail_board",
+            "brush",
+            "bulb",
+            "bulb_socket",
+            "bunny"
+          ],
+          "existing_props": [
+            "pen",
+            "screw"
+          ],
+          "note": "连续转笔并入 I32、重定向并入 I02；新建联合抓型转换和完整工具链。工具链与可独立采集子步骤有父子关联，不能把条目数当独立能力数。"
+        }
+      ],
+      "new_action_count": 21,
+      "new_prop_count": 32,
+      "enriched_action_count": 7,
+      "granularity_note": "条目包含完整任务、工具子任务、恢复子任务与条件协议；父子任务与条件不应相加解释为独立技能数量。"
+    }
+  ],
+  "actionsense": {
+    "source": "ACTIONSENSE",
+    "label_count": 20,
+    "activity_tasks": [
+      "T23",
+      "U55",
+      "U53",
+      "U54",
+      "U56",
+      "B26",
+      "B14",
+      "B27",
+      "B28",
+      "T24",
+      "T25",
+      "T26",
+      "T27"
+    ],
+    "activities": [
+      {
+        "id": "AS01",
+        "label": "Get/replace items from refrigerator/cabinets/drawers",
+        "name": "从冰箱、柜子、抽屉取放物品",
+        "action": "T23",
+        "condition": "通用取物 / 归位",
+        "props": [
+          "cabinet",
+          "refrigerator",
+          "drawer",
+          "sink"
+        ],
+        "subactions": [],
+        "source": "ACTIONSENSE",
+        "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+        "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+      },
+      {
+        "id": "AS02",
+        "label": "Clear cutting board",
+        "name": "清理砧板",
+        "action": "U55",
+        "condition": "蔬菜皮、蔬菜片、面包片",
+        "props": [
+          "cutting_board",
+          "chef_knife",
+          "pot",
+          "pan",
+          "cucumber",
+          "potato",
+          "bread"
+        ],
+        "subactions": [],
+        "source": "ACTIONSENSE",
+        "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+        "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+      },
+      {
+        "id": "AS03",
+        "label": "Peel a cucumber",
+        "name": "给黄瓜去皮",
+        "action": "U53",
+        "condition": "黄瓜",
+        "props": [
+          "cucumber",
+          "peeler",
+          "cutting_board"
+        ],
+        "subactions": [
+          "U57"
+        ],
+        "source": "ACTIONSENSE",
+        "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+        "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+      },
+      {
+        "id": "AS04",
+        "label": "Slice a cucumber",
+        "name": "黄瓜切片",
+        "action": "U54",
+        "condition": "已去皮黄瓜 + 厨师刀",
+        "props": [
+          "cucumber",
+          "chef_knife",
+          "cutting_board"
+        ],
+        "subactions": [
+          "U58"
+        ],
+        "source": "ACTIONSENSE",
+        "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+        "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+      },
+      {
+        "id": "AS05",
+        "label": "Peel a potato",
+        "name": "给土豆去皮",
+        "action": "U53",
+        "condition": "土豆",
+        "props": [
+          "potato",
+          "peeler",
+          "cutting_board"
+        ],
+        "subactions": [
+          "U57"
+        ],
+        "source": "ACTIONSENSE",
+        "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+        "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+      },
+      {
+        "id": "AS06",
+        "label": "Slice a potato",
+        "name": "土豆切片",
+        "action": "U54",
+        "condition": "已去皮土豆 + 厨师刀",
+        "props": [
+          "potato",
+          "chef_knife",
+          "cutting_board"
+        ],
+        "subactions": [
+          "U58"
+        ],
+        "source": "ACTIONSENSE",
+        "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+        "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+      },
+      {
+        "id": "AS07",
+        "label": "Slice bread",
+        "name": "面包切片",
+        "action": "U54",
+        "condition": "小餐包 + 面包刀",
+        "props": [
+          "bread",
+          "bread_knife",
+          "cutting_board"
+        ],
+        "subactions": [
+          "U58"
+        ],
+        "source": "ACTIONSENSE",
+        "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+        "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+      },
+      {
+        "id": "AS08",
+        "label": "Spread almond butter on a bread slice",
+        "name": "在面包片上涂杏仁酱",
+        "action": "U56",
+        "condition": "杏仁酱；面包手持或桌面支撑",
+        "props": [
+          "bread",
+          "table_knife",
+          "almond_butter",
+          "jar"
+        ],
+        "subactions": [
+          "U59"
+        ],
+        "source": "ACTIONSENSE",
+        "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+        "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+      },
+      {
+        "id": "AS09",
+        "label": "Spread jelly on a bread slice",
+        "name": "在面包片上涂果冻酱",
+        "action": "U56",
+        "condition": "原流程在杏仁酱层上涂果冻酱",
+        "props": [
+          "bread",
+          "table_knife",
+          "jelly",
+          "jar"
+        ],
+        "subactions": [
+          "U59"
+        ],
+        "source": "ACTIONSENSE",
+        "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+        "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+      },
+      {
+        "id": "AS10",
+        "label": "Open/close a jar of almond butter",
+        "name": "开合杏仁酱罐",
+        "action": "B26",
+        "condition": "开合循环 3 次；可桌面支撑",
+        "props": [
+          "jar",
+          "almond_butter"
+        ],
+        "subactions": [
+          "B07",
+          "U22",
+          "U23"
+        ],
+        "source": "ACTIONSENSE",
+        "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+        "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+      },
+      {
+        "id": "AS11",
+        "label": "Pour water from a pitcher into a glass",
+        "name": "把水壶中的水倒进杯子",
+        "action": "B14",
+        "condition": "手持接收杯；依次向 5 杯倒入",
+        "props": [
+          "pitcher",
+          "cup",
+          "water"
+        ],
+        "subactions": [],
+        "source": "ACTIONSENSE",
+        "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+        "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+      },
+      {
+        "id": "AS12",
+        "label": "Clean a plate with a sponge",
+        "name": "用海绵擦盘子",
+        "action": "B27",
+        "condition": "持盘 + 海绵；模拟干擦",
+        "props": [
+          "plate",
+          "sponge"
+        ],
+        "subactions": [
+          "B29"
+        ],
+        "source": "ACTIONSENSE",
+        "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+        "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+      },
+      {
+        "id": "AS13",
+        "label": "Clean a plate with a towel",
+        "name": "用毛巾擦盘子",
+        "action": "B27",
+        "condition": "持盘 + 毛巾；模拟干擦",
+        "props": [
+          "plate",
+          "cloth"
+        ],
+        "subactions": [
+          "B29"
+        ],
+        "source": "ACTIONSENSE",
+        "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+        "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+      },
+      {
+        "id": "AS14",
+        "label": "Clean a pan with a sponge",
+        "name": "用海绵擦锅",
+        "action": "B28",
+        "condition": "握锅柄 + 海绵；模拟干擦",
+        "props": [
+          "pan",
+          "sponge"
+        ],
+        "subactions": [
+          "B29"
+        ],
+        "source": "ACTIONSENSE",
+        "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+        "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+      },
+      {
+        "id": "AS15",
+        "label": "Clean a pan with a towel",
+        "name": "用毛巾擦锅",
+        "action": "B28",
+        "condition": "握锅柄 + 毛巾；模拟干擦",
+        "props": [
+          "pan",
+          "cloth"
+        ],
+        "subactions": [
+          "B29"
+        ],
+        "source": "ACTIONSENSE",
+        "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+        "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+      },
+      {
+        "id": "AS16",
+        "label": "Get items from cabinets: 3 each large/small plates, bowls, mugs, glasses, sets of utensils",
+        "name": "取出三套餐具",
+        "action": "T23",
+        "condition": "每类 3 件；大盘 / 小盘分开，刀勺叉各 3",
+        "props": [
+          "cabinet",
+          "drawer",
+          "plate",
+          "bowl",
+          "cup",
+          "table_knife",
+          "spoon",
+          "fork"
+        ],
+        "subactions": [],
+        "source": "ACTIONSENSE",
+        "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+        "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+      },
+      {
+        "id": "AS17",
+        "label": "Set table: 3 each large/small plates, bowls, mugs, glasses, sets of utensils",
+        "name": "布置三套餐具",
+        "action": "T24",
+        "condition": "三处用餐位置；每处八种餐具",
+        "props": [
+          "plate",
+          "bowl",
+          "cup",
+          "table_knife",
+          "spoon",
+          "fork"
+        ],
+        "subactions": [],
+        "source": "ACTIONSENSE",
+        "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+        "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+      },
+      {
+        "id": "AS18",
+        "label": "Stack on table: 3 each large/small plates, bowls",
+        "name": "在桌上叠放三组盘碗",
+        "action": "T25",
+        "condition": "大盘 / 小盘 / 碗，各 3 件",
+        "props": [
+          "plate",
+          "bowl"
+        ],
+        "subactions": [],
+        "source": "ACTIONSENSE",
+        "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+        "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+      },
+      {
+        "id": "AS19",
+        "label": "Load dishwasher: 3 each large/small plates, bowls, mugs, glasses, sets of utensils",
+        "name": "将三套餐具装入洗碗机",
+        "action": "T26",
+        "condition": "三套完整餐具；摆放策略可变",
+        "props": [
+          "plate",
+          "bowl",
+          "cup",
+          "table_knife",
+          "spoon",
+          "fork",
+          "dishwasher"
+        ],
+        "subactions": [],
+        "source": "ACTIONSENSE",
+        "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+        "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+      },
+      {
+        "id": "AS20",
+        "label": "Unload dishwasher: 3 each large/small plates, bowls, mugs, glasses, sets of utensils",
+        "name": "卸下三套餐具并归位",
+        "action": "T27",
+        "condition": "三套完整餐具；返回原储位",
+        "props": [
+          "plate",
+          "bowl",
+          "cup",
+          "table_knife",
+          "spoon",
+          "fork",
+          "dishwasher",
+          "cabinet",
+          "drawer"
+        ],
+        "subactions": [],
+        "source": "ACTIONSENSE",
+        "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities",
+        "protocol_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9"
+      }
+    ],
+    "license": "CC BY-NC-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "attribution": "DelPreto et al., ActionSense, NeurIPS 2022 / MIT. 中文译名、归并映射与采集拆解由 Dexterity Atlas 编写。",
+    "calibration_actions": [
+      "C13",
+      "C14",
+      "C09",
+      "C15",
+      "C16"
+    ],
+    "equipment": [
+      "emg_armband",
+      "finger_glove",
+      "body_imu",
+      "eye_tracker",
+      "rgb_camera",
+      "depth_camera",
+      "microphone",
+      "sensor"
+    ],
+    "props": [
+      "cucumber",
+      "potato",
+      "bread",
+      "peeler",
+      "chef_knife",
+      "bread_knife",
+      "table_knife",
+      "cutting_board",
+      "almond_butter",
+      "jelly",
+      "jar",
+      "pitcher",
+      "water",
+      "spoon",
+      "pot",
+      "dishwasher",
+      "cabinet",
+      "refrigerator",
+      "sink",
+      "scale",
+      "textured_calibration",
+      "emg_armband",
+      "finger_glove",
+      "body_imu",
+      "eye_tracker",
+      "rgb_camera",
+      "depth_camera",
+      "microphone",
+      "cup",
+      "bowl",
+      "plate",
+      "pan",
+      "sponge",
+      "cloth",
+      "fork",
+      "bag",
+      "drawer",
+      "sensor"
+    ],
+    "new_actions": [
+      "U53",
+      "U54",
+      "U55",
+      "U56",
+      "B26",
+      "B27",
+      "B28",
+      "T23",
+      "T24",
+      "T25",
+      "T26",
+      "T27",
+      "U57",
+      "U58",
+      "U59",
+      "B29",
+      "C13",
+      "C14",
+      "C15",
+      "C16"
+    ],
+    "enriched_actions": [
+      "B07",
+      "B14",
+      "C09",
+      "U22",
+      "U23"
+    ],
+    "scope": "完整活动 → 本库任务链 → 建议采集子动作。原始材料没有提供本库这些细分步骤的逐帧标签。",
+    "images": [
+      {
+        "url": "https://action-sense.csail.mit.edu/images/kitchen_items.jpg",
+        "label": "官方厨房道具总览"
+      },
+      {
+        "url": "https://action-sense.csail.mit.edu/images/activity_stats.jpg",
+        "label": "官方 20 项活动标签表"
+      }
+    ],
+    "dataset_notes": [
+      "真实人类厨房活动。20 个原标签映射为 13 个完整活动入口，材料与工具差异保留为条件；另有子动作和校准入口。",
+      "官网 Data 提醒早期 Manus 手指追踪不可靠；S06–S09 无手指追踪与触觉。逐 session 核查模态，不能以项目概览推定每次录制都有完整传感。",
+      "传感说明中手套只记录指屈曲而没有侧展，触觉未覆盖指尖；身体 IMU 的全局位置也可能漂移。",
+      "细粒度分段、阶段判据与中文任务拆解是本库编写；校准协议来自 C.3.1，厨房流程来自 C.4。"
+    ]
+  },
+  "verified": "2026-09-28",
   "sources": {
     "FEIX": {
       "short": "GRASP · Feix 2016",
@@ -370,6 +1421,36 @@
       "url": "https://bigai-dex.github.io/blog/teledexter/",
       "doi": "10.48550/arXiv.2607.11481",
       "note": "七项评估任务以及连续转笔、抓型转换。完整工具链是遥操作；锤击、装灯泡、刷扫另有自主策略演示。"
+    },
+    "ACTIONSENSE": {
+      "short": "ActionSense",
+      "title": "ActionSense: A Multimodal Dataset and Recording Framework for Human Activities Using Wearable Sensors in a Kitchen Environment",
+      "authors": "Joseph DelPreto, Chao Liu, Yiyue Luo, Michael Foshey, Yunzhu Li, Antonio Torralba, Wojciech Matusik, Daniela Rus",
+      "year": "2022",
+      "venue": "NeurIPS · Datasets and Benchmarks",
+      "url": "https://action-sense.csail.mit.edu/",
+      "doi": "10.52202/068431-1003",
+      "note": "20 项人类厨房活动标签。按完整活动记录，单次削皮、切片和擦拭需要另行分段；本库另列手部校准协议。不是机器人执行或完整可靠的手部 3D 真值。",
+      "license": "CC BY-NC-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "supporting_links": [
+        {
+          "label": "论文",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Paper-Datasets_and_Benchmarks.pdf"
+        },
+        {
+          "label": "补充材料 C.3–C.4 · 采集指令",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=8"
+        },
+        {
+          "label": "官方活动标签表",
+          "url": "https://action-sense.csail.mit.edu/dataset_info.html#activities"
+        },
+        {
+          "label": "数据与各参与者视频",
+          "url": "https://action-sense.csail.mit.edu/data.html"
+        }
+      ]
     }
   },
   "media": {
@@ -1081,6 +2162,49 @@
       "match": "Challenging Initialization Pose / 0–5 s 五指调整至可控区域，随后 Z 轴旋转",
       "domain": "仿真",
       "control": "自主策略"
+    },
+    "as_grid": {
+      "type": "video",
+      "url": "https://action-sense.csail.mit.edu/images/activities_grid_slide_compressed_cropped.mp4",
+      "source": "ACTIONSENSE",
+      "label": "ActionSense · 厨房活动合集",
+      "match": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+      "domain": "人类采集",
+      "control": "真人执行",
+      "scope": "reference",
+      "license": "CC BY-NC-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "verified": "2026-09-28",
+      "poster": "https://action-sense.csail.mit.edu/images/kitchen_items.jpg",
+      "poster_label": "原项目道具总览 · 非动作帧"
+    },
+    "as_session": {
+      "type": "youtube",
+      "url": "https://www.youtube.com/embed/u3sUbmwJcrQ",
+      "source": "ACTIONSENSE",
+      "label": "ActionSense · 带活动章节的多模态演示",
+      "match": "首页原始 YouTube 演示；章节对应活动标签。本库未核定各子动作时间戳。",
+      "domain": "人类采集",
+      "control": "真人执行",
+      "scope": "reference",
+      "license": "CC BY-NC-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "verified": "2026-09-28"
+    },
+    "as_calibration": {
+      "type": "link",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=8",
+      "source": "ACTIONSENSE",
+      "label": "ActionSense · 手部校准原始协议",
+      "match": "Supplement C.3.1，印刷页 8；以文字协议为证据，尚未定位独立校准视频。",
+      "domain": "人类采集",
+      "control": "真人执行",
+      "scope": "reference",
+      "license": "CC BY-NC-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "verified": "2026-09-28",
+      "poster": "https://action-sense.csail.mit.edu/images/wearable_sensors_v0.jpg",
+      "poster_label": "原项目传感器总览"
     }
   },
   "categories": [
@@ -1505,6 +2629,36 @@
       "source": [
         "TELEDEXTER"
       ]
+    },
+    {
+      "id": "P38",
+      "name": "切分与表层剥离",
+      "en": "Cut and peel material",
+      "definition": "用刃口使材料分离，或沿表面移除薄层；削皮与切片共享材料分离，但目标几何不同。",
+      "observe": "工具—材料相对路径、支撑接触、分离事件和材料形变",
+      "source": [
+        "ACTIONSENSE"
+      ]
+    },
+    {
+      "id": "P39",
+      "name": "涂布与铺展",
+      "en": "Spread a coating",
+      "definition": "保持工具与基底接触，将可变形材料铺展到目标区域。",
+      "observe": "覆盖区域、材料转移量、工具倾角、基底变形与破损",
+      "source": [
+        "ACTIONSENSE"
+      ]
+    },
+    {
+      "id": "P40",
+      "name": "倾倒与流量终止",
+      "en": "Pour and stop flow",
+      "definition": "改变容器姿态，将液体转移到接收容器，并恢复姿态以停止流动。",
+      "observe": "两容器相对位置、倾角、流动起止、接收量和洒漏",
+      "source": [
+        "ACTIONSENSE"
+      ]
     }
   ],
   "props": [
@@ -1667,14 +2821,35 @@
       "name": "杯",
       "group": "日用品",
       "spec": "有柄与无柄；先用空杯",
-      "use": "搬运、放杯、倒出"
+      "use": "搬运、放杯、倒出",
+      "variants": [
+        "水杯 glass：倒水时 5 个",
+        "马克杯 mug：餐具任务每套 1 个"
+      ],
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.4 / 取放、擦拭与餐具流程",
+          "domain": "人类采集"
+        }
+      ]
     },
     {
       "id": "bowl",
       "name": "碗与托盘",
       "group": "日用品",
       "spec": "轻质防碎；记录边缘形状",
-      "use": "边缘抓、双手搬运"
+      "use": "边缘抓、双手搬运",
+      "variants": [
+        "餐碗：餐具任务每套 1 个"
+      ],
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.4 / 取放、擦拭与餐具流程",
+          "domain": "人类采集"
+        }
+      ]
     },
     {
       "id": "tweezers",
@@ -1702,7 +2877,18 @@
       "name": "轻质锅具",
       "group": "日用品",
       "spec": "冷态、空载、侧把手",
-      "use": "非指尖接触与转移"
+      "use": "非指尖接触与转移",
+      "variants": [
+        "带柄平底锅：干擦拭",
+        "收集面包片的 pan"
+      ],
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.4 / 取放、擦拭与餐具流程",
+          "domain": "人类采集"
+        }
+      ]
     },
     {
       "id": "salt",
@@ -1792,7 +2978,17 @@
       "name": "布片 / 毛巾",
       "group": "柔性",
       "spec": "固定尺寸、材质与标记角点",
-      "use": "展平、折叠、拧转"
+      "use": "展平、折叠、拧转",
+      "variants": [
+        "擦盘与擦锅的毛巾"
+      ],
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.4 / 取放、擦拭与餐具流程",
+          "domain": "人类采集"
+        }
+      ]
     },
     {
       "id": "rope",
@@ -1806,14 +3002,34 @@
       "name": "海绵 / 软球",
       "group": "柔性",
       "spec": "不同压缩硬度",
-      "use": "挤压与回弹"
+      "use": "挤压与回弹",
+      "variants": [
+        "擦盘与擦锅的海绵"
+      ],
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.4 / 取放、擦拭与餐具流程",
+          "domain": "人类采集"
+        }
+      ]
     },
     {
       "id": "bag",
       "name": "软袋",
       "group": "柔性",
       "spec": "空袋；密封条与提手分别记录",
-      "use": "开口、捏封、搬运"
+      "use": "开口、捏封、搬运",
+      "variants": [
+        "装小餐包的袋子"
+      ],
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.4 / 取放、擦拭与餐具流程",
+          "domain": "人类采集"
+        }
+      ]
     },
     {
       "id": "elastic",
@@ -1851,7 +3067,17 @@
       "name": "抽屉模型",
       "group": "机关",
       "spec": "有止挡，低负载",
-      "use": "钩拉、推回"
+      "use": "钩拉、推回",
+      "variants": [
+        "真实厨房餐具抽屉"
+      ],
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.4 / 取放、擦拭与餐具流程",
+          "domain": "人类采集"
+        }
+      ]
     },
     {
       "id": "handle",
@@ -1893,7 +3119,17 @@
       "name": "力 / 触觉传感器",
       "group": "记录设备",
       "spec": "记录标定、单位、量程与同步",
-      "use": "力控制动作的有效验证"
+      "use": "力控制动作的有效验证",
+      "variants": [
+        "ActionSense 自制掌部与指部触觉阵列；未覆盖指尖"
+      ],
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.3.1",
+          "domain": "人类采集"
+        }
+      ]
     },
     {
       "id": "baoding",
@@ -1994,12 +3230,20 @@
       "spec": "记录厚度、直径、边缘形状与质量",
       "use": "翻转、重抓、入架",
       "added_in": "1.2",
-      "variants": [],
+      "variants": [
+        "大盘",
+        "小盘"
+      ],
       "evidence": [
         {
           "source": "ADEPT",
           "locator": "Dish-rack placement；teal / red plate",
           "domain": "真实机器人 + 仿真"
+        },
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.4 / 取放、擦拭与餐具流程",
+          "domain": "人类采集"
         }
       ]
     },
@@ -2021,17 +3265,24 @@
     },
     {
       "id": "fork",
-      "name": "YCB 餐叉",
+      "name": "餐叉 / YCB 餐叉",
       "group": "餐具",
       "spec": "记录叉头、柄长和接触几何；实物数采规格另行确认",
       "use": "细长餐具重定向",
       "added_in": "1.2",
-      "variants": [],
+      "variants": [
+        "ActionSense 普通餐叉，非指定 YCB 型号"
+      ],
       "evidence": [
         {
           "source": "PLAY2PERFECT",
           "locator": "Interactive / YCB Fork in Rack",
           "domain": "仿真"
+        },
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.4 / 取放、擦拭与餐具流程",
+          "domain": "人类采集"
         }
       ]
     },
@@ -2443,6 +3694,477 @@
           "source": "TELEDEXTER",
           "locator": "Seven-task evaluation / BunnyReorient；无单独直链",
           "domain": "真实机器人"
+        }
+      ]
+    },
+    {
+      "id": "cucumber",
+      "name": "黄瓜",
+      "group": "食材",
+      "spec": "原流程每轮取 3 根；记录长度、直径、表皮与已去皮状态。",
+      "use": "去皮、切片",
+      "variants": [
+        "整根带皮",
+        "已去皮",
+        "黄瓜片"
+      ],
+      "added_in": "1.3",
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.4 / Kitchen environment and items",
+          "domain": "人类采集"
+        }
+      ]
+    },
+    {
+      "id": "potato",
+      "name": "土豆",
+      "group": "食材",
+      "spec": "原流程取 3 个；记录尺寸、形状与表皮状态。",
+      "use": "去皮、切片",
+      "variants": [
+        "带皮",
+        "已去皮",
+        "土豆片"
+      ],
+      "added_in": "1.3",
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.4 / Kitchen environment and items",
+          "domain": "人类采集"
+        }
+      ]
+    },
+    {
+      "id": "bread",
+      "name": "面包",
+      "group": "食材",
+      "spec": "区分袋装小餐包与预切片；记录厚度、软硬和切前状态。",
+      "use": "切片与涂抹",
+      "variants": [
+        "sandwich bread rolls",
+        "预切面包片"
+      ],
+      "added_in": "1.3",
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.4 / Kitchen environment and items",
+          "domain": "人类采集"
+        }
+      ]
+    },
+    {
+      "id": "peeler",
+      "name": "蔬菜削皮器",
+      "group": "工具",
+      "spec": "记录刀口方向、握柄几何与刀片类型；来源未规定统一尺寸。",
+      "use": "去黄瓜皮、土豆皮",
+      "variants": [],
+      "added_in": "1.3",
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.4 / Kitchen environment and items",
+          "domain": "人类采集"
+        }
+      ]
+    },
+    {
+      "id": "chef_knife",
+      "name": "厨师刀",
+      "group": "工具",
+      "spec": "来源为真实厨刀；训练刀可作预试替代，材料切分效果需另行验证。",
+      "use": "切蔬菜；清理砧板时可辅助刮取",
+      "variants": [],
+      "added_in": "1.3",
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.4 / Kitchen environment and items",
+          "domain": "人类采集"
+        }
+      ]
+    },
+    {
+      "id": "bread_knife",
+      "name": "面包刀",
+      "group": "工具",
+      "spec": "与厨师刀、餐刀分开建道具条件；记录刀刃形态和柄长。",
+      "use": "切小餐包",
+      "variants": [],
+      "added_in": "1.3",
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.4 / Kitchen environment and items",
+          "domain": "人类采集"
+        }
+      ]
+    },
+    {
+      "id": "table_knife",
+      "name": "餐刀 / 涂抹刀",
+      "group": "餐具",
+      "spec": "原文 dinner knife；作为餐具摆放或用于涂抹，勿等同厨师刀。",
+      "use": "涂杏仁酱、果冻酱；摆台、装卸",
+      "variants": [],
+      "added_in": "1.3",
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.4 / Kitchen environment and items",
+          "domain": "人类采集"
+        }
+      ]
+    },
+    {
+      "id": "cutting_board",
+      "name": "砧板",
+      "group": "厨房用具",
+      "spec": "记录板面尺寸、摩擦与是否搬起；原流程允许将板移近容器。",
+      "use": "去皮、切片与刮清",
+      "variants": [],
+      "added_in": "1.3",
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.4 / Kitchen environment and items",
+          "domain": "人类采集"
+        }
+      ]
+    },
+    {
+      "id": "almond_butter",
+      "name": "杏仁酱",
+      "group": "耗材",
+      "spec": "记录温度与稠度；来源为 almond butter，非花生酱。",
+      "use": "面包涂抹与开关罐",
+      "variants": [
+        "带螺纹盖包装"
+      ],
+      "added_in": "1.3",
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.4 / Kitchen environment and items",
+          "domain": "人类采集"
+        }
+      ]
+    },
+    {
+      "id": "jelly",
+      "name": "果冻酱 / 果酱",
+      "group": "耗材",
+      "spec": "保留来源 jelly 名称；原流程涂在已涂杏仁酱的面包上。",
+      "use": "面包涂抹",
+      "variants": [],
+      "added_in": "1.3",
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.4 / Kitchen environment and items",
+          "domain": "人类采集"
+        }
+      ]
+    },
+    {
+      "id": "jar",
+      "name": "广口罐与螺纹盖",
+      "group": "机关",
+      "spec": "与窄口瓶分开记录；记录口径、盖型、初始紧度。",
+      "use": "开关罐、酱料盛装、校准持握",
+      "variants": [
+        "杏仁酱罐",
+        "果冻酱罐"
+      ],
+      "added_in": "1.3",
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.4 / Kitchen environment and items",
+          "domain": "人类采集"
+        }
+      ]
+    },
+    {
+      "id": "pitcher",
+      "name": "带柄水壶 / 水罐",
+      "group": "厨房用具",
+      "spec": "原文 pitcher；用于倒水，不是烧水壶。记录壶嘴与初始水量。",
+      "use": "向杯中倒水",
+      "variants": [],
+      "added_in": "1.3",
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.4 / Kitchen environment and items",
+          "domain": "人类采集"
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "name": "水",
+      "group": "耗材",
+      "spec": "记录初始量与最终接收量；原协议不固定精确体积。",
+      "use": "倒水与洒漏记录",
+      "variants": [],
+      "added_in": "1.3",
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.4 / Kitchen environment and items",
+          "domain": "人类采集"
+        }
+      ]
+    },
+    {
+      "id": "spoon",
+      "name": "餐勺",
+      "group": "餐具",
+      "spec": "原流程餐具组每套一把；记录柄长、勺部形状。",
+      "use": "摆台、洗碗机装卸",
+      "variants": [],
+      "added_in": "1.3",
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.4 / Kitchen environment and items",
+          "domain": "人类采集"
+        }
+      ]
+    },
+    {
+      "id": "pot",
+      "name": "深锅 / 食材收集锅",
+      "group": "厨房用具",
+      "spec": "原文 pot；与用于擦拭及收面包的 pan 分开。",
+      "use": "收集蔬菜皮和蔬菜片",
+      "variants": [],
+      "added_in": "1.3",
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.4 / Kitchen environment and items",
+          "domain": "人类采集"
+        }
+      ]
+    },
+    {
+      "id": "dishwasher",
+      "name": "洗碗机与内部搁架",
+      "group": "环境设备",
+      "spec": "记录上下层、摆放槽与餐具容纳位置；只采装入和取出。",
+      "use": "餐具装载、卸载",
+      "variants": [
+        "上层杯架",
+        "下层盘架",
+        "餐具放置区"
+      ],
+      "added_in": "1.3",
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.4 / Kitchen environment and items",
+          "domain": "人类采集"
+        }
+      ]
+    },
+    {
+      "id": "cabinet",
+      "name": "厨房储物柜",
+      "group": "环境设备",
+      "spec": "记录柜门、层板和物体初始存放位置；不将步行另计手部动作。",
+      "use": "取物、归位",
+      "variants": [],
+      "added_in": "1.3",
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.4 / Kitchen environment and items",
+          "domain": "人类采集"
+        }
+      ]
+    },
+    {
+      "id": "refrigerator",
+      "name": "冰箱",
+      "group": "环境设备",
+      "spec": "来源食材与酱料的取放位置；记录门与内部抽屉状态。",
+      "use": "食材取放",
+      "variants": [],
+      "added_in": "1.3",
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.4 / Kitchen environment and items",
+          "domain": "人类采集"
+        }
+      ]
+    },
+    {
+      "id": "sink",
+      "name": "水槽",
+      "group": "环境设备",
+      "spec": "原流程清场时部分物体放入水槽；不据此增加流水洗涤任务。",
+      "use": "物体归置",
+      "variants": [],
+      "added_in": "1.3",
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.4 / Kitchen environment and items",
+          "domain": "人类采集"
+        }
+      ]
+    },
+    {
+      "id": "scale",
+      "name": "USB 数字秤",
+      "group": "校准设备",
+      "spec": "来源 Dymo M25；记录同步读数与归零，作为触觉校准参考。",
+      "use": "平掌与单指按压",
+      "variants": [],
+      "added_in": "1.3",
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.3.1 / 传感与校准",
+          "domain": "人类采集"
+        }
+      ]
+    },
+    {
+      "id": "textured_calibration",
+      "name": "3D 打印纹理校准块",
+      "group": "校准设备",
+      "spec": "置于秤上，改变掌部局部受力；形状参数需从实物另记。",
+      "use": "局部触觉响应校准",
+      "variants": [],
+      "added_in": "1.3",
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.3.1 / 传感与校准",
+          "domain": "人类采集"
+        }
+      ]
+    },
+    {
+      "id": "emg_armband",
+      "name": "Myo 前臂肌电臂环",
+      "group": "记录设备",
+      "spec": "来源每前臂 8 对差分干电极；记录左右手、通道方位及同步。",
+      "use": "肌电与前臂运动记录",
+      "variants": [],
+      "added_in": "1.3",
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.3.1 / 传感与校准",
+          "domain": "人类采集"
+        }
+      ]
+    },
+    {
+      "id": "finger_glove",
+      "name": "Manus 手指追踪手套",
+      "group": "记录设备",
+      "spec": "来源 Manus Prime II Xsens；当前数据的指侧展与跟踪可靠性有限。",
+      "use": "手部姿态及校准",
+      "variants": [
+        "弯曲传感器",
+        "IMU 校准程序"
+      ],
+      "added_in": "1.3",
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.3.1 / 传感与校准",
+          "domain": "人类采集"
+        }
+      ]
+    },
+    {
+      "id": "body_imu",
+      "name": "Xsens 身体惯性传感器组",
+      "group": "记录设备",
+      "spec": "来源 17 个 IMU；世界位置会漂移，不能替代接触真值。",
+      "use": "腕臂与全身运动背景",
+      "variants": [],
+      "added_in": "1.3",
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.3.1 / 传感与校准",
+          "domain": "人类采集"
+        }
+      ]
+    },
+    {
+      "id": "eye_tracker",
+      "name": "Pupil Core 眼动与第一视角相机",
+      "group": "记录设备",
+      "spec": "记录视线置信度、相机标定和同步；不是动作成功判据。",
+      "use": "注意力和第一视角视频",
+      "variants": [],
+      "added_in": "1.3",
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.3.1 / 传感与校准",
+          "domain": "人类采集"
+        }
+      ]
+    },
+    {
+      "id": "rgb_camera",
+      "name": "多视角 RGB 相机",
+      "group": "记录设备",
+      "spec": "来源 5 台 FLIR；记录视角、帧时间戳与外参。",
+      "use": "动作与接触人工核对",
+      "variants": [],
+      "added_in": "1.3",
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.3.1 / 传感与校准",
+          "domain": "人类采集"
+        }
+      ]
+    },
+    {
+      "id": "depth_camera",
+      "name": "RealSense 深度相机",
+      "group": "记录设备",
+      "spec": "来源 D415；校准手姿和持物姿态在相机前执行。",
+      "use": "深度与手物几何参照",
+      "variants": [],
+      "added_in": "1.3",
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.3.1 / 传感与校准",
+          "domain": "人类采集"
+        }
+      ]
+    },
+    {
+      "id": "microphone",
+      "name": "环境麦克风",
+      "group": "记录设备",
+      "spec": "来源全向与指向麦克风；切割声音可辅助拟定分段，未提供单刀真值。",
+      "use": "音频及动作事件辅助定位",
+      "variants": [],
+      "added_in": "1.3",
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "locator": "Supplement C.3.1 / 传感与校准",
+          "domain": "人类采集"
         }
       ]
     }
@@ -4665,7 +6387,22 @@
       "hands": "单手",
       "variation": "速度（慢 / 自选）× 幅度（小 / 大）× 左右手；先独立改变一个因素。",
       "mediaScope": "项目总览参考，未定位该动作片段",
-      "aliases": []
+      "aliases": [],
+      "illustration": {
+        "path": "assets/generated/I04-v1.png",
+        "label": "AI 教学图",
+        "generator": "built-in image_gen",
+        "caption": "按本库动作描述生成的关键姿态示意；不是原研究图像或实际采集记录。",
+        "review": "三帧逐张检查：同一手将硬币从指端收至掌心。形态检查通过，连续接触与精确位移未测量。",
+        "anatomy_report": "quality/anatomy-reviews/I04-v1.json",
+        "anatomy_scope": "已逐帧检查可见手形；单视图不能证明被遮挡几何或精确尺寸。",
+        "handedness": "right",
+        "sources": [
+          "IHM",
+          "BULLOCK"
+        ],
+        "physics": "unknown"
+      }
     },
     {
       "id": "I05",
@@ -4708,7 +6445,23 @@
             "cross_block"
           ]
         }
-      ]
+      ],
+      "illustration": {
+        "path": "assets/generated/I05-v3.png",
+        "label": "AI 教学图",
+        "generator": "built-in image_gen",
+        "caption": "掌心到指尖转移的终点握姿；不是完整运动过程。",
+        "review": "拇指与食指在指端捏持硬币，其他三指完整可辨。仅表示掌到指转移的终点握姿。",
+        "anatomy_report": "quality/anatomy-reviews/I05-v3.json",
+        "anatomy_scope": "已逐帧检查可见手形；单视图不能证明被遮挡几何或精确尺寸。",
+        "handedness": "left",
+        "sources": [
+          "IHM",
+          "BULLOCK",
+          "WMCRAFT"
+        ],
+        "physics": "unknown"
+      }
     },
     {
       "id": "I06",
@@ -4765,7 +6518,22 @@
       "hands": "单手",
       "variation": "速度（慢 / 自选）× 幅度（小 / 大）× 左右手；先独立改变一个因素。",
       "mediaScope": "项目总览参考，未定位该动作片段",
-      "aliases": []
+      "aliases": [],
+      "illustration": {
+        "path": "assets/generated/I07-v1.png",
+        "label": "AI 教学图",
+        "generator": "built-in image_gen",
+        "caption": "按本库动作描述生成的关键姿态示意；不是原研究图像或实际采集记录。",
+        "review": "三帧逐张检查：多指接替接触笔杆可辨；轴向位移幅度与连续接触未测量。",
+        "anatomy_report": "quality/anatomy-reviews/I07-v1.json",
+        "anatomy_scope": "已逐帧检查可见手形；单视图不能证明被遮挡几何或精确尺寸。",
+        "handedness": "right",
+        "sources": [
+          "IHM",
+          "BULLOCK"
+        ],
+        "physics": "unknown"
+      }
     },
     {
       "id": "I08",
@@ -4793,7 +6561,22 @@
       "hands": "单手",
       "variation": "速度（慢 / 自选）× 幅度（小 / 大）× 左右手；先独立改变一个因素。",
       "mediaScope": "项目总览参考，未定位该动作片段",
-      "aliases": []
+      "aliases": [],
+      "illustration": {
+        "path": "assets/generated/I08-v1.png",
+        "label": "AI 教学图",
+        "generator": "built-in image_gen",
+        "caption": "按本库动作描述生成的关键姿态示意；不是原研究图像或实际采集记录。",
+        "review": "三帧逐张检查：代币在同一手的指间由正面转向侧面；旋转角度未量化。",
+        "anatomy_report": "quality/anatomy-reviews/I08-v1.json",
+        "anatomy_scope": "已逐帧检查可见手形；单视图不能证明被遮挡几何或精确尺寸。",
+        "handedness": "right",
+        "sources": [
+          "IHM",
+          "BULLOCK"
+        ],
+        "physics": "unknown"
+      }
     },
     {
       "id": "I09",
@@ -4822,7 +6605,22 @@
       "hands": "单手",
       "variation": "速度（慢 / 自选）× 幅度（小 / 大）× 左右手；先独立改变一个因素。",
       "mediaScope": "项目总览参考，未定位该动作片段",
-      "aliases": []
+      "aliases": [],
+      "illustration": {
+        "path": "assets/generated/I09-v1.png",
+        "label": "AI 教学图",
+        "generator": "built-in image_gen",
+        "caption": "指间翻转的关键握姿示意；不用于连续轨迹或物体几何标定。",
+        "review": "三帧可见持笔接触改变，起点与终点笔尖方向相反。笔夹细节存在生成差异，不用于物体姿态定量标定。",
+        "anatomy_report": "quality/anatomy-reviews/I09-v1.json",
+        "anatomy_scope": "已逐帧检查可见手形；单视图不能证明被遮挡几何或精确尺寸。",
+        "handedness": "right",
+        "sources": [
+          "IHM",
+          "BULLOCK"
+        ],
+        "physics": "unknown"
+      }
     },
     {
       "id": "I10",
@@ -4850,7 +6648,22 @@
       "hands": "单手",
       "variation": "速度（慢 / 自选）× 幅度（小 / 大）× 左右手；先独立改变一个因素。",
       "mediaScope": "同类参考；尚无该扩展动作的逐项演示",
-      "aliases": []
+      "aliases": [],
+      "illustration": {
+        "path": "assets/generated/I10-v1.png",
+        "label": "AI 教学图",
+        "generator": "built-in image_gen",
+        "caption": "目标位置示意：X 从拇指根部横向指向小指侧。只显示掌系目标位置，不示范手指如何驱动物体。",
+        "review": "三帧完整手形检查通过；方块位置沿掌面横向改变，未呈现驱动它移动的手指过程。",
+        "anatomy_report": "quality/anatomy-reviews/I10-v1.json",
+        "anatomy_scope": "已逐帧检查可见手形；单视图不能证明被遮挡几何或精确尺寸。",
+        "handedness": "left",
+        "sources": [
+          "POISE",
+          "BULLOCK"
+        ],
+        "physics": "unknown"
+      }
     },
     {
       "id": "I11",
@@ -4878,7 +6691,22 @@
       "hands": "单手",
       "variation": "速度（慢 / 自选）× 幅度（小 / 大）× 左右手；先独立改变一个因素。",
       "mediaScope": "同类参考；尚无该扩展动作的逐项演示",
-      "aliases": []
+      "aliases": [],
+      "illustration": {
+        "path": "assets/generated/I11-v1.png",
+        "label": "AI 教学图",
+        "generator": "built-in image_gen",
+        "caption": "目标位置示意：Y 沿中指方向。只显示掌系目标位置，不示范手指如何驱动物体。",
+        "review": "三帧完整手形检查通过；方块由掌根移向指端，未呈现驱动它移动的手指过程。",
+        "anatomy_report": "quality/anatomy-reviews/I11-v1.json",
+        "anatomy_scope": "已逐帧检查可见手形；单视图不能证明被遮挡几何或精确尺寸。",
+        "handedness": "left",
+        "sources": [
+          "POISE",
+          "BULLOCK"
+        ],
+        "physics": "unknown"
+      }
     },
     {
       "id": "I12",
@@ -5110,7 +6938,22 @@
       "hands": "单手",
       "variation": "速度（慢 / 自选）× 幅度（小 / 大）× 左右手；先独立改变一个因素。",
       "mediaScope": "同类参考；尚无该扩展动作的逐项演示",
-      "aliases": []
+      "aliases": [],
+      "illustration": {
+        "path": "assets/generated/I19-v1.png",
+        "label": "AI 教学图",
+        "generator": "built-in image_gen",
+        "caption": "拇、食、中三指接触球体的关键姿态；箭头表示目标滚动方向，静帧不展示实际滚动过程。",
+        "review": "完整五指与比例经独立审阅；球体、三指接触和固定掌部的教学姿态与动作描述相容。",
+        "anatomy_report": "quality/anatomy-reviews/I19-v1.json",
+        "anatomy_scope": "已逐帧检查可见手形；单视图不能证明被遮挡几何或精确尺寸。",
+        "handedness": "见图",
+        "sources": [
+          "BULLOCK",
+          "BULLOCK"
+        ],
+        "physics": "unknown"
+      }
     },
     {
       "id": "I20",
@@ -5292,7 +7135,22 @@
       "hands": "单手",
       "variation": "速度（慢 / 自选）× 幅度（小 / 大）× 左右手；先独立改变一个因素。",
       "mediaScope": "同类参考；尚无该扩展动作的逐项演示",
-      "aliases": []
+      "aliases": [],
+      "illustration": {
+        "path": "assets/generated/I25-v1.png",
+        "label": "AI 教学图",
+        "generator": "built-in image_gen",
+        "caption": "硬币翻面动作中的夹持姿态；单张图不表示已经完成 180° 翻转。",
+        "review": "完整五指与比例经独立审阅；硬币位于拇、食、中指之间，保留翻面动作的关键夹持关系。",
+        "anatomy_report": "quality/anatomy-reviews/I25-v1.json",
+        "anatomy_scope": "已逐帧检查可见手形；单视图不能证明被遮挡几何或精确尺寸。",
+        "handedness": "见图",
+        "sources": [
+          "BULLOCK",
+          "BULLOCK"
+        ],
+        "physics": "unknown"
+      }
     },
     {
       "id": "I26",
@@ -5321,7 +7179,22 @@
       "hands": "单手",
       "variation": "速度（慢 / 自选）× 幅度（小 / 大）× 左右手；先独立改变一个因素。",
       "mediaScope": "同类参考；尚无该扩展动作的逐项演示",
-      "aliases": []
+      "aliases": [],
+      "illustration": {
+        "path": "assets/generated/I26-v1.png",
+        "label": "AI 教学图",
+        "generator": "built-in image_gen",
+        "caption": "调至书写抓握后的目标姿态；未展示换接触和转笔的完整过程。",
+        "review": "完整五指与比例经独立审阅；笔尖朝向纸面，拇食中指形成书写握姿，环小指自然弯曲。",
+        "anatomy_report": "quality/anatomy-reviews/I26-v1.json",
+        "anatomy_scope": "已逐帧检查可见手形；单视图不能证明被遮挡几何或精确尺寸。",
+        "handedness": "见图",
+        "sources": [
+          "BULLOCK",
+          "BULLOCK"
+        ],
+        "physics": "unknown"
+      }
     },
     {
       "id": "I27",
@@ -6020,7 +7893,22 @@
       "hands": "单手",
       "variation": "速度（慢 / 自选）× 幅度（小 / 大）× 左右手；先独立改变一个因素。",
       "mediaScope": "同类参考；尚无该扩展动作的逐项演示",
-      "aliases": []
+      "aliases": [],
+      "illustration": {
+        "path": "assets/generated/T08-v1.png",
+        "label": "AI 教学图",
+        "generator": "built-in image_gen",
+        "caption": "杯柄钩持的接触准备姿态；杯底仍在桌面，图中尚未提起。",
+        "review": "逐指确认五指、长度关系、关节连接和完整手部构图；图中道具与关键握持姿态经独立复核。",
+        "anatomy_report": "quality/anatomy-reviews/T08-v1.json",
+        "anatomy_scope": "已逐帧检查可见手形；单视图不能证明被遮挡几何或精确尺寸。",
+        "handedness": "见图",
+        "sources": [
+          "DEXYCB",
+          "BULLOCK"
+        ],
+        "physics": "unknown"
+      }
     },
     {
       "id": "T09",
@@ -6078,7 +7966,22 @@
       "hands": "单手",
       "variation": "速度（慢 / 自选）× 幅度（小 / 大）× 左右手；先独立改变一个因素。",
       "mediaScope": "同类参考；尚无该扩展动作的逐项演示",
-      "aliases": []
+      "aliases": [],
+      "illustration": {
+        "path": "assets/generated/T10-v1.png",
+        "label": "AI 教学图",
+        "generator": "built-in image_gen",
+        "caption": "抓持薄片的关键姿态；整体搬运轨迹不在静态图中表示。",
+        "review": "已逐指核对五指、长度、关节连接及完整构图；道具和所示关键握姿符合动作描述。静态图不能确认完整执行过程。",
+        "anatomy_report": "quality/anatomy-reviews/T10-v1.json",
+        "anatomy_scope": "已逐帧检查可见手形；单视图不能证明被遮挡几何或精确尺寸。",
+        "handedness": "见图",
+        "sources": [
+          "DEXYCB",
+          "BULLOCK"
+        ],
+        "physics": "unknown"
+      }
     },
     {
       "id": "T11",
@@ -6254,7 +8157,22 @@
       "hands": "单手",
       "variation": "速度（慢 / 自选）× 幅度（小 / 大）× 左右手；先独立改变一个因素。",
       "mediaScope": "同类参考；尚无该扩展动作的逐项演示",
-      "aliases": []
+      "aliases": [],
+      "illustration": {
+        "path": "assets/generated/T16-v1.png",
+        "label": "AI 教学图",
+        "generator": "built-in image_gen",
+        "caption": "持瓶改变腕方向时所用的稳定握姿；静帧不展示腕部旋转范围或过程。",
+        "review": "逐指确认五指、长度关系、关节连接和完整手部构图；图中道具与关键握持姿态经独立复核。",
+        "anatomy_report": "quality/anatomy-reviews/T16-v1.json",
+        "anatomy_scope": "已逐帧检查可见手形；单视图不能证明被遮挡几何或精确尺寸。",
+        "handedness": "见图",
+        "sources": [
+          "DEXYCB",
+          "BULLOCK"
+        ],
+        "physics": "unknown"
+      }
     },
     {
       "id": "T17",
@@ -6282,7 +8200,22 @@
       "hands": "单手",
       "variation": "速度（慢 / 自选）× 幅度（小 / 大）× 左右手；先独立改变一个因素。",
       "mediaScope": "同类参考；尚无该扩展动作的逐项演示",
-      "aliases": []
+      "aliases": [],
+      "illustration": {
+        "path": "assets/generated/T17-v1.png",
+        "label": "AI 教学图",
+        "generator": "built-in image_gen",
+        "caption": "细长物体提起搬运中的关键握姿；动作轨迹与变化幅度见采集说明。",
+        "review": "已逐指核对五指、长度、关节连接及完整构图；道具和所示关键握姿符合动作描述。静态图不能确认完整执行过程。",
+        "anatomy_report": "quality/anatomy-reviews/T17-v1.json",
+        "anatomy_scope": "已逐帧检查可见手形；单视图不能证明被遮挡几何或精确尺寸。",
+        "handedness": "见图",
+        "sources": [
+          "DEXYCB",
+          "BULLOCK"
+        ],
+        "physics": "unknown"
+      }
     },
     {
       "id": "T18",
@@ -6799,23 +8732,41 @@
         "P25"
       ],
       "props": [
-        "bottle"
+        "bottle",
+        "jar"
       ],
       "sources": [
+        "ACTIONSENSE",
         "BULLOCK",
         "NINA"
       ],
-      "locator": "本库采集方案扩展；来源提供分解框架或相近任务",
-      "description": "旋紧瓶盖。在固定工作区内记录接近、接触、执行和结束四个阶段。",
+      "locator": "ActionSense · Supplement C.4 / Open and close a jar 的本库子步骤",
+      "description": "盖子对准并啮合后旋紧；从 ActionSense 开合罐任务拆出。窄口瓶与广口罐分别记录。",
       "success": "按任务目标记录物体终态与接触时序；具体容差在预试后设定并写入 trial 元数据。",
-      "origin": "extension",
-      "media": "nina",
+      "origin": "adapted",
+      "media": "as_grid",
       "pose": null,
       "difficulty": "进阶",
       "hands": "单手",
       "variation": "速度（慢 / 自选）× 幅度（小 / 大）× 左右手；先独立改变一个因素。",
-      "mediaScope": "同类参考；尚无该扩展动作的逐项演示",
-      "aliases": []
+      "mediaScope": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+      "aliases": [],
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_grid",
+          "label": "ActionSense · 本库子步骤映射",
+          "locator": "C.4 / Open and close a jar",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9",
+          "scope": "重新盖合与拧紧阶段，完整任务见 B26。",
+          "relation": "本库子步骤映射",
+          "props": [
+            "jar"
+          ]
+        }
+      ],
+      "parent": "B26",
+      "granularity": "本库拆解子动作"
     },
     {
       "id": "U23",
@@ -6827,23 +8778,41 @@
         "P25"
       ],
       "props": [
-        "bottle"
+        "bottle",
+        "jar"
       ],
       "sources": [
+        "ACTIONSENSE",
         "BULLOCK",
         "NINA"
       ],
-      "locator": "本库采集方案扩展；来源提供分解框架或相近任务",
-      "description": "旋松瓶盖。在固定工作区内记录接近、接触、执行和结束四个阶段。",
+      "locator": "ActionSense · Supplement C.4 / Open and close a jar 的本库子步骤",
+      "description": "旋松罐盖至解除螺纹约束；从 ActionSense 开合罐任务拆出。与完整开合循环 B26 区分。",
       "success": "按任务目标记录物体终态与接触时序；具体容差在预试后设定并写入 trial 元数据。",
-      "origin": "extension",
-      "media": "nina",
+      "origin": "adapted",
+      "media": "as_grid",
       "pose": null,
       "difficulty": "进阶",
       "hands": "单手",
       "variation": "速度（慢 / 自选）× 幅度（小 / 大）× 左右手；先独立改变一个因素。",
-      "mediaScope": "同类参考；尚无该扩展动作的逐项演示",
-      "aliases": []
+      "mediaScope": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+      "aliases": [],
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_grid",
+          "label": "ActionSense · 本库子步骤映射",
+          "locator": "C.4 / Open and close a jar",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9",
+          "scope": "旋松阶段，完整任务见 B26。",
+          "relation": "本库子步骤映射",
+          "props": [
+            "jar"
+          ]
+        }
+      ],
+      "parent": "B26",
+      "granularity": "本库拆解子动作"
     },
     {
       "id": "U24",
@@ -7247,7 +9216,7 @@
     },
     {
       "id": "B07",
-      "name": "一手扶瓶一手拧盖",
+      "name": "一手扶瓶 / 罐，一手开盖",
       "en": "Stabilized bottle opening",
       "category": "bimanual",
       "primitives": [
@@ -7255,24 +9224,42 @@
         "P25"
       ],
       "props": [
-        "bottle"
+        "bottle",
+        "jar"
       ],
       "sources": [
+        "ACTIONSENSE",
         "OAKINK",
         "ARCTIC",
         "BULLOCK"
       ],
-      "locator": "本库采集方案扩展；来源提供分解框架或相近任务",
-      "description": "一手扶瓶一手拧盖。在固定工作区内记录接近、接触、执行和结束四个阶段。",
+      "locator": "ActionSense · Supplement C.4 / Open and close a jar 的本库子步骤",
+      "description": "一手稳定罐体，一手旋松并移开盖子；从 ActionSense 开合罐任务拆出。瓶类道具保留为本库变化条件。",
       "success": "按任务目标记录物体终态与接触时序；具体容差在预试后设定并写入 trial 元数据。",
-      "origin": "extension",
-      "media": "arctic",
+      "origin": "adapted",
+      "media": "as_grid",
       "pose": null,
       "difficulty": "进阶",
       "hands": "双手",
       "variation": "速度（慢 / 自选）× 幅度（小 / 大）× 左右手；先独立改变一个因素。",
-      "mediaScope": "同类参考；尚无该扩展动作的逐项演示",
-      "aliases": []
+      "mediaScope": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+      "aliases": [],
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_grid",
+          "label": "ActionSense · 本库子步骤映射",
+          "locator": "C.4 / Open and close a jar",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9",
+          "scope": "开合罐任务中的开盖阶段；原 B07 的瓶也保留为本库可选条件。",
+          "relation": "本库子步骤映射",
+          "props": [
+            "jar"
+          ]
+        }
+      ],
+      "parent": "B26",
+      "granularity": "本库拆解子动作"
     },
     {
       "id": "B08",
@@ -7453,32 +9440,112 @@
     },
     {
       "id": "B14",
-      "name": "双手扶杯与倒入",
-      "en": "Pour-and-receive",
+      "name": "双手扶杯与倒水",
+      "en": "Pour water while holding the receiving glass",
       "category": "bimanual",
       "primitives": [
+        "P10",
         "P27",
-        "P07"
+        "P40"
       ],
       "props": [
-        "cup"
+        "cup",
+        "pitcher",
+        "water"
       ],
       "sources": [
+        "ACTIONSENSE",
         "OAKINK",
         "ARCTIC",
         "BULLOCK"
       ],
-      "locator": "本库采集方案扩展；来源提供分解框架或相近任务",
-      "description": "双手扶杯与倒入。在固定工作区内记录接近、接触、执行和结束四个阶段。",
-      "success": "按任务目标记录物体终态与接触时序；具体容差在预试后设定并写入 trial 元数据。",
-      "origin": "extension",
-      "media": "arctic",
+      "locator": "ActionSense: Pour water from a pitcher into a glass · Supplement C.4, p.10",
+      "description": "一手持水杯，另一手持水壶倒入，原流程依次向 5 个杯子倒水。接收杯不得只是独自放在桌上；原协议不固定倒入体积。",
+      "success": "记录液流开始与终止、接收量及洒漏，杯与壶在两手中保持稳定。",
+      "origin": "direct",
+      "media": "as_grid",
       "pose": null,
       "difficulty": "进阶",
       "hands": "双手",
       "variation": "速度（慢 / 自选）× 幅度（小 / 大）× 左右手；先独立改变一个因素。",
-      "mediaScope": "同类参考；尚无该扩展动作的逐项演示",
-      "aliases": []
+      "mediaScope": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+      "aliases": [
+        "ActionSense",
+        "Pour water from a pitcher into a glass",
+        "把水壶中的水倒进杯子",
+        "手持接收杯；依次向 5 杯倒入"
+      ],
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_grid",
+          "label": "ActionSense · 直接活动来源",
+          "locator": "Activity Stats / Pour water from a pitcher into a glass; C.4, p.10",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9",
+          "scope": "原流程要求一手拿接收杯，另一手持水壶；官方完整活动；演示为合集。",
+          "relation": "直接活动来源",
+          "props": [
+            "pitcher",
+            "cup",
+            "water"
+          ]
+        }
+      ],
+      "granularity": "完整活动",
+      "equipment": [
+        "emg_armband",
+        "finger_glove",
+        "body_imu",
+        "eye_tracker",
+        "rgb_camera",
+        "depth_camera",
+        "microphone",
+        "sensor"
+      ],
+      "phases_author": "本库建议分段；不是官方逐帧标签",
+      "phases": [
+        {
+          "name": "分别持壶和杯",
+          "primitives": [
+            "P10",
+            "P27"
+          ],
+          "observe": "接收杯在手中。",
+          "actions": []
+        },
+        {
+          "name": "倾壶使水流入杯",
+          "primitives": [
+            "P40"
+          ],
+          "observe": "液流起点、两容器相对位置与洒漏。",
+          "actions": []
+        },
+        {
+          "name": "回正止流与换杯",
+          "primitives": [
+            "P19",
+            "P40"
+          ],
+          "observe": "液流终点与杯内量，不强加原文没有的容量。",
+          "actions": []
+        }
+      ],
+      "source_labels": [
+        "AS11"
+      ],
+      "conditions": [
+        {
+          "label_id": "AS11",
+          "name": "把水壶中的水倒进杯子",
+          "detail": "手持接收杯；依次向 5 杯倒入",
+          "props": [
+            "pitcher",
+            "cup",
+            "water"
+          ]
+        }
+      ]
     },
     {
       "id": "B15",
@@ -8433,23 +10500,44 @@
       ],
       "props": [
         "button",
-        "sensor"
+        "sensor",
+        "scale"
       ],
       "sources": [
+        "ACTIONSENSE",
         "DEXUMI",
         "BULLOCK"
       ],
-      "locator": "本库采集方案扩展；来源提供分解框架或相近任务",
-      "description": "只用活动指按压。在固定工作区内记录接近、接触、执行和结束四个阶段。",
+      "locator": "ActionSense · Supplement C.3.1, p.8 / 每根手指依次按压两次",
+      "description": "每根手指依次单独按压，原触觉校准流程每指 2 次。数字秤为来源参考设备；原按钮道具保留为本库采集变体。",
       "success": "力级任务必须有经标定的力 / 触觉记录；视频和 EMG 本身不能直接证明接触力达标。",
-      "origin": "extension",
-      "media": "kitchen",
+      "origin": "direct",
+      "media": "as_calibration",
       "pose": null,
       "difficulty": "高阶",
       "hands": "单手",
       "variation": "速度（慢 / 自选）× 幅度（小 / 大）× 左右手；先独立改变一个因素。",
-      "mediaScope": "同类参考；尚无该扩展动作的逐项演示",
-      "aliases": []
+      "mediaScope": "Supplement C.3.1，印刷页 8；以文字协议为证据，尚未定位独立校准视频。",
+      "aliases": [],
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_calibration",
+          "label": "ActionSense · 直接校准协议",
+          "locator": "Supplement C.3.1, p.8 / sequential finger pressing",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=8",
+          "scope": "官方触觉校准要求每根手指依次按压两次；没有独立校准演示片段。",
+          "relation": "直接校准协议",
+          "props": [
+            "scale"
+          ]
+        }
+      ],
+      "granularity": "校准协议",
+      "equipment": [
+        "finger_glove",
+        "sensor"
+      ]
     },
     {
       "id": "C10",
@@ -10034,6 +12122,2187 @@
           ]
         }
       ]
+    },
+    {
+      "id": "U53",
+      "name": "蔬菜去皮",
+      "en": "Peel vegetables",
+      "category": "tool",
+      "primitives": [
+        "P10",
+        "P26",
+        "P27",
+        "P38"
+      ],
+      "props": [
+        "cucumber",
+        "potato",
+        "peeler",
+        "cutting_board"
+      ],
+      "sources": [
+        "ACTIONSENSE"
+      ],
+      "locator": "官方 Activity Stats 标签表；Supplement C.4, pp.9–11",
+      "description": "使用削皮器去除黄瓜或土豆表皮。两个官方活动合为一个技能入口，物体条件分别保留；抓法和削皮行程由参与者选择。",
+      "success": "记录去除表皮区域、每次工具接触和蔬菜的支撑方式；以目标表皮去除情况评估。",
+      "origin": "direct",
+      "media": "as_grid",
+      "pose": null,
+      "difficulty": "进阶",
+      "hands": "双手",
+      "variation": "记录工具 / 物体身份、初态、稳定手与操作手、接触阶段及失败原因。条件分别采集；细分阶段需人工复核时间边界。",
+      "added_in": "1.3",
+      "granularity": "完整活动 / 条件族",
+      "aliases": [
+        "ActionSense",
+        "Peel a cucumber",
+        "给黄瓜去皮",
+        "黄瓜",
+        "Peel a potato",
+        "给土豆去皮",
+        "土豆"
+      ],
+      "mediaScope": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+      "phases_author": "本库建议分段；不是官方逐帧标签",
+      "equipment": [
+        "emg_armband",
+        "finger_glove",
+        "body_imu",
+        "eye_tracker",
+        "rgb_camera",
+        "depth_camera",
+        "microphone",
+        "sensor"
+      ],
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_grid",
+          "label": "ActionSense · 厨房活动合集",
+          "locator": "官方 Activity Stats 标签表；Supplement C.4, pp.9–11",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9",
+          "scope": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+          "relation": "直接活动来源",
+          "props": [
+            "cucumber",
+            "potato",
+            "peeler",
+            "cutting_board"
+          ]
+        },
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_session",
+          "label": "ActionSense · 带活动章节的多模态演示",
+          "locator": "首页多模态演示 / 活动章节",
+          "scope": "首页原始 YouTube 演示；章节对应活动标签。本库未核定各子动作时间戳。",
+          "relation": "原始连续演示",
+          "props": []
+        }
+      ],
+      "phases": [
+        {
+          "name": "持菜与持削皮器",
+          "primitives": [
+            "P10",
+            "P27"
+          ],
+          "observe": "记录两手分工及是否借助桌面。",
+          "actions": []
+        },
+        {
+          "name": "连续去皮行程",
+          "primitives": [
+            "P26",
+            "P38"
+          ],
+          "observe": "按接触—分离—离面分段。",
+          "actions": [
+            "U57"
+          ]
+        },
+        {
+          "name": "调整目标表面与结束",
+          "primitives": [
+            "P19",
+            "P15"
+          ],
+          "observe": "重抓、转动物体仅在录像中出现时标记。",
+          "actions": []
+        }
+      ],
+      "source_labels": [
+        "AS03",
+        "AS05"
+      ],
+      "conditions": [
+        {
+          "label_id": "AS03",
+          "name": "给黄瓜去皮",
+          "detail": "黄瓜",
+          "props": [
+            "cucumber",
+            "peeler",
+            "cutting_board"
+          ]
+        },
+        {
+          "label_id": "AS05",
+          "name": "给土豆去皮",
+          "detail": "土豆",
+          "props": [
+            "potato",
+            "peeler",
+            "cutting_board"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "U54",
+      "name": "蔬菜与面包切片",
+      "en": "Slice vegetables and bread",
+      "category": "tool",
+      "primitives": [
+        "P10",
+        "P23",
+        "P26",
+        "P27",
+        "P38"
+      ],
+      "props": [
+        "cucumber",
+        "potato",
+        "bread",
+        "chef_knife",
+        "bread_knife",
+        "cutting_board"
+      ],
+      "sources": [
+        "ACTIONSENSE"
+      ],
+      "locator": "官方 Activity Stats 标签表；Supplement C.4, pp.9–11",
+      "description": "黄瓜、土豆使用厨师刀，小餐包使用面包刀。三项官方活动合并为切片技能的三个条件；单刀过程需另行分段。U08 仍保留特定食指伸展抓型，不强行等同。",
+      "success": "记录实际材料分离、片数与厚度；区分工具运动、未切断与完整切片。",
+      "origin": "direct",
+      "media": "as_grid",
+      "pose": null,
+      "difficulty": "进阶",
+      "hands": "双手",
+      "variation": "记录工具 / 物体身份、初态、稳定手与操作手、接触阶段及失败原因。条件分别采集；细分阶段需人工复核时间边界。",
+      "added_in": "1.3",
+      "granularity": "完整活动 / 条件族",
+      "aliases": [
+        "ActionSense",
+        "Slice a cucumber",
+        "黄瓜切片",
+        "已去皮黄瓜 + 厨师刀",
+        "Slice a potato",
+        "土豆切片",
+        "已去皮土豆 + 厨师刀",
+        "Slice bread",
+        "面包切片",
+        "小餐包 + 面包刀"
+      ],
+      "mediaScope": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+      "phases_author": "本库建议分段；不是官方逐帧标签",
+      "equipment": [
+        "emg_armband",
+        "finger_glove",
+        "body_imu",
+        "eye_tracker",
+        "rgb_camera",
+        "depth_camera",
+        "microphone",
+        "sensor"
+      ],
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_grid",
+          "label": "ActionSense · 厨房活动合集",
+          "locator": "官方 Activity Stats 标签表；Supplement C.4, pp.9–11",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9",
+          "scope": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+          "relation": "直接活动来源",
+          "props": [
+            "cucumber",
+            "potato",
+            "bread",
+            "chef_knife",
+            "bread_knife",
+            "cutting_board"
+          ]
+        },
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_session",
+          "label": "ActionSense · 带活动章节的多模态演示",
+          "locator": "首页多模态演示 / 活动章节",
+          "scope": "首页原始 YouTube 演示；章节对应活动标签。本库未核定各子动作时间戳。",
+          "relation": "原始连续演示",
+          "props": []
+        }
+      ],
+      "phases": [
+        {
+          "name": "稳定食材与工具",
+          "primitives": [
+            "P10",
+            "P27"
+          ],
+          "observe": "记录食材—板面与稳定手接触。",
+          "actions": []
+        },
+        {
+          "name": "切入并分离一片",
+          "primitives": [
+            "P26",
+            "P38"
+          ],
+          "observe": "将往复次数与实际片数分开记录。",
+          "actions": [
+            "U58"
+          ]
+        },
+        {
+          "name": "下一片定位或结束",
+          "primitives": [
+            "P19",
+            "P15"
+          ],
+          "observe": "保留材料位置变化与刀具退离。",
+          "actions": []
+        }
+      ],
+      "source_labels": [
+        "AS04",
+        "AS06",
+        "AS07"
+      ],
+      "conditions": [
+        {
+          "label_id": "AS04",
+          "name": "黄瓜切片",
+          "detail": "已去皮黄瓜 + 厨师刀",
+          "props": [
+            "cucumber",
+            "chef_knife",
+            "cutting_board"
+          ]
+        },
+        {
+          "label_id": "AS06",
+          "name": "土豆切片",
+          "detail": "已去皮土豆 + 厨师刀",
+          "props": [
+            "potato",
+            "chef_knife",
+            "cutting_board"
+          ]
+        },
+        {
+          "label_id": "AS07",
+          "name": "面包切片",
+          "detail": "小餐包 + 面包刀",
+          "props": [
+            "bread",
+            "bread_knife",
+            "cutting_board"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "U55",
+      "name": "刮清砧板并转移食材",
+      "en": "Clear a cutting board",
+      "category": "tool",
+      "primitives": [
+        "P10",
+        "P16",
+        "P22",
+        "P26",
+        "P27"
+      ],
+      "props": [
+        "cutting_board",
+        "chef_knife",
+        "cucumber",
+        "potato",
+        "bread",
+        "pot",
+        "pan"
+      ],
+      "sources": [
+        "ACTIONSENSE"
+      ],
+      "locator": "官方 Activity Stats 标签表；Supplement C.4, pp.9–11",
+      "description": "把蔬菜皮或切片从砧板移入锅中；面包片移入平底锅。来源允许借助刀，也允许移动砧板或收集容器，不能把某一种策略当成唯一标签。",
+      "success": "记录目标食材进入容器的比例、板面残留、散落与板 / 容器的相对运动。",
+      "origin": "direct",
+      "media": "as_grid",
+      "pose": null,
+      "difficulty": "进阶",
+      "hands": "双手",
+      "variation": "记录工具 / 物体身份、初态、稳定手与操作手、接触阶段及失败原因。条件分别采集；细分阶段需人工复核时间边界。",
+      "added_in": "1.3",
+      "granularity": "完整活动 / 条件族",
+      "aliases": [
+        "ActionSense",
+        "Clear cutting board",
+        "清理砧板",
+        "蔬菜皮、蔬菜片、面包片"
+      ],
+      "mediaScope": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+      "phases_author": "本库建议分段；不是官方逐帧标签",
+      "equipment": [
+        "emg_armband",
+        "finger_glove",
+        "body_imu",
+        "eye_tracker",
+        "rgb_camera",
+        "depth_camera",
+        "microphone",
+        "sensor"
+      ],
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_grid",
+          "label": "ActionSense · 厨房活动合集",
+          "locator": "官方 Activity Stats 标签表；Supplement C.4, pp.9–11",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9",
+          "scope": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+          "relation": "直接活动来源",
+          "props": [
+            "cutting_board",
+            "chef_knife",
+            "cucumber",
+            "potato",
+            "bread",
+            "pot",
+            "pan"
+          ]
+        },
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_session",
+          "label": "ActionSense · 带活动章节的多模态演示",
+          "locator": "首页多模态演示 / 活动章节",
+          "scope": "首页原始 YouTube 演示；章节对应活动标签。本库未核定各子动作时间戳。",
+          "relation": "原始连续演示",
+          "props": []
+        }
+      ],
+      "phases": [
+        {
+          "name": "定位板与收集容器",
+          "primitives": [
+            "P16",
+            "P19"
+          ],
+          "observe": "谁移动、谁固定；板与容器的相对位姿。",
+          "actions": []
+        },
+        {
+          "name": "把食材移出板面",
+          "primitives": [
+            "P22",
+            "P26"
+          ],
+          "observe": "刀辅助刮取为可选策略；记录实际接触。",
+          "actions": []
+        },
+        {
+          "name": "检查残留并放回",
+          "primitives": [
+            "P19",
+            "P15"
+          ],
+          "observe": "区分进入容器与散落。",
+          "actions": []
+        }
+      ],
+      "source_labels": [
+        "AS02"
+      ],
+      "conditions": [
+        {
+          "label_id": "AS02",
+          "name": "清理砧板",
+          "detail": "蔬菜皮、蔬菜片、面包片",
+          "props": [
+            "cutting_board",
+            "chef_knife",
+            "pot",
+            "pan",
+            "cucumber",
+            "potato",
+            "bread"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "U56",
+      "name": "在面包上涂抹酱料",
+      "en": "Spread almond butter or jelly on bread",
+      "category": "tool",
+      "primitives": [
+        "P10",
+        "P26",
+        "P27",
+        "P39"
+      ],
+      "props": [
+        "bread",
+        "table_knife",
+        "almond_butter",
+        "jelly",
+        "jar"
+      ],
+      "sources": [
+        "ACTIONSENSE"
+      ],
+      "locator": "官方 Activity Stats 标签表；Supplement C.4, pp.9–11",
+      "description": "用餐刀铺展杏仁酱或果冻酱。原流程先杏仁酱、再果冻酱；面包可放桌上或手持，涂抹量和技术不固定。两种材料作为独立条件。",
+      "success": "记录覆盖范围、面包完整性与材料转移；工具悬空划动不计有效涂抹。",
+      "origin": "direct",
+      "media": "as_grid",
+      "pose": null,
+      "difficulty": "进阶",
+      "hands": "双手",
+      "variation": "记录工具 / 物体身份、初态、稳定手与操作手、接触阶段及失败原因。条件分别采集；细分阶段需人工复核时间边界。",
+      "added_in": "1.3",
+      "granularity": "完整活动 / 条件族",
+      "aliases": [
+        "ActionSense",
+        "Spread almond butter on a bread slice",
+        "在面包片上涂杏仁酱",
+        "杏仁酱；面包手持或桌面支撑",
+        "Spread jelly on a bread slice",
+        "在面包片上涂果冻酱",
+        "原流程在杏仁酱层上涂果冻酱"
+      ],
+      "mediaScope": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+      "phases_author": "本库建议分段；不是官方逐帧标签",
+      "equipment": [
+        "emg_armband",
+        "finger_glove",
+        "body_imu",
+        "eye_tracker",
+        "rgb_camera",
+        "depth_camera",
+        "microphone",
+        "sensor"
+      ],
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_grid",
+          "label": "ActionSense · 厨房活动合集",
+          "locator": "官方 Activity Stats 标签表；Supplement C.4, pp.9–11",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9",
+          "scope": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+          "relation": "直接活动来源",
+          "props": [
+            "bread",
+            "table_knife",
+            "almond_butter",
+            "jelly",
+            "jar"
+          ]
+        },
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_session",
+          "label": "ActionSense · 带活动章节的多模态演示",
+          "locator": "首页多模态演示 / 活动章节",
+          "scope": "首页原始 YouTube 演示；章节对应活动标签。本库未核定各子动作时间戳。",
+          "relation": "原始连续演示",
+          "props": []
+        }
+      ],
+      "phases": [
+        {
+          "name": "稳定面包与涂抹刀",
+          "primitives": [
+            "P10",
+            "P27"
+          ],
+          "observe": "面包手持 / 桌面支撑分别标注。",
+          "actions": []
+        },
+        {
+          "name": "接触并铺展酱料",
+          "primitives": [
+            "P26",
+            "P39"
+          ],
+          "observe": "记录每次有效涂布与材料条件。",
+          "actions": [
+            "U59"
+          ]
+        },
+        {
+          "name": "工具离面与检查覆盖",
+          "primitives": [
+            "P15"
+          ],
+          "observe": "接触结束、面包状态和覆盖范围。",
+          "actions": []
+        }
+      ],
+      "source_labels": [
+        "AS08",
+        "AS09"
+      ],
+      "conditions": [
+        {
+          "label_id": "AS08",
+          "name": "在面包片上涂杏仁酱",
+          "detail": "杏仁酱；面包手持或桌面支撑",
+          "props": [
+            "bread",
+            "table_knife",
+            "almond_butter",
+            "jar"
+          ]
+        },
+        {
+          "label_id": "AS09",
+          "name": "在面包片上涂果冻酱",
+          "detail": "原流程在杏仁酱层上涂果冻酱",
+          "props": [
+            "bread",
+            "table_knife",
+            "jelly",
+            "jar"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B26",
+      "name": "扶罐并重复开合螺纹盖",
+      "en": "Open and close a jar",
+      "category": "bimanual",
+      "primitives": [
+        "P10",
+        "P24",
+        "P25",
+        "P27"
+      ],
+      "props": [
+        "jar",
+        "almond_butter"
+      ],
+      "sources": [
+        "ACTIONSENSE"
+      ],
+      "locator": "官方 Activity Stats 标签表；Supplement C.4, pp.9–11",
+      "description": "打开并盖回杏仁酱罐，原流程重复 3 次，允许罐体放桌上或持握。完整开合循环与已有 B07、U22、U23 单侧步骤关联。",
+      "success": "分开记录开盖、盖体分离、重新啮合和关盖；每次循环均有可辨识罐盖状态。",
+      "origin": "direct",
+      "media": "as_grid",
+      "pose": null,
+      "difficulty": "进阶",
+      "hands": "双手",
+      "variation": "记录工具 / 物体身份、初态、稳定手与操作手、接触阶段及失败原因。条件分别采集；细分阶段需人工复核时间边界。",
+      "added_in": "1.3",
+      "granularity": "完整活动 / 条件族",
+      "aliases": [
+        "ActionSense",
+        "Open/close a jar of almond butter",
+        "开合杏仁酱罐",
+        "开合循环 3 次；可桌面支撑"
+      ],
+      "mediaScope": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+      "phases_author": "本库建议分段；不是官方逐帧标签",
+      "equipment": [
+        "emg_armband",
+        "finger_glove",
+        "body_imu",
+        "eye_tracker",
+        "rgb_camera",
+        "depth_camera",
+        "microphone",
+        "sensor"
+      ],
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_grid",
+          "label": "ActionSense · 厨房活动合集",
+          "locator": "官方 Activity Stats 标签表；Supplement C.4, pp.9–11",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9",
+          "scope": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+          "relation": "直接活动来源",
+          "props": [
+            "jar",
+            "almond_butter"
+          ]
+        },
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_session",
+          "label": "ActionSense · 带活动章节的多模态演示",
+          "locator": "首页多模态演示 / 活动章节",
+          "scope": "首页原始 YouTube 演示；章节对应活动标签。本库未核定各子动作时间戳。",
+          "relation": "原始连续演示",
+          "props": []
+        }
+      ],
+      "phases": [
+        {
+          "name": "固定罐体、旋松罐盖",
+          "primitives": [
+            "P10",
+            "P25",
+            "P27"
+          ],
+          "observe": "盖子相对罐体的转角与解除啮合。",
+          "actions": [
+            "B07",
+            "U23"
+          ]
+        },
+        {
+          "name": "分离与重新对准",
+          "primitives": [
+            "P24",
+            "P19"
+          ],
+          "observe": "盖体分离事件与重新啮合位置。",
+          "actions": []
+        },
+        {
+          "name": "拧紧并重复循环",
+          "primitives": [
+            "P25"
+          ],
+          "observe": "原协议开关 3 次；不把次数当新技能。",
+          "actions": [
+            "U22"
+          ]
+        }
+      ],
+      "source_labels": [
+        "AS10"
+      ],
+      "conditions": [
+        {
+          "label_id": "AS10",
+          "name": "开合杏仁酱罐",
+          "detail": "开合循环 3 次；可桌面支撑",
+          "props": [
+            "jar",
+            "almond_butter"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B27",
+      "name": "持盘并用海绵或毛巾擦拭",
+      "en": "Clean a plate with sponge or towel",
+      "category": "bimanual",
+      "primitives": [
+        "P10",
+        "P22",
+        "P27",
+        "P29"
+      ],
+      "props": [
+        "plate",
+        "sponge",
+        "cloth"
+      ],
+      "sources": [
+        "ACTIONSENSE"
+      ],
+      "locator": "官方 Activity Stats 标签表；Supplement C.4, pp.9–11",
+      "description": "一手拿盘，一手以海绵或毛巾模拟擦洗。来源为假装有污渍的干擦拭，不包含流水、洗涤剂或实际去污效果验证。",
+      "success": "记录盘面接触覆盖与持盘稳定性；在干擦任务中不以去污率判定。",
+      "origin": "direct",
+      "media": "as_grid",
+      "pose": null,
+      "difficulty": "进阶",
+      "hands": "双手",
+      "variation": "记录工具 / 物体身份、初态、稳定手与操作手、接触阶段及失败原因。条件分别采集；细分阶段需人工复核时间边界。",
+      "added_in": "1.3",
+      "granularity": "完整活动 / 条件族",
+      "aliases": [
+        "ActionSense",
+        "Clean a plate with a sponge",
+        "用海绵擦盘子",
+        "持盘 + 海绵；模拟干擦",
+        "Clean a plate with a towel",
+        "用毛巾擦盘子",
+        "持盘 + 毛巾；模拟干擦"
+      ],
+      "mediaScope": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+      "phases_author": "本库建议分段；不是官方逐帧标签",
+      "equipment": [
+        "emg_armband",
+        "finger_glove",
+        "body_imu",
+        "eye_tracker",
+        "rgb_camera",
+        "depth_camera",
+        "microphone",
+        "sensor"
+      ],
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_grid",
+          "label": "ActionSense · 厨房活动合集",
+          "locator": "官方 Activity Stats 标签表；Supplement C.4, pp.9–11",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9",
+          "scope": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+          "relation": "直接活动来源",
+          "props": [
+            "plate",
+            "sponge",
+            "cloth"
+          ]
+        },
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_session",
+          "label": "ActionSense · 带活动章节的多模态演示",
+          "locator": "首页多模态演示 / 活动章节",
+          "scope": "首页原始 YouTube 演示；章节对应活动标签。本库未核定各子动作时间戳。",
+          "relation": "原始连续演示",
+          "props": []
+        }
+      ],
+      "phases": [
+        {
+          "name": "稳定目标与清洁材料",
+          "primitives": [
+            "P10",
+            "P27"
+          ],
+          "observe": "盘面边缘或锅柄支撑，材料为海绵 / 毛巾。",
+          "actions": []
+        },
+        {
+          "name": "保持接触并擦拭",
+          "primitives": [
+            "P22",
+            "P29"
+          ],
+          "observe": "重复行程与接触覆盖；原任务是干擦。",
+          "actions": [
+            "B29"
+          ]
+        },
+        {
+          "name": "离面与结束",
+          "primitives": [
+            "P15"
+          ],
+          "observe": "来源建议每轮约 5–10 秒并重复，具体时长服从原标签。",
+          "actions": []
+        }
+      ],
+      "source_labels": [
+        "AS12",
+        "AS13"
+      ],
+      "conditions": [
+        {
+          "label_id": "AS12",
+          "name": "用海绵擦盘子",
+          "detail": "持盘 + 海绵；模拟干擦",
+          "props": [
+            "plate",
+            "sponge"
+          ]
+        },
+        {
+          "label_id": "AS13",
+          "name": "用毛巾擦盘子",
+          "detail": "持盘 + 毛巾；模拟干擦",
+          "props": [
+            "plate",
+            "cloth"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B28",
+      "name": "持锅柄并擦拭锅面",
+      "en": "Clean a pan with sponge or towel",
+      "category": "bimanual",
+      "primitives": [
+        "P10",
+        "P22",
+        "P27",
+        "P29"
+      ],
+      "props": [
+        "pan",
+        "sponge",
+        "cloth"
+      ],
+      "sources": [
+        "ACTIONSENSE"
+      ],
+      "locator": "官方 Activity Stats 标签表；Supplement C.4, pp.9–11",
+      "description": "稳定手握住锅柄，另一手用海绵或毛巾模拟擦拭锅面。与持盘的边缘支撑不同，保留为单独接触与负载条件。",
+      "success": "记录锅柄抓握、锅面接触区域与锅体晃动；原流程未验证实际去污。",
+      "origin": "direct",
+      "media": "as_grid",
+      "pose": null,
+      "difficulty": "进阶",
+      "hands": "双手",
+      "variation": "记录工具 / 物体身份、初态、稳定手与操作手、接触阶段及失败原因。条件分别采集；细分阶段需人工复核时间边界。",
+      "added_in": "1.3",
+      "granularity": "完整活动 / 条件族",
+      "aliases": [
+        "ActionSense",
+        "Clean a pan with a sponge",
+        "用海绵擦锅",
+        "握锅柄 + 海绵；模拟干擦",
+        "Clean a pan with a towel",
+        "用毛巾擦锅",
+        "握锅柄 + 毛巾；模拟干擦"
+      ],
+      "mediaScope": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+      "phases_author": "本库建议分段；不是官方逐帧标签",
+      "equipment": [
+        "emg_armband",
+        "finger_glove",
+        "body_imu",
+        "eye_tracker",
+        "rgb_camera",
+        "depth_camera",
+        "microphone",
+        "sensor"
+      ],
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_grid",
+          "label": "ActionSense · 厨房活动合集",
+          "locator": "官方 Activity Stats 标签表；Supplement C.4, pp.9–11",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9",
+          "scope": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+          "relation": "直接活动来源",
+          "props": [
+            "pan",
+            "sponge",
+            "cloth"
+          ]
+        },
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_session",
+          "label": "ActionSense · 带活动章节的多模态演示",
+          "locator": "首页多模态演示 / 活动章节",
+          "scope": "首页原始 YouTube 演示；章节对应活动标签。本库未核定各子动作时间戳。",
+          "relation": "原始连续演示",
+          "props": []
+        }
+      ],
+      "phases": [
+        {
+          "name": "稳定目标与清洁材料",
+          "primitives": [
+            "P10",
+            "P27"
+          ],
+          "observe": "盘面边缘或锅柄支撑，材料为海绵 / 毛巾。",
+          "actions": []
+        },
+        {
+          "name": "保持接触并擦拭",
+          "primitives": [
+            "P22",
+            "P29"
+          ],
+          "observe": "重复行程与接触覆盖；原任务是干擦。",
+          "actions": [
+            "B29"
+          ]
+        },
+        {
+          "name": "离面与结束",
+          "primitives": [
+            "P15"
+          ],
+          "observe": "来源建议每轮约 5–10 秒并重复，具体时长服从原标签。",
+          "actions": []
+        }
+      ],
+      "source_labels": [
+        "AS14",
+        "AS15"
+      ],
+      "conditions": [
+        {
+          "label_id": "AS14",
+          "name": "用海绵擦锅",
+          "detail": "握锅柄 + 海绵；模拟干擦",
+          "props": [
+            "pan",
+            "sponge"
+          ]
+        },
+        {
+          "label_id": "AS15",
+          "name": "用毛巾擦锅",
+          "detail": "握锅柄 + 毛巾；模拟干擦",
+          "props": [
+            "pan",
+            "cloth"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T23",
+      "name": "从储物区取物并归位",
+      "en": "Fetch and return kitchen items",
+      "category": "transfer",
+      "primitives": [
+        "P08",
+        "P09",
+        "P10",
+        "P16",
+        "P19",
+        "P15"
+      ],
+      "props": [
+        "cabinet",
+        "refrigerator",
+        "drawer",
+        "sink",
+        "cutting_board",
+        "cucumber",
+        "potato",
+        "bread",
+        "peeler",
+        "chef_knife",
+        "bread_knife",
+        "table_knife",
+        "almond_butter",
+        "jelly",
+        "jar",
+        "pitcher",
+        "cup",
+        "pan",
+        "pot",
+        "plate",
+        "bowl",
+        "spoon",
+        "fork",
+        "sponge",
+        "cloth",
+        "bag"
+      ],
+      "sources": [
+        "ACTIONSENSE"
+      ],
+      "locator": "官方 Activity Stats 标签表；Supplement C.4, pp.9–11",
+      "description": "覆盖通用取放与批量取餐具两个官方标签。记录储物位置、物体集合与搬运次序；开门、开抽屉属于可能出现的上下文步骤，应按实际录像标注。",
+      "success": "目标物体从正确储位到达工作区，或归回指定位置；分别记录漏取、错放、碰撞和滑落。",
+      "origin": "direct",
+      "media": "as_grid",
+      "pose": null,
+      "difficulty": "进阶",
+      "hands": "单手 / 双手",
+      "variation": "记录工具 / 物体身份、初态、稳定手与操作手、接触阶段及失败原因。条件分别采集；细分阶段需人工复核时间边界。",
+      "added_in": "1.3",
+      "granularity": "完整活动 / 条件族",
+      "aliases": [
+        "ActionSense",
+        "Get/replace items from refrigerator/cabinets/drawers",
+        "从冰箱、柜子、抽屉取放物品",
+        "通用取物 / 归位",
+        "Get items from cabinets: 3 each large/small plates, bowls, mugs, glasses, sets of utensils",
+        "取出三套餐具",
+        "每类 3 件；大盘 / 小盘分开，刀勺叉各 3"
+      ],
+      "mediaScope": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+      "phases_author": "本库建议分段；不是官方逐帧标签",
+      "equipment": [
+        "emg_armband",
+        "finger_glove",
+        "body_imu",
+        "eye_tracker",
+        "rgb_camera",
+        "depth_camera",
+        "microphone",
+        "sensor"
+      ],
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_grid",
+          "label": "ActionSense · 厨房活动合集",
+          "locator": "官方 Activity Stats 标签表；Supplement C.4, pp.9–11",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9",
+          "scope": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+          "relation": "直接活动来源",
+          "props": [
+            "cabinet",
+            "refrigerator",
+            "drawer",
+            "sink",
+            "cutting_board",
+            "cucumber",
+            "potato",
+            "bread",
+            "peeler",
+            "chef_knife",
+            "bread_knife",
+            "table_knife",
+            "almond_butter",
+            "jelly",
+            "jar",
+            "pitcher",
+            "cup",
+            "pan",
+            "pot",
+            "plate",
+            "bowl",
+            "spoon",
+            "fork",
+            "sponge",
+            "cloth",
+            "bag"
+          ]
+        },
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_session",
+          "label": "ActionSense · 带活动章节的多模态演示",
+          "locator": "首页多模态演示 / 活动章节",
+          "scope": "首页原始 YouTube 演示；章节对应活动标签。本库未核定各子动作时间戳。",
+          "relation": "原始连续演示",
+          "props": []
+        }
+      ],
+      "phases": [
+        {
+          "name": "定位目标与取得接近空间",
+          "primitives": [
+            "P08"
+          ],
+          "observe": "开抽屉只在出现时使用现有动作；柜门开启不冒充手内运动。",
+          "actions": [
+            "U28"
+          ]
+        },
+        {
+          "name": "抓取并搬到目标区",
+          "primitives": [
+            "P09",
+            "P10",
+            "P16"
+          ],
+          "observe": "每件 / 每批物品、储位与手数。",
+          "actions": []
+        },
+        {
+          "name": "稳定放置、归位或关抽屉",
+          "primitives": [
+            "P19",
+            "P15"
+          ],
+          "observe": "关抽屉是可选上下文；按实际视频分段。",
+          "actions": [
+            "U29"
+          ]
+        }
+      ],
+      "source_labels": [
+        "AS01",
+        "AS16"
+      ],
+      "conditions": [
+        {
+          "label_id": "AS01",
+          "name": "从冰箱、柜子、抽屉取放物品",
+          "detail": "通用取物 / 归位",
+          "props": [
+            "cabinet",
+            "refrigerator",
+            "drawer",
+            "sink"
+          ]
+        },
+        {
+          "label_id": "AS16",
+          "name": "取出三套餐具",
+          "detail": "每类 3 件；大盘 / 小盘分开，刀勺叉各 3",
+          "props": [
+            "cabinet",
+            "drawer",
+            "plate",
+            "bowl",
+            "cup",
+            "table_knife",
+            "spoon",
+            "fork"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T24",
+      "name": "布置三套餐具",
+      "en": "Set a table with three place settings",
+      "category": "transfer",
+      "primitives": [
+        "P08",
+        "P10",
+        "P16",
+        "P19",
+        "P15"
+      ],
+      "props": [
+        "plate",
+        "bowl",
+        "cup",
+        "table_knife",
+        "spoon",
+        "fork"
+      ],
+      "sources": [
+        "ACTIONSENSE"
+      ],
+      "locator": "官方 Activity Stats 标签表；Supplement C.4, pp.9–11",
+      "description": "每套含大盘、小盘、碗、马克杯、水杯、餐刀、餐勺和餐叉，共三套。原流程规定三个用餐位置，但具体餐具排布和中间暂存策略可自由选择。",
+      "success": "各用餐位置的物品集合完整且稳定；用目标集合而非唯一排列样式判断。",
+      "origin": "direct",
+      "media": "as_grid",
+      "pose": null,
+      "difficulty": "进阶",
+      "hands": "单手 / 双手",
+      "variation": "记录工具 / 物体身份、初态、稳定手与操作手、接触阶段及失败原因。条件分别采集；细分阶段需人工复核时间边界。",
+      "added_in": "1.3",
+      "granularity": "完整活动 / 条件族",
+      "aliases": [
+        "ActionSense",
+        "Set table: 3 each large/small plates, bowls, mugs, glasses, sets of utensils",
+        "布置三套餐具",
+        "三处用餐位置；每处八种餐具"
+      ],
+      "mediaScope": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+      "phases_author": "本库建议分段；不是官方逐帧标签",
+      "equipment": [
+        "emg_armband",
+        "finger_glove",
+        "body_imu",
+        "eye_tracker",
+        "rgb_camera",
+        "depth_camera",
+        "microphone",
+        "sensor"
+      ],
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_grid",
+          "label": "ActionSense · 厨房活动合集",
+          "locator": "官方 Activity Stats 标签表；Supplement C.4, pp.9–11",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9",
+          "scope": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+          "relation": "直接活动来源",
+          "props": [
+            "plate",
+            "bowl",
+            "cup",
+            "table_knife",
+            "spoon",
+            "fork"
+          ]
+        },
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_session",
+          "label": "ActionSense · 带活动章节的多模态演示",
+          "locator": "首页多模态演示 / 活动章节",
+          "scope": "首页原始 YouTube 演示；章节对应活动标签。本库未核定各子动作时间戳。",
+          "relation": "原始连续演示",
+          "props": []
+        }
+      ],
+      "phases": [
+        {
+          "name": "选择目标并抓取",
+          "primitives": [
+            "P08",
+            "P09",
+            "P10"
+          ],
+          "observe": "记录物体身份、先后次序与一次搬运件数。",
+          "actions": []
+        },
+        {
+          "name": "搬运与外部对位",
+          "primitives": [
+            "P16",
+            "P19"
+          ],
+          "observe": "运动归因于腕臂搬运，不能直接称作手内平移。",
+          "actions": []
+        },
+        {
+          "name": "释放并检查终态",
+          "primitives": [
+            "P15"
+          ],
+          "observe": "完成条件：餐具齐全且各就各位；继续下一件或结束。",
+          "actions": []
+        }
+      ],
+      "source_labels": [
+        "AS17"
+      ],
+      "conditions": [
+        {
+          "label_id": "AS17",
+          "name": "布置三套餐具",
+          "detail": "三处用餐位置；每处八种餐具",
+          "props": [
+            "plate",
+            "bowl",
+            "cup",
+            "table_knife",
+            "spoon",
+            "fork"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T25",
+      "name": "将盘碗分类叠放",
+      "en": "Stack plates and bowls on a table",
+      "category": "transfer",
+      "primitives": [
+        "P08",
+        "P10",
+        "P16",
+        "P19",
+        "P15"
+      ],
+      "props": [
+        "plate",
+        "bowl"
+      ],
+      "sources": [
+        "ACTIONSENSE"
+      ],
+      "locator": "官方 Activity Stats 标签表；Supplement C.4, pp.9–11",
+      "description": "分别叠放大盘、小盘和碗，每类 3 件。杯、刀叉勺不属于该官方堆叠标签；与盘子翻转入碗碟架 T21 区分。",
+      "success": "同类物体形成稳定叠组；标注落位、释放、倾斜与意外碰倒。",
+      "origin": "direct",
+      "media": "as_grid",
+      "pose": null,
+      "difficulty": "进阶",
+      "hands": "单手 / 双手",
+      "variation": "记录工具 / 物体身份、初态、稳定手与操作手、接触阶段及失败原因。条件分别采集；细分阶段需人工复核时间边界。",
+      "added_in": "1.3",
+      "granularity": "完整活动 / 条件族",
+      "aliases": [
+        "ActionSense",
+        "Stack on table: 3 each large/small plates, bowls",
+        "在桌上叠放三组盘碗",
+        "大盘 / 小盘 / 碗，各 3 件"
+      ],
+      "mediaScope": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+      "phases_author": "本库建议分段；不是官方逐帧标签",
+      "equipment": [
+        "emg_armband",
+        "finger_glove",
+        "body_imu",
+        "eye_tracker",
+        "rgb_camera",
+        "depth_camera",
+        "microphone",
+        "sensor"
+      ],
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_grid",
+          "label": "ActionSense · 厨房活动合集",
+          "locator": "官方 Activity Stats 标签表；Supplement C.4, pp.9–11",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9",
+          "scope": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+          "relation": "直接活动来源",
+          "props": [
+            "plate",
+            "bowl"
+          ]
+        },
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_session",
+          "label": "ActionSense · 带活动章节的多模态演示",
+          "locator": "首页多模态演示 / 活动章节",
+          "scope": "首页原始 YouTube 演示；章节对应活动标签。本库未核定各子动作时间戳。",
+          "relation": "原始连续演示",
+          "props": []
+        }
+      ],
+      "phases": [
+        {
+          "name": "选择目标并抓取",
+          "primitives": [
+            "P08",
+            "P09",
+            "P10"
+          ],
+          "observe": "记录物体身份、先后次序与一次搬运件数。",
+          "actions": []
+        },
+        {
+          "name": "搬运与外部对位",
+          "primitives": [
+            "P16",
+            "P19"
+          ],
+          "observe": "运动归因于腕臂搬运，不能直接称作手内平移。",
+          "actions": []
+        },
+        {
+          "name": "释放并检查终态",
+          "primitives": [
+            "P15"
+          ],
+          "observe": "完成条件：同类稳定叠放；继续下一件或结束。",
+          "actions": []
+        }
+      ],
+      "source_labels": [
+        "AS18"
+      ],
+      "conditions": [
+        {
+          "label_id": "AS18",
+          "name": "在桌上叠放三组盘碗",
+          "detail": "大盘 / 小盘 / 碗，各 3 件",
+          "props": [
+            "plate",
+            "bowl"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T26",
+      "name": "将餐具装入洗碗机",
+      "en": "Load tableware into a dishwasher",
+      "category": "transfer",
+      "primitives": [
+        "P08",
+        "P10",
+        "P16",
+        "P19",
+        "P15"
+      ],
+      "props": [
+        "plate",
+        "bowl",
+        "cup",
+        "table_knife",
+        "spoon",
+        "fork",
+        "dishwasher"
+      ],
+      "sources": [
+        "ACTIONSENSE"
+      ],
+      "locator": "官方 Activity Stats 标签表；Supplement C.4, pp.9–11",
+      "description": "把三套餐具放进洗碗机，顺序、暂存位置和一次搬运数量允许变化。是受环境约束的长任务链，不包含开启洗涤程序。",
+      "success": "记录各件物品最终所在层架与稳定状态，检查遗漏和碰撞；整套装完才计活动完成。",
+      "origin": "direct",
+      "media": "as_grid",
+      "pose": null,
+      "difficulty": "进阶",
+      "hands": "单手 / 双手",
+      "variation": "记录工具 / 物体身份、初态、稳定手与操作手、接触阶段及失败原因。条件分别采集；细分阶段需人工复核时间边界。",
+      "added_in": "1.3",
+      "granularity": "完整活动 / 条件族",
+      "aliases": [
+        "ActionSense",
+        "Load dishwasher: 3 each large/small plates, bowls, mugs, glasses, sets of utensils",
+        "将三套餐具装入洗碗机",
+        "三套完整餐具；摆放策略可变"
+      ],
+      "mediaScope": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+      "phases_author": "本库建议分段；不是官方逐帧标签",
+      "equipment": [
+        "emg_armband",
+        "finger_glove",
+        "body_imu",
+        "eye_tracker",
+        "rgb_camera",
+        "depth_camera",
+        "microphone",
+        "sensor"
+      ],
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_grid",
+          "label": "ActionSense · 厨房活动合集",
+          "locator": "官方 Activity Stats 标签表；Supplement C.4, pp.9–11",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9",
+          "scope": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+          "relation": "直接活动来源",
+          "props": [
+            "plate",
+            "bowl",
+            "cup",
+            "table_knife",
+            "spoon",
+            "fork",
+            "dishwasher"
+          ]
+        },
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_session",
+          "label": "ActionSense · 带活动章节的多模态演示",
+          "locator": "首页多模态演示 / 活动章节",
+          "scope": "首页原始 YouTube 演示；章节对应活动标签。本库未核定各子动作时间戳。",
+          "relation": "原始连续演示",
+          "props": []
+        }
+      ],
+      "phases": [
+        {
+          "name": "选择目标并抓取",
+          "primitives": [
+            "P08",
+            "P09",
+            "P10"
+          ],
+          "observe": "记录物体身份、先后次序与一次搬运件数。",
+          "actions": []
+        },
+        {
+          "name": "搬运与外部对位",
+          "primitives": [
+            "P16",
+            "P19"
+          ],
+          "observe": "运动归因于腕臂搬运，不能直接称作手内平移。",
+          "actions": []
+        },
+        {
+          "name": "释放并检查终态",
+          "primitives": [
+            "P15"
+          ],
+          "observe": "完成条件：目标餐具在洗碗机内稳定落位；继续下一件或结束。",
+          "actions": []
+        }
+      ],
+      "source_labels": [
+        "AS19"
+      ],
+      "conditions": [
+        {
+          "label_id": "AS19",
+          "name": "将三套餐具装入洗碗机",
+          "detail": "三套完整餐具；摆放策略可变",
+          "props": [
+            "plate",
+            "bowl",
+            "cup",
+            "table_knife",
+            "spoon",
+            "fork",
+            "dishwasher"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T27",
+      "name": "从洗碗机取出餐具并归位",
+      "en": "Unload a dishwasher and return items",
+      "category": "transfer",
+      "primitives": [
+        "P08",
+        "P09",
+        "P10",
+        "P16",
+        "P19",
+        "P15"
+      ],
+      "props": [
+        "plate",
+        "bowl",
+        "cup",
+        "table_knife",
+        "spoon",
+        "fork",
+        "dishwasher",
+        "cabinet",
+        "drawer"
+      ],
+      "sources": [
+        "ACTIONSENSE"
+      ],
+      "locator": "官方 Activity Stats 标签表；Supplement C.4, pp.9–11",
+      "description": "从洗碗机取出三套餐具并放回原存储位置。与装入任务分开，涉及从密集约束中取出和跨区域归位。",
+      "success": "目标餐具全部取出且归入正确储位；保留取出次序、批量搬运和失败事件。",
+      "origin": "direct",
+      "media": "as_grid",
+      "pose": null,
+      "difficulty": "进阶",
+      "hands": "单手 / 双手",
+      "variation": "记录工具 / 物体身份、初态、稳定手与操作手、接触阶段及失败原因。条件分别采集；细分阶段需人工复核时间边界。",
+      "added_in": "1.3",
+      "granularity": "完整活动 / 条件族",
+      "aliases": [
+        "ActionSense",
+        "Unload dishwasher: 3 each large/small plates, bowls, mugs, glasses, sets of utensils",
+        "卸下三套餐具并归位",
+        "三套完整餐具；返回原储位"
+      ],
+      "mediaScope": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+      "phases_author": "本库建议分段；不是官方逐帧标签",
+      "equipment": [
+        "emg_armband",
+        "finger_glove",
+        "body_imu",
+        "eye_tracker",
+        "rgb_camera",
+        "depth_camera",
+        "microphone",
+        "sensor"
+      ],
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_grid",
+          "label": "ActionSense · 厨房活动合集",
+          "locator": "官方 Activity Stats 标签表；Supplement C.4, pp.9–11",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9",
+          "scope": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+          "relation": "直接活动来源",
+          "props": [
+            "plate",
+            "bowl",
+            "cup",
+            "table_knife",
+            "spoon",
+            "fork",
+            "dishwasher",
+            "cabinet",
+            "drawer"
+          ]
+        },
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_session",
+          "label": "ActionSense · 带活动章节的多模态演示",
+          "locator": "首页多模态演示 / 活动章节",
+          "scope": "首页原始 YouTube 演示；章节对应活动标签。本库未核定各子动作时间戳。",
+          "relation": "原始连续演示",
+          "props": []
+        }
+      ],
+      "phases": [
+        {
+          "name": "选择目标并抓取",
+          "primitives": [
+            "P08",
+            "P09",
+            "P10"
+          ],
+          "observe": "记录物体身份、先后次序与一次搬运件数。",
+          "actions": []
+        },
+        {
+          "name": "搬运与外部对位",
+          "primitives": [
+            "P16",
+            "P19"
+          ],
+          "observe": "运动归因于腕臂搬运，不能直接称作手内平移。",
+          "actions": []
+        },
+        {
+          "name": "释放并检查终态",
+          "primitives": [
+            "P15"
+          ],
+          "observe": "完成条件：餐具回到原储位；继续下一件或结束。",
+          "actions": []
+        }
+      ],
+      "source_labels": [
+        "AS20"
+      ],
+      "conditions": [
+        {
+          "label_id": "AS20",
+          "name": "卸下三套餐具并归位",
+          "detail": "三套完整餐具；返回原储位",
+          "props": [
+            "plate",
+            "bowl",
+            "cup",
+            "table_knife",
+            "spoon",
+            "fork",
+            "dishwasher",
+            "cabinet",
+            "drawer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "U57",
+      "name": "单次削皮接触行程",
+      "en": "One peeling contact stroke",
+      "category": "tool",
+      "primitives": [
+        "P10",
+        "P26",
+        "P27",
+        "P38"
+      ],
+      "props": [
+        "cucumber",
+        "potato",
+        "peeler"
+      ],
+      "sources": [
+        "ACTIONSENSE"
+      ],
+      "locator": "官方 Activity Stats 标签表；Supplement C.4, pp.9–11",
+      "description": "从蔬菜去皮活动提议切出的最小接触片段：刃口接触、沿表皮运动、表层分离、脱离。原数据未提供本条逐次起止。",
+      "success": "一次连续接触产生可辨表层移除；标注行程边界及支撑手状态。",
+      "origin": "adapted",
+      "media": "as_grid",
+      "pose": null,
+      "difficulty": "进阶",
+      "hands": "双手",
+      "variation": "记录工具 / 物体身份、初态、稳定手与操作手、接触阶段及失败原因。条件分别采集；细分阶段需人工复核时间边界。",
+      "added_in": "1.3",
+      "granularity": "本库拆解子动作",
+      "aliases": [
+        "ActionSense"
+      ],
+      "mediaScope": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+      "phases_author": "本库建议分段；不是官方逐帧标签",
+      "equipment": [
+        "emg_armband",
+        "finger_glove",
+        "body_imu",
+        "eye_tracker",
+        "rgb_camera",
+        "depth_camera",
+        "microphone",
+        "sensor"
+      ],
+      "parent": "U53",
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_grid",
+          "label": "ActionSense · 厨房活动合集",
+          "locator": "官方 Activity Stats 标签表；Supplement C.4, pp.9–11",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9",
+          "scope": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+          "relation": "任务拆解",
+          "props": [
+            "cucumber",
+            "potato",
+            "peeler"
+          ]
+        },
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_session",
+          "label": "ActionSense · 带活动章节的多模态演示",
+          "locator": "首页多模态演示 / 活动章节",
+          "scope": "首页原始 YouTube 演示；章节对应活动标签。本库未核定各子动作时间戳。",
+          "relation": "原始连续演示",
+          "props": []
+        }
+      ]
+    },
+    {
+      "id": "U58",
+      "name": "单片切下与刀具复位",
+      "en": "One slice separation and tool reset",
+      "category": "tool",
+      "primitives": [
+        "P10",
+        "P23",
+        "P26",
+        "P27",
+        "P38"
+      ],
+      "props": [
+        "cucumber",
+        "potato",
+        "bread",
+        "chef_knife",
+        "bread_knife",
+        "cutting_board"
+      ],
+      "sources": [
+        "ACTIONSENSE"
+      ],
+      "locator": "官方 Activity Stats 标签表；Supplement C.4, pp.9–11",
+      "description": "从整段切片提议分出切入、材料分离和刀具退离。面包可能需要多次往复才能分离一片，不能把一次往复自动当一片。",
+      "success": "以材料分离事件界定一片，刀具离开后标记结束；保留未切断片段。",
+      "origin": "adapted",
+      "media": "as_grid",
+      "pose": null,
+      "difficulty": "进阶",
+      "hands": "双手",
+      "variation": "记录工具 / 物体身份、初态、稳定手与操作手、接触阶段及失败原因。条件分别采集；细分阶段需人工复核时间边界。",
+      "added_in": "1.3",
+      "granularity": "本库拆解子动作",
+      "aliases": [
+        "ActionSense"
+      ],
+      "mediaScope": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+      "phases_author": "本库建议分段；不是官方逐帧标签",
+      "equipment": [
+        "emg_armband",
+        "finger_glove",
+        "body_imu",
+        "eye_tracker",
+        "rgb_camera",
+        "depth_camera",
+        "microphone",
+        "sensor"
+      ],
+      "parent": "U54",
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_grid",
+          "label": "ActionSense · 厨房活动合集",
+          "locator": "官方 Activity Stats 标签表；Supplement C.4, pp.9–11",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9",
+          "scope": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+          "relation": "任务拆解",
+          "props": [
+            "cucumber",
+            "potato",
+            "bread",
+            "chef_knife",
+            "bread_knife",
+            "cutting_board"
+          ]
+        },
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_session",
+          "label": "ActionSense · 带活动章节的多模态演示",
+          "locator": "首页多模态演示 / 活动章节",
+          "scope": "首页原始 YouTube 演示；章节对应活动标签。本库未核定各子动作时间戳。",
+          "relation": "原始连续演示",
+          "props": []
+        }
+      ]
+    },
+    {
+      "id": "U59",
+      "name": "一次接触涂布行程",
+      "en": "One contact spreading stroke",
+      "category": "tool",
+      "primitives": [
+        "P10",
+        "P26",
+        "P27",
+        "P39"
+      ],
+      "props": [
+        "bread",
+        "table_knife",
+        "almond_butter",
+        "jelly"
+      ],
+      "sources": [
+        "ACTIONSENSE"
+      ],
+      "locator": "官方 Activity Stats 标签表；Supplement C.4, pp.9–11",
+      "description": "从涂抹活动提议分出工具接触基底、推动材料并脱离的一次行程。取酱与换手只有在录像中出现时才额外标注。",
+      "success": "记录行程前后覆盖区域变化及面包破损；时长阈值由预试确定。",
+      "origin": "adapted",
+      "media": "as_grid",
+      "pose": null,
+      "difficulty": "进阶",
+      "hands": "双手",
+      "variation": "记录工具 / 物体身份、初态、稳定手与操作手、接触阶段及失败原因。条件分别采集；细分阶段需人工复核时间边界。",
+      "added_in": "1.3",
+      "granularity": "本库拆解子动作",
+      "aliases": [
+        "ActionSense"
+      ],
+      "mediaScope": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+      "phases_author": "本库建议分段；不是官方逐帧标签",
+      "equipment": [
+        "emg_armband",
+        "finger_glove",
+        "body_imu",
+        "eye_tracker",
+        "rgb_camera",
+        "depth_camera",
+        "microphone",
+        "sensor"
+      ],
+      "parent": "U56",
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_grid",
+          "label": "ActionSense · 厨房活动合集",
+          "locator": "官方 Activity Stats 标签表；Supplement C.4, pp.9–11",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9",
+          "scope": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+          "relation": "任务拆解",
+          "props": [
+            "bread",
+            "table_knife",
+            "almond_butter",
+            "jelly"
+          ]
+        },
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_session",
+          "label": "ActionSense · 带活动章节的多模态演示",
+          "locator": "首页多模态演示 / 活动章节",
+          "scope": "首页原始 YouTube 演示；章节对应活动标签。本库未核定各子动作时间戳。",
+          "relation": "原始连续演示",
+          "props": []
+        }
+      ]
+    },
+    {
+      "id": "B29",
+      "name": "稳定餐具并完成一次擦拭行程",
+      "en": "One supported wiping stroke",
+      "category": "bimanual",
+      "primitives": [
+        "P10",
+        "P22",
+        "P27",
+        "P29"
+      ],
+      "props": [
+        "plate",
+        "pan",
+        "sponge",
+        "cloth"
+      ],
+      "sources": [
+        "ACTIONSENSE"
+      ],
+      "locator": "官方 Activity Stats 标签表；Supplement C.4, pp.9–11",
+      "description": "从盘面或锅面干擦中提议分出一次连续接触行程。路径可以直线或曲线，方向变化作为条件，非四个新技能。",
+      "success": "稳定手持续支撑目标物，擦拭材料接触表面；分开标记换向和离面。",
+      "origin": "adapted",
+      "media": "as_grid",
+      "pose": null,
+      "difficulty": "进阶",
+      "hands": "双手",
+      "variation": "记录工具 / 物体身份、初态、稳定手与操作手、接触阶段及失败原因。条件分别采集；细分阶段需人工复核时间边界。",
+      "added_in": "1.3",
+      "granularity": "本库拆解子动作",
+      "aliases": [
+        "ActionSense"
+      ],
+      "mediaScope": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+      "phases_author": "本库建议分段；不是官方逐帧标签",
+      "equipment": [
+        "emg_armband",
+        "finger_glove",
+        "body_imu",
+        "eye_tracker",
+        "rgb_camera",
+        "depth_camera",
+        "microphone",
+        "sensor"
+      ],
+      "parent": "B27",
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_grid",
+          "label": "ActionSense · 厨房活动合集",
+          "locator": "官方 Activity Stats 标签表；Supplement C.4, pp.9–11",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=9",
+          "scope": "首页 Activities 拼接视频；覆盖多类活动，没有为本库子动作逐项裁剪或标定时间边界。",
+          "relation": "任务拆解",
+          "props": [
+            "plate",
+            "pan",
+            "sponge",
+            "cloth"
+          ]
+        },
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_session",
+          "label": "ActionSense · 带活动章节的多模态演示",
+          "locator": "首页多模态演示 / 活动章节",
+          "scope": "首页原始 YouTube 演示；章节对应活动标签。本库未核定各子动作时间戳。",
+          "relation": "原始连续演示",
+          "props": []
+        }
+      ],
+      "related_actions": [
+        "B28"
+      ]
+    },
+    {
+      "id": "C13",
+      "name": "平掌按秤的触觉校准",
+      "en": "Flat-palm scale calibration",
+      "category": "contact",
+      "primitives": [
+        "P09",
+        "P23",
+        "P31",
+        "P15"
+      ],
+      "props": [
+        "scale",
+        "sensor"
+      ],
+      "sources": [
+        "ACTIONSENSE"
+      ],
+      "locator": "Supplement C.3.1, p.8 · 手部校准",
+      "description": "按官方校准程序，以平掌向数字秤按压，每只手 3 次。重复次数是来源协议；不要求线性力斜坡，故不与 C02 等同。",
+      "success": "每次包含接触、加载和卸载；同步触觉与数字秤读数，并记录左右手及归零。",
+      "origin": "direct",
+      "media": "as_calibration",
+      "pose": null,
+      "difficulty": "进阶",
+      "hands": "单手",
+      "variation": "记录左右手、设备状态、校准开始 / 结束时段及同步参考；保持来源要求与本库可选变化因素分开。",
+      "added_in": "1.3",
+      "granularity": "校准协议",
+      "aliases": [
+        "ActionSense"
+      ],
+      "mediaScope": "Supplement C.3.1，印刷页 8；以文字协议为证据，尚未定位独立校准视频。",
+      "phases_author": "本库建议分段；不是官方逐帧标签",
+      "equipment": [
+        "depth_camera",
+        "finger_glove",
+        "sensor"
+      ],
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_calibration",
+          "label": "ActionSense · 手部校准原始协议",
+          "locator": "Supplement C.3.1, p.8 · 手部校准",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=8",
+          "scope": "Supplement C.3.1，印刷页 8；以文字协议为证据，尚未定位独立校准视频。",
+          "relation": "校准协议",
+          "props": [
+            "scale",
+            "sensor"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C14",
+      "name": "掌部纹理块按压校准",
+      "en": "Textured-object palm calibration",
+      "category": "contact",
+      "primitives": [
+        "P09",
+        "P23",
+        "P31",
+        "P15"
+      ],
+      "props": [
+        "scale",
+        "textured_calibration",
+        "sensor"
+      ],
+      "sources": [
+        "ACTIONSENSE"
+      ],
+      "locator": "Supplement C.3.1, p.8 · 手部校准",
+      "description": "将 3D 打印纹理块放在秤上，重复平掌按压，以局部接触激发掌区触觉。这是 C13 的接触几何条件，单列校准入口。",
+      "success": "保留纹理块位置、掌部接触区域与参考秤读数；不从视频估计真实接触压力。",
+      "origin": "direct",
+      "media": "as_calibration",
+      "pose": null,
+      "difficulty": "进阶",
+      "hands": "单手",
+      "variation": "记录左右手、设备状态、校准开始 / 结束时段及同步参考；保持来源要求与本库可选变化因素分开。",
+      "added_in": "1.3",
+      "granularity": "校准协议",
+      "aliases": [
+        "ActionSense"
+      ],
+      "mediaScope": "Supplement C.3.1，印刷页 8；以文字协议为证据，尚未定位独立校准视频。",
+      "phases_author": "本库建议分段；不是官方逐帧标签",
+      "equipment": [
+        "depth_camera",
+        "finger_glove",
+        "sensor"
+      ],
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_calibration",
+          "label": "ActionSense · 手部校准原始协议",
+          "locator": "Supplement C.3.1, p.8 · 手部校准",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=8",
+          "scope": "Supplement C.3.1，印刷页 8；以文字协议为证据，尚未定位独立校准视频。",
+          "relation": "校准协议",
+          "props": [
+            "scale",
+            "textured_calibration",
+            "sensor"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C15",
+      "name": "五类物体静态持握校准",
+      "en": "Static holding of five calibration objects",
+      "category": "contact",
+      "primitives": [
+        "P09",
+        "P10",
+        "P15"
+      ],
+      "props": [
+        "cup",
+        "pan",
+        "plate",
+        "chef_knife",
+        "jar",
+        "depth_camera",
+        "sensor"
+      ],
+      "sources": [
+        "ACTIONSENSE"
+      ],
+      "locator": "Supplement C.3.1, p.8 · 手部校准",
+      "description": "原协议让每只手依次持握 mug、pan、plate、knife、jar，每个至少 5 秒，并在深度相机前记录。刀型未在校准段限定；本库用厨师刀作为可配置道具实例。",
+      "success": "记录对象、左右手、保持段与深度遮挡；原文未命名 GRASP 抓型，不自动赋予抓型真值。",
+      "origin": "direct",
+      "media": "as_calibration",
+      "pose": null,
+      "difficulty": "进阶",
+      "hands": "单手",
+      "variation": "记录左右手、设备状态、校准开始 / 结束时段及同步参考；保持来源要求与本库可选变化因素分开。",
+      "added_in": "1.3",
+      "granularity": "校准协议",
+      "aliases": [
+        "ActionSense"
+      ],
+      "mediaScope": "Supplement C.3.1，印刷页 8；以文字协议为证据，尚未定位独立校准视频。",
+      "phases_author": "本库建议分段；不是官方逐帧标签",
+      "equipment": [
+        "depth_camera",
+        "finger_glove",
+        "sensor"
+      ],
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_calibration",
+          "label": "ActionSense · 手部校准原始协议",
+          "locator": "Supplement C.3.1, p.8 · 手部校准",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=8",
+          "scope": "Supplement C.3.1，印刷页 8；以文字协议为证据，尚未定位独立校准视频。",
+          "relation": "校准协议",
+          "props": [
+            "cup",
+            "pan",
+            "plate",
+            "chef_knife",
+            "jar",
+            "depth_camera",
+            "sensor"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C16",
+      "name": "手套姿态与八字运动校准",
+      "en": "Glove poses and figure-eight calibration",
+      "category": "contact",
+      "primitives": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07"
+      ],
+      "props": [
+        "finger_glove",
+        "depth_camera"
+      ],
+      "sources": [
+        "ACTIONSENSE"
+      ],
+      "locator": "Supplement C.3.1, p.8 · 手部校准",
+      "description": "Manus 校准包含双手八字运动后平稳保持，以及握拳、四指伸直而拇指横屈掌前、拇食指伸出的手枪形。是校准动作串，不属于 20 个厨房标签。",
+      "success": "按设备软件确认各姿态与稳定段，保留深度视频；校准完成不等同所有关节追踪准确。",
+      "origin": "direct",
+      "media": "as_calibration",
+      "pose": null,
+      "difficulty": "进阶",
+      "hands": "单手 / 双手",
+      "variation": "记录左右手、设备状态、校准开始 / 结束时段及同步参考；保持来源要求与本库可选变化因素分开。",
+      "added_in": "1.3",
+      "granularity": "校准协议",
+      "aliases": [
+        "ActionSense"
+      ],
+      "mediaScope": "Supplement C.3.1，印刷页 8；以文字协议为证据，尚未定位独立校准视频。",
+      "phases_author": "本库建议分段；不是官方逐帧标签",
+      "equipment": [
+        "depth_camera",
+        "finger_glove",
+        "sensor"
+      ],
+      "evidence": [
+        {
+          "source": "ACTIONSENSE",
+          "media": "as_calibration",
+          "label": "ActionSense · 手部校准原始协议",
+          "locator": "Supplement C.3.1, p.8 · 手部校准",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5985e81d65605827ac35401999aea22a-Supplemental-Datasets_and_Benchmarks.pdf#page=8",
+          "scope": "Supplement C.3.1，印刷页 8；以文字协议为证据，尚未定位独立校准视频。",
+          "relation": "校准协议",
+          "props": [
+            "finger_glove",
+            "depth_camera"
+          ]
+        }
+      ]
     }
   ],
   "families": [
@@ -10237,6 +14506,52 @@
       ],
       "definition": "对准配合特征、进入约束并完成装配；区分插入、螺纹啮合、分阶段装配和失败重试。",
       "gap": "Play2Perfect / ADEPT 提供实机装配；充电器和餐叉来自浏览器仿真。配合间隙未在页面统一披露，不能臆造。"
+    },
+    {
+      "id": "kitchen_process",
+      "name": "食材加工、涂布与液体转移",
+      "definition": "手持工具与材料状态变化；包含多次接触行程及双手支撑。",
+      "actions": [
+        "U53",
+        "U54",
+        "U55",
+        "U56",
+        "U57",
+        "U58",
+        "U59",
+        "B14"
+      ],
+      "gap": "ActionSense 为人类活动采集；本库拆解缺少逐次行程标签，不能据此声称机器人策略已成功。"
+    },
+    {
+      "id": "household_sequence",
+      "name": "餐具擦拭、收纳与长程任务链",
+      "definition": "目标集合、存放环境与多物体次序共同决定任务完成。",
+      "actions": [
+        "B26",
+        "B27",
+        "B28",
+        "B29",
+        "T23",
+        "T24",
+        "T25",
+        "T26",
+        "T27"
+      ],
+      "gap": "完整活动与子步骤数量不可相加当独立能力数；擦拭为模拟干擦，洗碗机只装卸。"
+    },
+    {
+      "id": "hand_calibration",
+      "name": "手部传感与接触校准",
+      "definition": "动作、参考负载和同步传感互相对照；校准流程单列。",
+      "actions": [
+        "C13",
+        "C14",
+        "C09",
+        "C15",
+        "C16"
+      ],
+      "gap": "不属于 20 项厨房活动。缺失指侧展、指尖触觉及部分参与者的手套数据，不能推定全关节 3D 真值。"
     }
   ],
   "featured": [

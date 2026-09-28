@@ -1,0 +1,79 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/I26-v1.png",
+  "sha256": "2a27043df1116f981a11c189b313c9c5a5fca360650e5a79500e70c84d7a217f",
+  "action_id": "I26",
+  "reviewer": "hand-anatomy-reviewer / anatomy_review_batch2 / visual model review",
+  "intended_action": {
+    "name": "笔调至书写姿态",
+    "hands": "单手"
+  },
+  "expected_panels": 1,
+  "expected_hands_per_panel": [
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0.0,
+        0,
+        1.0,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "radial/dorsal oblique writing grip",
+          "bbox": [
+            0.264,
+            0.151,
+            1,
+            0.735
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "The broad thumb arises from the radial mass on image-right and crosses down-left through one interphalangeal bend to its nail-bearing pad pressing the pen grip."
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "The upper-left long ray originates at the dorsal distal palm, bends around the left side of the pen and descends to its separate narrow nail-bearing tip against the grip."
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "The next ray curls behind the index/pen contact and foreground thumb, then emerges immediately beneath the pen as the leftmost of the three lower nail-bearing tips; its exposed continuation under the grip distinguishes it from the index."
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "The next lower ray has a separate proximal fold in the palm under the thumb, then curves forward to the broad central lower nail-bearing tip on the paper; the local thumb overlap hides only part of its proximal contour."
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "The ulnar ray follows the rightmost underside of the hand and ends in the smaller nail-bearing tip to the right of the ring, with its own short curved chain resting near the paper."
+            }
+          },
+          "count_observation": "Five unique terminal rays are traced: thumb and index on the grip, plus three separate lower curled fingers. The thin strip behind the index is part of the folded middle-finger contour rather than an additional independent digit.",
+          "length_observation": "The index and thumb are raised around the pen while middle/ring/little are flexed toward the paper. Following curved segments, the lower little is shorter than its neighbors and neither middle nor ring has an obvious overlong segment; their nail heights differ with flexion. Thumb length and width are plausible for the near radial view.",
+          "joint_observation": "The index emerges from the long-finger row and thumb from the radial side. Three lower fingers remain distinct into the palm despite short overlaps. Visible bends and nails follow their own chains without a branch or merged tip. The whole hand, wrist and a short forearm fit; only the more proximal forearm extends out at image-right.",
+          "checks": {
+            "five_digits": "pass",
+            "connectivity": "pass",
+            "proportions": "pass",
+            "joint_structure": "pass",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "pass",
+    "observation": "One actual panel with one right hand was inspected. All five digit identities are internally coherent in the final writing grip; the pen-adjustment transition is not illustrated and is not approved by this anatomy record."
+  },
+  "decision": "approve",
+  "limitations": "Actual original image and, where necessary, enlarged detail inspected. Single-view visual anatomy assessment only: hidden bone geometry, exact centerline lengths and physical feasibility are not measured. This report does not approve action fidelity or motion between the illustrated panels."
+}

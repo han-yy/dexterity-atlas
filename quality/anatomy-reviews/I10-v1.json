@@ -1,0 +1,193 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/I10-v1.png",
+  "sha256": "fce6970664d18f1bc76873d2f42fa2a3116ac377d8db74fa572c06ee02452ea9",
+  "action_id": "I10",
+  "reviewer": "hand-anatomy-reviewer / anatomy_review_batch2 / visual model review",
+  "intended_action": {
+    "name": "掌系 X 方向平移",
+    "hands": "单手"
+  },
+  "expected_panels": 3,
+  "expected_hands_per_panel": [
+    1,
+    1,
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0.0,
+        0,
+        0.3333,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "left",
+          "view": "near-frontal palm",
+          "bbox": [
+            0.044,
+            0.088,
+            0.302,
+            0.914
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "Panel 1: thumb originates from the image-left thenar side and opens upward-left through two visible sections to a separate rounded tip and lateral nail."
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "Panel 1: the leftmost long finger arises beside the thumb web, extends upward-right through two interphalangeal crease regions and ends below the middle tip."
+            },
+            "middle": {
+              "visibility": "visible",
+              "trace": "Panel 1: the second long ray from image-left rises from its own central base to the highest rounded tip; both joint regions are visible."
+            },
+            "ring": {
+              "visibility": "visible",
+              "trace": "Panel 1: the third long ray rises independently to the right of the middle finger, with its own creases and rounded tip slightly below the middle."
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "Panel 1: the outer image-right ray begins at the lower ulnar edge of the distal palm and reaches a clearly shorter tip with two joint regions."
+            }
+          },
+          "count_observation": "Five completely separated terminal rays and distinct bases are visible. The cube is on the radial palm below the index base and does not hide a fingertip.",
+          "length_observation": "Four similarly extended fingers permit a qualitative length comparison: middle is longest, little is distinctly shorter, and index and ring are intermediate without requiring a fixed ordering. Two thumb segments are shorter than the long finger chains; no stub or stretched phalanx is apparent.",
+          "joint_observation": "Panel 1 shows an ordered distal finger row with no branching, fused fingertips or backwards nail. The palm and wrist join continuously; thumb web, finger tips and a short forearm are fully in frame.",
+          "checks": {
+            "five_digits": "pass",
+            "connectivity": "pass",
+            "proportions": "pass",
+            "joint_structure": "pass",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": []
+        }
+      ]
+    },
+    {
+      "panel": 2,
+      "bbox": [
+        0.3333,
+        0,
+        0.6667,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "left",
+          "view": "near-frontal palm",
+          "bbox": [
+            0.377,
+            0.089,
+            0.635,
+            0.922
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "Panel 2: thumb originates from the image-left thenar side and opens upward-left through two visible sections to a separate rounded tip and lateral nail."
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "Panel 2: the leftmost long finger arises beside the thumb web, extends upward-right through two interphalangeal crease regions and ends below the middle tip."
+            },
+            "middle": {
+              "visibility": "visible",
+              "trace": "Panel 2: the second long ray from image-left rises from its own central base to the highest rounded tip; both joint regions are visible."
+            },
+            "ring": {
+              "visibility": "visible",
+              "trace": "Panel 2: the third long ray rises independently to the right of the middle finger, with its own creases and rounded tip slightly below the middle."
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "Panel 2: the outer image-right ray begins at the lower ulnar edge of the distal palm and reaches a clearly shorter tip with two joint regions."
+            }
+          },
+          "count_observation": "Five completely separated terminal rays and distinct bases are visible. The cube is on the central palm well below the finger bases and does not hide a fingertip.",
+          "length_observation": "Four similarly extended fingers permit a qualitative length comparison: middle is longest, little is distinctly shorter, and index and ring are intermediate without requiring a fixed ordering. Two thumb segments are shorter than the long finger chains; no stub or stretched phalanx is apparent.",
+          "joint_observation": "Panel 2 shows an ordered distal finger row with no branching, fused fingertips or backwards nail. The palm and wrist join continuously; thumb web, finger tips and a short forearm are fully in frame.",
+          "checks": {
+            "five_digits": "pass",
+            "connectivity": "pass",
+            "proportions": "pass",
+            "joint_structure": "pass",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": []
+        }
+      ]
+    },
+    {
+      "panel": 3,
+      "bbox": [
+        0.6667,
+        0,
+        1.0,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "left",
+          "view": "near-frontal palm",
+          "bbox": [
+            0.716,
+            0.088,
+            0.975,
+            0.923
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "Panel 3: thumb originates from the image-left thenar side and opens upward-left through two visible sections to a separate rounded tip and lateral nail."
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "Panel 3: the leftmost long finger arises beside the thumb web, extends upward-right through two interphalangeal crease regions and ends below the middle tip."
+            },
+            "middle": {
+              "visibility": "visible",
+              "trace": "Panel 3: the second long ray from image-left rises from its own central base to the highest rounded tip; both joint regions are visible."
+            },
+            "ring": {
+              "visibility": "visible",
+              "trace": "Panel 3: the third long ray rises independently to the right of the middle finger, with its own creases and rounded tip slightly below the middle."
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "Panel 3: the outer image-right ray begins at the lower ulnar edge of the distal palm and reaches a clearly shorter tip with two joint regions."
+            }
+          },
+          "count_observation": "Five completely separated terminal rays and distinct bases are visible. The cube is on the ulnar palm below the ring/little bases and does not hide a fingertip.",
+          "length_observation": "Four similarly extended fingers permit a qualitative length comparison: middle is longest, little is distinctly shorter, and index and ring are intermediate without requiring a fixed ordering. Two thumb segments are shorter than the long finger chains; no stub or stretched phalanx is apparent.",
+          "joint_observation": "Panel 3 shows an ordered distal finger row with no branching, fused fingertips or backwards nail. The palm and wrist join continuously; thumb web, finger tips and a short forearm are fully in frame.",
+          "checks": {
+            "five_digits": "pass",
+            "connectivity": "pass",
+            "proportions": "pass",
+            "joint_structure": "pass",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "pass",
+    "observation": "The three open left palms retain thumb side, all five ray identities and the same qualitative segment lengths. The cube changes palm location without obscuring the observed digit row. Anatomy approval here does not validate how the cube is translated."
+  },
+  "decision": "approve",
+  "limitations": "Actual original image and, where necessary, enlarged detail inspected. Single-view visual anatomy assessment only: hidden bone geometry, exact centerline lengths and physical feasibility are not measured. This report does not approve action fidelity or motion between the illustrated panels."
+}

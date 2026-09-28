@@ -1,0 +1,108 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/T20-v1.png",
+  "sha256": "a30d3af9ccbde37f458017539c4e67f0d3500e8e2bf6e2593fb2fc5d47cbf280",
+  "action_id": "T20",
+  "reviewer": "hand-anatomy-reviewer / anatomy_review_batch2 / visual model review",
+  "intended_action": {
+    "name": "预成形开度适配",
+    "hands": "单手"
+  },
+  "expected_panels": 1,
+  "expected_hands_per_panel": [
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0.0,
+        0,
+        1.0,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "dorsal/radial oblique contact with a sphere",
+          "bbox": [
+            0.217,
+            0,
+            1,
+            0.756
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "The near radial thumb descends from the right side of the hand, bends leftward and ends in a broad nail pad against the sphere lower-right side."
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "The closest long-finger ray runs from the dorsal distal hand through two bends to the nail-bearing fingertip on the sphere upper-left surface, next to the thumb web."
+            },
+            "middle": {
+              "visibility": "visible",
+              "trace": "The next outer long-finger ray has its own dorsal knuckle and curved chain, ending in the raised nail-bearing pad farther left of the sphere."
+            },
+            "ring": {
+              "visibility": "unresolvable",
+              "trace": "A narrow nail-bearing sliver appears between the two near rays, but its base and intervening joints are hidden; it cannot be assigned a full independent ring-finger trace."
+            },
+            "little": {
+              "visibility": "unresolvable",
+              "trace": "A rear bent stem descends to the sphere top behind the nearer fingers, but its terminal pad is concealed by the sphere and no separate complete little-finger chain can be identified."
+            }
+          },
+          "count_observation": "The thumb, index and middle are complete visible rays. The rear stem and narrow nail sliver do not prove two remaining independent finger chains, even though a five-finger hand would be expected.",
+          "length_observation": "The thumb and two near long fingers have plausible bent segment lengths around the medium sphere, and their relative projected positions follow their flexion rather than a simple straight tip-distance comparison. The remaining two rays are interrupted by the sphere/finger overlap; their full centerlines, segment lengths and the shorter little-finger relationship are unknown.",
+          "joint_observation": "The near visible rays are continuously attached and bend plausibly around the sphere. Rear ulnar joint topology remains hidden and cannot pass. The dorsal/radial origin identifies a right hand; all visible fingertip boundaries, wrist and a short forearm fit.",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "The sphere and nearer finger row conceal rear ulnar segments. A narrow nail-bearing sliver between the near index/middle and a separate rear stem above the sphere cannot each be connected to a complete independent finger chain.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "The sphere and nearer finger row conceal rear ulnar segments. A narrow nail-bearing sliver between the near index/middle and a separate rear stem above the sphere cannot each be connected to a complete independent finger chain. The hidden ray cannot be connected to a unique base through its full visible chain.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "The thumb and two near long fingers have plausible bent segment lengths around the medium sphere, and their relative projected positions follow their flexion rather than a simple straight tip-distance comparison. The remaining two rays are interrupted by the sphere/finger overlap; their full centerlines, segment lengths and the shorter little-finger relationship are unknown.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "The sphere and nearer finger row conceal rear ulnar segments. A narrow nail-bearing sliver between the near index/middle and a separate rear stem above the sphere cannot each be connected to a complete independent finger chain. Hidden flexion and segment topology cannot be verified.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "pass",
+    "observation": "One actual panel and one hand were inspected. No temporal sequence is supplied, so there is no observed inter-panel side swap or length change; this does not certify an unshown movement. Within-frame uncertainties, if present, are recorded in the hand checks."
+  },
+  "decision": "needs_review",
+  "limitations": "Actual full-resolution image and enlarged digit/contact details inspected. Qualitative visual anatomy only: hidden bones, exact finger lengths and physical feasibility are not measured. Action fidelity is assessed separately against the catalog props and the visible key pose; a static pose does not validate full motion, contact timing or task success.",
+  "action_fidelity": {
+    "status": "unknown",
+    "observation": "目录目标为预成形开度适配，道具允许球或圆柱。原图有小、中、大三个球，手只在中球上形成已经接触的抓取姿态，道具及当前开度与中球相符；但没有接触前张开过程，也没有在不同尺寸目标上的手部开度对比，无法确认关键的预成形/尺寸适配行为。因此不把尺寸不同的三个球本身当作已完成开度适配的证据。"
+  }
+}

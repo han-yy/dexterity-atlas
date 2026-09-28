@@ -1,0 +1,193 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/I11-v1.png",
+  "sha256": "316712a08f5ead839c7ebb693b31f3455badcc2642a10210afab8bf57fdd9242",
+  "action_id": "I11",
+  "reviewer": "hand-anatomy-reviewer / anatomy_review_batch2 / visual model review",
+  "intended_action": {
+    "name": "掌系 Y 方向平移",
+    "hands": "单手"
+  },
+  "expected_panels": 3,
+  "expected_hands_per_panel": [
+    1,
+    1,
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0.0,
+        0,
+        0.3333,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "left",
+          "view": "oblique open palm",
+          "bbox": [
+            0.01,
+            0.061,
+            0.341,
+            0.982
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "Panel 1: image-left thumb arises from the thenar side, with a short proximal section, a bend and a rounded nail-edged terminal section."
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "Panel 1: first long ray beside the thumb web runs obliquely upward-right with an independent base, two joint regions and rounded tip left of the middle finger."
+            },
+            "middle": {
+              "visibility": "visible",
+              "trace": "Panel 1: Second long ray from the left rises from its clear central base through both joint regions to the highest tip."
+            },
+            "ring": {
+              "visibility": "visible",
+              "trace": "Panel 1: the ray just right of the middle finger starts from its own web and follows two visible joint regions to a tip lower than the middle."
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "Panel 1: outer ulnar finger is separate from the ring, with a lower base, two joint regions and a shorter rounded tip near the image-right perimeter."
+            }
+          },
+          "count_observation": "Panel 1: five unique rays are visible or traceable; the cube covers palm/finger surface but does not introduce or merge a tip.",
+          "length_observation": "The near-extended rays show a long middle, intermediate index/ring and shorter little finger. Their diagonal projection explains differing vertical heights; the cube-covered portion is aligned with the exposed middle-finger segments without an apparent length jump. Thumb length is plausible for the spread pose.",
+          "joint_observation": "Panel 1: four ordered metacarpal rays join the distal palm and the thumb arises from the radial thenar mass. Visible creases and finger bends are continuous; cube overlap has no evident branching or disconnected distal piece. All fingertips, wrist and short forearm fit.",
+          "checks": {
+            "five_digits": "pass",
+            "connectivity": "pass",
+            "proportions": "pass",
+            "joint_structure": "pass",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": []
+        }
+      ]
+    },
+    {
+      "panel": 2,
+      "bbox": [
+        0.3333,
+        0,
+        0.6667,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "left",
+          "view": "oblique open palm",
+          "bbox": [
+            0.328,
+            0.061,
+            0.658,
+            0.982
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "Panel 2: image-left thumb arises from the thenar side, with a short proximal section, a bend and a rounded nail-edged terminal section."
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "Panel 2: first long ray beside the thumb web runs obliquely upward-right with an independent base, two joint regions and rounded tip left of the middle finger."
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "Panel 2: Second long ray rises above the cube; the cube hides part of its lower base region, but its exposed margins and ordered web spaces allow tracing across this short basal occlusion to the highest tip."
+            },
+            "ring": {
+              "visibility": "visible",
+              "trace": "Panel 2: the ray just right of the middle finger starts from its own web and follows two visible joint regions to a tip lower than the middle."
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "Panel 2: outer ulnar finger is separate from the ring, with a lower base, two joint regions and a shorter rounded tip near the image-right perimeter."
+            }
+          },
+          "count_observation": "Panel 2: five unique rays are visible or traceable; the cube covers palm/finger surface but does not introduce or merge a tip.",
+          "length_observation": "The near-extended rays show a long middle, intermediate index/ring and shorter little finger. Their diagonal projection explains differing vertical heights; the cube-covered portion is aligned with the exposed middle-finger segments without an apparent length jump. Thumb length is plausible for the spread pose.",
+          "joint_observation": "Panel 2: four ordered metacarpal rays join the distal palm and the thumb arises from the radial thenar mass. Visible creases and finger bends are continuous; cube overlap has no evident branching or disconnected distal piece. All fingertips, wrist and short forearm fit.",
+          "checks": {
+            "five_digits": "pass",
+            "connectivity": "pass",
+            "proportions": "pass",
+            "joint_structure": "pass",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": []
+        }
+      ]
+    },
+    {
+      "panel": 3,
+      "bbox": [
+        0.6667,
+        0,
+        1.0,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "left",
+          "view": "oblique open palm",
+          "bbox": [
+            0.667,
+            0.061,
+            0.995,
+            0.982
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "Panel 3: image-left thumb arises from the thenar side, with a short proximal section, a bend and a rounded nail-edged terminal section."
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "Panel 3: first long ray beside the thumb web runs obliquely upward-right with an independent base, two joint regions and rounded tip left of the middle finger."
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "Panel 3: The cube covers a middle section of the second long ray; its same-width exposed proximal margins below the cube and distal continuation directly above it identify the middle finger to its highest tip."
+            },
+            "ring": {
+              "visibility": "visible",
+              "trace": "Panel 3: the ray just right of the middle finger starts from its own web and follows two visible joint regions to a tip lower than the middle."
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "Panel 3: outer ulnar finger is separate from the ring, with a lower base, two joint regions and a shorter rounded tip near the image-right perimeter."
+            }
+          },
+          "count_observation": "Panel 3: five unique rays are visible or traceable; the cube covers palm/finger surface but does not introduce or merge a tip.",
+          "length_observation": "The near-extended rays show a long middle, intermediate index/ring and shorter little finger. Their diagonal projection explains differing vertical heights; the cube-covered portion is aligned with the exposed middle-finger segments without an apparent length jump. Thumb length is plausible for the spread pose.",
+          "joint_observation": "Panel 3: four ordered metacarpal rays join the distal palm and the thumb arises from the radial thenar mass. Visible creases and finger bends are continuous; cube overlap has no evident branching or disconnected distal piece. All fingertips, wrist and short forearm fit.",
+          "checks": {
+            "five_digits": "pass",
+            "connectivity": "pass",
+            "proportions": "pass",
+            "joint_structure": "pass",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "pass",
+    "observation": "All three inspected panels maintain one left open palm, the same five digit identities and visually consistent lengths. The middle-finger occlusion grows as the cube rises, but aligned proximal/distal portions remain traceable in panel 3; no side swap or visible digit birth occurs."
+  },
+  "decision": "approve",
+  "limitations": "Actual original image and, where necessary, enlarged detail inspected. Single-view visual anatomy assessment only: hidden bone geometry, exact centerline lengths and physical feasibility are not measured. This report does not approve action fidelity or motion between the illustrated panels."
+}

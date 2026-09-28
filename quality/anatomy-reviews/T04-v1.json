@@ -1,0 +1,225 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/T04-v1.png",
+  "sha256": "cd796556084bae4e37c1783151bfacb047af1ada9730ea8dded0ac560ceba474",
+  "action_id": "T04",
+  "reviewer": "hand-anatomy-reviewer / independent visual model review",
+  "expected_panels": 3,
+  "expected_hands_per_panel": [
+    1,
+    1,
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0,
+        0,
+        0.3333,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "dorsoradial oblique; curled finger undersides visible",
+          "bbox": [
+            0.065,
+            0.15,
+            0.328,
+            0.626
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "由画面右侧桡侧掌缘向下伸出，近节接一个清楚的 IP 弯折，终止于右下带甲指端。"
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "从手背左缘远端起，向左下经过两处连续屈曲，到最左下带甲指端；没有分叉。"
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "食指后方最前的一条长指，近节由食指内缘后短距离遮挡后出现，向下再向右下弯到最低的内侧指端。"
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "位于中指后上方，独立近节和屈曲段向右伸，指端在中指指端的右上。"
+            },
+            "little": {
+              "visibility": "traceable",
+              "trace": "最深处最上方的内侧指列，从尺侧远端短遮挡后向下，再弯向右，终止于最上方较小带甲指端。"
+            }
+          },
+          "count_observation": "逐条追踪到一条拇指与四条独立长指；每条均有独立路径和指端，未见额外或分叉指。",
+          "length_observation": "按弯曲中心线观察，蜷曲中指、无名指和小指逐渐缩短；小指不是按其投影高度误算为最长。食指较展开所以投影更长，拇指较宽、两段长度合理；没有明显短残指或拉长中节。",
+          "joint_observation": "食指、拇指结构连续；其余三指有可区分的近端通路、弯折和末端，短重叠处能匹配相邻段。指甲位于指端背侧；没有额外关节或穿插。",
+          "checks": {
+            "five_digits": "pass",
+            "connectivity": "pass",
+            "proportions": "pass",
+            "joint_structure": "pass",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": []
+        }
+      ]
+    },
+    {
+      "panel": 2,
+      "bbox": [
+        0.3333,
+        0,
+        0.6667,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "dorsoradial oblique; curled finger undersides visible",
+          "bbox": [
+            0.444,
+            0.155,
+            0.665,
+            0.657
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "右侧拇指自桡侧掌缘下行，经 IP 弯折到卡片右缘旁的带甲指端。"
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "左侧食指从远端掌缘向下，明显 PIP 屈曲后继续到卡面上的左下指端。"
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "食指内侧后方最下的蜷曲指，从近端短遮挡处延续，经弯曲向右，指端位于拇指后、卡片上方。"
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "中指后上方单独一列，近节和弯曲段相接，向右的末端与中指之间有明确边界。"
+            },
+            "little": {
+              "visibility": "traceable",
+              "trace": "最后方最高的一列，从尺侧近端向下，较短弯曲末端朝右，位于无名指上方。"
+            }
+          },
+          "count_observation": "逐条追踪到一条拇指与四条独立长指；每条均有独立路径和指端，未见额外或分叉指。",
+          "length_observation": "三条收拢长指可沿弧线分别比较，中指较充实、小指更短；食指因进一步屈曲而投影缩短，节段本身未见突变。拇指和食指长度与第1格相容。",
+          "joint_observation": "可见五条独立通路；弯曲处连续，三条内侧指没有共用一个指端。拇指和食指接触卡边，未见指骨穿过卡面。",
+          "checks": {
+            "five_digits": "pass",
+            "connectivity": "pass",
+            "proportions": "pass",
+            "joint_structure": "pass",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": []
+        }
+      ]
+    },
+    {
+      "panel": 3,
+      "bbox": [
+        0.6667,
+        0,
+        1,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "dorsoradial oblique; curled finger undersides visible",
+          "bbox": [
+            0.764,
+            0.153,
+            0.997,
+            0.594
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "右侧桡侧根部连续下降到带甲拇指端，指端位于提起卡片右缘。"
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "最左食指由手背远端向下弯曲，末端接卡片左后缘；卡边只遮指端接触的极小部分。"
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "内侧最低带甲弯曲指端可沿两段回溯到食指后方的近端，符合中指位置。"
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "其后上方第二个较小指端与最低指端分离，有一段可见弯曲链接回掌内侧，按排列为无名指。"
+            },
+            "little": {
+              "visibility": "unresolvable",
+              "trace": "最深处上方的圆弧和折痕未形成独立可追踪的近节—末节—指端；小指可能被藏住，但当前图不可辨。"
+            }
+          },
+          "count_observation": "可确认拇指、食指与两个内侧蜷曲指端；第五指无法独立确认。",
+          "length_observation": "可见食指与拇指比例延续前两格，两个蜷曲指端未见明显拉长；小指的中心线、末节及相对长度无法观察，不能给整手比例通过。",
+          "joint_observation": "前四条可见链没有明显断裂，但最深处指列拓扑无法与第五指一一匹配，隐藏关节数量不作推断。",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "第3格在食指与拇指之间仅能辨认两条独立带甲的蜷曲指端；最深处上方只有屈曲表面，没有第三条可独立追至指端的链。不能断言缺指，也不能把该表面算作完整小指。",
+              "correction": "重绘第3格：略分开中指、无名指、小指，并露出各自连续近节、弯曲段和指端；保持同一右手与提卡姿态。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "第3格在食指与拇指之间仅能辨认两条独立带甲的蜷曲指端；最深处上方只有屈曲表面，没有第三条可独立追至指端的链。不能断言缺指，也不能把该表面算作完整小指。",
+              "correction": "重绘第3格：略分开中指、无名指、小指，并露出各自连续近节、弯曲段和指端；保持同一右手与提卡姿态。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "第3格在食指与拇指之间仅能辨认两条独立带甲的蜷曲指端；最深处上方只有屈曲表面，没有第三条可独立追至指端的链。不能断言缺指，也不能把该表面算作完整小指。",
+              "correction": "重绘第3格：略分开中指、无名指、小指，并露出各自连续近节、弯曲段和指端；保持同一右手与提卡姿态。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "第3格在食指与拇指之间仅能辨认两条独立带甲的蜷曲指端；最深处上方只有屈曲表面，没有第三条可独立追至指端的链。不能断言缺指，也不能把该表面算作完整小指。",
+              "correction": "重绘第3格：略分开中指、无名指、小指，并露出各自连续近节、弯曲段和指端；保持同一右手与提卡姿态。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "unknown",
+    "observation": "三格均为同一右手的手背桡侧视图，完整手腕和一段前臂在画内；第3格内侧可辨指端由三条变为两条，遮挡使小指身份和长度连续性无法核实。",
+    "issues": [
+      {
+        "code": "ambiguous_occlusion",
+        "panels": [
+          2,
+          3
+        ],
+        "evidence": "第3格在食指与拇指之间仅能辨认两条独立带甲的蜷曲指端；最深处上方只有屈曲表面，没有第三条可独立追至指端的链。不能断言缺指，也不能把该表面算作完整小指。",
+        "correction": "重绘第3格：略分开中指、无名指、小指，并露出各自连续近节、弯曲段和指端；保持同一右手与提卡姿态。"
+      }
+    ]
+  },
+  "decision": "needs_review",
+  "limitations": "实际查看原始全分辨率三格图，并放大相关指列和接触区；这是单视角视觉检查，不能测量隐藏骨骼、真实指长或证明物理可行性。已查 research/catalog.json 动作定义；本报告仅审手部形态，不代替动作语义与接触审核。"
+}

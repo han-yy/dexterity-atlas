@@ -1,0 +1,104 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/T09-v1.png",
+  "sha256": "1edbc82458439a08b9200d89cdde75116707e328836d8d636fdcd28b78425bf8",
+  "action_id": "T09",
+  "reviewer": "hand-anatomy-reviewer / independent visual model review",
+  "expected_panels": 1,
+  "expected_hands_per_panel": [
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "dorsoradial oblique",
+          "bbox": [
+            0.379,
+            0.016,
+            1,
+            0.553
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "右下拇指自桡侧掌缘向左下伸，经 IP 到杯沿外侧的带甲指端，连续完整。"
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "最前左食指从手背远端屈曲向下，两个关节段连续，指端伸入杯口内侧紧邻杯沿。"
+            },
+            "middle": {
+              "visibility": "unresolvable",
+              "trace": "食指后方的一条下弯指链可见到杯沿后方，末端被杯壁/杯沿截断，无法独立确认中指指尖。"
+            },
+            "ring": {
+              "visibility": "unresolvable",
+              "trace": "更右后的另一条下弯指链进入拇指与杯沿之间的遮挡，其末节到指端不能唯一配对为无名指。"
+            },
+            "little": {
+              "visibility": "unresolvable",
+              "trace": "最深处尺侧没有单独可解析的小指终端；后方褶皱与弯曲面不能替代第五条完整指链。"
+            }
+          },
+          "count_observation": "拇指和食指完整，另外两个后方弯曲指段可见但终点被挡，小指独立链缺乏证据；不能确认完整五指。",
+          "length_observation": "拇指两段和食指三段的弧长比例合理；后方三长指因不同屈曲/杯壁遮挡无法追到终点，既不能判为短指，也不能确认其相对长度正常。",
+          "joint_observation": "拇食指从各自独立根部连续至接触端；后方指段被杯沿和前景指截断，未见明确穿透，但不能排除未显示的连接/节段问题。",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "杯沿后方三条尺侧指不能全部独立追到末端，至少小指完全不可解析；不把杯沿后的皮肤小块当成额外完整手指。",
+              "correction": "改用稍偏掌面的视角并展开后方三指，使每根都有独立根部通路和指端，同时保持拇指外侧、食指内侧夹住杯沿。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "杯沿后方三条尺侧指不能全部独立追到末端，至少小指完全不可解析；不把杯沿后的皮肤小块当成额外完整手指。",
+              "correction": "改用稍偏掌面的视角并展开后方三指，使每根都有独立根部通路和指端，同时保持拇指外侧、食指内侧夹住杯沿。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "杯沿后方三条尺侧指不能全部独立追到末端，至少小指完全不可解析；不把杯沿后的皮肤小块当成额外完整手指。",
+              "correction": "改用稍偏掌面的视角并展开后方三指，使每根都有独立根部通路和指端，同时保持拇指外侧、食指内侧夹住杯沿。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "杯沿后方三条尺侧指不能全部独立追到末端，至少小指完全不可解析；不把杯沿后的皮肤小块当成额外完整手指。",
+              "correction": "改用稍偏掌面的视角并展开后方三指，使每根都有独立根部通路和指端，同时保持拇指外侧、食指内侧夹住杯沿。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "pass",
+    "observation": "单格只见一只手及其连续手腕/短前臂，无多余手。没有其他时间帧可比较；不从单格推断跨帧长度或运动连续性。"
+  },
+  "decision": "needs_review",
+  "action_fidelity": {
+    "status": "pass",
+    "observation": "道具为带把陶瓷杯；食指位于杯沿内侧，拇指压在相邻外侧，接触集中于杯沿而非杯把，符合杯沿精密夹取的关键接触姿态。杯底仍在桌面，当前帧只证明夹取准备/接触，不证明已提起。"
+  },
+  "limitations": "已独立打开当前实际原始文件的全分辨率图，并放大相关手指；透明区域仅在临时白底预览中辅助观察，原图未修改。已读取 research/catalog.json 对应目标。形态判断只覆盖可见外部指链，不要求看见骨骼，不测量隐藏骨长或保证物理可行性。action_fidelity 只核对所画道具与单张关键姿态，不等同于确认完整运动过程、轨迹、接触时序或任务最终成功。"
+}

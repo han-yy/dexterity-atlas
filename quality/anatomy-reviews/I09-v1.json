@@ -1,0 +1,193 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/I09-v1.png",
+  "sha256": "3ff33ca4fc8260ded3d7af8920786bcb605de9111240adcab05b5f397e5d4d15",
+  "action_id": "I09",
+  "reviewer": "hand-anatomy-reviewer / anatomy_review_batch2 / visual model review",
+  "intended_action": {
+    "name": "指间复杂旋转",
+    "hands": "单手"
+  },
+  "expected_panels": 3,
+  "expected_hands_per_panel": [
+    1,
+    1,
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0,
+        0,
+        0.35,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "palm oblique",
+          "bbox": [
+            0.044,
+            0.219,
+            0.346,
+            0.968
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "Broad radial thenar base on image-right rises diagonally left through one thumb bend to the nail pressing the pen near its upper third."
+            },
+            "index": {
+              "visibility": "traceable",
+              "trace": "Radial distal-palm ray curves behind the upper thumb; its thin dorsal arc and small pen occlusion lead to the distinct pad protruding left of the pen near y=0.30."
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "Next palmar base behind the pen leads to the broad curled finger on image-left; its distal nail ends beside the shaft near y=0.45."
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "Next lower palmar ray curves around the left perimeter below the middle finger and ends in the separate oblique nail near y=0.54; the proximal overlap is short."
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "Ulnar base at the lower left palm curves through the lowest small finger to its separate nail just above the wrist-facing end of the pen."
+            }
+          },
+          "count_observation": "One thumb plus four ordered finger chains; the isolated left upper pad belongs to the index across the narrow pen occlusion, not an extra finger.",
+          "length_observation": "The middle and ring are curled, so their projected tip heights do not represent full length. Their curved segments remain substantial; the lowest little finger is shorter and thinner, and the broad thumb has two plausible segments without an elongated middle section.",
+          "joint_observation": "Four finger bases remain ordered along the curled distal palm. Thumb joins the thenar side; visible bends and nails remain on continuous rays. Narrow pen contact occludes contours without an evident branch or intersection.",
+          "checks": {
+            "five_digits": "pass",
+            "connectivity": "pass",
+            "proportions": "pass",
+            "joint_structure": "pass",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": []
+        }
+      ]
+    },
+    {
+      "panel": 2,
+      "bbox": [
+        0.355,
+        0,
+        0.71,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "palm oblique",
+          "bbox": [
+            0.386,
+            0.178,
+            0.706,
+            0.969
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "Radial thenar eminence on the right continues left to the broad nail-bearing thumb pressing across the shaft at y=0.37."
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "Upper radial finger base at the right of the pen rises through a bent proximal segment and curves left into the extended pad at the top of the hand."
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "The next finger curls behind the pen from a visible base beside the index to the nail-bearing tip immediately left of the shaft near y=0.36; only the shaft hides its middle contour."
+            },
+            "ring": {
+              "visibility": "visible",
+              "trace": "The finger emerging under the thumb curls down-left and then right across the palm, ending in the oblique nail beside the lower shaft near y=0.51."
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "The lowest ulnar ray arches from the left side of the lower palm to a distinct short nail-bearing tip farther left near y=0.49."
+            }
+          },
+          "count_observation": "Five separate rays are identifiable: raised index, curled middle, crossing ring, small ulnar little finger and opposing thumb.",
+          "length_observation": "The raised index reveals more centerline length than the curled middle and ring; that apparent height difference is explained by extension. The little finger is shorter than the two adjacent curved rays; no duplicated distal segment or conspicuously stretched thumb is visible.",
+          "joint_observation": "Each visible joint chain returns to one base. The ring crosses in front of the palm without fusing into the little finger. Thumb is radial and the same right palm orientation is retained.",
+          "checks": {
+            "five_digits": "pass",
+            "connectivity": "pass",
+            "proportions": "pass",
+            "joint_structure": "pass",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": []
+        }
+      ]
+    },
+    {
+      "panel": 3,
+      "bbox": [
+        0.725,
+        0,
+        1,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "palm oblique",
+          "bbox": [
+            0.731,
+            0.219,
+            1,
+            0.968
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "Image-right thenar base runs up-left through a single thumb bend to the broad nail over the pen at y=0.26."
+            },
+            "index": {
+              "visibility": "traceable",
+              "trace": "The upper distal-palm ray passes behind the thumb and shaft to a separate rounded pad protruding left of the pen near y=0.30; the dorsal arc above the thumb identifies the same index."
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "The first large curled ray below that pad has its base behind the narrow shaft and a clear nail-bearing end on the left at y=0.45."
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "The next curled ray runs around the lower left palm and ends in a distinct oblique nail at y=0.54, below the middle finger."
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "The lowest small ulnar ray curves from the heelward side of the finger row to a separate nail near y=0.60."
+            }
+          },
+          "count_observation": "Five rays again visible or traceable through small contact occlusions; no sixth fingertip appears.",
+          "length_observation": "The restored curled arrangement matches panel 1: middle/ring centerlines are longer than the small lower little finger, while flexion shortens their projected height. Thumb and finger widths/segment lengths are visually consistent with panel 1.",
+          "joint_observation": "All visible rays are continuous into the palm; the shaft separates fingers without an evident skin intersection. Wrist and a short forearm are inside the image; only the far forearm continues to the image edge.",
+          "checks": {
+            "five_digits": "pass",
+            "connectivity": "pass",
+            "proportions": "pass",
+            "joint_structure": "pass",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "pass",
+    "observation": "All three inspected panels show one right palm with the same radial thumb origin. Index extension and re-curling explain the different tip positions; the four fingers keep ordered identities and visible segment lengths remain plausible."
+  },
+  "decision": "approve",
+  "limitations": "Actual original image and, where necessary, enlarged detail inspected. Single-view visual anatomy assessment only: hidden bone geometry, exact centerline lengths and physical feasibility are not measured. This report does not approve action fidelity or motion between the illustrated panels."
+}

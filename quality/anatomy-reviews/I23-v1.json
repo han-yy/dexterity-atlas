@@ -1,0 +1,100 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/I23-v1.png",
+  "sha256": "ebee83bf4f361f900ed3d1e8c9c2df7e4d4754aad66eb0cda3676ea015e64d38",
+  "action_id": "I23",
+  "reviewer": "hand-anatomy-reviewer / independent visual model review",
+  "expected_panels": 1,
+  "expected_hands_per_panel": [
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "radial-dorsal oblique",
+          "bbox": [
+            0.231,
+            0.018,
+            1,
+            0.989
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "前景拇指由右侧桡侧基部向左伸，IP 弯折和带甲末节连续，指端支在木块下方。"
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "前景上方食指自拇食指蹼上方远端掌缘起，连续弯曲向左，末节和指端接木块顶面。"
+            },
+            "middle": {
+              "visibility": "visible",
+              "trace": "更后上方中指有独立根部和三段弯曲轮廓，向左拱起，带甲末端悬在食指上方并与其分开。"
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "掌内可见回折的无名指，从远端掌缘后方下弯再返回内侧，末端指腹靠近拇指根部；接触处的小段自遮挡不改变其独立链身份。"
+            },
+            "little": {
+              "visibility": "unresolvable",
+              "trace": "无名指后下方只有一块叠合皮肤边缘，未见独立小指指端或可唯一匹配的完整回弯链；不从掌褶推断第五指。"
+            }
+          },
+          "count_observation": "可辨拇指、食指、中指及掌内一条回折长指；小指不可独立解析。无法确认完整五指，不直接断言缺指。",
+          "length_observation": "食指和中指是不同幅度的拱形，沿曲线而非直线比较，已见段没有显著拉长；拇指比例合理。无名指深度屈曲，而小指的链完全不清，不能比较两指的实际弧长或确认小指不是残短/融合。",
+          "joint_observation": "拇食中三指各自独立起于相应掌缘；无名指回折可追踪，但小指及其关节连接被深遮挡，不能因为预期为五指就给全部拓扑通过。",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "最深处尺侧小指既无独立末端，也缺少可与根部一一配对的短遮挡出口；局部皮肤凸起不能排除融合或完全隐藏。",
+              "correction": "略展开小指或调整视角，使小指与掌内无名指各有独立连续链、末节和指端；保留当前拇食指捏持与中指抬起关系。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "最深处尺侧小指既无独立末端，也缺少可与根部一一配对的短遮挡出口；局部皮肤凸起不能排除融合或完全隐藏。",
+              "correction": "略展开小指或调整视角，使小指与掌内无名指各有独立连续链、末节和指端；保留当前拇食指捏持与中指抬起关系。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "最深处尺侧小指既无独立末端，也缺少可与根部一一配对的短遮挡出口；局部皮肤凸起不能排除融合或完全隐藏。",
+              "correction": "略展开小指或调整视角，使小指与掌内无名指各有独立连续链、末节和指端；保留当前拇食指捏持与中指抬起关系。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "最深处尺侧小指既无独立末端，也缺少可与根部一一配对的短遮挡出口；局部皮肤凸起不能排除融合或完全隐藏。",
+              "correction": "略展开小指或调整视角，使小指与掌内无名指各有独立连续链、末节和指端；保留当前拇食指捏持与中指抬起关系。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "pass",
+    "observation": "文件只有一个关键姿态面板，实际可见一只右手；没有可做跨帧比较的第二姿态。本字段只表示单格身份/数量一致，不证明任何未显示的运动过程或跨帧指长一致性。"
+  },
+  "decision": "needs_review",
+  "limitations": "独立打开本文件的全分辨率原图，并放大相关指列与接触区；已读取 research/catalog.json 对应动作定义。仅审可见手部形态，不要求看见骨骼，也不把指甲数等同于指链数。小范围遮挡以唯一连续的两侧轮廓衔接；不可解析的指链不通过。单视图不测量真实骨长、隐藏结构或验证物理可行性，亦不证明 catalog 动作过程、道具一致性或动作语义通过。"
+}

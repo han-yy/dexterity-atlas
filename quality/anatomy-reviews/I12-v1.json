@@ -1,0 +1,280 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/I12-v1.png",
+  "sha256": "b5c3a389623e526d2197b4e903884643183ab52fd765513911092c2907d5c8fd",
+  "action_id": "I12",
+  "reviewer": "hand-anatomy-reviewer / anatomy_review_batch2 / visual model review",
+  "intended_action": {
+    "name": "掌系 Z 方向平移",
+    "hands": "单手"
+  },
+  "expected_panels": 3,
+  "expected_hands_per_panel": [
+    1,
+    1,
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0.0,
+        0,
+        0.3333,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "left",
+          "view": "palm oblique",
+          "bbox": [
+            0.0,
+            0.325,
+            0.323,
+            0.983
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "Panel 1: broad radial thumb from the left thenar mass bends toward the sphere and ends in the nail-bearing pad at its left edge."
+            },
+            "index": {
+              "visibility": "unresolvable",
+              "trace": "Panel 1: A rounded candidate fingertip peeks above the sphere, with a candidate proximal ray visible beneath it; the sphere hides most of the connecting chain, so its unique base-to-tip identity cannot be confirmed."
+            },
+            "middle": {
+              "visibility": "visible",
+              "trace": "Panel 1: the front central contact ray follows a distinct base from the distal palm, bends upward and ends in the pad contacting the sphere on its right; it is provisionally the middle by visible base order."
+            },
+            "ring": {
+              "visibility": "visible",
+              "trace": "Panel 1: next ulnar ray is separate to the right of the contact finger, extends diagonally upward-right through visible joint regions and ends in the higher of the two free ulnar tips."
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "Panel 1: outermost ray follows the ulnar palm edge to a shorter tip farther right and below the ring, with its own visible bends."
+            }
+          },
+          "count_observation": "Four complete external rays can be followed; the sphere hides the independent index chain. A partial pad or proximal strip is not sufficient to certify a fifth digit.",
+          "length_observation": "The thumb, front contact finger and two open ulnar fingers have plausible visible lengths after allowing for flexion; the hidden index centerline and its relationship to the contact finger cannot be checked.",
+          "joint_observation": "Visible thumb and ulnar rays attach continuously and bend plausibly; the broad sphere occlusion prevents checking the index phalangeal chain and its connection behind the middle finger. Entire visible hand, wrist and forearm are framed.",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "Panel 1: the putative index is largely behind the sphere. A rounded candidate fingertip peeks above the sphere, with a candidate proximal ray visible beneath it; the sphere hides most of the connecting chain, so its unique base-to-tip identity cannot be confirmed.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "Panel 1: the putative index is largely behind the sphere. A rounded candidate fingertip peeks above the sphere, with a candidate proximal ray visible beneath it; the sphere hides most of the connecting chain, so its unique base-to-tip identity cannot be confirmed. The hidden ray cannot be connected to a unique base through its full visible chain.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "The thumb, front contact finger and two open ulnar fingers have plausible visible lengths after allowing for flexion; the hidden index centerline and its relationship to the contact finger cannot be checked.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "Panel 1: the putative index is largely behind the sphere. A rounded candidate fingertip peeks above the sphere, with a candidate proximal ray visible beneath it; the sphere hides most of the connecting chain, so its unique base-to-tip identity cannot be confirmed. Hidden flexion and segment topology cannot be verified.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "panel": 2,
+      "bbox": [
+        0.3333,
+        0,
+        0.6667,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "left",
+          "view": "palm oblique",
+          "bbox": [
+            0.334,
+            0.298,
+            0.653,
+            0.983
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "Panel 2: broad radial thumb from the left thenar mass bends toward the sphere and ends in the nail-bearing pad at its left edge."
+            },
+            "index": {
+              "visibility": "unresolvable",
+              "trace": "Panel 2: A proximal ray runs diagonally behind the right contact finger toward the rear of the sphere; no separate terminal index pad can be distinguished above or beside the sphere."
+            },
+            "middle": {
+              "visibility": "visible",
+              "trace": "Panel 2: the front central contact ray follows a distinct base from the distal palm, bends upward and ends in the pad contacting the sphere on its right; it is provisionally the middle by visible base order."
+            },
+            "ring": {
+              "visibility": "visible",
+              "trace": "Panel 2: next ulnar ray is separate to the right of the contact finger, extends diagonally upward-right through visible joint regions and ends in the higher of the two free ulnar tips."
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "Panel 2: outermost ray follows the ulnar palm edge to a shorter tip farther right and below the ring, with its own visible bends."
+            }
+          },
+          "count_observation": "Four complete external rays can be followed; the sphere hides the independent index chain. A partial pad or proximal strip is not sufficient to certify a fifth digit.",
+          "length_observation": "The thumb, front contact finger and two open ulnar fingers have plausible visible lengths after allowing for flexion; the hidden index centerline and its relationship to the contact finger cannot be checked.",
+          "joint_observation": "Visible thumb and ulnar rays attach continuously and bend plausibly; the broad sphere occlusion prevents checking the index phalangeal chain and its connection behind the middle finger. Entire visible hand, wrist and forearm are framed.",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "Panel 2: the putative index is largely behind the sphere. A proximal ray runs diagonally behind the right contact finger toward the rear of the sphere; no separate terminal index pad can be distinguished above or beside the sphere.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "Panel 2: the putative index is largely behind the sphere. A proximal ray runs diagonally behind the right contact finger toward the rear of the sphere; no separate terminal index pad can be distinguished above or beside the sphere. The hidden ray cannot be connected to a unique base through its full visible chain.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "The thumb, front contact finger and two open ulnar fingers have plausible visible lengths after allowing for flexion; the hidden index centerline and its relationship to the contact finger cannot be checked.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "Panel 2: the putative index is largely behind the sphere. A proximal ray runs diagonally behind the right contact finger toward the rear of the sphere; no separate terminal index pad can be distinguished above or beside the sphere. Hidden flexion and segment topology cannot be verified.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "panel": 3,
+      "bbox": [
+        0.6667,
+        0,
+        1.0,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "left",
+          "view": "palm oblique",
+          "bbox": [
+            0.665,
+            0.241,
+            0.992,
+            0.977
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "Panel 3: broad radial thumb from the left thenar mass bends toward the sphere and ends in the nail-bearing pad at its left edge."
+            },
+            "index": {
+              "visibility": "unresolvable",
+              "trace": "Panel 3: A proximal ray is visible behind the right contact finger, but its distal chain terminates behind the sphere and a unique index tip cannot be isolated."
+            },
+            "middle": {
+              "visibility": "visible",
+              "trace": "Panel 3: the front central contact ray follows a distinct base from the distal palm, bends upward and ends in the pad contacting the sphere on its right; it is provisionally the middle by visible base order."
+            },
+            "ring": {
+              "visibility": "visible",
+              "trace": "Panel 3: next ulnar ray is separate to the right of the contact finger, extends diagonally upward-right through visible joint regions and ends in the higher of the two free ulnar tips."
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "Panel 3: outermost ray follows the ulnar palm edge to a shorter tip farther right and below the ring, with its own visible bends."
+            }
+          },
+          "count_observation": "Four complete external rays can be followed; the sphere hides the independent index chain. A partial pad or proximal strip is not sufficient to certify a fifth digit.",
+          "length_observation": "The thumb, front contact finger and two open ulnar fingers have plausible visible lengths after allowing for flexion; the hidden index centerline and its relationship to the contact finger cannot be checked.",
+          "joint_observation": "Visible thumb and ulnar rays attach continuously and bend plausibly; the broad sphere occlusion prevents checking the index phalangeal chain and its connection behind the middle finger. Entire visible hand, wrist and forearm are framed.",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "Panel 3: the putative index is largely behind the sphere. A proximal ray is visible behind the right contact finger, but its distal chain terminates behind the sphere and a unique index tip cannot be isolated.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "Panel 3: the putative index is largely behind the sphere. A proximal ray is visible behind the right contact finger, but its distal chain terminates behind the sphere and a unique index tip cannot be isolated. The hidden ray cannot be connected to a unique base through its full visible chain.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "The thumb, front contact finger and two open ulnar fingers have plausible visible lengths after allowing for flexion; the hidden index centerline and its relationship to the contact finger cannot be checked.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "Panel 3: the putative index is largely behind the sphere. A proximal ray is visible behind the right contact finger, but its distal chain terminates behind the sphere and a unique index tip cannot be isolated. Hidden flexion and segment topology cannot be verified.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "unknown",
+    "observation": "All three panels show the same left-palm orientation and stable visible ulnar fingers; the sphere hides too much of the index to verify five-digit identity and length continuity across the sequence.",
+    "issues": [
+      {
+        "code": "ambiguous_occlusion",
+        "panels": [
+          1,
+          2,
+          3
+        ],
+        "evidence": "Index base-to-tip topology cannot be resolved behind the sphere in any panel.",
+        "correction": "Expose the unresolved rays consistently across these panels so digit identity and lengths can be compared."
+      }
+    ]
+  },
+  "decision": "needs_review",
+  "limitations": "Actual original image and, where necessary, enlarged detail inspected. Single-view visual anatomy assessment only: hidden bone geometry, exact centerline lengths and physical feasibility are not measured. This report does not approve action fidelity or motion between the illustrated panels."
+}

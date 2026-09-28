@@ -1,0 +1,363 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/I17-v1.png",
+  "sha256": "44df819c948e4efd98c4b54633085b13fda7bb61355cc7b01e8c69b1224a5dc1",
+  "action_id": "I17",
+  "reviewer": "hand-anatomy-reviewer / anatomy_review_batch2 / visual model review",
+  "intended_action": {
+    "name": "连续目标朝向序列",
+    "hands": "单手"
+  },
+  "expected_panels": 4,
+  "expected_hands_per_panel": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0,
+        0,
+        0.25,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "left",
+          "view": "radial oblique, partial palm",
+          "bbox": [
+            0,
+            0.16,
+            0.232,
+            0.927
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "Panel 1: foreground thumb originates from the left thenar region and runs upward-right through one main bend to the broad nail pad pressing the near cube face."
+            },
+            "index": {
+              "visibility": "unresolvable",
+              "trace": "Panel 1: The upper ray arches from the left distal palm toward the top-left cube corner, but the cube hides its distal end; a separate fingertip cannot be identified."
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "Panel 1: A curled ray beneath the cube continues to the upper exposed right fingertip just below its bottom edge. Its proximal overlap with the foreground thumb is local."
+            },
+            "ring": {
+              "visibility": "visible",
+              "trace": "Panel 1: The next lower supporting ray has a separate bend and rounded tip below the upper support fingertip on the right."
+            },
+            "little": {
+              "visibility": "unresolvable",
+              "trace": "Panel 1: the lowest ulnar portion is a compact palm/finger fold without a distinguishable little-finger tip and separate base-to-tip chain."
+            }
+          },
+          "count_observation": "The thumb and visible arched/supporting rays do not provide five independently traceable digit chains. The lowest ulnar ray remains unresolved; hidden pads are not supplied by inference.",
+          "length_observation": "The radial thumb and exposed arched index/support segments have plausible lengths after accounting for their bent posture and depth. The hidden ulnar centerline cannot be compared with the adjacent ray; obscured index/support portions also prevent checking all five full lengths in this panel.",
+          "joint_observation": "Visible thumb and support-finger joints have plausible bends, without a demonstrable extra fingertip. Foreground-thumb and cube overlaps leave the lowest ray and some distal paths ambiguous. Left radial thumb origin is consistent, and complete palm/wrist/short forearm are framed.",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "Panel 1: the lowest ulnar ray merges into the folded-palm overlap without a separate visible terminal tip. The index tip is also hidden behind the cube.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "Panel 1: the lowest ulnar ray merges into the folded-palm overlap without a separate visible terminal tip. The index tip is also hidden behind the cube. The hidden ray cannot be connected to a unique base through its full visible chain.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "The radial thumb and exposed arched index/support segments have plausible lengths after accounting for their bent posture and depth. The hidden ulnar centerline cannot be compared with the adjacent ray; obscured index/support portions also prevent checking all five full lengths in this panel.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "Panel 1: the lowest ulnar ray merges into the folded-palm overlap without a separate visible terminal tip. The index tip is also hidden behind the cube. Hidden flexion and segment topology cannot be verified.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "panel": 2,
+      "bbox": [
+        0.234,
+        0,
+        0.495,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "left",
+          "view": "radial oblique, partial palm",
+          "bbox": [
+            0.235,
+            0.16,
+            0.485,
+            0.938
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "Panel 2: foreground thumb originates from the left thenar region and runs upward-right through one main bend to the broad nail pad pressing the near cube face."
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "Panel 2: The upper ray arches from the left distal palm through a clear bend to a rounded fingertip just above the cube top-left edge."
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "Panel 2: The upper supporting ray beneath the cube follows a curved path to the rounded right tip immediately below the lower-right cube corner. Its proximal overlap with the foreground thumb is local."
+            },
+            "ring": {
+              "visibility": "visible",
+              "trace": "Panel 2: The lower supporting ray curves from the ulnar palm to its own rounded tip below the upper support pad."
+            },
+            "little": {
+              "visibility": "unresolvable",
+              "trace": "Panel 2: the lowest ulnar portion is a compact palm/finger fold without a distinguishable little-finger tip and separate base-to-tip chain."
+            }
+          },
+          "count_observation": "The thumb and visible arched/supporting rays do not provide five independently traceable digit chains. The lowest ulnar ray remains unresolved; hidden pads are not supplied by inference.",
+          "length_observation": "The radial thumb and exposed arched index/support segments have plausible lengths after accounting for their bent posture and depth. The hidden ulnar centerline cannot be compared with the adjacent ray; obscured index/support portions also prevent checking all five full lengths in this panel.",
+          "joint_observation": "Visible thumb and support-finger joints have plausible bends, without a demonstrable extra fingertip. Foreground-thumb and cube overlaps leave the lowest ray and some distal paths ambiguous. Left radial thumb origin is consistent, and complete palm/wrist/short forearm are framed.",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "Panel 2: the lowest ulnar ray merges into the folded-palm overlap without a separate visible terminal tip.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "Panel 2: the lowest ulnar ray merges into the folded-palm overlap without a separate visible terminal tip. The hidden ray cannot be connected to a unique base through its full visible chain.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "The radial thumb and exposed arched index/support segments have plausible lengths after accounting for their bent posture and depth. The hidden ulnar centerline cannot be compared with the adjacent ray; obscured index/support portions also prevent checking all five full lengths in this panel.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "Panel 2: the lowest ulnar ray merges into the folded-palm overlap without a separate visible terminal tip. Hidden flexion and segment topology cannot be verified.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "panel": 3,
+      "bbox": [
+        0.465,
+        0,
+        0.73,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "left",
+          "view": "radial oblique, partial palm",
+          "bbox": [
+            0.466,
+            0.164,
+            0.716,
+            0.939
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "Panel 3: foreground thumb originates from the left thenar region and runs upward-right through one main bend to the broad nail pad pressing the near cube face."
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "Panel 3: The upper ray rises from the left distal palm and bends right across the cube top; its nail-edged tip and both bend regions are visible."
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "Panel 3: A curled supporting ray descends beneath the cube and ends in the upper rounded tip at its lower-right corner. Its proximal overlap with the foreground thumb is local."
+            },
+            "ring": {
+              "visibility": "visible",
+              "trace": "Panel 3: The next lower curled ray ends in the smaller separate right-side tip below the upper support pad."
+            },
+            "little": {
+              "visibility": "unresolvable",
+              "trace": "Panel 3: the lowest ulnar portion is a compact palm/finger fold without a distinguishable little-finger tip and separate base-to-tip chain."
+            }
+          },
+          "count_observation": "The thumb and visible arched/supporting rays do not provide five independently traceable digit chains. The lowest ulnar ray remains unresolved; hidden pads are not supplied by inference.",
+          "length_observation": "The radial thumb and exposed arched index/support segments have plausible lengths after accounting for their bent posture and depth. The hidden ulnar centerline cannot be compared with the adjacent ray; obscured index/support portions also prevent checking all five full lengths in this panel.",
+          "joint_observation": "Visible thumb and support-finger joints have plausible bends, without a demonstrable extra fingertip. Foreground-thumb and cube overlaps leave the lowest ray and some distal paths ambiguous. Left radial thumb origin is consistent, and complete palm/wrist/short forearm are framed.",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "Panel 3: the lowest ulnar ray merges into the folded-palm overlap without a separate visible terminal tip.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "Panel 3: the lowest ulnar ray merges into the folded-palm overlap without a separate visible terminal tip. The hidden ray cannot be connected to a unique base through its full visible chain.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "The radial thumb and exposed arched index/support segments have plausible lengths after accounting for their bent posture and depth. The hidden ulnar centerline cannot be compared with the adjacent ray; obscured index/support portions also prevent checking all five full lengths in this panel.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "Panel 3: the lowest ulnar ray merges into the folded-palm overlap without a separate visible terminal tip. Hidden flexion and segment topology cannot be verified.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "panel": 4,
+      "bbox": [
+        0.69,
+        0,
+        1,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "left",
+          "view": "radial oblique, partial palm",
+          "bbox": [
+            0.69,
+            0.213,
+            0.965,
+            0.939
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "Panel 4: foreground thumb originates from the left thenar region and runs upward-right through one main bend to the broad nail pad pressing the near cube face."
+            },
+            "index": {
+              "visibility": "unresolvable",
+              "trace": "Panel 4: The upper-left arched ray enters behind the tilted cube, which hides its distal tip and prevents tracing the complete index chain."
+            },
+            "middle": {
+              "visibility": "unresolvable",
+              "trace": "Panel 4: A supporting ray is partly behind the tilted cube; its own distal tip cannot be distinguished confidently from the remaining right-side support pad. Its proximal overlap with the foreground thumb is local."
+            },
+            "ring": {
+              "visibility": "unresolvable",
+              "trace": "Panel 4: The outer right supporting ray has a visible curved chain leading to the rounded pad beneath the cube; its assignment to ring rather than middle is uncertain because the neighboring ray is hidden."
+            },
+            "little": {
+              "visibility": "unresolvable",
+              "trace": "Panel 4: the lowest ulnar portion is a compact palm/finger fold without a distinguishable little-finger tip and separate base-to-tip chain."
+            }
+          },
+          "count_observation": "The thumb and visible arched/supporting rays do not provide five independently traceable digit chains. The lowest ulnar ray remains unresolved; hidden pads are not supplied by inference.",
+          "length_observation": "The radial thumb and exposed arched index/support segments have plausible lengths after accounting for their bent posture and depth. The hidden ulnar centerline cannot be compared with the adjacent ray; obscured index/support portions also prevent checking all five full lengths in this panel.",
+          "joint_observation": "Visible thumb and support-finger joints have plausible bends, without a demonstrable extra fingertip. Foreground-thumb and cube overlaps leave the lowest ray and some distal paths ambiguous. Left radial thumb origin is consistent, and complete palm/wrist/short forearm are framed.",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "Panel 4: the lowest ulnar ray merges into the folded-palm overlap without a separate visible terminal tip. The index tip is also hidden behind the cube. The two support-ray identities are additionally unresolved under the tilted cube.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "Panel 4: the lowest ulnar ray merges into the folded-palm overlap without a separate visible terminal tip. The index tip is also hidden behind the cube. The two support-ray identities are additionally unresolved under the tilted cube. The hidden ray cannot be connected to a unique base through its full visible chain.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "The radial thumb and exposed arched index/support segments have plausible lengths after accounting for their bent posture and depth. The hidden ulnar centerline cannot be compared with the adjacent ray; obscured index/support portions also prevent checking all five full lengths in this panel.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "Panel 4: the lowest ulnar ray merges into the folded-palm overlap without a separate visible terminal tip. The index tip is also hidden behind the cube. The two support-ray identities are additionally unresolved under the tilted cube. Hidden flexion and segment topology cannot be verified.",
+              "correction": "Redraw this panel with the affected digit bases, joint chain and separate tips visible; retain the intended hand and action."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "unknown",
+    "observation": "All four inspected panels retain a left radial-view hand, but cube occlusion changes which tips are exposed. The hidden little finger throughout, and hidden index/support tips in panels 1 and 4, prevent confirming five-digit and segment-length continuity.",
+    "issues": [
+      {
+        "code": "ambiguous_occlusion",
+        "panels": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "evidence": "The little finger is not independently resolved throughout; index tip is hidden in panels 1/4 and supporting-ray identities are uncertain in panel 4.",
+        "correction": "Expose the unresolved rays consistently across these panels so digit identity and lengths can be compared."
+      }
+    ]
+  },
+  "decision": "needs_review",
+  "limitations": "Actual original image and, where necessary, enlarged detail inspected. Single-view visual anatomy assessment only: hidden bone geometry, exact centerline lengths and physical feasibility are not measured. This report does not approve action fidelity or motion between the illustrated panels."
+}

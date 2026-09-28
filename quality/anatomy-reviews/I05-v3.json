@@ -1,0 +1,75 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/I05-v3.png",
+  "sha256": "b7cfed414a78e935048fff0add52133835d7437b1f28b85b564c6d7922049c1f",
+  "action_id": "I05",
+  "reviewer": "hand-anatomy-reviewer / independent visual model review",
+  "expected_panels": 1,
+  "expected_hands_per_panel": [
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "left",
+          "view": "palmar frontal, mildly oblique",
+          "bbox": [
+            0.243,
+            0.014,
+            0.703,
+            1.0
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "从画面左侧清楚的鱼际桡侧基部上行，经一处连续 IP 弯折到带甲末节；指端接硬币左下缘，根部与食指之间有独立指蹼。"
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "从拇指旁远端掌缘起，近节向上，中节在 PIP 处向左弯，末节继续回弯到硬币上方；带甲指端及各段连续，没有分叉。"
+            },
+            "middle": {
+              "visibility": "visible",
+              "trace": "中央最长伸直指由掌远端独立根部上行，近、中、末节和两处指间折痕沿同一指列连接，顶部完整指腹和圆指端可见。"
+            },
+            "ring": {
+              "visibility": "visible",
+              "trace": "中指右侧有独立指蹼与根部，三段向上略向右延伸，经两处轻弯到较低的圆指端，未与中指共享根部或指端。"
+            },
+            "little": {
+              "visibility": "visible",
+              "trace": "最右尺侧较低根部独立接出小指，向右上展开，三节连续到完整圆指端，与无名指之间有清楚指蹼。"
+            }
+          },
+          "count_observation": "直接可追踪一条独立拇指和四条独立长指，共五条完整指链；没有额外、融合、分叉或悬浮指端。硬币没有掩去任何指的身份。",
+          "length_observation": "沿中心线从各自解剖根部比较：近似伸直的中指最长，无名指稍短，小指明显更短。食指回弯形成捏持，投影高度较低但近/中/末节连续，不能按腕到端直线把它当短残指。拇指两段长度与鱼际、掌宽相容；未见异常长中节、超长小指或拉长拇指，不强制食指和无名指固定比例。",
+          "joint_observation": "四长指从远端掌缘有序起始，拇指从桡侧鱼际独立起始。可见长指的三段结构及拇指两段结构，弯曲均连续；捏持处指甲在末端背侧，硬币边缘无可见穿入手指。手掌、手腕及一段前臂完整，只有远端前臂在图像底边自然延出。",
+          "checks": {
+            "five_digits": "pass",
+            "connectivity": "pass",
+            "proportions": "pass",
+            "joint_structure": "pass",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "pass",
+    "observation": "本文件只有一个左手关键终点姿态，无跨帧左右手或指长一致性可比较；仅对这一张实际图像给出形态通过，不继承旧版本结论，也不据此认可任何未检查动作过程。"
+  },
+  "decision": "approve",
+  "limitations": "已独立查看 I05-v3 原始全分辨率图，并放大整只手、五条指链及捏持区。该结论仅为单视图可见形态合理，不测量真实指长、隐藏骨骼或物理可行性。catalog 的 I05 是掌心到指尖转移；单张终点图本身不证明转移过程或前臂稳定，仍需独立动作语义审核。"
+}

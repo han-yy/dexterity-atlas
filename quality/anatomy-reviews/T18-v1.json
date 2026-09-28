@@ -1,0 +1,106 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/T18-v1.png",
+  "sha256": "0cf80478c21189705c911494af153f7ce480576d096e26d8edd3323a5d3541f7",
+  "action_id": "T18",
+  "reviewer": "hand-anatomy-reviewer / independent visual model review (motion_media)",
+  "expected_panels": 1,
+  "expected_hands_per_panel": [
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "背侧径侧斜视，握六棱柱",
+          "bbox": [
+            0.07,
+            0.187,
+            1,
+            0.68
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "从右侧掌根向左下延伸，指间横纹之后带甲指腹接触六棱柱右前侧。"
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "最靠拇指的长指在柱顶左上方明显弯曲，远节朝下，其窄指甲和指尖在柱左侧。"
+            },
+            "middle": {
+              "visibility": "traceable",
+              "trace": "食指后方较长手指斜向画面最左，近节部分被食指遮住，后续关节及末端有独立轮廓。"
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "向左下伸出的较低长指从掌部内侧接出，近节局部被食指覆盖，带甲末端在柱左下侧。"
+            },
+            "little": {
+              "visibility": "unresolvable",
+              "trace": "柱左下边缘另露出一个较小指端，但其近节与根部被柱和相邻指遮挡，无法确认完整独立小指链。"
+            }
+          },
+          "count_observation": "五个指端样结构可见，但柱旁最小末端不能追踪回独立小指根部；不能仅数指甲判五指通过。",
+          "length_observation": "中指伸展较多而食指弯曲，末端远近不等不构成固定比例异常；最下小指只见末端，长度和节段未知。",
+          "joint_observation": "已见拇食指接触柱体，另外两根长指有分开的轮廓；最小末端的根部、节段和与掌部连接被遮挡，不能排除连接问题。",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "五个指端样结构可见，但柱旁最小末端不能追踪回独立小指根部；不能仅数指甲判五指通过。",
+              "correction": "补充同一姿态的无遮挡视角，或轻微分开并露出受遮挡手指的独立根部、指节与指尖；保留正确道具和接触。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "已见拇食指接触柱体，另外两根长指有分开的轮廓；最小末端的根部、节段和与掌部连接被遮挡，不能排除连接问题。",
+              "correction": "补充同一姿态的无遮挡视角，或轻微分开并露出受遮挡手指的独立根部、指节与指尖；保留正确道具和接触。"
+            },
+            {
+              "code": "length_ratio",
+              "check": "proportions",
+              "evidence": "中指伸展较多而食指弯曲，末端远近不等不构成固定比例异常；最下小指只见末端，长度和节段未知。",
+              "correction": "补充同一姿态的无遮挡视角，或轻微分开并露出受遮挡手指的独立根部、指节与指尖；保留正确道具和接触。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "已见拇食指接触柱体，另外两根长指有分开的轮廓；最小末端的根部、节段和与掌部连接被遮挡，不能排除连接问题。",
+              "correction": "补充同一姿态的无遮挡视角，或轻微分开并露出受遮挡手指的独立根部、指节与指尖；保留正确道具和接触。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "pass",
+    "observation": "仅一个静态画面，实际看到 1 只手，与动作要求的手数相符；没有跨帧材料，未据此评估左右互换、指长随时间变化或运动连续性。"
+  },
+  "decision": "needs_review",
+  "limitations": "已打开原始分辨率 PNG；有歧义处另做局部放大。单视角视觉检查，遮挡几何和精确长度不作补全或测量；不是物理、临床或完整运动验证。",
+  "action_fidelity": {
+    "status": "pass",
+    "observation": "图示单手拇食指接触直立六棱柱，柱底位于桌面。道具为棱柱，符合抓取或回放接触关键姿态；没有起点标记，不能证明已经返回原位或精度。"
+  },
+  "action_fidelity_scope": "Only the single key pose and expected prop are reviewed; no temporal completion claim.",
+  "inspection_note": "原图及 /tmp/T18-anatomy-zoom.png 局部放大均已实际查看。"
+}

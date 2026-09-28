@@ -1,0 +1,100 @@
+{
+  "version": "1.0",
+  "asset": "assets/generated/I24-v1.png",
+  "sha256": "5548d9d59ae679b95b668c4337d6da64e497233af64d0ce14b6842f4e290c48d",
+  "action_id": "I24",
+  "reviewer": "hand-anatomy-reviewer / independent visual model review",
+  "expected_panels": 1,
+  "expected_hands_per_panel": [
+    1
+  ],
+  "panels": [
+    {
+      "panel": 1,
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "hands": [
+        {
+          "hand_id": "H1",
+          "side": "right",
+          "view": "palmar-radial oblique",
+          "bbox": [
+            0.24,
+            0.027,
+            1,
+            1
+          ],
+          "digits": {
+            "thumb": {
+              "visibility": "visible",
+              "trace": "前景拇指由右侧鱼际/桡侧基部向左上伸，经 IP 到圆柱下方带甲指端，基部和末端连续。"
+            },
+            "index": {
+              "visibility": "visible",
+              "trace": "最上食指由桡侧远端掌缘起，经近节向左拱，中/末节回弯到圆柱顶面上方，完整带甲指端可见。"
+            },
+            "middle": {
+              "visibility": "unresolvable",
+              "trace": "圆柱后方中指样长指可从掌远端追到中节，其远端进入圆柱/拇指遮挡后没有独立指端出口；不能把下方两枚指端之一同时借给中指。"
+            },
+            "ring": {
+              "visibility": "traceable",
+              "trace": "下方左侧垂下指链从较中央掌远端在拇指后短遮挡后出现，连续弯到较高的下垂带甲指端，按顺序为无名指。"
+            },
+            "little": {
+              "visibility": "traceable",
+              "trace": "下方右侧小指自尺側掌缘短遮挡后回弯，连续到最低较小带甲指端，与左侧垂下指端有独立边界。"
+            }
+          },
+          "count_observation": "四个独立指端明确；另外可见一条进入遮挡的长指中段，但无法独立追到第五个指端，完整五指未知。",
+          "length_observation": "食指和拇指弧线/节段尺度合理；两个下垂指从各自根部比较，小指较短，投影高度不足以反推长度。圆柱后中指的末节及指端完全被遮住，不能测看其弧线终点或排除末节比例问题，整手比例仍未知。",
+          "joint_observation": "拇食指及两条下垂指链连续。后方中指仅有近端/中段，没有能唯一接续的指端，无法完成该指三段结构与连接检查；这不是要求看见骨骼，而是外部链终点未显露。",
+          "checks": {
+            "five_digits": "unknown",
+            "connectivity": "unknown",
+            "proportions": "unknown",
+            "joint_structure": "unknown",
+            "handedness": "pass",
+            "framing": "pass"
+          },
+          "issues": [
+            {
+              "code": "ambiguous_occlusion",
+              "check": "five_digits",
+              "evidence": "圆柱后方长指的末端被拇指完全掩住，未在遮挡另一侧出现独立出口；下方两条指链已经分别对应无名指/小指，不能重复计入。",
+              "correction": "稍移开中指或调整相机与拇指位置，让中指的末节/指端独立显露，仍保持五条指列有序连接；不使用仅添加孤立指甲的方法补足。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "connectivity",
+              "evidence": "圆柱后方长指的末端被拇指完全掩住，未在遮挡另一侧出现独立出口；下方两条指链已经分别对应无名指/小指，不能重复计入。",
+              "correction": "稍移开中指或调整相机与拇指位置，让中指的末节/指端独立显露，仍保持五条指列有序连接；不使用仅添加孤立指甲的方法补足。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "proportions",
+              "evidence": "圆柱后方长指的末端被拇指完全掩住，未在遮挡另一侧出现独立出口；下方两条指链已经分别对应无名指/小指，不能重复计入。",
+              "correction": "稍移开中指或调整相机与拇指位置，让中指的末节/指端独立显露，仍保持五条指列有序连接；不使用仅添加孤立指甲的方法补足。"
+            },
+            {
+              "code": "ambiguous_occlusion",
+              "check": "joint_structure",
+              "evidence": "圆柱后方长指的末端被拇指完全掩住，未在遮挡另一侧出现独立出口；下方两条指链已经分别对应无名指/小指，不能重复计入。",
+              "correction": "稍移开中指或调整相机与拇指位置，让中指的末节/指端独立显露，仍保持五条指列有序连接；不使用仅添加孤立指甲的方法补足。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "status": "pass",
+    "observation": "文件只有一个关键姿态面板，实际可见一只右手；没有可做跨帧比较的第二姿态。本字段只表示单格身份/数量一致，不证明任何未显示的运动过程或跨帧指长一致性。"
+  },
+  "decision": "needs_review",
+  "limitations": "独立打开本文件的全分辨率原图，并放大相关指列与接触区；已读取 research/catalog.json 对应动作定义。仅审可见手部形态，不要求看见骨骼，也不把指甲数等同于指链数。小范围遮挡以唯一连续的两侧轮廓衔接；不可解析的指链不通过。单视图不测量真实骨长、隐藏结构或验证物理可行性，亦不证明 catalog 动作过程、道具一致性或动作语义通过。"
+}
